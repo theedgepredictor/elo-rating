@@ -1,5 +1,7 @@
 # ELO Rating
 
+[![ELO-Rating Data trigger](https://github.com/theedgepredictor/elo-rating/actions/workflows/elo_data_trigger.yaml/badge.svg)](https://github.com/theedgepredictor/elo-rating/actions/workflows/elo_data_trigger.yaml)
+
 ## ETL process for Generating Elo Ratings from the ESPN API
 
 This service will:
