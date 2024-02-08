@@ -21,15 +21,11 @@ jobs:
           cache: 'pip'
       - run: pip install -r requirements.txt
 
-      - name: Debug
-        run: |
-          cd /elo-rating
-
       - name: Run Events
-        run: python /src/steps/events_runner.py
+        run: python events_runner.py
 
       - name: Run Elo
-        run: python /src/steps/elo_runner.py
+        run: python elo_runner.py
 
       - name: commit files
         run: |
