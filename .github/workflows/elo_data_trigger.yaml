@@ -1,15 +1,15 @@
 on:
   schedule:
-    - cron: '0 2 * * *' # runs at 2:00 UTC everyday
+    - cron: '0 2 * * *' # runs at 2:00 UTC every day
 
 name: ELO-Rating Data trigger
 
 jobs:
-    elo_rating_data_trigger:
-        runs-on: ubuntu-latest
+  elo_rating_data_trigger:
+    runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
-        uses: actions/checkout@v2 # checkout the repository content to github runner
+        uses: actions/checkout@v2 # checkout the repository content to GitHub runner
 
       - name: setup python
         uses: actions/setup-python@v2
@@ -29,10 +29,13 @@ jobs:
 
       - name: commit files
         run: |
+          CURRENT_DATE=$(date +'%Y%m%d')
+          COMMIT_MESSAGE="update data ($CURRENT_DATE)"
+
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m "update data" -a
+          git commit -m "$COMMIT_MESSAGE" -a
 
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
