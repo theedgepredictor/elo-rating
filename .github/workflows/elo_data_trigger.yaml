@@ -23,7 +23,7 @@ jobs:
 
       - name: Debug
         run: |
-          cd elo-rating/elo-rating
+          cd /elo-rating
 
       - name: Run Events
         run: python /src/steps/events_runner.py
