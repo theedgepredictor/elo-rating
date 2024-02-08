@@ -9,22 +9,15 @@ This service will:
 4. Store ELO for each sport and handle upsert logic as needed
 
 
-
-
-
 ```mermaid
 flowchart TB
     subgraph A[Event Collection];
         direction TB;
-        A1[Sport]-->A2[Season];
-        A2[Season]-->A3[Scoreboard API];
         A3[Scoreboard API]-->A4[Attribute Selection];
         A4[Attribute Selection]-->A5[data/event/SPORT/SEASON.parquet];
     end;
     subgraph B[Apply Elo];
         direction TB;
-        B1[Sport]-->B2[Season];
-        B2[Season]-->B3[data/event/SPORT/SEASON.parquet];
         B3[data/event/SPORT/SEASON.parquet]-->B4[Elo];
         B4[Elo]-->B5[data/elo/SPORT/SEASON.parquet];
     end;
