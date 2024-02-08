@@ -109,7 +109,7 @@ def run_events_for_sport(root_path: str, sport: ESPNSportTypes, espn_events_api:
             events.extend(res)
         df = create_dataframe(events, espn_events_api.SCHEMA)
 
-        df = df.loc[((df.away_team_id.isin(team_ids)) & (df.home_team_id.isin(team_ids)))]
+        df = df.loc[((df.away_team_id.isin(team_ids)) & (df.home_team_id.isin(team_ids)))].copy()
 
         df = pd.concat([fs_df, df], ignore_index=True).drop_duplicates(['id'], keep='last')
         df = df.sort_values(['datetime'])

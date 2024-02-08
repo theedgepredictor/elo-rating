@@ -41,7 +41,11 @@ def get_seasons_to_update(root_path, sport):
     current_season = find_year_for_season(sport)
     if os.path.exists(f'{root_path}/{sport.value}'):
         seasons = os.listdir(f'{root_path}/{sport.value}')
-        fs_season = int(seasons[-1].split('.')[0])
+        fs_season = -1
+        for season in seasons:
+            temp = int(season.split('.')[0])
+            if temp > fs_season:
+                fs_season = temp
     else:
         fs_season = START_SEASONS[sport]
     return list(range(fs_season, current_season + 1))
