@@ -26,9 +26,11 @@ jobs:
 
       - name: Run Events
         run: python src/steps/events_runner.py
+        working-directory: /home/runner/work/elo-rating
 
       - name: Run Elo
         run: python src/steps/elo_runner.py
+        working-directory: /home/runner/work/elo-rating
 
       - name: commit files
         run: |
