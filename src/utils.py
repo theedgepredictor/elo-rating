@@ -1,10 +1,28 @@
 import re
 import pandas as pd
-from src.consts import ESPNSportTypes, SEASON_START_MONTH
+from src.consts import ESPNSportTypes, SEASON_START_MONTH, START_SEASONS
 import datetime
 import os
 from typing import List
 import pyarrow as pa
+
+def known_missed_date(sport, date):
+    try:
+        missed_dates = {
+            ESPNSportTypes.COLLEGE_HOCKEY: ['20110325']
+        }
+        return date.strftime('%Y%m%d') in missed_dates[sport]
+    except Exception as e:
+        return False
+
+def get_seasons_to_update(root_path, sport):
+    current_season = find_year_for_season(sport)
+    if os.path.exists(f'{root_path}/{sport.value}'):
+        seasons = os.listdir(f'{root_path}/{sport.value}')
+        fs_season = int(seasons[-1].split('.')[0])
+    else:
+        fs_season = START_SEASONS[sport]
+    return list(range(fs_season, current_season + 1))
 
 def clean_string(s):
     if isinstance(s, str):

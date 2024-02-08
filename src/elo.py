@@ -9,7 +9,22 @@ initial_load_columns = ['str_event_id','season','date','neutral_site','home_team
 upsert_load_columns = initial_load_columns + ['home_elo_pre','away_elo_pre','home_elo_prob','away_elo_prob','home_elo_post','away_elo_post']
 
 ELO_SCHEMA = {
-
+    'id': np.int64,
+    'season': np.int32,
+    'is_postseason': np.int8,
+    'tournament_id': 'Int32',
+    'is_finished': np.int8,
+    'neutral_site': np.int8,
+    'home_team_id': np.int32,
+    'home_team_score': 'Int32',
+    'away_team_id': np.int32,
+    'away_team_score': 'Int32',
+    'home_elo_pre': np.float64,
+    'away_elo_pre': np.float64,
+    'home_elo_prob': np.float64,
+    'away_elo_prob': np.float64,
+    'home_elo_post': np.float64,
+    'away_elo_post': np.float64
 }
 
 class EloRunner:
@@ -73,23 +88,40 @@ class EloRunner:
         df['date'] = pd.to_datetime(df['date'])
         df['neutral_site'] = df['neutral_site'].astype(int)
 
-        if self.mode == 'refresh':
-            unique_teams = list(set(list(df.home_team_name.values) + list(df.away_team_name.values)))
-            self.current_elos = dict(zip(unique_teams,[self._mean_elo for _ in unique_teams]))
-            df = df.sort_values(['season','date'])
-            self.runner_df = df
-        else:
-            # Get latest elo for each team
-            # Determine games we need to run and save that subset as the runner_df
-            latest_df = df.loc[df.season == df.season.max()]
-            latest_df = df_rename_fold(latest_df, 'away_', 'home_')
-            team_latest_elos = latest_df.sort_values('date').groupby('team')['team_elo_pre'].first().reset_index()
-            self.current_elos = dict(zip(list(team_latest_elos.team.values),list(team_latest_elos.team_elo_pre.values)))
-            df = df.sort_values(['season','date'])
-            self.runner_df = df
+
+        unique_teams = list(set(list(df.home_team_name.values) + list(df.away_team_name.values)))
+        self.current_elos = dict(zip(unique_teams,[self._mean_elo for _ in unique_teams]))
+        df = df.sort_values(['season','date'])
 
         if preloaded_elos is not None:
             self.current_elos = {**self.current_elos, **preloaded_elos}
+            self.runner_df = df
+        elif self.mode == 'upsert':
+            # Save default elos in case there are teams that do not have a previous elo rating (new team during update)
+            default_elos = self.current_elos
+            # Determine games we need to run and save that subset as the runner_df
+            latest_df = df.loc[(
+                    (df.home_team_score.notnull())&
+                    (df.away_team_score.notnull())&
+                    (df.away_elo_pre.notnull())&
+                    (df.home_elo_pre.notnull())
+            )]
+            # Get latest elo for each team
+            latest_df = df_rename_fold(latest_df, 'away_', 'home_')
+            team_latest_elos = latest_df.sort_values('date').groupby('team_name')['elo_post'].last().reset_index()
+            latest_elos = dict(zip(list(team_latest_elos.team_name.values),list(team_latest_elos.elo_post.values)))
+            self.current_elos = {**default_elos, **latest_elos}
+            df = df.sort_values(['season','date'])
+            self.runner_df = df.loc[~(
+                    (df.home_team_score.notnull())&
+                    (df.away_team_score.notnull())&
+                    (df.away_elo_pre.notnull())&
+                    (df.home_elo_pre.notnull())
+            )]
+            if self.runner_df.season.min() != latest_df.season.min():
+                self.rating_reset()
+        else:
+            self.runner_df = df
 
     def run_to_date(self):
         current_season = self.runner_df.season.min()

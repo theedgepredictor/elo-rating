@@ -38,10 +38,7 @@ SEASON_GROUPS = {
     },
 
     ESPNSportTypes.COLLEGE_HOCKEY: None,
-
-    ESPNSportTypes.COLLEGE_LACROSSE: {
-        'di':90
-    },
+    ESPNSportTypes.COLLEGE_LACROSSE: None,
     ESPNSportTypes.NBA: None,
     ESPNSportTypes.NFL: None,
     ESPNSportTypes.MLB: None,
@@ -61,7 +58,7 @@ SEASON_START_MONTH = {
     ESPNSportTypes.MLB: {'start': 4, 'wrap': False},
     ESPNSportTypes.NHL: {'start': 10, 'wrap': True},
     ESPNSportTypes.PLL: {'start': 6, 'wrap': True},
-    ESPNSportTypes.SOCCER_EPL: {'start': 8, 'wrap': True},
+    ESPNSportTypes.SOCCER_EPL: {'start': 8, 'wrap': False},
 }
 
 START_SEASONS = {
@@ -69,7 +66,7 @@ START_SEASONS = {
     ESPNSportTypes.COLLEGE_FOOTBALL: 2002,
     ESPNSportTypes.COLLEGE_BASEBALL: 2015,
     ESPNSportTypes.COLLEGE_HOCKEY: 2005,
-    ESPNSportTypes.COLLEGE_LACROSSE: 2007,
+    ESPNSportTypes.COLLEGE_LACROSSE: 2008,
     ESPNSportTypes.NBA: 2000,
     ESPNSportTypes.NFL: 2002,
     ESPNSportTypes.MLB: 2000,
@@ -96,48 +93,59 @@ class ESPNEventStatusTypes(Enum):
 ELO_HYPERPARAMETERS = {
     ESPNSportTypes.COLLEGE_BASKETBALL: {
         'k':30,
-        'hfa':100
+        'hfa':100,
+        'preloaded_elos':None
     },
     ESPNSportTypes.COLLEGE_FOOTBALL: {
-        'k':19,
-        'hfa':62
+        'k':25,
+        'hfa':62,
+        'preloaded_elos':None
     },
 
     ESPNSportTypes.COLLEGE_BASEBALL: {
         'k':16,
-        'hfa':30
+        'hfa':30,
+        'preloaded_elos':None
     },
     ESPNSportTypes.COLLEGE_HOCKEY: {
-        'k':30,
-        'hfa':100
+        'k':23,
+        'hfa':5,
+        'preloaded_elos':None
     },
 
     ESPNSportTypes.COLLEGE_LACROSSE: {
         'k':30,
-        'hfa':100
+        'hfa':20,
+        'preloaded_elos':None
     },
     ESPNSportTypes.NBA: {
         'k':30,
-        'hfa':100
+        'hfa':100,
+        'preloaded_elos':None
     },
     ESPNSportTypes.NFL: {
-        'k':20,
-        'hfa':65
+        'k':25,
+        'hfa':75,
+        'preloaded_elos':None
     },
     ESPNSportTypes.MLB: {
         'k':30,
-        'hfa':100
+        'hfa':100,
+        'preloaded_elos':None
     },
     ESPNSportTypes.NHL:{
         'k':30,
-        'hfa':100
+        'hfa':100,
+        'preloaded_elos':None
     },
     ESPNSportTypes.PLL: {
         'k':30,
-        'hfa':100
+        'hfa':100,
+        'preloaded_elos':None
     },
     ESPNSportTypes.SOCCER_EPL: {
         'k':30,
-        'hfa':100
+        'hfa':100,
+        'preloaded_elos':None
     },
 }

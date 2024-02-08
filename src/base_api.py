@@ -29,6 +29,6 @@ class ESPNBaseAPI:
             if retry_count >= 3:
                 raise e
             time.sleep(5)
-            print(f'error for {url}')
+            print(f'URL error for {url}')
             self.api_request(url, retry_count = retry_count + 1)
 

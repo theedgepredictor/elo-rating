@@ -12,7 +12,7 @@ class ESPNEventsAPI(ESPNBaseAPI):
     def __init__(self):
         super().__init__()
         self.SCHEMA = {
-            'id':np.int32,
+            'id':np.int64,
             'season':np.int32,
             'is_postseason': np.int8,
             'tournament_id':'Int32',
@@ -39,14 +39,20 @@ class ESPNEventsAPI(ESPNBaseAPI):
     def get_events_for_elo(self, sport: ESPNSportTypes, dates, limit=1000, groups=None):
         events = self.get_events(sport, dates, limit, groups)
         elos = []
+        if sport == ESPNSportTypes.COLLEGE_HOCKEY:
+            name_type = 'displayName'
+        elif sport == ESPNSportTypes.COLLEGE_LACROSSE:
+            name_type = 'abbreviation'
+        else:
+            name_type = 'shortDisplayName'
         for event in events:
-            elo = self._collect_elo_payload(event)
+            elo = self._collect_elo_payload(event,name_type)
             if elo is not None:
                 elos.append(elo)
         return elos
 
 
-    def _collect_elo_payload(self,event):
+    def _collect_elo_payload(self,event, name_type='shortDisplayName'):
         '''
         Collect elo payload for season
         :param event:
@@ -54,6 +60,7 @@ class ESPNEventsAPI(ESPNBaseAPI):
         '''
         id = event['id']
         try:
+            date = pd.Timestamp(event['date']).to_pydatetime()
             # Select only regular and post season games
             if event['season']['type'] not in [
                 ESPNSportSeasonTypes.REG.value, #2
@@ -64,9 +71,10 @@ class ESPNEventsAPI(ESPNBaseAPI):
 
             if 'status' not in event:
                 print('-'*30)
+                print(f'Missing Status: {id}')
                 print(event)
                 print('-' * 30)
-                is_finished = pd.Timestamp(event['date']).to_pydatetime() < datetime.datetime.utcnow()
+                is_finished = date < pd.Timestamp(datetime.datetime.now(tz=datetime.timezone.utc)).to_pydatetime()
             else:
                 # Select games that are scheduled or final
                 if int(event['status']['type']['id']) not in [
@@ -101,13 +109,13 @@ class ESPNEventsAPI(ESPNBaseAPI):
                 'tournament_id': event['competitions'][0]['tournamentId'] if 'tournamentId' in event['competitions'][0] else None,
                 'is_finished':is_finished,
                 'neutral_site': event['competitions'][0]['neutralSite'],
-                'date':pd.Timestamp(event['date']).strftime('%Y-%m-%d'),
-                'datetime':pd.Timestamp(event['date']).to_pydatetime(),
+                'date':date.strftime('%Y-%m-%d'),
+                'datetime':date,
                 'home_team_id':home_team['id'],
-                'home_team_name':self._team_name_validator(home_team['team']['shortDisplayName']),
+                'home_team_name':self._team_name_validator(home_team['team'][name_type]),
                 'home_team_score':home_score if is_finished else None,
                 'away_team_id':away_team['id'],
-                'away_team_name':self._team_name_validator(away_team['team']['shortDisplayName']),
+                'away_team_name':self._team_name_validator(away_team['team'][name_type]),
                 'away_team_score':away_score if is_finished else None,
             }
             record['str_event_id'] = f"{record['datetime'].strftime('%Y%m%d')}_{record['home_team_name']}_{record['away_team_name']}"
