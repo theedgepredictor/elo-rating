@@ -1,3 +1,5 @@
+import time
+
 import pandas as pd
 import datetime
 from src.consts import ESPNSportTypes, SEASON_GROUPS
@@ -89,22 +91,35 @@ def run_events_for_sport(root_path, sport, espn_events_api):
         put_dataframe(df, f'{root_path}/{sport.value}/{season}.parquet', espn_events_api.SCHEMA)
 
 def main():
-    sports = get_active_sports()
+    sports = [ESPNSportTypes.COLLEGE_BASKETBALL]#get_active_sports()
     status_reports = {}
     for sport in sports:
+        start = time.time()
         try:
             run_events_for_sport(root_path='./data/events', sport=sport, espn_events_api=ESPNEventsAPI())
-            status_reports[sport] = True
+            status_reports[sport] = {
+                'status':True,
+                'execution_time':round(time.time() - start, 2),
+                'end_datetime': datetime.datetime.utcnow()
+            }
         except Exception as e:
             print('FAILURE')
             print(e)
-            status_reports[sport] = False
+            status_reports[sport] = {
+                'status':False,
+                'execution_time':round(time.time() - start, 2),
+                'end_datetime': datetime.datetime.utcnow()
+            }
     print('')
-    print('         Events Pump Status Report')
-    print('-'*45)
-    for key, val in status_reports.items():
-        print(f"  {key}: {'PASSED' if val else 'FAILED'}")
-    print('-'*45)
+    print('Events Pump Status Report')
+    print('-' * 110)
+    duration = 0
+    for key, report in status_reports.items():
+        duration = duration + report['execution_time']
+        print(f"    {key}: {'PASSED' if report['status'] else 'FAILED'} -- took {report['execution_time']} sec, finished at ({report['end_datetime']}) ")
+    print('')
+    print(f'Pump took {duration} sec')
+    print('-' * 110)
 
 
 
