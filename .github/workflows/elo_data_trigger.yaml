@@ -1,4 +1,7 @@
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '0 2 * * *' # runs at 2:00 UTC every day
 
