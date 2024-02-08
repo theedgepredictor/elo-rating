@@ -5,15 +5,40 @@ from src.consts import ESPNSportTypes, SEASON_START_MONTH, SEASON_GROUPS, ESPNSp
 
 
 class ESPNSport(ESPNBaseAPI):
-    '''
-    A reference to an ESPN Sport Object
-    '''
+    """
+    A reference to an ESPN Sport Object.
+
+    Attributes:
+        sport (ESPNSportTypes): Type of sport.
+        espn_core_name (str): ESPN core name for the sport.
+        is_college_sport (bool): True if the sport is related to college.
+        date (datetime.datetime): Date for the sport.
+        season: Season for the sport.
+        start_date (datetime.datetime): Start date of the sport season.
+        end_date (datetime.datetime): End date of the sport season.
+        is_active (bool): True if the sport season is currently active.
+        ondays: List of datetime objects representing specific days in the season.
+        groups: Season groups for the sport.
+
+    Methods:
+        _find_year_for_season(league, date=None): Find the year for the season based on league and date.
+        _get_calendar(): Retrieve the calendar information for the sport season.
+
+    """
     def __init__(
             self,
             sport: ESPNSportTypes,
             date: datetime.datetime = datetime.datetime.utcnow(),
             season=None
     ):
+        """
+        Initialize ESPNSport.
+
+        Args:
+            sport (ESPNSportTypes): Type of sport.
+            date (datetime.datetime): Date for the sport.
+            season: Season for the sport (default is None).
+        """
         super().__init__()
         self.sport = sport
         self.espn_core_name = sport.value.split('/')[0] + '/leagues/' + sport.value.split('/')[1]
@@ -28,6 +53,16 @@ class ESPNSport(ESPNBaseAPI):
         self.groups = SEASON_GROUPS[self.sport]
 
     def _find_year_for_season(self, league: ESPNSportTypes, date: datetime.datetime = None):
+        """
+        Find the year for the season based on league and date.
+
+        Args:
+            league (ESPNSportTypes): Type of sport.
+            date (datetime.datetime): Date for the sport (default is None).
+
+        Returns:
+            int: Year for the season.
+        """
         if date is None:
             today = datetime.datetime.utcnow()
         else:
@@ -46,6 +81,9 @@ class ESPNSport(ESPNBaseAPI):
             return today.year
 
     def _get_calendar(self):
+        """
+        Retrieve the calendar information for the sport season.
+        """
         try:
             reg_res = self.api_request(f"{self._core_url}/{self.espn_core_name}/seasons/{self.season}/types/{ESPNSportSeasonTypes.REG.value}")
             post_res = self.api_request(f"{self._core_url}/{self.espn_core_name}/seasons/{self.season}/types/{ESPNSportSeasonTypes.POST.value}")

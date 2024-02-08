@@ -4,9 +4,25 @@
 
 This service will:
 1. Extract data from the ESPN API
-2. Handle attribute selection from the sport event payloads 
+2. Handle attribute selection from the sport event payloads
 3. Apply ELO calculations to each event
 4. Store ELO for each sport and handle upsert logic as needed
+
+```mermaid
+flowchart TB;
+    subgraph A[Event Collection];
+        direction TB;
+        A1[Sport]-->A2[Season];
+        A2[Season]-->A3[Scoreboard API];
+        A3[Scoreboard API]-->A4[Attribute Selection];
+        A4[Attribute Selection]-->A5[./data/event/{sport}/{season}.parquet];
+    subgraph B[Apply Elo];
+        direction TB;
+        B1[Sport]-->B2[Season];
+        B2[Season]-->B3[./data/event/{sport}/{season}.parquet];
+        B3[./data/event/{sport}/{season}.parquet]-->B4[Elo];
+        B4[Elo]-->B5[./data/elo/{sport}/{season}.parquet];
+```
 
 ## Resources
 - [ELO Rating](https://en.wikipedia.org/wiki/Elo_rating_system)

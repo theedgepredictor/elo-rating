@@ -9,7 +9,24 @@ from src.utils import name_filter
 
 
 class ESPNEventsAPI(ESPNBaseAPI):
+    """
+    ESPN Events API for retrieving sports events information.
+
+    Attributes:
+        SCHEMA (dict): Dictionary defining the data schema for events.
+
+    Methods:
+        get_scoreboard(sport, dates, limit=1000, groups=None): Retrieve scoreboard data for a specific sport.
+        get_events(sport, dates, limit=1000, groups=None): Retrieve events data for a specific sport.
+        get_events_for_elo(sport, dates, limit=1000, groups=None): Retrieve events data suitable for Elo calculations.
+        _collect_elo_payload(event, name_type='shortDisplayName'): Collect Elo payload for a given event.
+        _team_name_validator(name): Validate and filter team names.
+
+    """
     def __init__(self):
+        """
+        Initialize ESPNEventsAPI.
+        """
         super().__init__()
         self.SCHEMA = {
             'id':np.int64,
@@ -25,18 +42,54 @@ class ESPNEventsAPI(ESPNBaseAPI):
         }
 
     def get_scoreboard(self, sport: ESPNSportTypes, dates, limit=1000, groups=None):
+        """
+        Retrieve scoreboard data for a specific sport.
+
+        Args:
+            sport (ESPNSportTypes): Type of sport.
+            dates: Dates for events.
+            limit (int): Limit of events to retrieve.
+            groups: Groups for events.
+
+        Returns:
+            dict: API response containing scoreboard data.
+        """
         url = f"{self._base_url}/{sport.value}/scoreboard?dates={dates}&limit={limit}"
         if groups is not None:
             url=f"{url}&groups={groups}"
         return self.api_request(url)
 
     def get_events(self, sport: ESPNSportTypes, dates, limit=1000, groups=None):
+        """
+        Retrieve events data for a specific sport.
+
+        Args:
+            sport (ESPNSportTypes): Type of sport.
+            dates: Dates for events.
+            limit (int): Limit of events to retrieve.
+            groups: Groups for events.
+
+        Returns:
+            list: List of events data.
+        """
         res = self.get_scoreboard(sport, dates, limit, groups)
         if res is None:
             return []
         return res['events']
 
     def get_events_for_elo(self, sport: ESPNSportTypes, dates, limit=1000, groups=None):
+        """
+        Retrieve events data suitable for Elo calculations.
+
+        Args:
+            sport (ESPNSportTypes): Type of sport.
+            dates: Dates for events.
+            limit (int): Limit of events to retrieve.
+            groups: Groups for events.
+
+        Returns:
+            list: List of events data suitable for Elo calculations.
+        """
         events = self.get_events(sport, dates, limit, groups)
         elos = []
         if sport == ESPNSportTypes.COLLEGE_HOCKEY:
@@ -53,11 +106,16 @@ class ESPNEventsAPI(ESPNBaseAPI):
 
 
     def _collect_elo_payload(self,event, name_type='shortDisplayName'):
-        '''
-        Collect elo payload for season
-        :param event:
-        :return:
-        '''
+        """
+        Collect Elo payload for a given event.
+
+        Args:
+            event: Event data.
+            name_type (str): Type of team name to use.
+
+        Returns:
+            dict: Elo payload for the event.
+        """
         id = event['id']
         try:
             date = pd.Timestamp(event['date']).to_pydatetime()
@@ -126,6 +184,15 @@ class ESPNEventsAPI(ESPNBaseAPI):
             return None
 
     def _team_name_validator(self, name):
+        """
+        Validate and filter team names.
+
+        Args:
+            name: Team name.
+
+        Returns:
+            str: Validated and filtered team name.
+        """
         if name[0] == '[' and name[-1] == ']':
             name = name[1:].split(',')[0]
         return name_filter(name)

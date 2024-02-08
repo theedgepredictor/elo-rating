@@ -8,15 +8,32 @@ from src.sport import ESPNSport
 from src.event import ESPNEventsAPI
 
 
-
 def get_active_sports():
+    """
+    Get a list of active ESPN sports based on their current status.
+
+    Returns:
+        List: List of active sports.
+    """
     espn_sports = []
     for sport in ESPNSportTypes:
         sport_api = ESPNSport(sport)
         espn_sports.append(sport_api)
     return [espn_sport.sport for espn_sport in espn_sports if espn_sport.is_active]
 
-def get_valid_team_ids_for_sport_season(sport,season, espn_events_api):
+
+def get_valid_team_ids_for_sport_season(sport: ESPNSportTypes, season: int, espn_events_api: ESPNEventsAPI):
+    """
+    Get valid team IDs for a specific sport and season.
+
+    Args:
+        sport (ESPNSportTypes): Type of sport.
+        season (int): Season year.
+        espn_events_api (ESPNEventsAPI): ESPN Events API object.
+
+    Returns:
+        List: List of valid team IDs.
+    """
     team_ids = []
     core_sport = sport.value.split('/')[0] + '/leagues/' + sport.value.split('/')[1]
     url = f'http://sports.core.api.espn.com/v2/sports/{core_sport}/seasons/{season}/teams'
@@ -25,12 +42,24 @@ def get_valid_team_ids_for_sport_season(sport,season, espn_events_api):
         team_ids.append(int(item['$ref'].replace(url + '/', '').split('?')[0]))
     return team_ids
 
-def run_events_for_sport(root_path, sport, espn_events_api):
+
+def run_events_for_sport(root_path: str, sport: ESPNSportTypes, espn_events_api: ESPNEventsAPI):
+    """
+    Run events retrieval process for a specific sport.
+
+    Args:
+        root_path (str): Root path for event data.
+        sport (ESPNSportTypes): Type of sport.
+        espn_events_api (ESPNEventsAPI): ESPN Events API object.
+
+    Returns:
+        None
+    """
     seasons = get_seasons_to_update(root_path, sport)
 
     print(f'Starting Runner for {sport.value} ({seasons[0]}-{seasons[-1]})...')
     for season in seasons:
-        team_ids = get_valid_team_ids_for_sport_season(sport,season, espn_events_api)
+        team_ids = get_valid_team_ids_for_sport_season(sport, season, espn_events_api)
         espn_sport_obj = ESPNSport(sport=sport, season=season)
         on_days = espn_sport_obj.ondays
         groups = SEASON_GROUPS[sport]
@@ -90,24 +119,31 @@ def run_events_for_sport(root_path, sport, espn_events_api):
         df = df.loc[df.season == season]
         put_dataframe(df, f'{root_path}/{sport.value}/{season}.parquet', espn_events_api.SCHEMA)
 
+
 def main():
-    sports = [ESPNSportTypes.COLLEGE_BASKETBALL]#get_active_sports()
+    """
+    Main function to run events retrieval for specified sports.
+
+    Returns:
+        None
+    """
+    sports = [ESPNSportTypes.COLLEGE_BASKETBALL]  # get_active_sports()
     status_reports = {}
     for sport in sports:
         start = time.time()
         try:
             run_events_for_sport(root_path='./data/events', sport=sport, espn_events_api=ESPNEventsAPI())
             status_reports[sport] = {
-                'status':True,
-                'execution_time':round(time.time() - start, 2),
+                'status': True,
+                'execution_time': round(time.time() - start, 2),
                 'end_datetime': datetime.datetime.utcnow()
             }
         except Exception as e:
             print('FAILURE')
             print(e)
             status_reports[sport] = {
-                'status':False,
-                'execution_time':round(time.time() - start, 2),
+                'status': False,
+                'execution_time': round(time.time() - start, 2),
                 'end_datetime': datetime.datetime.utcnow()
             }
     print('')
@@ -120,7 +156,6 @@ def main():
     print('')
     print(f'Pump took {duration} sec')
     print('-' * 110)
-
 
 
 if __name__ == "__main__":
