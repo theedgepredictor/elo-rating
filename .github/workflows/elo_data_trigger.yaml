@@ -24,12 +24,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Debug
+        run: ls -R
+        working-directory: /home/runner/work
+
       - name: Run Events
-        run: python src/steps/events_runner.py
+        run: python ./src/steps/events_runner.py
         working-directory: /home/runner/work/elo-rating
 
       - name: Run Elo
-        run: python src/steps/elo_runner.py
+        run: python ./src/steps/elo_runner.py
         working-directory: /home/runner/work/elo-rating
 
       - name: commit files
