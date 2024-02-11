@@ -1,0 +1,61 @@
+{
+  "evaluations": {
+    "ALL": {
+      "system_accuracy": 0.5799884701304316,
+      "system_precision": 0.5963493667875617,
+      "system_recall": 0.6732447308363538,
+      "system_f1": 0.6324683923447993,
+      "system_auc": 0.572582228517119,
+      "system_brier_score": 0.24139036190488466,
+      "system_log_loss": 0.6757062888293375,
+      "system_score": 26.94,
+      "system_records": 27754,
+      "avg_number_of_games_played": 82.81084433040077,
+      "avg_points_per_game": 2.8441507390509804,
+      "home_win_percentage": 0.5379147010302495
+    },
+    "2024": {
+      "system_accuracy": 0.5884520884520884,
+      "system_precision": 0.6140350877192983,
+      "system_recall": 0.6378132118451025,
+      "system_f1": 0.6256983240223464,
+      "system_auc": 0.5842399392558846,
+      "system_brier_score": 0.23872180087212622,
+      "system_log_loss": 0.6701134605955031,
+      "system_score": 27.27,
+      "system_records": 814,
+      "avg_number_of_games_played": 50.875,
+      "avg_points_per_game": 3.0954320761777137,
+      "home_win_percentage": 0.5383663366336634
+    },
+    "2023": {
+      "system_accuracy": 0.6028571428571429,
+      "system_precision": 0.6069651741293532,
+      "system_recall": 0.6703296703296703,
+      "system_f1": 0.6370757180156658,
+      "system_auc": 0.6000457875457875,
+      "system_brier_score": 0.23606716810622103,
+      "system_log_loss": 0.6647208483057591,
+      "system_score": 25.31,
+      "system_records": 1400,
+      "avg_number_of_games_played": 87.5,
+      "avg_points_per_game": 3.162086596192514,
+      "home_win_percentage": 0.5200573065902578
+    },
+    "2022": {
+      "system_accuracy": 0.6266952177016417,
+      "system_precision": 0.6434676434676435,
+      "system_recall": 0.6952506596306068,
+      "system_f1": 0.6683576410906785,
+      "system_auc": 0.620564676627123,
+      "system_brier_score": 0.2329285576901102,
+      "system_log_loss": 0.6585137513289168,
+      "system_score": 27.39,
+      "system_records": 1401,
+      "avg_number_of_games_played": 87.5625,
+      "avg_points_per_game": 3.1248606675115598,
+      "home_win_percentage": 0.5414285714285715
+    }
+  },
+  "lastupdated": "2024-02-11T18:02:30.048258"
+}
