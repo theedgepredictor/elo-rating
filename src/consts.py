@@ -15,7 +15,7 @@ class ESPNSportTypes(Enum):
     MLB = 'baseball/mlb'
     NHL = 'hockey/nhl'
     PLL = 'lacrosse/pll'
-    SOCCER_EPL = 'soccer/eng.1'
+    SOCCER_EPL = 'soccer/eng.1' #NOT WORKING YET
 
 class ESPNSportSeasonTypes(Enum):
     PRE = 1
@@ -72,7 +72,7 @@ START_SEASONS = {
     ESPNSportTypes.MLB: 2000,
     ESPNSportTypes.NHL: 2000,
     ESPNSportTypes.PLL: 2022,
-    ESPNSportTypes.SOCCER_EPL: 2001,
+    ESPNSportTypes.SOCCER_EPL: 2003,
 }
 
 
@@ -84,11 +84,47 @@ class ESPNEventStatusTypes(Enum):
     SCHEDULED = 1
     IN_PROGRESS = 2
     FINAL = 3
+    CANCELED = 5
     POSTPONED = 6
 
 ###############################################
 # Elo Consts
 ###############################################
+
+NFL_PRELOADED_ELOS = {
+    1: 1378.04505736,
+    2: 1370.2091015,
+    29: 1350.35861283,
+    3: 1625.32863848,
+    4: 1380.04974226,
+    5: 1435.01085703,
+    11: 1441.21550067,
+    22: 1394.57826681,
+    6: 1389.7316795,
+    7: 1517.3717214,
+    8: 1328.5625712,
+    9: 1627.36948839,
+    30: 1480.70572893,
+    12: 1473.44547412,
+    15: 1533.66432859,
+    16: 1461.32761689,
+    18: 1491.60506307,
+    17: 1672.63692769,
+    19: 1496.21678316,
+    20: 1544.84290764,
+    10: 1548.05255981,
+    21: 1668.68533629,
+    23: 1635.39333726,
+    13: 1585.14511287,
+    14: 1708.61047359,
+    33: 1598.47028852,
+    24: 1389.79962434,
+    26: 1508.20616702,
+    25: 1588.58379811,
+    27: 1569.45041313,
+    28: 1542.4067468,
+    34: 1300,  # New Team
+}
 
 ELO_HYPERPARAMETERS = {
     ESPNSportTypes.COLLEGE_BASKETBALL: {
@@ -126,21 +162,21 @@ ELO_HYPERPARAMETERS = {
     ESPNSportTypes.NFL: {
         'k':25,
         'hfa':75,
-        'preloaded_elos':None
+        'preloaded_elos':NFL_PRELOADED_ELOS
     },
     ESPNSportTypes.MLB: {
-        'k':30,
-        'hfa':100,
+        'k':10,
+        'hfa':50,
         'preloaded_elos':None
     },
     ESPNSportTypes.NHL:{
-        'k':30,
-        'hfa':100,
+        'k':10,
+        'hfa':25,
         'preloaded_elos':None
     },
     ESPNSportTypes.PLL: {
         'k':30,
-        'hfa':100,
+        'hfa':20,
         'preloaded_elos':None
     },
     ESPNSportTypes.SOCCER_EPL: {
@@ -149,3 +185,4 @@ ELO_HYPERPARAMETERS = {
         'preloaded_elos':None
     },
 }
+
