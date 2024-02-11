@@ -99,13 +99,13 @@ class ESPNEventsAPI(ESPNBaseAPI):
         else:
             name_type = 'shortDisplayName'
         for event in events:
-            elo = self._collect_elo_payload(event,name_type)
+            elo = self._collect_elo_payload(event,sport,name_type)
             if elo is not None:
                 elos.append(elo)
         return elos
 
 
-    def _collect_elo_payload(self,event, name_type='shortDisplayName'):
+    def _collect_elo_payload(self,event,sport:ESPNSportTypes, name_type='shortDisplayName'):
         """
         Collect Elo payload for a given event.
 
@@ -123,7 +123,7 @@ class ESPNEventsAPI(ESPNBaseAPI):
             if event['season']['type'] not in [
                 ESPNSportSeasonTypes.REG.value, #2
                 ESPNSportSeasonTypes.POST.value #3
-            ]:
+            ] and sport != ESPNSportTypes.SOCCER_EPL:
                 return None
             is_postseason = int(event['season']['type']) == ESPNSportSeasonTypes.POST.value #3
 

@@ -3,7 +3,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 2 * * *' # runs at 2:00 UTC every day
+    - cron: '0 6 * * *' # runs at 6:00 UTC every day (1AM EST)
 
 name: ELO-Rating Data trigger
 
@@ -38,7 +38,7 @@ jobs:
           git commit -m "$COMMIT_MESSAGE" -a
 
       - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main

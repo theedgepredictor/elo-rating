@@ -15,7 +15,7 @@ class ESPNSportTypes(Enum):
     MLB = 'baseball/mlb'
     NHL = 'hockey/nhl'
     PLL = 'lacrosse/pll'
-    SOCCER_EPL = 'soccer/eng.1'
+    #SOCCER_EPL = 'soccer/eng.1' NOT WORKING YET
 
 class ESPNSportSeasonTypes(Enum):
     PRE = 1
@@ -72,7 +72,7 @@ START_SEASONS = {
     ESPNSportTypes.MLB: 2000,
     ESPNSportTypes.NHL: 2000,
     ESPNSportTypes.PLL: 2022,
-    ESPNSportTypes.SOCCER_EPL: 2001,
+    ESPNSportTypes.SOCCER_EPL: 2003,
 }
 
 
@@ -84,6 +84,7 @@ class ESPNEventStatusTypes(Enum):
     SCHEDULED = 1
     IN_PROGRESS = 2
     FINAL = 3
+    CANCELED = 5
     POSTPONED = 6
 
 ###############################################

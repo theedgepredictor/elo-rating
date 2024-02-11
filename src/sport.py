@@ -45,11 +45,13 @@ class ESPNSport(ESPNBaseAPI):
         self.is_college_sport = 'college' in sport.value
         self.date = date
         self.season = self._find_year_for_season(sport, date) if season is None else season
+
         self.start_date = None
         self.end_date = None
         self.is_active = None
         self.ondays = None
-        self._get_calendar()
+        if not (self.season == 2005 and self.sport == ESPNSportTypes.NHL):
+            self._get_calendar()
         self.groups = SEASON_GROUPS[self.sport]
 
     def _find_year_for_season(self, league: ESPNSportTypes, date: datetime.datetime = None):

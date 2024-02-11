@@ -36,6 +36,8 @@ def run_elo_for_sport(event_root_path: str, elo_root_path: str, sport: ESPNSport
     seasons = get_seasons_to_update(elo_root_path, sport)
     print(f'Starting Runner for {sport.value} ({seasons[0]}-{seasons[-1]})...')
     for season in seasons:
+        if season == 2005 and sport == ESPNSportTypes.NHL:
+            continue
         print(f'Making Elo for {sport.value} - {season}')
         try:
             prev_elo_df = pd.concat([get_dataframe(f'{elo_root_path}/{sport.value}/{elo_season}.parquet') for elo_season in list(range(START_SEASONS[sport], season))])
