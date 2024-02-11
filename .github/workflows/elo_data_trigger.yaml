@@ -27,6 +27,9 @@ jobs:
       - name: Run Elo
         run: python elo_runner.py
 
+      - name: Run Reports
+        run: python report_runner.py
+
       - name: commit files
         run: |
           CURRENT_DATE=$(date +'%Y%m%d')
