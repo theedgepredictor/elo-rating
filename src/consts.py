@@ -15,7 +15,7 @@ class ESPNSportTypes(Enum):
     MLB = 'baseball/mlb'
     NHL = 'hockey/nhl'
     PLL = 'lacrosse/pll'
-    #SOCCER_EPL = 'soccer/eng.1' NOT WORKING YET
+    SOCCER_EPL = 'soccer/eng.1' #NOT WORKING YET
 
 class ESPNSportSeasonTypes(Enum):
     PRE = 1
@@ -165,18 +165,18 @@ ELO_HYPERPARAMETERS = {
         'preloaded_elos':NFL_PRELOADED_ELOS
     },
     ESPNSportTypes.MLB: {
-        'k':30,
-        'hfa':100,
+        'k':10,
+        'hfa':50,
         'preloaded_elos':None
     },
     ESPNSportTypes.NHL:{
-        'k':30,
-        'hfa':100,
+        'k':10,
+        'hfa':25,
         'preloaded_elos':None
     },
     ESPNSportTypes.PLL: {
         'k':30,
-        'hfa':100,
+        'hfa':20,
         'preloaded_elos':None
     },
     ESPNSportTypes.SOCCER_EPL: {

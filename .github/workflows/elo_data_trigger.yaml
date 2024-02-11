@@ -3,7 +3,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 6 * * *' # runs at 6:00 UTC every day (1AM EST)
+    - cron: '0 9 * * *' # runs at 9:00 UTC every day (4AM EST)
 
 name: ELO-Rating Data trigger
 
