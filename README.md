@@ -48,6 +48,23 @@ A-->B;
 B-->C;
 ```
 
+## Active Sports
+- Baseball
+  - MLB
+  - College Baseball
+- Basketball
+  - NBA
+  - Mens College Basketball
+- Football
+  - NFL
+  - College Football
+- Hockey
+  - NHL
+  - Mens College Hockey
+- Lacrosse
+  - PLL
+  - Mens College Lacrosse
+
 ## Resources
 - [ELO Rating](https://en.wikipedia.org/wiki/Elo_rating_system)
 - [538 Elo](https://github.com/fivethirtyeight/nfl-elo-game/tree/master)
@@ -58,6 +75,6 @@ B-->C;
 
 ## Future
 - ESPN ORM: Map all endpoints to pydantic classes for validation and structure
-- More sports
+- Add Soccer Leagues
 - Advanced ELO systems: The current system uses a basic static k value, more advanced systems improve upon that by implementing a dynamic k value and a dynamic home_field_advantage factor
 - Dockerized runner 
