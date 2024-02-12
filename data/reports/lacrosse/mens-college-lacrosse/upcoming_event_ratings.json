@@ -104,7 +104,28 @@
       "tournament_id": null,
       "str_event_id": "20240217_syracuse_maryland",
       "season": 2024
+    },
+    {
+      "id": 401634806,
+      "datetime": "2024-02-18T19:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "marquette",
+      "home_team_id": 269,
+      "away_team_name": "notredame",
+      "away_team_id": 87,
+      "home_elo_pre": 1395.0644573797,
+      "away_elo_pre": 1745.5892619391,
+      "elo_diff": -350.5248045594,
+      "elo_spread": 11.684160152,
+      "home_elo_prob": 0.2786180581,
+      "away_elo_prob": 0.7213819419,
+      "home_elo_post": 1390.02750252,
+      "away_elo_post": 1750.6262167989,
+      "tournament_id": null,
+      "str_event_id": "20240218_marquette_notredame",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-02-11T18:14:09.398210"
+  "lastupdated": "2024-02-12T09:16:04.938242"
 }
