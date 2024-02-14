@@ -20,6 +20,7 @@ function SportPage() {
     async function fetchSystemSettings() {
         try {
             setLoading(true);
+            setSystemSettings(null);
             const data = await repoAPI.getSettingsForSport(SPORTS[sport]);
             setSystemSettings(data); // Assuming the API response contains the system settings
           } catch (error) {
@@ -31,6 +32,7 @@ function SportPage() {
     async function fetchTeamRatings() {
     try {
         setLoading(true);
+        setTeamRatings(null);
         const data = await repoAPI.getTeamRatingsForSport(SPORTS[sport]);
         setTeamRatings(data['teams']); // Assuming the API response contains the teams array
     } catch (error) {
