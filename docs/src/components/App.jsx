@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react';
-import { HashRouter, Routes , Route } from 'react-router-dom';
+import { Routes , Route } from 'react-router-dom';
 
 
 import NavBar from './NavBar';
@@ -16,7 +16,7 @@ import SportPage from '../pages/Sport';
 function App() {
   return (
       <div className="bg-white min-h-screen flex flex-col">
-      <HashRouter >
+      
       <NavBar/>
       <ErrorMessage />
       <div className="flex-grow ">
@@ -29,7 +29,6 @@ function App() {
         </Routes>
       </div>
       <Footer />
-      </HashRouter>
       </div>
   );
 }

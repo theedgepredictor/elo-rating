@@ -10,10 +10,10 @@ function Footer() {
               <h2 className="text-md sm:text-lg font-semibold text-gray-200 uppercase ">Legal</h2>
               <ul className="text-xs sm:text-sm text-gray-300">
                 <li className="">
-                <a className="hover:text-white" href="/privacy-policy">Privacy Policy</a>
+                <Link className="hover:text-white" to="/privacy-policy">Privacy Policy</Link>
                 </li>
                 <li>
-                <a className="hover:text-white" href="/terms-of-service/">Terms of Use</a>
+                <Link className="hover:text-white" to="/terms-of-service/">Terms of Use</Link>
                 </li>
               </ul>
             </div>
@@ -24,7 +24,7 @@ function Footer() {
               <h2 className="text-md sm:text-lg font-semibold text-gray-200 uppercase ">Contact Info</h2>
               <ul className="text-xs sm:text-sm text-gray-300">
               <li>
-                <a className="hover:text-white" href="/about/">About</a>
+                <Link className="hover:text-white" to="/about/">About</Link>
                 </li>
                 <li className="">
                 theedgepredictor@gmail.com
