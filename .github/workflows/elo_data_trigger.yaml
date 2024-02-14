@@ -4,8 +4,7 @@ name: ELO-Rating Data trigger
 on:
   schedule:
     - cron: '0 9 * * *' # runs at 9:00 UTC every day (4AM EST)
-  on:
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   elo_rating_data_trigger:
