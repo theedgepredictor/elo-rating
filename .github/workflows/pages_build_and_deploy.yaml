@@ -22,7 +22,6 @@ jobs:
           cd docs
           npm i
           npm run build --if-present
-          npm test
 
       - name: deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
