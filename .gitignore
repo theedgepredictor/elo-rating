@@ -117,9 +117,6 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
-# mkdocs documentation
-/site
-
 # mypy
 .mypy_cache/
 .dmypy.json
@@ -132,3 +129,4 @@ dmypy.json
 
 docs/node_modules/*
 docs/package-lock.json
+
