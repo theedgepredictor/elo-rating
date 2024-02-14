@@ -3,6 +3,8 @@ name: Build and Deploy React App to Pages
 on:
   pull_request:
     branches: [ main ]
+  push:
+    branches: [ main ]
 
 jobs:
   build_test:
