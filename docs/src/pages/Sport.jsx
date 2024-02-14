@@ -75,7 +75,7 @@ function SportPage() {
         ) : (
             <div className="text-center">
             <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-8 mt-8 text-center">
-            {systemSettings.system_name} 
+            {sport}
           </h1>
           <p>No system settings found for {sport}.</p>
           </div>
@@ -111,7 +111,9 @@ function SportPage() {
             </tbody>
           </table>
         ) : (
+            <div className="text-center">
           <p>No team ratings found for {sport}.</p>
+          </div>
         )}
 
 
