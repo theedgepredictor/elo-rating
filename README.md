@@ -1,6 +1,9 @@
 # ELO Rating
 
-[![ELO-Rating Data trigger](https://github.com/theedgepredictor/elo-rating/actions/workflows/elo_data_trigger.yaml/badge.svg)](https://github.com/theedgepredictor/elo-rating/actions/workflows/elo_data_trigger.yaml)
+[![ELO-Rating Data trigger](https://github.com/theedgepredictor/elo-rating/actions/workflows/elo_data_trigger.yaml/badge.svg)](https://github.com/theedgepredictor/elo-rating/actions/workflows/elo_data_trigger.yaml)   [![Build and Deploy React App to Pages](https://github.com/theedgepredictor/elo-rating/actions/workflows/pages_build_and_deploy.yaml/badge.svg)](https://github.com/theedgepredictor/elo-rating/actions/workflows/pages_build_and_deploy.yaml)
+
+
+
 
 ## ETL process for Generating Elo Ratings from the ESPN API
 
@@ -47,6 +50,11 @@ flowchart TB
 A-->B;
 B-->C;
 ```
+
+## Github Pages
+[Site Link](https://theedgepredictor.github.io/elo-rating)
+
+Adds visuals for latest reports 
 
 ## Active Sports
 - Baseball
