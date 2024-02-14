@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from "react-router-dom"
 function Footer() {
   return (
     <footer className="bg-indigo-600 text-white static bottom-0 w-full">
