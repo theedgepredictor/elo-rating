@@ -14,17 +14,15 @@ jobs:
       - name: checkout repo content
         uses: actions/checkout@v4 # checkout the repository content to GitHub runner
 
-      - name: Navigate to Docs Dir
-        run: cd docs
-
       - name: Use Node.js
         uses: actions/setup-node@v2
 
-      - name: npm build
-        run: npm run build --if-present
-
-      - name: Navigate to Root Dir
-        run: cd ..
+      - name: npm run and build
+        run: |
+          cd docs
+          npm ci
+          npm run build --if-present
+          npm test
 
       - name: deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
