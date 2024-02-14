@@ -1,11 +1,11 @@
+name: ELO-Rating Data trigger
+
+
 on:
-  push:
-    branches:
-      - main
   schedule:
     - cron: '0 9 * * *' # runs at 9:00 UTC every day (4AM EST)
-
-name: ELO-Rating Data trigger
+  on:
+    workflow_dispatch:
 
 jobs:
   elo_rating_data_trigger:
