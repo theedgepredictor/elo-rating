@@ -172,7 +172,7 @@ def get_upcoming_short_shift_for_sport(sport):
     }
     return sport_shifts[sport]
 
-def generate_event_rating(elo_df: pd.DataFrame, sport: ESPNSportTypes, short_shift=False) -> list:
+def generate_event_rating(elo_df: pd.DataFrame, sport: ESPNSportTypes, short_shift=False):
     """
     Generate event ratings based on Elo DataFrame and sport.
 
@@ -206,8 +206,7 @@ def generate_event_rating(elo_df: pd.DataFrame, sport: ESPNSportTypes, short_shi
     ]
 
     upcoming_elo_df = elo_df.loc[elo_df.is_finished==0].sort_values(['datetime'])
-    upcoming_elo_df['away_elo_temp'] = upcoming_elo_df['away_elo_pre'] + upcoming_elo_df['neutral_site'] * ELO_HYPERPARAMETERS[sport]['hfa']
-    upcoming_elo_df['elo_diff'] = (upcoming_elo_df['home_elo_pre'] - upcoming_elo_df['away_elo_temp'])
+    upcoming_elo_df['elo_diff'] = (upcoming_elo_df['home_elo_pre'] - upcoming_elo_df['away_elo_pre'])
     upcoming_elo_df['elo_spread'] = - upcoming_elo_df['elo_diff'] / ELO_HYPERPARAMETERS[sport]['k']
     if short_shift:
         cutoff_datetime = pd.Timestamp(datetime.datetime.utcnow() + datetime.timedelta(days=get_upcoming_short_shift_for_sport(sport))).strftime('%Y-%m-%d')
@@ -261,8 +260,10 @@ def generate_team_rating(folded_elo_df: pd.DataFrame) -> list:
     Returns:
     list: List of team ratings.
     """
-    current_ratings_df = folded_elo_df.loc[folded_elo_df.is_finished==1].groupby('team_id').nth(-1).sort_values(['elo_post'],ascending=False)
-    current_ratings_df = current_ratings_df.drop(columns=['is_finished','elo_pre']).rename(columns={'elo_post':'elo_rating','datetime':'lastupdated'})
+    current_ratings_df = folded_elo_df.loc[folded_elo_df.is_finished == 1].groupby('team_id').nth(-1).sort_values(['elo_post'], ascending=False)
+    current_ratings_df = current_ratings_df.drop(columns=['is_finished', 'elo_pre']).rename(columns={'elo_post': 'elo_rating', 'datetime': 'lastupdated'})
+    current_ratings_df = current_ratings_df.drop_duplicates('team_name')  # Sometimes ESPN has multiple ids for one team so check name too
+    current_ratings_df = current_ratings_df.loc[current_ratings_df.season >= current_ratings_df.season.max() - 1]
     current_ratings_df['rank'] = [i + 1 for i in range(current_ratings_df.shape[0])]
     return json.loads(current_ratings_df[['id','team_name','rank','elo_rating','season','lastupdated']].to_json(orient='records', date_format='iso'))
 
@@ -336,7 +337,7 @@ def main():
     Returns:
         None
     """
-    sports = get_active_sports() + [ESPNSportTypes.COLLEGE_FOOTBALL, ESPNSportTypes.MLB]
+    sports = get_active_sports() + [ESPNSportTypes.COLLEGE_FOOTBALL, ESPNSportTypes.MLB, ESPNSportTypes.NFL]
     status_reports = {}
     for sport in sports:
         start = time.time()
