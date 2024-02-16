@@ -1322,7 +1322,49 @@
       "tournament_id": null,
       "str_event_id": "20240218_bostoncollege_massachusetts",
       "season": 2024
+    },
+    {
+      "id": 401596266,
+      "datetime": "2024-02-23T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "holycross",
+      "home_team_id": 107,
+      "away_team_name": "bentley",
+      "away_team_id": 2060,
+      "home_elo_pre": 1556.4547545749,
+      "away_elo_pre": 1441.7165238885,
+      "elo_diff": 114.7382306864,
+      "elo_spread": -4.9886187255,
+      "home_elo_prob": 0.5853158163,
+      "away_elo_prob": 0.4146841837,
+      "home_elo_post": 1562.7245658611,
+      "away_elo_post": 1435.4467126024,
+      "tournament_id": null,
+      "str_event_id": "20240223_holycross_bentley",
+      "season": 2024
+    },
+    {
+      "id": 401596351,
+      "datetime": "2024-02-23T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "niagara",
+      "home_team_id": 315,
+      "away_team_name": "mercyhurst",
+      "away_team_id": 2385,
+      "home_elo_pre": 1450.1960068361,
+      "away_elo_pre": 1312.1142580514,
+      "elo_diff": 138.0817487847,
+      "elo_spread": -6.003554295,
+      "home_elo_prob": 0.6015247701,
+      "away_elo_prob": 0.3984752299,
+      "home_elo_post": 1456.1607241585,
+      "away_elo_post": 1306.1495407291,
+      "tournament_id": null,
+      "str_event_id": "20240223_niagara_mercyhurst",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-02-15T09:09:17.984280"
+  "lastupdated": "2024-02-16T09:07:05.363845"
 }
