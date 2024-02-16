@@ -37,7 +37,7 @@ def get_valid_team_ids_for_sport_season(sport: ESPNSportTypes, season: int, espn
     team_ids = []
     core_sport = sport.value.split('/')[0] + '/leagues/' + sport.value.split('/')[1]
     url = f'http://sports.core.api.espn.com/v2/sports/{core_sport}/seasons/{season}/teams'
-    res = espn_events_api.api_request(url + '?limit=500')
+    res = espn_events_api.api_request(url + '?limit=750')
     for item in res['items']:
         team_ids.append(int(item['$ref'].replace(url + '/', '').split('?')[0]))
     return team_ids
@@ -80,7 +80,8 @@ def run_events_for_sport(root_path: str, sport: ESPNSportTypes, espn_events_api:
             dates = f"{start_date}-{end_date}"
             print(f'    Refreshing data from {dates}...')
         else:
-            start_date = fs_df.loc[fs_df['is_finished'] == True].datetime.max().strftime('%Y%m%d')
+            # Upsert will be shifted back two days to make sure we do not miss any games
+            start_date = pd.Timestamp(pd.Timestamp(fs_df.loc[fs_df['is_finished'] == True].datetime.max()).to_pydatetime() - datetime.timedelta(days=2)).strftime('%Y%m%d')
             dates = f"{start_date}-{end_date}"
             print(f'    Updating data from {dates}...')
             on_days = [day for day in on_days if pd.Timestamp(start_date).to_pydatetime() <= day <= pd.Timestamp(end_date).to_pydatetime()]

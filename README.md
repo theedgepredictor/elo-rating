@@ -2,9 +2,6 @@
 
 [![ELO-Rating Data trigger](https://github.com/theedgepredictor/elo-rating/actions/workflows/elo_data_trigger.yaml/badge.svg)](https://github.com/theedgepredictor/elo-rating/actions/workflows/elo_data_trigger.yaml)   [![Build and Deploy React App to Pages](https://github.com/theedgepredictor/elo-rating/actions/workflows/pages_build_and_deploy.yaml/badge.svg)](https://github.com/theedgepredictor/elo-rating/actions/workflows/pages_build_and_deploy.yaml)
 
-
-
-
 ## ETL process for Generating Elo Ratings from the ESPN API
 
 This service will:
@@ -84,5 +81,6 @@ Adds visuals for latest reports
 ## Future
 - ESPN ORM: Map all endpoints to pydantic classes for validation and structure
 - Add Soccer Leagues
+- Add overtime column to datasets to give partial wins for hockey and soccer
 - Advanced ELO systems: The current system uses a basic static k value, more advanced systems improve upon that by implementing a dynamic k value and a dynamic home_field_advantage factor
 - Dockerized runner 
