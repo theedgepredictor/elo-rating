@@ -141,7 +141,8 @@ def calculate_spread_from_probability(prob, shape, loc, scale):
     '''
     probability = abs(0.50 - prob) * 2
     ppf_value = gamma.ppf(probability, shape, loc, scale)
-    return (ppf_value - 1) * 2
+    adjusted_ppf_value = (ppf_value - 1) * 2
+    return -adjusted_ppf_value if prob > 0.5 else adjusted_ppf_value
 
 def generate_system_settings(elo_df: pd.DataFrame, sport: ESPNSportTypes) -> dict:
     """
