@@ -74,7 +74,7 @@ def main():
     Returns:
         None
     """
-    sports = [ESPNSportTypes.COLLEGE_BASKETBALL]  # get_active_sports()
+    sports = [sport for sport in ESPNSportTypes if sport != ESPNSportTypes.SOCCER_EPL]
     status_reports = {}
     for sport in sports:
         start = time.time()

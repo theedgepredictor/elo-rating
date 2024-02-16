@@ -4,10 +4,14 @@ import time
 import pandas as pd
 import numpy as np
 import datetime
+
+from scipy.stats import gamma
+
 from src.consts import ESPNSportTypes, ELO_HYPERPARAMETERS, START_SEASONS
 from src.utils import get_dataframe, find_year_for_season, df_rename_fold
 from src.sport import ESPNSport
-from sklearn.metrics import brier_score_loss, log_loss, accuracy_score, precision_score,recall_score,f1_score,roc_auc_score
+from sklearn.metrics import brier_score_loss, log_loss, accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, mean_squared_error, mean_absolute_error, mean_absolute_percentage_error, r2_score
+
 
 def get_active_sports():
     """
@@ -76,6 +80,69 @@ def classification_evaluation(y_true: np.ndarray, y_pred: np.ndarray) -> dict:
         'system_records':len(y_true),
     }
 
+def regression_evaluation(y_pred, y_true) -> dict:
+    """
+    Evaluate regression metrics.
+
+    Parameters:
+    - y_true (numpy.ndarray): True value.
+    - y_pred (numpy.ndarray): Predicted value.
+
+    Returns:
+    dict: Dictionary containing regression metrics.
+    """
+    mse = mean_squared_error(y_true, y_pred)
+    mae = mean_absolute_error(y_true, y_pred)
+    mape = mean_absolute_percentage_error(y_true, y_pred)
+    r2 = r2_score(y_true, y_pred)
+    return {
+        'system_mse': mse,
+        'system_mae': mae,
+        'system_mape': mape,
+        'system_r2': r2,
+        'system_records':len(y_true),
+    }
+
+def trim_outliers(data):
+    #Remove Outliers
+    q1 = np.percentile(data, 25)
+    q3 = np.percentile(data, 75)
+    iqr = q3 - q1
+    lower_bound = q1 - 1.5 * iqr
+    upper_bound = q3 + 1.5 * iqr
+    return data[(data>=lower_bound)&(data <= upper_bound)]
+
+def generate_gamma_distribution(elo_df):
+    '''
+    Generate gamma distribution of historical point differentials.
+    We trim outliers in the point difs, take the absolute value of the
+    point difs and fit the points to a gamma distribution.
+    :param elo_df:
+    :return:
+    '''
+    scores = elo_df.loc[((elo_df.is_finished == 1))]
+    records = scores.shape[0] if scores.shape[0] < 10000 else 10000
+    scores = scores[-records:][['away_team_score', 'home_team_score']]
+    dif_scores = scores.away_team_score - scores.home_team_score
+    dif_scores_no_outliers = trim_outliers(dif_scores)
+    dif_scores_no_outliers = dif_scores_no_outliers.abs()
+    shape, loc, scale = gamma.fit(dif_scores_no_outliers)
+    return shape, loc, scale
+
+def calculate_spread_from_probability(prob, shape, loc, scale):
+    '''
+    Function to convert a probability to a given spread based on the fit gamma
+    distribution hyperparameters
+    :param prob:
+    :param shape:
+    :param loc:
+    :param scale:
+    :return:
+    '''
+    probability = abs(0.50 - prob) * 2
+    ppf_value = gamma.ppf(probability, shape, loc, scale)
+    return (ppf_value - 1) * 2
+
 def generate_system_settings(elo_df: pd.DataFrame, sport: ESPNSportTypes) -> dict:
     """
     Generate system settings based on Elo DataFrame and sport.
@@ -116,9 +183,20 @@ def generate_system_evaluation(eval_df: pd.DataFrame,sport: ESPNSportTypes, seas
         print(f'No Records for {sport.value}-{season} for Evaluation')
         return None
 
+    # Classification Evaluation
     y_true = eval_df['result']
     y_pred = eval_df['home_elo_prob']
-    metrics = classification_evaluation(y_true, y_pred)
+    classification_metrics = classification_evaluation(y_true, y_pred)
+
+    # Regression Evaluation
+    y_true = eval_df['point_dif']
+    y_pred = eval_df['elo_spread']
+    regression_metrics = regression_evaluation(y_true, y_pred)
+    metrics = {
+        **classification_metrics,
+        **regression_metrics
+    }
+
     folded_df = df_rename_fold(eval_df[['season','home_team_name','home_team_score','away_team_name','away_team_score']],'away_','home_')
     num_games = folded_df.groupby(['team_name','season']).agg({
         'team_score':'count' # Count number of attribute
@@ -206,8 +284,6 @@ def generate_event_rating(elo_df: pd.DataFrame, sport: ESPNSportTypes, short_shi
     ]
 
     upcoming_elo_df = elo_df.loc[elo_df.is_finished==0].sort_values(['datetime'])
-    upcoming_elo_df['elo_diff'] = (upcoming_elo_df['home_elo_pre'] - upcoming_elo_df['away_elo_pre'])
-    upcoming_elo_df['elo_spread'] = - upcoming_elo_df['elo_diff'] / ELO_HYPERPARAMETERS[sport]['k']
     if short_shift:
         cutoff_datetime = pd.Timestamp(datetime.datetime.utcnow() + datetime.timedelta(days=get_upcoming_short_shift_for_sport(sport))).strftime('%Y-%m-%d')
         upcoming_elo_df = upcoming_elo_df.loc[upcoming_elo_df.datetime <= cutoff_datetime]
@@ -300,12 +376,22 @@ def run_reports_for_sport(elo_root_path: str, report_root_path: str, sport: ESPN
     seasons = list(range(START_SEASONS[sport], current_season + 1))
     elo_df = pd.concat([get_dataframe(f'{elo_root_path}/{sport.value}/{season}.parquet') for season in seasons], ignore_index=True)
     elo_df['result'] = elo_df['home_team_score'] > elo_df['away_team_score']
+    elo_df['point_dif'] = elo_df.away_team_score - elo_df.home_team_score
+
+    # Generate Gamma Distribution for calculating spreads from probabilities
+    elo_df['elo_diff'] = (elo_df['home_elo_pre'] - elo_df['away_elo_pre'])
+    if sport not in [ESPNSportTypes.NFL, ESPNSportTypes.COLLEGE_FOOTBALL, ESPNSportTypes.COLLEGE_BASKETBALL, ESPNSportTypes.NBA]:
+        shape, loc, scale = generate_gamma_distribution(elo_df.loc[elo_df.is_finished == 1].sort_values(['datetime']))
+        elo_df['elo_spread'] = [calculate_spread_from_probability(prob, shape, loc, scale) for prob in elo_df.home_elo_prob.values]
+    else:
+        elo_df['elo_spread'] = - elo_df['elo_diff'] / ELO_HYPERPARAMETERS[sport]['k']
 
     event_ratings = generate_event_ratings(elo_df, sport)
     upcoming_event_ratings = generate_upcoming_events_ratings(elo_df, sport)
     shift = 2 if len(seasons) > 5 else 0
     eval_df = elo_df.loc[((elo_df.is_finished == 1) & (elo_df.season >= START_SEASONS[sport] + shift))].copy()
     del elo_df
+
 
     evaluations = generate_system_evaluations(eval_df,sport, current_season)
 
@@ -337,7 +423,7 @@ def main():
     Returns:
         None
     """
-    sports = get_active_sports() + [ESPNSportTypes.COLLEGE_FOOTBALL, ESPNSportTypes.MLB, ESPNSportTypes.NFL]
+    sports = [sport for sport in ESPNSportTypes if sport != ESPNSportTypes.SOCCER_EPL]
     status_reports = {}
     for sport in sports:
         start = time.time()
