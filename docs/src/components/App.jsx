@@ -10,7 +10,8 @@ import TermsOfServicePage from '../pages/general/TermsOfService';
 import AboutPage from '../pages/general/About';
 import MissingPage from '../pages/general/404Page';
 import HomePage from '../pages/Home';
-import SportPage from '../pages/Sport';
+import TeamRatingsPage from '../pages/TeamRatings';
+import EventPage from '../pages/Events';
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
           <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
           <Route path="/terms-of-service" element={<TermsOfServicePage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/:sport" element={<SportPage />} />
+          <Route path="/team" element={<TeamRatingsPage />} />
+          <Route path="/events" element={<EventPage />} />
         </Routes>
       </div>
       <Footer />
