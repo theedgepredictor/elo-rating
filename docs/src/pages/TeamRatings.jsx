@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
-import { useAuth } from '../context/AuthContext'
+import { useAuth } from '../context/AuthContext.jsx'
 import { useParams } from "react-router-dom";
 import { BaseRepoReportsAPI } from "../backend/repo.js";
 import {SPORTS} from'../backend/consts.js'
-function SportPage() {
+function TeamRatingsPage() {
     const repoAPI = new BaseRepoReportsAPI()
-    const { sport } = useParams();
+    const[teamSport, setTeamSport] = useState(null);
+    const [selectedSport, setSelectedSport] = useState('COLLEGE_BASKETBALL');
     const [loading, setLoading] = useState(true);
     const [systemSettings, setSystemSettings] = useState(null)
     const [teamRatings, setTeamRatings] = useState(null);
@@ -13,11 +14,15 @@ function SportPage() {
 
 
     useEffect(() => {
-        fetchSystemSettings();
-        fetchTeamRatings();
-      }, [sport]);
+      if (teamSport !== selectedSport) {
+        fetchSystemSettings(selectedSport)
+        fetchTeamRatings(selectedSport)
+        setTeamSport(selectedSport)
+      }
+      
+    }, [selectedSport]);
 
-    async function fetchSystemSettings() {
+    async function fetchSystemSettings(sport) {
         try {
             setLoading(true);
             setSystemSettings(null);
@@ -29,7 +34,7 @@ function SportPage() {
             setLoading(false);
           }
       }
-    async function fetchTeamRatings() {
+    async function fetchTeamRatings(sport) {
     try {
         setLoading(true);
         setTeamRatings(null);
@@ -58,13 +63,38 @@ function SportPage() {
           />
         </div>
 
+                    <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-8 text-center">
+               Team Ratings
+            </h1>
+
+        <div className="flex items-center justify-center mb-4">
+          
+          <select
+            value={selectedSport}
+            onChange={(e) => setSelectedSport(e.target.value)}
+            className="border rounded-md p-2"
+          >
+            {Object.entries(SPORTS).map(([key, value]) => (
+              <option key={key} value={key}>
+                {key}
+              </option>
+            ))}
+          </select>
+        </div>
+
         {loading ? (
-          <p className="text-center">Loading...</p>
+                      <div className="text-center font-semibold">
+                      <i className="fas fa-spinner fa-spin fa-2x"></i> {/* Replace with your loading icon */}
+                      <p>Loading...</p>
+                    </div>
         ) : systemSettings ? (
           <div className="text-center">
-            <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-8 text-center">
-              {systemSettings.system_name} 
-            </h1>
+
+<h1 className="text-xl font-bold tracking-tight text-gray-900 sm:text-2xl mb-8 mt-12 text-center">
+        System Settings
+        </h1>
+          
+
             <div >
             <p className="text-md font-semibold tracking-tight text-gray-700">K: {systemSettings.k}</p>
             <p className="text-md font-semibold tracking-tight text-gray-700">HFA: {systemSettings.hfa}</p>
@@ -72,24 +102,29 @@ function SportPage() {
             <p className="text-md font-semibold tracking-tight text-gray-700">NUMBER OF TEAMS: {systemSettings.number_of_teams}</p>
             <p className="text-md font-semibold tracking-tight text-gray-700">NUMBER OF SEASONS: {systemSettings.number_of_seasons}</p>
             </div>
+
+            <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl mb-8 mt-12 text-center">
+        {systemSettings.system_name}
+        </h1>
             {/* Add more system settings here */}
           </div>
         ) : (
             <div className="text-center">
             <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-8 mt-8 text-center">
-            {sport}
+            {selectedSport}
           </h1>
-          <p>No system settings found for {sport}.</p>
+          <p>No system settings found for {selectedSport}.</p>
           </div>
         )}
 
 
-        <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl mb-8 mt-12 text-center">
-          Team Ratings
-        </h1>
+
 
         {loading ? (
-          <p>Loading...</p>
+                      <div className="text-center font-semibold">
+                      <i className="fas fa-spinner fa-spin fa-2x"></i> {/* Replace with your loading icon */}
+                      <p>Loading...</p>
+                    </div>
         ) : teamRatings ? (
           <table className="min-w-full bg-gray-200">
             <thead>
@@ -102,10 +137,9 @@ function SportPage() {
             </thead>
             <tbody>
               {teamRatings.map((team) => (
-                <tr key={team.id} className="bg-gray-200">
+                <tr key={team.rank} className="bg-white border-b">
                   <td className="py-2 px-4 text-center">{team.rank}</td>
                   <td className="py-2 px-4 text-center">{team.team_name}</td>
-
                   <td className="py-2 px-4 text-center">{team.elo_rating.toFixed(2)}</td>
                   <td className="py-2 px-4 text-center">{new Date(team.lastupdated).toLocaleString()}</td>
                 </tr>
@@ -114,7 +148,7 @@ function SportPage() {
           </table>
         ) : (
             <div className="text-center">
-          <p>No team ratings found for {sport}.</p>
+          <p>No team ratings found for {selectedSport}.</p>
           </div>
         )}
 
@@ -126,4 +160,4 @@ function SportPage() {
   );
 }
 
-export default SportPage;
+export default TeamRatingsPage;

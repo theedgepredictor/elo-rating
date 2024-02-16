@@ -11,11 +11,18 @@ function NavBar() {
     setSubMenuVisibility(!isSubMenuVisible);
   };
 
-  const navigation = Object.keys(SPORTS).map((sportName, index) => ({
-    id: index + 1,
-    name: sportName.replace(/_/g, ' '), // Replace underscores with spaces for better display
-    href: `/${sportName}`,
-  }));
+  const navigation = [
+    {
+      id: 1,
+      name: 'TEAM RATINGS',
+      href: `/team`
+    },
+    {
+      id: 2,
+      name: 'UPCOMING EVENTS',
+      href: `/events`
+    }
+  ]
 
   return (
     <header className="sticky top-0  z-50">
