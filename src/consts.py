@@ -139,12 +139,12 @@ ELO_HYPERPARAMETERS = {
     },
 
     ESPNSportTypes.COLLEGE_BASEBALL: {
-        'k':16,
+        'k':10,
         'hfa':30,
         'preloaded_elos':None
     },
     ESPNSportTypes.COLLEGE_HOCKEY: {
-        'k':23,
+        'k':10,
         'hfa':5,
         'preloaded_elos':None
     },
@@ -165,12 +165,12 @@ ELO_HYPERPARAMETERS = {
         'preloaded_elos':NFL_PRELOADED_ELOS
     },
     ESPNSportTypes.MLB: {
-        'k':10,
+        'k':5,
         'hfa':50,
         'preloaded_elos':None
     },
     ESPNSportTypes.NHL:{
-        'k':10,
+        'k':8,
         'hfa':25,
         'preloaded_elos':None
     },
