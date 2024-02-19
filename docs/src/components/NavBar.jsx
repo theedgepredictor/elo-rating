@@ -21,6 +21,11 @@ function NavBar() {
       id: 2,
       name: 'UPCOMING EVENTS',
       href: `/events`
+    },
+    {
+      id: 3,
+      name: 'PAST EVENTS',
+      href: `/past-events`
     }
   ]
 
