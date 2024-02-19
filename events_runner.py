@@ -92,6 +92,8 @@ def run_events_for_sport(root_path: str, sport: ESPNSportTypes, espn_events_api:
         if len(on_days) == 0:
             print('    No Events Need Updating')
             continue
+
+
         missed_dates = []
         for date in on_days:
             try:
