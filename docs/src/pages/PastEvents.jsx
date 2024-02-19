@@ -1,44 +1,45 @@
 import { useState, useEffect } from "react";
-import { SPORTS } from "../backend/consts";
+import { SPORTS } from "../backend/consts.js";
 import { BaseRepoReportsAPI } from "../backend/repo.js";
-function EventPage() {
+function PastEventsPage() {
 
   const [userTimezone, setUserTimezone] = useState("UTC");
   const [loading, setLoading] = useState(true);
-  const [upcomingEvents, setUpcomingEvents] = useState([]);
+  const [pastEvents, setPastEvents] = useState([]);
   const[eventSport, setEventSport] = useState(null);
   const [selectedSport, setSelectedSport] = useState('COLLEGE_BASKETBALL');
+  const [mae, setMae] = useState(null); // State to store the calculated MAE
   const repoAPI = new BaseRepoReportsAPI()
 
-async function fetchUpcomingEvents(sport) {
+async function fetchPastEvents(sport) {
   setLoading(true);
-  setUpcomingEvents([])
+  setPastEvents([])
 
-    const allUpcomingEvents = [];
+    const allPastEvents = [];
 
     // Get the current UTC datetime
     const currentUtcDatetime = new Date().toISOString();
 
-    // Fetch upcoming events for each sport
-    const data = await repoAPI.getUpcomingForSport(SPORTS[sport]);
+    // Fetch Past events for each sport
+    const data = await repoAPI.getPastForSport(SPORTS[sport]);
 
     if (data['events'] !== null) {
       // Filter events with datetime greater than the current UTC datetime
-      const upcomingEventsForSport = data['events'].filter(
-        (event) => event.datetime > currentUtcDatetime
+      const pastEventsForSport = data['events'].filter(
+        (event) => event.datetime < currentUtcDatetime
       );
 
       // Concatenate events to the main array
-      allUpcomingEvents.push(...upcomingEventsForSport);
+      allPastEvents.push(...pastEventsForSport);
     }
 
     // Sort events by datetime
-    const sortedEvents = allUpcomingEvents.sort((a, b) =>
+    const sortedEvents = allPastEvents.sort((b, a) =>
       a.datetime.localeCompare(b.datetime)
     );
 
     // Update state with the sorted and extended array
-    setUpcomingEvents(sortedEvents);
+    setPastEvents(sortedEvents);
   
   setLoading(false);
 }
@@ -50,14 +51,26 @@ async function fetchUpcomingEvents(sport) {
   }, []);
 
   useEffect(() => {
-    
     if (eventSport !== selectedSport) {
-      fetchUpcomingEvents(selectedSport)
-      setEventSport(selectedSport)
-    }
-    
-  }, [selectedSport]);
+      fetchPastEvents(selectedSport);
+      setEventSport(selectedSport);
+    } 
+    const maeValue = calculateMAE();
+    setMae(maeValue);
+  }, [selectedSport, pastEvents]);
 
+  const calculateMAE = () => {
+    // Calculate MAE between Elo Spread and Actual Spread
+    const maeSum = pastEvents.reduce((sum, event) => {
+      return sum + Math.abs(event.elo_spread - event.point_dif);
+    }, 0);
+
+    return maeSum / pastEvents.length;
+  };
+
+  const totalGames = pastEvents.length;
+  const correctPredictions = pastEvents.filter((event) => event.result === (event.home_elo_prob > 0.5)).length;
+  const percentageCorrect = (correctPredictions/totalGames)*100;
   return (
     <>
 <div className="relative isolate px-6 pt-2 lg:px-8">
@@ -74,11 +87,20 @@ async function fetchUpcomingEvents(sport) {
           />
         </div>
         <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-8 text-center">
-          Upcoming Events 
+          Past Events 
         </h1>
 
-        {upcomingEvents.length> 0 ? <p className="flex text-center justify-center font-semibold mb-4">
+        {totalGames> 0 ? <p className="flex text-center justify-center font-semibold mb-4">
+          {`The system went ${correctPredictions}-${totalGames - correctPredictions} (${percentageCorrect!==null ? percentageCorrect.toFixed(2): 'N/A'}%) over the past ${totalGames} games with a Mean Average Error (MAE) of ${mae !== null ? mae.toFixed(2) : 'N/A'}`}
         </p>:<p className="flex text-center justify-center font-semibold mb-4">No Games to Show</p>}
+
+        <div className="flex items-center justify-center mb-4">
+          
+          All spreads and results are based on the home team (ex. -3 home team favored by 3)
+
+
+          
+          </div>
 
         <div className="flex items-center justify-center mb-4">
 
@@ -109,16 +131,16 @@ async function fetchUpcomingEvents(sport) {
               <th className="py-2 px-4 text-center">Home Team</th>
               <th className="py-2 px-4 text-center">Away Team</th>
               <th className="py-2 px-4 text-center">Elo Spread</th>
+              <th className="py-2 px-4 text-center">Actual Spread</th>
               <th className="py-2 px-4 text-center">Home Elo Prob</th>
-              <th className="py-2 px-4 text-center">Away Elo Prob</th>
-              <th className="py-2 px-4 text-center">Home Elo Pre</th>
-              <th className="py-2 px-4 text-center">Away Elo Pre</th>
-              <th className="py-2 px-4 text-center">Elo Diff</th>
+              <th className="py-2 px-4 text-center">Actual Result</th>
+
             </tr>
           </thead>
           <tbody>
-            {upcomingEvents.map((event, idx) => {
+            {pastEvents.map((event, idx) => {
               const adjustedDate = new Date(event.datetime)
+              const isCorrectPrediction = event.result === (event.home_elo_prob > 0.5);
               return (
               <tr key={idx} className="bg-white border-b">
                 <td className="py-2 px-4 text-center">
@@ -142,19 +164,13 @@ async function fetchUpcomingEvents(sport) {
                   {event.elo_spread.toFixed(2)}
                 </td>
                 <td className="py-2 px-4 text-center">
+                  {event.point_dif.toFixed(2)}
+                </td>
+                <td className={`py-2 px-4 text-center ${isCorrectPrediction ? 'text-green-600' : 'text-red-500'}`}>
                   {event.home_elo_prob.toFixed(2)}
                 </td>
                 <td className="py-2 px-4 text-center">
-                  {event.away_elo_prob.toFixed(2)}
-                </td>
-                <td className="py-2 px-4 text-center">
-                  {event.home_elo_pre.toFixed(2)}
-                </td>
-                <td className="py-2 px-4 text-center">
-                  {event.away_elo_pre.toFixed(2)}
-                </td>
-                <td className="py-2 px-4 text-center">
-                  {event.elo_diff.toFixed(2)}
+                  {event.result ? 1 : 0}
                 </td>
               </tr>
             )})}
@@ -166,4 +182,4 @@ async function fetchUpcomingEvents(sport) {
   );
 }
 
-export default EventPage;
+export default PastEventsPage;

@@ -12,6 +12,7 @@ import MissingPage from '../pages/general/404Page';
 import HomePage from '../pages/Home';
 import TeamRatingsPage from '../pages/TeamRatings';
 import EventPage from '../pages/Events';
+import PastEventsPage from '../pages/PastEvents';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/team" element={<TeamRatingsPage />} />
           <Route path="/events" element={<EventPage />} />
+          <Route path="/past-events" element={<PastEventsPage />} />
         </Routes>
       </div>
       <Footer />

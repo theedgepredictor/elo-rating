@@ -19,6 +19,11 @@ export class BaseRepoReportsAPI {
         return this.get(endpoint);
     }
 
+    async getPastForSport(sport) {
+      const endpoint = `/${sport}/previous_event_ratings.json`;
+      return this.get(endpoint);
+  }
+
     async getEvaluationForSport(sport) {
         const endpoint = `/${sport}/system_evaluation.json`;
         return this.get(endpoint);
