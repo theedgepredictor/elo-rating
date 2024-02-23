@@ -89,20 +89,20 @@
       "lastupdated": "2024-02-11T00:05:00.000Z"
     },
     {
-      "id": 401596181,
-      "team_name": "rochester",
-      "rank": 12,
-      "elo_rating": 1571.3407605493,
-      "season": 2024,
-      "lastupdated": "2024-02-17T22:05:00.000Z"
-    },
-    {
       "id": 401596408,
       "team_name": "providence",
-      "rank": 13,
+      "rank": 12,
       "elo_rating": 1569.1778543528,
       "season": 2024,
       "lastupdated": "2024-02-17T23:00:00.000Z"
+    },
+    {
+      "id": 401596181,
+      "team_name": "rochester",
+      "rank": 13,
+      "elo_rating": 1566.8819934149,
+      "season": 2024,
+      "lastupdated": "2024-02-17T22:05:00.000Z"
     },
     {
       "id": 401596496,
@@ -156,7 +156,7 @@
       "id": 401597587,
       "team_name": "omaha",
       "rank": 20,
-      "elo_rating": 1540.5644252653,
+      "elo_rating": 1536.438221304,
       "season": 2024,
       "lastupdated": "2024-02-10T23:00:00.000Z"
     },
@@ -177,20 +177,20 @@
       "lastupdated": "2024-02-18T00:05:00.000Z"
     },
     {
+      "id": 401601061,
+      "team_name": "michigantech",
+      "rank": 23,
+      "elo_rating": 1531.4958769761,
+      "season": 2024,
+      "lastupdated": "2024-02-10T22:07:00.000Z"
+    },
+    {
       "id": 401601678,
       "team_name": "alaska",
-      "rank": 23,
+      "rank": 24,
       "elo_rating": 1527.7488943721,
       "season": 2024,
       "lastupdated": "2024-02-18T04:07:00.000Z"
-    },
-    {
-      "id": 401601061,
-      "team_name": "michigantech",
-      "rank": 24,
-      "elo_rating": 1526.8951259683,
-      "season": 2024,
-      "lastupdated": "2024-02-10T22:07:00.000Z"
     },
     {
       "id": 401597496,
@@ -209,17 +209,9 @@
       "lastupdated": "2024-02-17T21:30:00.000Z"
     },
     {
-      "id": 401596311,
-      "team_name": "holycross",
-      "rank": 27,
-      "elo_rating": 1517.8799705958,
-      "season": 2024,
-      "lastupdated": "2024-02-18T00:00:00.000Z"
-    },
-    {
       "id": 501493339,
       "team_name": "sunycortland",
-      "rank": 28,
+      "rank": 27,
       "elo_rating": 1514.4817214735,
       "season": 2023,
       "lastupdated": "2023-01-06T22:00:00.000Z"
@@ -227,7 +219,7 @@
     {
       "id": 401599044,
       "team_name": "pennstate",
-      "rank": 29,
+      "rank": 28,
       "elo_rating": 1514.3326325148,
       "season": 2024,
       "lastupdated": "2024-02-18T00:00:00.000Z"
@@ -235,7 +227,7 @@
     {
       "id": 401599748,
       "team_name": "clarkson",
-      "rank": 30,
+      "rank": 29,
       "elo_rating": 1513.4691723087,
       "season": 2024,
       "lastupdated": "2024-02-18T00:00:00.000Z"
@@ -243,7 +235,7 @@
     {
       "id": 401599748,
       "team_name": "harvard",
-      "rank": 31,
+      "rank": 30,
       "elo_rating": 1513.2011032719,
       "season": 2024,
       "lastupdated": "2024-02-18T00:00:00.000Z"
@@ -251,7 +243,7 @@
     {
       "id": 401597524,
       "team_name": "minnesotaduluth",
-      "rank": 32,
+      "rank": 31,
       "elo_rating": 1512.6776827978,
       "season": 2024,
       "lastupdated": "2024-02-18T01:00:00.000Z"
@@ -259,7 +251,7 @@
     {
       "id": 401603173,
       "team_name": "utica",
-      "rank": 33,
+      "rank": 32,
       "elo_rating": 1512.5608016765,
       "season": 2024,
       "lastupdated": "2023-12-02T00:00:00.000Z"
@@ -267,10 +259,18 @@
     {
       "id": 401596532,
       "team_name": "uconn",
-      "rank": 34,
+      "rank": 33,
       "elo_rating": 1511.4646995064,
       "season": 2024,
       "lastupdated": "2024-02-11T00:00:00.000Z"
+    },
+    {
+      "id": 401596266,
+      "team_name": "holycross",
+      "rank": 34,
+      "elo_rating": 1508.8575100928,
+      "season": 2024,
+      "lastupdated": "2024-02-23T00:00:00.000Z"
     },
     {
       "id": 401599709,
@@ -457,12 +457,12 @@
       "lastupdated": "2024-02-18T00:00:00.000Z"
     },
     {
-      "id": 401596265,
+      "id": 401596266,
       "team_name": "bentley",
       "rank": 58,
-      "elo_rating": 1460.6632958115,
+      "elo_rating": 1469.5888237163,
       "season": 2024,
-      "lastupdated": "2024-02-10T23:00:00.000Z"
+      "lastupdated": "2024-02-23T00:00:00.000Z"
     },
     {
       "id": 401599849,
@@ -473,17 +473,9 @@
       "lastupdated": "2024-02-18T00:00:00.000Z"
     },
     {
-      "id": 401596331,
-      "team_name": "niagara",
-      "rank": 60,
-      "elo_rating": 1460.2684724742,
-      "season": 2024,
-      "lastupdated": "2024-02-21T00:00:00.000Z"
-    },
-    {
       "id": 401601678,
       "team_name": "longislanduniversity",
-      "rank": 61,
+      "rank": 60,
       "elo_rating": 1459.0254274593,
       "season": 2024,
       "lastupdated": "2024-02-18T04:07:00.000Z"
@@ -491,7 +483,7 @@
     {
       "id": 401596311,
       "team_name": "sacredheart",
-      "rank": 62,
+      "rank": 61,
       "elo_rating": 1457.076619409,
       "season": 2024,
       "lastupdated": "2024-02-18T00:00:00.000Z"
@@ -499,7 +491,7 @@
     {
       "id": 401596289,
       "team_name": "canisius",
-      "rank": 63,
+      "rank": 62,
       "elo_rating": 1455.7432361724,
       "season": 2024,
       "lastupdated": "2024-02-17T22:00:00.000Z"
@@ -507,10 +499,18 @@
     {
       "id": 401600908,
       "team_name": "lakesuperiorstate",
-      "rank": 64,
+      "rank": 63,
       "elo_rating": 1451.4700244519,
       "season": 2024,
       "lastupdated": "2024-02-11T00:07:00.000Z"
+    },
+    {
+      "id": 401596351,
+      "team_name": "niagara",
+      "rank": 64,
+      "elo_rating": 1449.9843759438,
+      "season": 2024,
+      "lastupdated": "2024-02-23T00:00:00.000Z"
     },
     {
       "id": 401596460,
@@ -548,7 +548,7 @@
       "id": 401596289,
       "team_name": "robertmorris",
       "rank": 69,
-      "elo_rating": 1428.9483654964,
+      "elo_rating": 1432.3159492715,
       "season": 2024,
       "lastupdated": "2024-02-17T22:00:00.000Z"
     },
@@ -601,9 +601,17 @@
       "lastupdated": "2024-02-18T00:00:00.000Z"
     },
     {
+      "id": 401596351,
+      "team_name": "mercyhurst",
+      "rank": 76,
+      "elo_rating": 1399.8930668114,
+      "season": 2024,
+      "lastupdated": "2024-02-23T00:00:00.000Z"
+    },
+    {
       "id": 401601690,
       "team_name": "alaskaanchorage",
-      "rank": 76,
+      "rank": 77,
       "elo_rating": 1390.884662579,
       "season": 2024,
       "lastupdated": "2024-02-18T00:00:00.000Z"
@@ -611,18 +619,10 @@
     {
       "id": 401601690,
       "team_name": "lindenwood",
-      "rank": 77,
+      "rank": 78,
       "elo_rating": 1389.9473681096,
       "season": 2024,
       "lastupdated": "2024-02-18T00:00:00.000Z"
-    },
-    {
-      "id": 401596331,
-      "team_name": "mercyhurst",
-      "rank": 78,
-      "elo_rating": 1389.6089702811,
-      "season": 2024,
-      "lastupdated": "2024-02-21T00:00:00.000Z"
     },
     {
       "id": 401600854,
@@ -649,5 +649,5 @@
       "lastupdated": "2024-02-15T00:00:00.000Z"
     }
   ],
-  "lastupdated": "2024-02-22T09:07:39.912856"
+  "lastupdated": "2024-02-23T09:07:22.227834"
 }
