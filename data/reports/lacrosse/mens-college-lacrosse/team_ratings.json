@@ -1,20 +1,20 @@
 {
   "teams": [
     {
+      "id": 401630096,
+      "team_name": "duke",
+      "rank": 1,
+      "elo_rating": 1810.9353340405,
+      "season": 2024,
+      "lastupdated": "2024-02-23T23:00:00.000Z"
+    },
+    {
       "id": 401624889,
       "team_name": "virginia",
-      "rank": 1,
+      "rank": 2,
       "elo_rating": 1785.9894039999,
       "season": 2024,
       "lastupdated": "2024-02-17T18:00:00.000Z"
-    },
-    {
-      "id": 401630095,
-      "team_name": "duke",
-      "rank": 2,
-      "elo_rating": 1781.8988732,
-      "season": 2024,
-      "lastupdated": "2024-02-17T17:00:00.000Z"
     },
     {
       "id": 401634806,
@@ -57,17 +57,9 @@
       "lastupdated": "2024-02-17T20:30:00.000Z"
     },
     {
-      "id": 4311202941,
-      "team_name": "jacksonville",
-      "rank": 8,
-      "elo_rating": 1673.586594959,
-      "season": 2023,
-      "lastupdated": "2023-04-22T19:00:00.000Z"
-    },
-    {
       "id": 401638131,
       "team_name": "princeton",
-      "rank": 9,
+      "rank": 8,
       "elo_rating": 1673.2175758655,
       "season": 2024,
       "lastupdated": "2024-02-20T23:00:00.000Z"
@@ -75,7 +67,7 @@
     {
       "id": 401639639,
       "team_name": "denver",
-      "rank": 10,
+      "rank": 9,
       "elo_rating": 1671.2498395489,
       "season": 2024,
       "lastupdated": "2024-02-17T20:00:00.000Z"
@@ -83,7 +75,7 @@
     {
       "id": 401624878,
       "team_name": "syracuse",
-      "rank": 11,
+      "rank": 10,
       "elo_rating": 1662.4301941478,
       "season": 2024,
       "lastupdated": "2024-02-21T17:00:00.000Z"
@@ -91,7 +83,7 @@
     {
       "id": 401641046,
       "team_name": "yale",
-      "rank": 12,
+      "rank": 11,
       "elo_rating": 1651.9555860732,
       "season": 2024,
       "lastupdated": "2024-02-22T00:00:00.000Z"
@@ -99,7 +91,7 @@
     {
       "id": 401639644,
       "team_name": "michigan",
-      "rank": 13,
+      "rank": 12,
       "elo_rating": 1615.3835016555,
       "season": 2024,
       "lastupdated": "2024-02-17T18:00:00.000Z"
@@ -107,7 +99,7 @@
     {
       "id": 401637971,
       "team_name": "johnshopkinsuniver",
-      "rank": 14,
+      "rank": 13,
       "elo_rating": 1615.0549645709,
       "season": 2024,
       "lastupdated": "2024-02-17T18:00:00.000Z"
@@ -115,7 +107,7 @@
     {
       "id": 401624861,
       "team_name": "northcarolina",
-      "rank": 15,
+      "rank": 14,
       "elo_rating": 1610.753116974,
       "season": 2024,
       "lastupdated": "2024-02-17T19:00:00.000Z"
@@ -123,7 +115,7 @@
     {
       "id": 401639642,
       "team_name": "pennstate",
-      "rank": 16,
+      "rank": 15,
       "elo_rating": 1607.5825412421,
       "season": 2024,
       "lastupdated": "2024-02-17T17:00:00.000Z"
@@ -131,10 +123,18 @@
     {
       "id": 401637972,
       "team_name": "delaware",
-      "rank": 17,
+      "rank": 16,
       "elo_rating": 1606.5158335031,
       "season": 2024,
       "lastupdated": "2024-02-17T18:00:00.000Z"
+    },
+    {
+      "id": 401630096,
+      "team_name": "jacksonville",
+      "rank": 17,
+      "elo_rating": 1588.3546024655,
+      "season": 2024,
+      "lastupdated": "2024-02-23T23:00:00.000Z"
     },
     {
       "id": 401639645,
@@ -529,5 +529,5 @@
       "lastupdated": "2023-04-01T19:30:00.000Z"
     }
   ],
-  "lastupdated": "2024-02-23T09:07:22.429599"
+  "lastupdated": "2024-02-24T09:05:14.089131"
 }
