@@ -1,48 +1,6 @@
 {
   "events": [
     {
-      "id": 401640182,
-      "datetime": "2024-02-27T22:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "cornell",
-      "home_team_id": 172,
-      "away_team_name": "hobartcollege",
-      "away_team_id": 174,
-      "home_elo_pre": 1664.5756236944,
-      "away_elo_pre": 1411.6424385265,
-      "elo_diff": 232.9331851679,
-      "elo_spread": -4.4368225746,
-      "home_elo_prob": 0.6868782264,
-      "away_elo_prob": 0.3131217736,
-      "home_elo_post": 1670.3681802446,
-      "away_elo_post": 1405.8498819763,
-      "tournament_id": null,
-      "str_event_id": "20240227_cornell_hobartcollege",
-      "season": 2024
-    },
-    {
-      "id": 401640194,
-      "datetime": "2024-02-28T00:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "jacksonville",
-      "home_team_id": 294,
-      "away_team_name": "michigan",
-      "away_team_id": 130,
-      "home_elo_pre": 1588.3546024655,
-      "away_elo_pre": 1636.2268775459,
-      "elo_diff": -67.8722750804,
-      "elo_spread": 1.2928052396,
-      "home_elo_prob": 0.479955035,
-      "away_elo_prob": 0.520044965,
-      "home_elo_post": 1578.4990798299,
-      "away_elo_post": 1646.0824001814,
-      "tournament_id": null,
-      "str_event_id": "20240228_jacksonville_michigan",
-      "season": 2024
-    },
-    {
       "id": 401624879,
       "datetime": "2024-02-28T23:00:00.000Z",
       "neutral_site": 0,
@@ -188,7 +146,28 @@
       "tournament_id": null,
       "str_event_id": "20240303_lafayette_army",
       "season": 2024
+    },
+    {
+      "id": 401624892,
+      "datetime": "2024-03-05T21:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "virginia",
+      "home_team_id": 258,
+      "away_team_name": "robertmorris",
+      "away_team_id": 2523,
+      "home_elo_pre": 1802.0464614931,
+      "away_elo_pre": 1411.1649110464,
+      "elo_diff": 370.8815504467,
+      "elo_spread": -7.0644104847,
+      "home_elo_prob": 0.7654171531,
+      "away_elo_prob": 0.2345828469,
+      "home_elo_post": 1806.1568084244,
+      "away_elo_post": 1407.0545641151,
+      "tournament_id": null,
+      "str_event_id": "20240305_virginia_robertmorris",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-02-27T09:07:56.037461"
+  "lastupdated": "2024-02-28T09:06:41.972468"
 }
