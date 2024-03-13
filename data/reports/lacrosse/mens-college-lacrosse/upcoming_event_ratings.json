@@ -1,27 +1,6 @@
 {
   "events": [
     {
-      "id": 401624866,
-      "datetime": "2024-03-12T19:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "wagner",
-      "home_team_id": 2681,
-      "away_team_name": "northcarolina",
-      "away_team_id": 153,
-      "home_elo_pre": 1448.3526947774,
-      "away_elo_pre": 1613.6134077897,
-      "elo_diff": -185.2607130123,
-      "elo_spread": 3.5287754859,
-      "home_elo_prob": 0.3969729433,
-      "away_elo_prob": 0.6030270567,
-      "home_elo_post": 1440.6091613863,
-      "away_elo_post": 1621.3569411808,
-      "tournament_id": null,
-      "str_event_id": "20240312_wagner_northcarolina",
-      "season": 2024
-    },
-    {
       "id": 401630100,
       "datetime": "2024-03-13T23:00:00.000Z",
       "neutral_site": 0,
@@ -52,13 +31,13 @@
       "away_team_name": "northcarolina",
       "away_team_id": 153,
       "home_elo_pre": 1445.1585736257,
-      "away_elo_pre": 1621.3569411808,
-      "elo_diff": -196.1983675551,
-      "elo_spread": 3.737111763,
-      "home_elo_prob": 0.3894618086,
-      "away_elo_prob": 0.6105381914,
-      "home_elo_post": 1437.5968217593,
-      "away_elo_post": 1628.9186930472,
+      "away_elo_pre": 1643.8665455721,
+      "elo_diff": -218.7079719465,
+      "elo_spread": 4.1658661323,
+      "home_elo_prob": 0.3741713204,
+      "away_elo_prob": 0.6258286796,
+      "home_elo_post": 1437.9624475248,
+      "away_elo_post": 1651.0626716731,
       "tournament_id": null,
       "str_event_id": "20240316_stonybrook_northcarolina",
       "season": 2024
@@ -272,7 +251,28 @@
       "tournament_id": null,
       "str_event_id": "20240317_princeton_cornell",
       "season": 2024
+    },
+    {
+      "id": 401624895,
+      "datetime": "2024-03-19T20:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "virginia",
+      "home_team_id": 258,
+      "away_team_name": "ualbany",
+      "away_team_id": 399,
+      "home_elo_pre": 1815.0444620695,
+      "away_elo_pre": 1427.4608232377,
+      "elo_diff": 367.5836388317,
+      "elo_spread": -7.0015931206,
+      "home_elo_prob": 0.7637085098,
+      "away_elo_prob": 0.2362914902,
+      "home_elo_post": 1819.1899841287,
+      "away_elo_post": 1423.3153011784,
+      "tournament_id": null,
+      "str_event_id": "20240319_virginia_ualbany",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-03-12T09:08:22.601330"
+  "lastupdated": "2024-03-13T09:08:35.019530"
 }
