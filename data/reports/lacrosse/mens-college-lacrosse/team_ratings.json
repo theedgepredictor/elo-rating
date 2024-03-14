@@ -1,12 +1,12 @@
 {
   "teams": [
     {
-      "id": 401630099,
+      "id": 401630100,
       "team_name": "duke",
       "rank": 1,
-      "elo_rating": 1827.2982439745,
+      "elo_rating": 1842.0618285389,
       "season": 2024,
-      "lastupdated": "2024-03-09T20:30:00.000Z"
+      "lastupdated": "2024-03-13T23:00:00.000Z"
     },
     {
       "id": 401624893,
@@ -121,20 +121,20 @@
       "lastupdated": "2024-03-12T19:00:00.000Z"
     },
     {
+      "id": 401642419,
+      "team_name": "richmond",
+      "rank": 16,
+      "elo_rating": 1624.9505368799,
+      "season": 2024,
+      "lastupdated": "2024-03-12T20:00:00.000Z"
+    },
+    {
       "id": 401644572,
       "team_name": "penn",
-      "rank": 16,
+      "rank": 17,
       "elo_rating": 1595.1787706578,
       "season": 2024,
       "lastupdated": "2024-03-09T18:00:00.000Z"
-    },
-    {
-      "id": 401642149,
-      "team_name": "richmond",
-      "rank": 17,
-      "elo_rating": 1595.0312707081,
-      "season": 2024,
-      "lastupdated": "2024-03-08T21:00:00.000Z"
     },
     {
       "id": 401644573,
@@ -337,12 +337,12 @@
       "lastupdated": "2024-02-03T17:00:00.000Z"
     },
     {
-      "id": 4309103491,
+      "id": 401642419,
       "team_name": "bucknell",
       "rank": 43,
-      "elo_rating": 1422.3771202787,
-      "season": 2023,
-      "lastupdated": "2023-04-01T16:00:00.000Z"
+      "elo_rating": 1419.998814014,
+      "season": 2024,
+      "lastupdated": "2024-03-12T20:00:00.000Z"
     },
     {
       "id": 401639641,
@@ -473,9 +473,17 @@
       "lastupdated": "2023-05-10T23:00:00.000Z"
     },
     {
+      "id": 401630100,
+      "team_name": "providence",
+      "rank": 60,
+      "elo_rating": 1380.4607498185,
+      "season": 2024,
+      "lastupdated": "2024-03-13T23:00:00.000Z"
+    },
+    {
       "id": 401641049,
       "team_name": "colgate",
-      "rank": 60,
+      "rank": 61,
       "elo_rating": 1376.8794105809,
       "season": 2024,
       "lastupdated": "2024-02-24T17:00:00.000Z"
@@ -483,7 +491,7 @@
     {
       "id": 401640023,
       "team_name": "mercer",
-      "rank": 61,
+      "rank": 62,
       "elo_rating": 1376.6386675915,
       "season": 2024,
       "lastupdated": "2024-02-24T17:00:00.000Z"
@@ -491,7 +499,7 @@
     {
       "id": 401642207,
       "team_name": "holycross",
-      "rank": 62,
+      "rank": 63,
       "elo_rating": 1370.3525987868,
       "season": 2024,
       "lastupdated": "2024-03-09T17:00:00.000Z"
@@ -499,7 +507,7 @@
     {
       "id": 401641047,
       "team_name": "marquette",
-      "rank": 63,
+      "rank": 64,
       "elo_rating": 1355.8534950591,
       "season": 2024,
       "lastupdated": "2024-02-25T00:00:00.000Z"
@@ -507,7 +515,7 @@
     {
       "id": 401641975,
       "team_name": "lafayette",
-      "rank": 64,
+      "rank": 65,
       "elo_rating": 1353.2677674883,
       "season": 2024,
       "lastupdated": "2024-03-03T17:00:00.000Z"
@@ -515,7 +523,7 @@
     {
       "id": 401642064,
       "team_name": "highpoint",
-      "rank": 65,
+      "rank": 66,
       "elo_rating": 1345.7190202174,
       "season": 2024,
       "lastupdated": "2024-03-05T22:00:00.000Z"
@@ -523,18 +531,10 @@
     {
       "id": 401640026,
       "team_name": "stjohns",
-      "rank": 66,
+      "rank": 67,
       "elo_rating": 1344.8197289837,
       "season": 2024,
       "lastupdated": "2024-02-24T17:00:00.000Z"
-    },
-    {
-      "id": 4312400461,
-      "team_name": "providence",
-      "rank": 67,
-      "elo_rating": 1340.3365015742,
-      "season": 2023,
-      "lastupdated": "2023-05-04T22:30:00.000Z"
     },
     {
       "id": 4311202191,
@@ -545,5 +545,5 @@
       "lastupdated": "2023-04-22T17:00:00.000Z"
     }
   ],
-  "lastupdated": "2024-03-13T09:08:35.134783"
+  "lastupdated": "2024-03-14T09:07:12.067916"
 }
