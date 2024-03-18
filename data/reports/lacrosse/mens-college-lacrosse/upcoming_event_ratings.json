@@ -1,48 +1,6 @@
 {
   "events": [
     {
-      "id": 401647726,
-      "datetime": "2024-03-17T16:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "ohiostate",
-      "home_team_id": 194,
-      "away_team_name": "denver",
-      "away_team_id": 2172,
-      "home_elo_pre": 1484.1915229562,
-      "away_elo_pre": 1662.9140854518,
-      "elo_diff": -198.7225624955,
-      "elo_spread": 3.7851916666,
-      "home_elo_prob": 0.3877356697,
-      "away_elo_prob": 0.6122643303,
-      "home_elo_post": 1476.671342002,
-      "away_elo_post": 1670.434266406,
-      "tournament_id": null,
-      "str_event_id": "20240317_ohiostate_denver",
-      "season": 2024
-    },
-    {
-      "id": 401640243,
-      "datetime": "2024-03-17T18:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "princeton",
-      "home_team_id": 163,
-      "away_team_name": "cornell",
-      "away_team_id": 172,
-      "home_elo_pre": 1676.7612278017,
-      "away_elo_pre": 1662.2535308874,
-      "elo_diff": -5.4923030857,
-      "elo_spread": 0.1046152969,
-      "home_elo_prob": 0.5248098921,
-      "away_elo_prob": 0.4751901079,
-      "home_elo_post": 1686.4899305231,
-      "away_elo_post": 1652.5248281659,
-      "tournament_id": null,
-      "str_event_id": "20240317_princeton_cornell",
-      "season": 2024
-    },
-    {
       "id": 401624895,
       "datetime": "2024-03-19T20:00:00.000Z",
       "neutral_site": 0,
@@ -146,7 +104,28 @@
       "tournament_id": null,
       "str_event_id": "20240323_hobartcollege_syracuse",
       "season": 2024
+    },
+    {
+      "id": 401630102,
+      "datetime": "2024-03-24T18:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "duke",
+      "home_team_id": 150,
+      "away_team_name": "denver",
+      "away_team_id": 2172,
+      "home_elo_pre": 1872.8243984837,
+      "away_elo_pre": 1677.9544473603,
+      "elo_diff": 174.8699511234,
+      "elo_spread": -3.3308562119,
+      "home_elo_prob": 0.6498649041,
+      "away_elo_prob": 0.3501350959,
+      "home_elo_post": 1879.4574182841,
+      "away_elo_post": 1671.3214275599,
+      "tournament_id": null,
+      "str_event_id": "20240324_duke_denver",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-03-17T09:05:05.885900"
+  "lastupdated": "2024-03-18T09:08:31.728979"
 }
