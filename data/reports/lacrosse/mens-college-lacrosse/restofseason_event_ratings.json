@@ -1,27 +1,6 @@
 {
   "events": [
     {
-      "id": 401646504,
-      "datetime": "2024-03-26T23:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "yale",
-      "home_team_id": 43,
-      "away_team_name": "lemoyne",
-      "away_team_id": 2330,
-      "home_elo_pre": 1652.2701636961,
-      "away_elo_pre": 1505.0,
-      "elo_diff": 127.2701636961,
-      "elo_spread": -2.4241935942,
-      "home_elo_prob": 0.6180883789,
-      "away_elo_prob": 0.3819116211,
-      "home_elo_post": 1659.6506409439,
-      "away_elo_post": 1497.6195227521,
-      "tournament_id": null,
-      "str_event_id": "20240326_yale_lemoyne",
-      "season": 2024
-    },
-    {
       "id": 401630103,
       "datetime": "2024-03-27T19:00:00.000Z",
       "neutral_site": 0,
@@ -178,13 +157,13 @@
       "away_team_name": "yale",
       "away_team_id": 43,
       "home_elo_pre": 1471.2295870843,
-      "away_elo_pre": 1659.6506409439,
-      "elo_diff": -208.4210538596,
-      "elo_spread": 3.9699248354,
-      "home_elo_prob": 0.3811299883,
-      "away_elo_prob": 0.6188700117,
-      "home_elo_post": 1463.8677940282,
-      "away_elo_post": 1667.012434,
+      "away_elo_pre": 1678.7288978671,
+      "elo_diff": -227.4993107828,
+      "elo_spread": 4.3333202054,
+      "home_elo_prob": 0.3682651901,
+      "away_elo_prob": 0.6317348099,
+      "home_elo_post": 1464.1731282666,
+      "away_elo_post": 1685.7853566848,
       "tournament_id": null,
       "str_event_id": "20240330_brown_yale",
       "season": 2024
@@ -505,5 +484,5 @@
       "season": 2024
     }
   ],
-  "lastupdated": "2024-03-26T09:06:44.175378"
+  "lastupdated": "2024-03-27T09:07:46.817255"
 }
