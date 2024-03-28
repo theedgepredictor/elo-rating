@@ -1,27 +1,6 @@
 {
   "events": [
     {
-      "id": 401630103,
-      "datetime": "2024-03-27T19:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "duke",
-      "home_team_id": 150,
-      "away_team_name": "bostonu",
-      "away_team_id": 104,
-      "home_elo_pre": 1844.6448669108,
-      "away_elo_pre": 1602.2451146165,
-      "elo_diff": 222.3997522943,
-      "elo_spread": -4.236185758,
-      "home_elo_prob": 0.6803209607,
-      "away_elo_prob": 0.3196790393,
-      "home_elo_post": 1850.5840265545,
-      "away_elo_post": 1596.3059549728,
-      "tournament_id": null,
-      "str_event_id": "20240327_duke_bostonu",
-      "season": 2024
-    },
-    {
       "id": 401651493,
       "datetime": "2024-03-30T16:00:00.000Z",
       "neutral_site": 0,
@@ -61,6 +40,27 @@
       "away_elo_post": 1368.946949051,
       "tournament_id": null,
       "str_event_id": "20240330_navy_colgate",
+      "season": 2024
+    },
+    {
+      "id": 401624897,
+      "datetime": "2024-03-30T16:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "harvard",
+      "home_team_id": 108,
+      "away_team_name": "virginia",
+      "away_team_id": 258,
+      "home_elo_pre": 1522.7556781799,
+      "away_elo_pre": 1855.1336990734,
+      "elo_diff": -352.3780208936,
+      "elo_spread": 6.7119623027,
+      "home_elo_prob": 0.2892362603,
+      "away_elo_prob": 0.7107637397,
+      "home_elo_post": 1517.488995547,
+      "away_elo_post": 1860.4003817063,
+      "tournament_id": null,
+      "str_event_id": "20240330_harvard_virginia",
       "season": 2024
     },
     {
@@ -127,24 +127,24 @@
       "season": 2024
     },
     {
-      "id": 401624897,
+      "id": 401647177,
       "datetime": "2024-03-30T16:00:00.000Z",
       "neutral_site": 0,
       "is_postseason": 0,
-      "home_team_name": "harvard",
-      "home_team_id": 108,
-      "away_team_name": "virginia",
-      "away_team_id": 258,
-      "home_elo_pre": 1522.7556781799,
-      "away_elo_pre": 1855.1336990734,
-      "elo_diff": -352.3780208936,
-      "elo_spread": 6.7119623027,
-      "home_elo_prob": 0.2892362603,
-      "away_elo_prob": 0.7107637397,
-      "home_elo_post": 1517.488995547,
-      "away_elo_post": 1860.4003817063,
+      "home_team_name": "princeton",
+      "home_team_id": 163,
+      "away_team_name": "dartmouth",
+      "away_team_id": 159,
+      "home_elo_pre": 1682.5066989855,
+      "away_elo_pre": 1391.5283150347,
+      "elo_diff": 270.9783839508,
+      "elo_spread": -5.1614930276,
+      "home_elo_prob": 0.7099348678,
+      "away_elo_prob": 0.2900651322,
+      "home_elo_post": 1687.7914185867,
+      "away_elo_post": 1386.2435954334,
       "tournament_id": null,
-      "str_event_id": "20240330_harvard_virginia",
+      "str_event_id": "20240330_princeton_dartmouth",
       "season": 2024
     },
     {
@@ -229,6 +229,27 @@
       "away_elo_post": 1747.2322765109,
       "tournament_id": null,
       "str_event_id": "20240330_notredame_syracuse",
+      "season": 2024
+    },
+    {
+      "id": 401647193,
+      "datetime": "2024-03-30T19:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "quinnipiac",
+      "home_team_id": 2514,
+      "away_team_name": "mountstmarys",
+      "away_team_id": 116,
+      "home_elo_pre": 1464.0613778935,
+      "away_elo_pre": 1428.4705813666,
+      "elo_diff": 15.5907965269,
+      "elo_spread": -0.2969675529,
+      "home_elo_prob": 0.5399156731,
+      "away_elo_prob": 0.4600843269,
+      "home_elo_post": 1473.3927717789,
+      "away_elo_post": 1419.1391874813,
+      "tournament_id": null,
+      "str_event_id": "20240330_quinnipiac_mountstmarys",
       "season": 2024
     },
     {
@@ -484,5 +505,5 @@
       "season": 2024
     }
   ],
-  "lastupdated": "2024-03-27T09:07:46.817255"
+  "lastupdated": "2024-03-28T09:08:34.242414"
 }

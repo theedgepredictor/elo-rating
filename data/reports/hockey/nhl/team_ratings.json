@@ -1,12 +1,12 @@
 {
   "teams": [
     {
-      "id": 401560364,
+      "id": 401560376,
       "team_name": "bruins",
       "rank": 1,
-      "elo_rating": 1638.1800788833,
+      "elo_rating": 1633.3046786919,
       "season": 2024,
-      "lastupdated": "2024-03-26T23:00:00.000Z"
+      "lastupdated": "2024-03-27T23:30:00.000Z"
     },
     {
       "id": 401560366,
@@ -44,7 +44,7 @@
       "id": 401560371,
       "team_name": "avalanche",
       "rank": 6,
-      "elo_rating": 1588.6776397169,
+      "elo_rating": 1588.6276793915,
       "season": 2024,
       "lastupdated": "2024-03-27T01:00:00.000Z"
     },
@@ -81,12 +81,12 @@
       "lastupdated": "2024-03-26T01:00:00.000Z"
     },
     {
-      "id": 401560358,
+      "id": 401560376,
       "team_name": "lightning",
       "rank": 11,
-      "elo_rating": 1558.6443211352,
+      "elo_rating": 1561.6479130372,
       "season": 2024,
-      "lastupdated": "2024-03-25T00:30:00.000Z"
+      "lastupdated": "2024-03-27T23:30:00.000Z"
     },
     {
       "id": 401560369,
@@ -124,7 +124,7 @@
       "id": 401560370,
       "team_name": "flames",
       "rank": 16,
-      "elo_rating": 1504.1591942001,
+      "elo_rating": 1510.1493797415,
       "season": 2024,
       "lastupdated": "2024-03-27T00:30:00.000Z"
     },
@@ -137,17 +137,9 @@
       "lastupdated": "2024-03-26T00:00:00.000Z"
     },
     {
-      "id": 401560359,
-      "team_name": "sabres",
-      "rank": 18,
-      "elo_rating": 1500.2358247553,
-      "season": 2024,
-      "lastupdated": "2024-03-25T01:00:00.000Z"
-    },
-    {
       "id": 401560366,
       "team_name": "penguins",
-      "rank": 19,
+      "rank": 18,
       "elo_rating": 1499.3576254183,
       "season": 2024,
       "lastupdated": "2024-03-26T23:00:00.000Z"
@@ -155,7 +147,7 @@
     {
       "id": 401560363,
       "team_name": "devils",
-      "rank": 20,
+      "rank": 19,
       "elo_rating": 1498.0706474566,
       "season": 2024,
       "lastupdated": "2024-03-26T23:30:00.000Z"
@@ -163,7 +155,7 @@
     {
       "id": 401560367,
       "team_name": "redwings",
-      "rank": 21,
+      "rank": 20,
       "elo_rating": 1494.0719751508,
       "season": 2024,
       "lastupdated": "2024-03-26T23:00:00.000Z"
@@ -171,10 +163,18 @@
     {
       "id": 401560373,
       "team_name": "kraken",
-      "rank": 22,
-      "elo_rating": 1483.53648646,
+      "rank": 21,
+      "elo_rating": 1491.6695234057,
       "season": 2024,
       "lastupdated": "2024-03-27T02:00:00.000Z"
+    },
+    {
+      "id": 401560375,
+      "team_name": "sabres",
+      "rank": 22,
+      "elo_rating": 1487.0363488371,
+      "season": 2024,
+      "lastupdated": "2024-03-27T23:00:00.000Z"
     },
     {
       "id": 401560367,
@@ -193,12 +193,12 @@
       "lastupdated": "2024-03-24T21:00:00.000Z"
     },
     {
-      "id": 401560354,
+      "id": 401560375,
       "team_name": "senators",
       "rank": 25,
-      "elo_rating": 1461.9462774793,
+      "elo_rating": 1469.0992893126,
       "season": 2024,
-      "lastupdated": "2024-03-24T22:00:00.000Z"
+      "lastupdated": "2024-03-27T23:00:00.000Z"
     },
     {
       "id": 401560365,
@@ -220,7 +220,7 @@
       "id": 401560371,
       "team_name": "canadiens",
       "rank": 28,
-      "elo_rating": 1387.7970157605,
+      "elo_rating": 1379.650290432,
       "season": 2024,
       "lastupdated": "2024-03-27T01:00:00.000Z"
     },
@@ -233,20 +233,20 @@
       "lastupdated": "2024-03-27T02:00:00.000Z"
     },
     {
-      "id": 401560370,
-      "team_name": "blackhawks",
-      "rank": 30,
-      "elo_rating": 1336.1299309701,
-      "season": 2024,
-      "lastupdated": "2024-03-27T00:30:00.000Z"
-    },
-    {
       "id": 401560373,
       "team_name": "ducks",
-      "rank": 31,
-      "elo_rating": 1335.4383348934,
+      "rank": 30,
+      "elo_rating": 1337.373791891,
       "season": 2024,
       "lastupdated": "2024-03-27T02:00:00.000Z"
+    },
+    {
+      "id": 401560370,
+      "team_name": "blackhawks",
+      "rank": 31,
+      "elo_rating": 1336.1862095135,
+      "season": 2024,
+      "lastupdated": "2024-03-27T00:30:00.000Z"
     },
     {
       "id": 401560374,
@@ -257,5 +257,5 @@
       "lastupdated": "2024-03-27T02:30:00.000Z"
     }
   ],
-  "lastupdated": "2024-03-27T09:07:48.453254"
+  "lastupdated": "2024-03-28T09:08:35.808730"
 }
