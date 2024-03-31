@@ -1,48 +1,6 @@
 {
   "events": [
     {
-      "id": 401638639,
-      "datetime": "2024-03-30T22:09:00.000Z",
-      "neutral_site": 1,
-      "is_postseason": 1,
-      "home_team_name": "uconn",
-      "home_team_id": 41,
-      "away_team_name": "illinois",
-      "away_team_id": 356,
-      "home_elo_pre": 2424.1710196228,
-      "away_elo_pre": 2217.0324819202,
-      "elo_diff": 207.1385377026,
-      "elo_spread": -6.9046179234,
-      "home_elo_prob": 0.6447847592,
-      "away_elo_prob": 0.3552152408,
-      "home_elo_post": 2430.9218920644,
-      "away_elo_post": 2210.2816094787,
-      "tournament_id": 22,
-      "str_event_id": "20240330_uconn_illinois",
-      "season": 2024
-    },
-    {
-      "id": 401638640,
-      "datetime": "2024-03-31T00:49:00.000Z",
-      "neutral_site": 1,
-      "is_postseason": 1,
-      "home_team_name": "alabama",
-      "home_team_id": 333,
-      "away_team_name": "clemson",
-      "away_team_id": 228,
-      "home_elo_pre": 2081.4076644914,
-      "away_elo_pre": 2145.5044274977,
-      "elo_diff": -64.0967630063,
-      "elo_spread": 2.1365587669,
-      "home_elo_prob": 0.4540090388,
-      "away_elo_prob": 0.5459909612,
-      "home_elo_post": 2072.2340832363,
-      "away_elo_post": 2154.6780087527,
-      "tournament_id": 22,
-      "str_event_id": "20240331_alabama_clemson",
-      "season": 2024
-    },
-    {
       "id": 401638642,
       "datetime": "2024-03-31T18:20:00.000Z",
       "neutral_site": 1,
@@ -85,5 +43,5 @@
       "season": 2024
     }
   ],
-  "lastupdated": "2024-03-30T09:05:01.739010"
+  "lastupdated": "2024-03-31T09:07:37.147578"
 }
