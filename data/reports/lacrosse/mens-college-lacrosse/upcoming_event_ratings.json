@@ -1,48 +1,6 @@
 {
   "events": [
     {
-      "id": 401624886,
-      "datetime": "2024-04-02T23:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "cornell",
-      "home_team_id": 172,
-      "away_team_name": "syracuse",
-      "away_team_id": 183,
-      "home_elo_pre": 1681.0297148366,
-      "away_elo_pre": 1742.1932762527,
-      "elo_diff": -81.1635614161,
-      "elo_spread": 1.5459725984,
-      "home_elo_prob": 0.4704150358,
-      "away_elo_prob": 0.5295849642,
-      "home_elo_post": 1671.4273757444,
-      "away_elo_post": 1751.7956153449,
-      "tournament_id": null,
-      "str_event_id": "20240402_cornell_syracuse",
-      "season": 2024
-    },
-    {
-      "id": 401649689,
-      "datetime": "2024-04-02T23:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "princeton",
-      "home_team_id": 163,
-      "away_team_name": "lehigh",
-      "away_team_id": 2329,
-      "home_elo_pre": 1700.7888250696,
-      "away_elo_pre": 1459.3015317029,
-      "elo_diff": 221.4872933668,
-      "elo_spread": -4.2188055879,
-      "home_elo_prob": 0.6797495182,
-      "away_elo_prob": 0.3202504818,
-      "home_elo_post": 1706.7408068089,
-      "away_elo_post": 1453.3495499635,
-      "tournament_id": null,
-      "str_event_id": "20240402_princeton_lehigh",
-      "season": 2024
-    },
-    {
       "id": 401649729,
       "datetime": "2024-04-05T16:00:00.000Z",
       "neutral_site": 0,
@@ -135,14 +93,14 @@
       "home_team_id": 172,
       "away_team_name": "brown",
       "away_team_id": 225,
-      "home_elo_pre": 1671.4273757444,
+      "home_elo_pre": 1692.2521034373,
       "away_elo_pre": 1451.4196026902,
-      "elo_diff": 200.0077730541,
-      "elo_spread": -3.8096718677,
-      "home_elo_prob": 0.6661444002,
-      "away_elo_prob": 0.3338555998,
-      "home_elo_post": 1677.6868355044,
-      "away_elo_post": 1445.1601429302,
+      "elo_diff": 220.832500747,
+      "elo_spread": -4.2063333476,
+      "home_elo_prob": 0.6793391108,
+      "away_elo_prob": 0.3206608892,
+      "home_elo_post": 1698.213298528,
+      "away_elo_post": 1445.4584075995,
       "tournament_id": null,
       "str_event_id": "20240406_cornell_brown",
       "season": 2024
@@ -337,5 +295,5 @@
       "season": 2024
     }
   ],
-  "lastupdated": "2024-04-02T09:08:10.685643"
+  "lastupdated": "2024-04-03T09:08:34.091855"
 }

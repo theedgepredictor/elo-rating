@@ -1,45 +1,24 @@
 {
   "events": [
     {
-      "id": 401641123,
-      "datetime": "2024-04-02T23:00:00.000Z",
-      "neutral_site": 1,
-      "is_postseason": 1,
-      "home_team_name": "indianastate",
-      "home_team_id": 282,
-      "away_team_name": "utah",
-      "away_team_id": 254,
-      "home_elo_pre": 2045.4417607853,
-      "away_elo_pre": 1740.8969898211,
-      "elo_diff": 304.5447709642,
-      "elo_spread": -10.1514923655,
-      "home_elo_prob": 0.7061068513,
-      "away_elo_prob": 0.2938931487,
-      "home_elo_post": 2050.8099777335,
-      "away_elo_post": 1735.528772873,
-      "tournament_id": 21,
-      "str_event_id": "20240402_indianastate_utah",
-      "season": 2024
-    },
-    {
-      "id": 401641122,
-      "datetime": "2024-04-03T01:30:00.000Z",
+      "id": 401641124,
+      "datetime": "2024-04-04T23:00:00.000Z",
       "neutral_site": 1,
       "is_postseason": 1,
       "home_team_name": "setonhall",
       "home_team_id": 2550,
-      "away_team_name": "georgia",
-      "away_team_id": 61,
-      "home_elo_pre": 1907.3379466841,
-      "away_elo_pre": 1702.9311731398,
-      "elo_diff": 204.4067735442,
-      "elo_spread": -6.8135591181,
-      "home_elo_prob": 0.6429818755,
-      "away_elo_prob": 0.3570181245,
-      "home_elo_post": 1914.130791889,
-      "away_elo_post": 1696.138327935,
+      "away_team_name": "indianastate",
+      "away_team_id": 282,
+      "home_elo_pre": 1935.6636017349,
+      "away_elo_pre": 2064.0127402315,
+      "elo_diff": -128.3491384966,
+      "elo_spread": 4.2783046166,
+      "home_elo_prob": 0.408681536,
+      "away_elo_prob": 0.591318464,
+      "home_elo_post": 1927.6337724952,
+      "away_elo_post": 2072.0425694712,
       "tournament_id": 21,
-      "str_event_id": "20240403_setonhall_georgia",
+      "str_event_id": "20240404_setonhall_indianastate",
       "season": 2024
     },
     {
@@ -85,5 +64,5 @@
       "season": 2024
     }
   ],
-  "lastupdated": "2024-04-02T09:08:09.210657"
+  "lastupdated": "2024-04-03T09:08:32.557424"
 }
