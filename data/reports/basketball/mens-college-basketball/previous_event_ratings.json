@@ -1,6 +1,31 @@
 {
   "events": [
     {
+      "id": 401641124,
+      "datetime": "2024-04-04T23:00:00.000Z",
+      "neutral_site": 1,
+      "is_postseason": 1,
+      "home_team_name": "setonhall",
+      "home_team_id": 2550,
+      "away_team_name": "indianastate",
+      "away_team_id": 282,
+      "home_elo_pre": 1935.6636017349,
+      "away_elo_pre": 2064.0127402315,
+      "elo_diff": -128.3491384966,
+      "elo_spread": 4.2783046166,
+      "home_elo_prob": 0.408681536,
+      "away_elo_prob": 0.591318464,
+      "home_elo_post": 1956.3599280544,
+      "away_elo_post": 2043.3164139121,
+      "tournament_id": 21,
+      "str_event_id": "20240404_setonhall_indianastate",
+      "season": 2024,
+      "result": true,
+      "point_dif": -2,
+      "home_team_score": 79,
+      "away_team_score": 77
+    },
+    {
       "id": 401641122,
       "datetime": "2024-04-03T01:35:00.000Z",
       "neutral_site": 1,
@@ -24,32 +49,7 @@
       "point_dif": -17,
       "home_team_score": 84,
       "away_team_score": 67
-    },
-    {
-      "id": 401641123,
-      "datetime": "2024-04-02T23:00:00.000Z",
-      "neutral_site": 1,
-      "is_postseason": 1,
-      "home_team_name": "indianastate",
-      "home_team_id": 282,
-      "away_team_name": "utah",
-      "away_team_id": 254,
-      "home_elo_pre": 2045.4417607853,
-      "away_elo_pre": 1740.8969898211,
-      "elo_diff": 304.5447709642,
-      "elo_spread": -10.1514923655,
-      "home_elo_prob": 0.7061068513,
-      "away_elo_prob": 0.2938931487,
-      "home_elo_post": 2064.0127402315,
-      "away_elo_post": 1722.3260103749,
-      "tournament_id": 21,
-      "str_event_id": "20240402_indianastate_utah",
-      "season": 2024,
-      "result": true,
-      "point_dif": -10,
-      "home_team_score": 100,
-      "away_team_score": 90
     }
   ],
-  "lastupdated": "2024-04-04T09:08:13.391795"
+  "lastupdated": "2024-04-05T09:07:09.600326"
 }

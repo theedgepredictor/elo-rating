@@ -145,17 +145,9 @@
       "lastupdated": "2024-03-12T23:00:00.000Z"
     },
     {
-      "id": 401641123,
-      "team_name": "indianastate",
-      "rank": 19,
-      "elo_rating": 2064.0127402315,
-      "season": 2024,
-      "lastupdated": "2024-04-02T23:00:00.000Z"
-    },
-    {
       "id": 401638621,
       "team_name": "dayton",
-      "rank": 20,
+      "rank": 19,
       "elo_rating": 2058.9192969823,
       "season": 2024,
       "lastupdated": "2024-03-23T16:45:00.000Z"
@@ -163,7 +155,7 @@
     {
       "id": 401638641,
       "team_name": "ncstate",
-      "rank": 21,
+      "rank": 20,
       "elo_rating": 2053.4816997118,
       "season": 2024,
       "lastupdated": "2024-03-31T21:05:00.000Z"
@@ -171,10 +163,18 @@
     {
       "id": 401638609,
       "team_name": "vermont",
-      "rank": 22,
+      "rank": 21,
       "elo_rating": 2047.2642254612,
       "season": 2024,
       "lastupdated": "2024-03-22T23:10:00.000Z"
+    },
+    {
+      "id": 401641124,
+      "team_name": "indianastate",
+      "rank": 22,
+      "elo_rating": 2043.3164139121,
+      "season": 2024,
+      "lastupdated": "2024-04-04T23:00:00.000Z"
     },
     {
       "id": 401638636,
@@ -345,9 +345,17 @@
       "lastupdated": "2024-03-21T20:00:00.000Z"
     },
     {
+      "id": 401641124,
+      "team_name": "setonhall",
+      "rank": 44,
+      "elo_rating": 1956.3599280544,
+      "season": 2024,
+      "lastupdated": "2024-04-04T23:00:00.000Z"
+    },
+    {
       "id": 401638616,
       "team_name": "washingtonstate",
-      "rank": 44,
+      "rank": 45,
       "elo_rating": 1954.0822186914,
       "season": 2024,
       "lastupdated": "2024-03-23T22:10:00.000Z"
@@ -355,7 +363,7 @@
     {
       "id": 401600800,
       "team_name": "boisestate",
-      "rank": 45,
+      "rank": 46,
       "elo_rating": 1947.705652766,
       "season": 2024,
       "lastupdated": "2024-02-11T03:00:00.000Z"
@@ -363,7 +371,7 @@
     {
       "id": 401625463,
       "team_name": "memphis",
-      "rank": 46,
+      "rank": 47,
       "elo_rating": 1947.0744854804,
       "season": 2024,
       "lastupdated": "2024-03-14T18:30:00.000Z"
@@ -371,7 +379,7 @@
     {
       "id": 401638622,
       "team_name": "michiganstate",
-      "rank": 47,
+      "rank": 48,
       "elo_rating": 1944.5806808309,
       "season": 2024,
       "lastupdated": "2024-03-23T21:45:00.000Z"
@@ -379,7 +387,7 @@
     {
       "id": 401641119,
       "team_name": "ohiostate",
-      "rank": 48,
+      "rank": 49,
       "elo_rating": 1936.0538998904,
       "season": 2024,
       "lastupdated": "2024-03-26T23:00:00.000Z"
@@ -387,18 +395,10 @@
     {
       "id": 401638592,
       "team_name": "mcneese",
-      "rank": 49,
+      "rank": 50,
       "elo_rating": 1936.0241566143,
       "season": 2024,
       "lastupdated": "2024-03-21T23:47:00.000Z"
-    },
-    {
-      "id": 401641122,
-      "team_name": "setonhall",
-      "rank": 50,
-      "elo_rating": 1935.6636017349,
-      "season": 2024,
-      "lastupdated": "2024-04-03T01:35:00.000Z"
     },
     {
       "id": 401641107,
@@ -6705,5 +6705,5 @@
       "lastupdated": "2024-03-09T20:30:00.000Z"
     }
   ],
-  "lastupdated": "2024-04-04T09:08:13.870117"
+  "lastupdated": "2024-04-05T09:07:10.066732"
 }
