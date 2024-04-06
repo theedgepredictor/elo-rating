@@ -1,27 +1,6 @@
 {
   "events": [
     {
-      "id": 401652769,
-      "datetime": "2024-04-06T00:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "denver",
-      "home_team_id": 2172,
-      "away_team_name": "stjohns",
-      "away_team_id": 2599,
-      "home_elo_pre": 1675.7044948743,
-      "away_elo_pre": 1344.8197289837,
-      "elo_diff": 310.8847658906,
-      "elo_spread": -5.9216145884,
-      "home_elo_prob": 0.7330059683,
-      "away_elo_prob": 0.2669940317,
-      "home_elo_post": 1680.4927811754,
-      "away_elo_post": 1340.0314426826,
-      "tournament_id": null,
-      "str_event_id": "20240406_denver_stjohns",
-      "season": 2024
-    },
-    {
       "id": 401624870,
       "datetime": "2024-04-06T16:00:00.000Z",
       "neutral_site": 0,
@@ -85,6 +64,27 @@
       "season": 2024
     },
     {
+      "id": 401649933,
+      "datetime": "2024-04-06T16:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "yale",
+      "home_team_id": 43,
+      "away_team_name": "penn",
+      "away_team_id": 219,
+      "home_elo_pre": 1698.5388822612,
+      "away_elo_pre": 1593.4424647098,
+      "elo_diff": 85.0964175514,
+      "elo_spread": -1.6208841438,
+      "home_elo_prob": 0.5890540948,
+      "away_elo_prob": 0.4109459052,
+      "home_elo_post": 1706.6244977933,
+      "away_elo_post": 1585.3568491777,
+      "tournament_id": null,
+      "str_event_id": "20240406_yale_penn",
+      "season": 2024
+    },
+    {
       "id": 401649892,
       "datetime": "2024-04-06T16:00:00.000Z",
       "neutral_site": 0,
@@ -145,27 +145,6 @@
       "away_elo_post": 1392.2120864318,
       "tournament_id": null,
       "str_event_id": "20240406_towson_hofstra",
-      "season": 2024
-    },
-    {
-      "id": 401649933,
-      "datetime": "2024-04-06T17:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "yale",
-      "home_team_id": 43,
-      "away_team_name": "penn",
-      "away_team_id": 219,
-      "home_elo_pre": 1698.5388822612,
-      "away_elo_pre": 1593.4424647098,
-      "elo_diff": 85.0964175514,
-      "elo_spread": -1.6208841438,
-      "home_elo_prob": 0.5890540948,
-      "away_elo_prob": 0.4109459052,
-      "home_elo_post": 1706.6244977933,
-      "away_elo_post": 1585.3568491777,
-      "tournament_id": null,
-      "str_event_id": "20240406_yale_penn",
       "season": 2024
     },
     {
@@ -295,5 +274,5 @@
       "season": 2024
     }
   ],
-  "lastupdated": "2024-04-05T09:07:11.026860"
+  "lastupdated": "2024-04-06T09:07:45.699088"
 }
