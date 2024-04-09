@@ -351,31 +351,6 @@
       "away_team_score": 8
     },
     {
-      "id": 401649689,
-      "datetime": "2024-04-02T23:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "princeton",
-      "home_team_id": 163,
-      "away_team_name": "lehigh",
-      "away_team_id": 2329,
-      "home_elo_pre": 1700.7888250696,
-      "away_elo_pre": 1459.3015317029,
-      "elo_diff": 221.4872933668,
-      "elo_spread": -4.2188055879,
-      "home_elo_prob": 0.6797495182,
-      "away_elo_prob": 0.3202504818,
-      "home_elo_post": 1710.2224929314,
-      "away_elo_post": 1449.8678638411,
-      "tournament_id": null,
-      "str_event_id": "20240402_princeton_lehigh",
-      "season": 2024,
-      "result": true,
-      "point_dif": -2,
-      "home_team_score": 12,
-      "away_team_score": 10
-    },
-    {
       "id": 401624886,
       "datetime": "2024-04-02T23:00:00.000Z",
       "neutral_site": 0,
@@ -399,7 +374,32 @@
       "point_dif": -1,
       "home_team_score": 18,
       "away_team_score": 17
+    },
+    {
+      "id": 401649689,
+      "datetime": "2024-04-02T23:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "princeton",
+      "home_team_id": 163,
+      "away_team_name": "lehigh",
+      "away_team_id": 2329,
+      "home_elo_pre": 1700.7888250696,
+      "away_elo_pre": 1459.3015317029,
+      "elo_diff": 221.4872933668,
+      "elo_spread": -4.2188055879,
+      "home_elo_prob": 0.6797495182,
+      "away_elo_prob": 0.3202504818,
+      "home_elo_post": 1710.2224929314,
+      "away_elo_post": 1449.8678638411,
+      "tournament_id": null,
+      "str_event_id": "20240402_princeton_lehigh",
+      "season": 2024,
+      "result": true,
+      "point_dif": -2,
+      "home_team_score": 12,
+      "away_team_score": 10
     }
   ],
-  "lastupdated": "2024-04-08T09:08:54.876007"
+  "lastupdated": "2024-04-09T09:08:34.207159"
 }

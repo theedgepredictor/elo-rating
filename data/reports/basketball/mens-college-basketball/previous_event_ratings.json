@@ -1,6 +1,31 @@
 {
   "events": [
     {
+      "id": 401638645,
+      "datetime": "2024-04-09T01:20:00.000Z",
+      "neutral_site": 1,
+      "is_postseason": 1,
+      "home_team_name": "uconn",
+      "home_team_id": 41,
+      "away_team_name": "purdue",
+      "away_team_id": 2509,
+      "home_elo_pre": 2472.6183629661,
+      "away_elo_pre": 2378.1852132826,
+      "elo_diff": 94.4331496835,
+      "elo_spread": -3.1477716561,
+      "home_elo_prob": 0.5675348602,
+      "away_elo_prob": 0.4324651398,
+      "home_elo_post": 2507.1093072755,
+      "away_elo_post": 2343.6942689732,
+      "tournament_id": 22,
+      "str_event_id": "20240409_uconn_purdue",
+      "season": 2024,
+      "result": true,
+      "point_dif": -15,
+      "home_team_score": 75,
+      "away_team_score": 60
+    },
+    {
       "id": 401638644,
       "datetime": "2024-04-07T00:51:00.000Z",
       "neutral_site": 1,
@@ -24,32 +49,7 @@
       "point_dif": -14,
       "home_team_score": 86,
       "away_team_score": 72
-    },
-    {
-      "id": 401638643,
-      "datetime": "2024-04-06T22:09:00.000Z",
-      "neutral_site": 1,
-      "is_postseason": 1,
-      "home_team_name": "purdue",
-      "home_team_id": 2509,
-      "away_team_name": "ncstate",
-      "away_team_id": 152,
-      "home_elo_pre": 2357.7318603548,
-      "away_elo_pre": 2053.4816997118,
-      "elo_diff": 304.250160643,
-      "elo_spread": -10.1416720214,
-      "home_elo_prob": 0.7059308527,
-      "away_elo_prob": 0.2940691473,
-      "home_elo_post": 2378.1852132826,
-      "away_elo_post": 2033.028346784,
-      "tournament_id": 22,
-      "str_event_id": "20240406_purdue_ncstate",
-      "season": 2024,
-      "result": true,
-      "point_dif": -13,
-      "home_team_score": 63,
-      "away_team_score": 50
     }
   ],
-  "lastupdated": "2024-04-08T09:08:53.450533"
+  "lastupdated": "2024-04-09T09:08:32.645618"
 }
