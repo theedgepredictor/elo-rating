@@ -6,17 +6,17 @@
       "system_recall": 0.6876208007363093,
       "system_f1": 0.655609670483963,
       "system_auc": 0.6251278949685866,
-      "system_brier_score": 0.2327086812505551,
-      "system_log_loss": 0.6579576510342309,
+      "system_brier_score": 0.23270905584308135,
+      "system_log_loss": 0.6579583969241454,
       "system_score": 25.53,
       "system_records": 21051,
-      "system_mse": 12.242384994439242,
-      "system_mae": 2.8028787347455877,
-      "system_mape": 5.628093692933764,
-      "system_r2": -0.045665116092579394,
+      "system_mse": 12.24219709086163,
+      "system_mae": 2.8028628442635877,
+      "system_mape": 5.629599376375261,
+      "system_r2": -0.045659420075863544,
       "avg_number_of_games_played": 37.54389016999434,
       "avg_points_per_game": 2.794135389605561,
-      "home_win_percentage": 0.5164649185714976
+      "home_win_percentage": 0.5164347231105102
     },
     "2024": {
       "system_accuracy": 0.614760147601476,
@@ -24,17 +24,17 @@
       "system_recall": 0.6570247933884298,
       "system_f1": 0.6463414634146342,
       "system_auc": 0.6115012679183802,
-      "system_brier_score": 0.23543639610210326,
-      "system_log_loss": 0.6635055457252815,
+      "system_brier_score": 0.23544221569418486,
+      "system_log_loss": 0.6635171337168603,
       "system_score": 27.61,
       "system_records": 1355,
-      "system_mse": 12.18811991529015,
-      "system_mae": 2.8165659229554727,
-      "system_mape": 7.414749228757395,
-      "system_r2": -0.15009399031033555,
+      "system_mse": 12.185200684137156,
+      "system_mae": 2.8163190517107584,
+      "system_mape": 7.438141215566954,
+      "system_r2": -0.15000542209842593,
       "avg_number_of_games_played": 21.338582677165356,
       "avg_points_per_game": 2.8918172185066378,
-      "home_win_percentage": 0.5360668185269551
+      "home_win_percentage": 0.5355233002291826
     },
     "2023": {
       "system_accuracy": 0.6133828996282528,
@@ -73,5 +73,5 @@
       "home_win_percentage": 0.5401111993645751
     }
   },
-  "lastupdated": "2024-04-10T09:09:32.237947"
+  "lastupdated": "2024-04-11T09:07:51.598347"
 }
