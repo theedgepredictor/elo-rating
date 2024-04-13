@@ -169,29 +169,8 @@
       "season": 2024
     },
     {
-      "id": 401650554,
-      "datetime": "2024-04-13T19:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "brown",
-      "home_team_id": 225,
-      "away_team_name": "princeton",
-      "away_team_id": 163,
-      "home_elo_pre": 1434.6844123108,
-      "away_elo_pre": 1710.2224929314,
-      "elo_diff": -295.5380806206,
-      "elo_spread": 5.6292967737,
-      "home_elo_prob": 0.3239894522,
-      "away_elo_prob": 0.6760105478,
-      "home_elo_post": 1428.6483516658,
-      "away_elo_post": 1716.2585535764,
-      "tournament_id": null,
-      "str_event_id": "20240413_brown_princeton",
-      "season": 2024
-    },
-    {
       "id": 401650577,
-      "datetime": "2024-04-13T20:00:00.000Z",
+      "datetime": "2024-04-13T19:30:00.000Z",
       "neutral_site": 0,
       "is_postseason": 0,
       "home_team_name": "dartmouth",
@@ -208,6 +187,27 @@
       "away_elo_post": 1733.7727901159,
       "tournament_id": null,
       "str_event_id": "20240413_dartmouth_yale",
+      "season": 2024
+    },
+    {
+      "id": 401650554,
+      "datetime": "2024-04-13T19:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "brown",
+      "home_team_id": 225,
+      "away_team_name": "princeton",
+      "away_team_id": 163,
+      "home_elo_pre": 1434.6844123108,
+      "away_elo_pre": 1710.2224929314,
+      "elo_diff": -295.5380806206,
+      "elo_spread": 5.6292967737,
+      "home_elo_prob": 0.3239894522,
+      "away_elo_prob": 0.6760105478,
+      "home_elo_post": 1428.6483516658,
+      "away_elo_post": 1716.2585535764,
+      "tournament_id": null,
+      "str_event_id": "20240413_brown_princeton",
       "season": 2024
     },
     {
@@ -421,5 +421,5 @@
       "season": 2024
     }
   ],
-  "lastupdated": "2024-04-12T09:08:22.257505"
+  "lastupdated": "2024-04-13T09:05:41.084324"
 }
