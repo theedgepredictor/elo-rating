@@ -1,6 +1,27 @@
 {
   "events": [
     {
+      "id": 401655877,
+      "datetime": "2024-04-27T04:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "pennstate",
+      "home_team_id": 213,
+      "away_team_name": "rutgers",
+      "away_team_id": 164,
+      "home_elo_pre": 1697.7339679114,
+      "away_elo_pre": 1507.4330034998,
+      "elo_diff": 170.3009644116,
+      "elo_spread": -3.2438278936,
+      "home_elo_prob": 0.646866744,
+      "away_elo_prob": 0.353133256,
+      "home_elo_post": 1704.4364666481,
+      "away_elo_post": 1500.7305047631,
+      "tournament_id": null,
+      "str_event_id": "20240427_pennstate_rutgers",
+      "season": 2024
+    },
+    {
       "id": 401624873,
       "datetime": "2024-04-27T16:00:00.000Z",
       "neutral_site": 0,
@@ -43,5 +64,5 @@
       "season": 2024
     }
   ],
-  "lastupdated": "2024-04-21T09:05:05.911854"
+  "lastupdated": "2024-04-22T09:08:12.270919"
 }
