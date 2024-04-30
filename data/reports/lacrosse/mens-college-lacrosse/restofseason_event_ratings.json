@@ -1,7 +1,7 @@
 {
   "events": [
     {
-      "id": 401656578,
+      "id": 401657032,
       "datetime": "2024-04-30T22:00:00.000Z",
       "neutral_site": 0,
       "is_postseason": 0,
@@ -215,20 +215,20 @@
       "datetime": "2024-05-03T22:00:00.000Z",
       "neutral_site": 0,
       "is_postseason": 0,
-      "home_team_name": "yale",
-      "home_team_id": 43,
-      "away_team_name": "princeton",
-      "away_team_id": 163,
-      "home_elo_pre": 1732.9821045861,
-      "away_elo_pre": 1751.1513061512,
-      "elo_diff": -38.1692015651,
-      "elo_spread": 0.7270324108,
-      "home_elo_prob": 0.5013173623,
-      "away_elo_prob": 0.4986826377,
-      "home_elo_post": 1743.3432961273,
-      "away_elo_post": 1740.79011461,
+      "home_team_name": "princeton",
+      "home_team_id": 163,
+      "away_team_name": "yale",
+      "away_team_id": 43,
+      "home_elo_pre": 1751.1513061512,
+      "away_elo_pre": 1732.9821045861,
+      "elo_diff": -1.8307984349,
+      "elo_spread": 0.0348723511,
+      "home_elo_prob": 0.5274373583,
+      "away_elo_prob": 0.4725626417,
+      "home_elo_post": 1760.8103884602,
+      "away_elo_post": 1723.3230222771,
       "tournament_id": null,
-      "str_event_id": "20240503_yale_princeton",
+      "str_event_id": "20240503_princeton_yale",
       "season": 2024
     },
     {
@@ -274,5 +274,5 @@
       "season": 2024
     }
   ],
-  "lastupdated": "2024-04-29T09:08:25.696987"
+  "lastupdated": "2024-04-30T09:08:51.882040"
 }
