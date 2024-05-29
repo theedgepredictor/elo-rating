@@ -104,6 +104,10 @@ class ESPNSport(ESPNBaseAPI):
                 res = self.api_request(f"{self._core_url}/{self.espn_core_name}/seasons/{self.season}/types/1/calendar/ondays")
             else:
                 res = self.api_request(f"{self._core_url}/{self.espn_core_name}/calendar/ondays?dates={self.season}")
+            if res is None:
+                print('No Date Response for '+self.sport.value)
+                self.is_active = False
+                return 
             if 'startDate' not in res:
                 raise e
             self.start_date = datetime.datetime.strptime(res['startDate'], '%Y-%m-%dT%H:%MZ')

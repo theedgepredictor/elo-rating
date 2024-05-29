@@ -81,11 +81,16 @@ def run_events_for_sport(root_path: str, sport: ESPNSportTypes, espn_events_api:
             print(f'    Refreshing data from {dates}...')
         else:
             # Upsert will be shifted back two days to make sure we do not miss any games
-            start_date = pd.Timestamp(pd.Timestamp(fs_df.loc[fs_df['is_finished'] == True].datetime.max()).to_pydatetime() - datetime.timedelta(days=2)).strftime('%Y%m%d')
-            dates = f"{start_date}-{end_date}"
-            print(f'    Updating data from {dates}...')
-            on_days = [day for day in on_days if pd.Timestamp(start_date).to_pydatetime() <= day <= pd.Timestamp(end_date).to_pydatetime()]
-            fs_df = fs_df.loc[((fs_df.season == season) & (fs_df.is_finished == True) & (fs_df.datetime <= start_date))]
+            try:
+                start_date = pd.Timestamp(pd.Timestamp(fs_df.loc[fs_df['is_finished'] == True].datetime.max()).to_pydatetime() - datetime.timedelta(days=2)).strftime('%Y%m%d')
+                dates = f"{start_date}-{end_date}"
+                print(f'    Updating data from {dates}...')
+                on_days = [day for day in on_days if pd.Timestamp(start_date).to_pydatetime() <= day <= pd.Timestamp(end_date).to_pydatetime()]
+                fs_df = fs_df.loc[((fs_df.season == season) & (fs_df.is_finished == True) & (fs_df.datetime <= start_date))]
+            except Exception as e:
+                print(f'Issue with Upsert for {sport.value} - {season}. Handling as refresh for Season...')
+                fs_df = pd.DataFrame()
+                dates = f"{start_date}-{end_date}"
 
         # Collect all event payloads from api
         events = []
