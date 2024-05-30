@@ -1,4 +1,26 @@
 {
-  "events": null,
-  "lastupdated": "2024-05-29T14:52:23.320804"
+  "events": [
+    {
+      "id": 401672980,
+      "datetime": "2024-05-31T00:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "timberwolves",
+      "home_team_id": 16,
+      "away_team_name": "mavericks",
+      "away_team_id": 6,
+      "home_elo_pre": 1831.6546657888,
+      "away_elo_pre": 1819.9328272343,
+      "elo_diff": -88.2781614455,
+      "elo_spread": 2.9426053815,
+      "home_elo_prob": 0.5797047057,
+      "away_elo_prob": 0.4202952943,
+      "home_elo_post": 1839.9720803506,
+      "away_elo_post": 1811.6154126725,
+      "tournament_id": null,
+      "str_event_id": "20240531_timberwolves_mavericks",
+      "season": 2024
+    }
+  ],
+  "lastupdated": "2024-05-30T09:08:58.931791"
 }
