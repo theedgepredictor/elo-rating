@@ -1,6 +1,31 @@
 {
   "events": [
     {
+      "id": 401672980,
+      "datetime": "2024-05-31T00:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "timberwolves",
+      "home_team_id": 16,
+      "away_team_name": "mavericks",
+      "away_team_id": 6,
+      "home_elo_pre": 1831.6546657888,
+      "away_elo_pre": 1819.9328272343,
+      "elo_diff": -88.2781614455,
+      "elo_spread": 2.9426053815,
+      "home_elo_prob": 0.5797047057,
+      "away_elo_prob": 0.4202952943,
+      "home_elo_post": 1775.0219505365,
+      "away_elo_post": 1876.5655424866,
+      "tournament_id": null,
+      "str_event_id": "20240531_timberwolves_mavericks",
+      "season": 2024,
+      "result": false,
+      "point_dif": 21,
+      "home_team_score": 103,
+      "away_team_score": 124
+    },
+    {
       "id": 401672979,
       "datetime": "2024-05-29T00:30:00.000Z",
       "neutral_site": 0,
@@ -24,32 +49,7 @@
       "point_dif": 5,
       "home_team_score": 100,
       "away_team_score": 105
-    },
-    {
-      "id": 401672001,
-      "datetime": "2024-05-28T00:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 1,
-      "home_team_name": "pacers",
-      "home_team_id": 11,
-      "away_team_name": "celtics",
-      "away_team_id": 2,
-      "home_elo_pre": 1675.2333038545,
-      "away_elo_pre": 1932.2668770754,
-      "elo_diff": -357.0335732209,
-      "elo_spread": 11.9011191074,
-      "home_elo_prob": 0.3888903547,
-      "away_elo_prob": 0.6111096453,
-      "home_elo_post": 1660.1373418002,
-      "away_elo_post": 1947.3628391297,
-      "tournament_id": null,
-      "str_event_id": "20240528_pacers_celtics",
-      "season": 2024,
-      "result": false,
-      "point_dif": 3,
-      "home_team_score": 102,
-      "away_team_score": 105
     }
   ],
-  "lastupdated": "2024-05-30T09:08:58.944985"
+  "lastupdated": "2024-05-31T09:09:44.982077"
 }

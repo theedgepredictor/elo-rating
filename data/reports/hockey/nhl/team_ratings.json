@@ -1,20 +1,20 @@
 {
   "teams": [
     {
+      "id": 401672880,
+      "team_name": "panthers",
+      "rank": 1,
+      "elo_rating": 1639.5699397894,
+      "season": 2024,
+      "lastupdated": "2024-05-31T00:00:00.000Z"
+    },
+    {
       "id": 401658390,
       "team_name": "hurricanes",
-      "rank": 1,
+      "rank": 2,
       "elo_rating": 1639.3884768181,
       "season": 2024,
       "lastupdated": "2024-05-16T23:00:00.000Z"
-    },
-    {
-      "id": 401672879,
-      "team_name": "panthers",
-      "rank": 2,
-      "elo_rating": 1636.7325044747,
-      "season": 2024,
-      "lastupdated": "2024-05-29T00:00:00.000Z"
     },
     {
       "id": 401658384,
@@ -25,18 +25,18 @@
       "lastupdated": "2024-05-17T23:00:00.000Z"
     },
     {
-      "id": 401672879,
+      "id": 401672880,
       "team_name": "rangers",
       "rank": 4,
-      "elo_rating": 1624.0154432372,
+      "elo_rating": 1621.1780079225,
       "season": 2024,
-      "lastupdated": "2024-05-29T00:00:00.000Z"
+      "lastupdated": "2024-05-31T00:00:00.000Z"
     },
     {
       "id": 401672986,
       "team_name": "oilers",
       "rank": 5,
-      "elo_rating": 1601.779403962,
+      "elo_rating": 1606.4175428148,
       "season": 2024,
       "lastupdated": "2024-05-30T00:30:00.000Z"
     },
@@ -49,20 +49,20 @@
       "lastupdated": "2024-05-05T23:30:00.000Z"
     },
     {
-      "id": 401672986,
-      "team_name": "stars",
-      "rank": 7,
-      "elo_rating": 1585.6695051298,
-      "season": 2024,
-      "lastupdated": "2024-05-30T00:30:00.000Z"
-    },
-    {
       "id": 401658451,
       "team_name": "avalanche",
-      "rank": 8,
+      "rank": 7,
       "elo_rating": 1584.7731639156,
       "season": 2024,
       "lastupdated": "2024-05-18T02:00:00.000Z"
+    },
+    {
+      "id": 401672986,
+      "team_name": "stars",
+      "rank": 8,
+      "elo_rating": 1581.031366277,
+      "season": 2024,
+      "lastupdated": "2024-05-30T00:30:00.000Z"
     },
     {
       "id": 401655579,
@@ -257,5 +257,5 @@
       "lastupdated": "2024-04-07T22:00:00.000Z"
     }
   ],
-  "lastupdated": "2024-05-30T09:08:59.925582"
+  "lastupdated": "2024-05-31T09:09:46.345131"
 }
