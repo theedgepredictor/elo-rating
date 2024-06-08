@@ -1,4 +1,26 @@
 {
-  "events": null,
-  "lastupdated": "2024-06-07T09:08:16.085236"
+  "events": [
+    {
+      "id": 401656360,
+      "datetime": "2024-06-10T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "celtics",
+      "home_team_id": 2,
+      "away_team_name": "mavericks",
+      "away_team_id": 6,
+      "home_elo_pre": 1980.4946897449,
+      "away_elo_pre": 1872.3077659016,
+      "elo_diff": 8.1869238432,
+      "elo_spread": -0.2728974614,
+      "home_elo_prob": 0.6454755766,
+      "away_elo_prob": 0.3545244234,
+      "home_elo_post": 1987.2294999614,
+      "away_elo_post": 1865.5729556851,
+      "tournament_id": null,
+      "str_event_id": "20240610_celtics_mavericks",
+      "season": 2024
+    }
+  ],
+  "lastupdated": "2024-06-08T09:08:14.131060"
 }
