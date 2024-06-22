@@ -1,20 +1,20 @@
 {
   "teams": [
     {
-      "id": 401675109,
-      "team_name": "panthers",
-      "rank": 1,
-      "elo_rating": 1640.5089460993,
-      "season": 2024,
-      "lastupdated": "2024-06-19T00:00:00.000Z"
-    },
-    {
       "id": 401658390,
       "team_name": "hurricanes",
-      "rank": 2,
+      "rank": 1,
       "elo_rating": 1639.3884768181,
       "season": 2024,
       "lastupdated": "2024-05-16T23:00:00.000Z"
+    },
+    {
+      "id": 401675110,
+      "team_name": "panthers",
+      "rank": 2,
+      "elo_rating": 1633.9481581621,
+      "season": 2024,
+      "lastupdated": "2024-06-22T00:00:00.000Z"
     },
     {
       "id": 401658384,
@@ -33,12 +33,12 @@
       "lastupdated": "2024-06-02T00:00:00.000Z"
     },
     {
-      "id": 401675109,
+      "id": 401675110,
       "team_name": "oilers",
       "rank": 5,
-      "elo_rating": 1605.4620510652,
+      "elo_rating": 1612.0228390024,
       "season": 2024,
-      "lastupdated": "2024-06-19T00:00:00.000Z"
+      "lastupdated": "2024-06-22T00:00:00.000Z"
     },
     {
       "id": 401655564,
@@ -257,5 +257,5 @@
       "lastupdated": "2024-04-07T22:00:00.000Z"
     }
   ],
-  "lastupdated": "2024-06-21T09:08:21.684696"
+  "lastupdated": "2024-06-22T09:08:05.239420"
 }

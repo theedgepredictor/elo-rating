@@ -1,27 +1,6 @@
 {
   "events": [
     {
-      "id": 401675110,
-      "datetime": "2024-06-22T00:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 1,
-      "home_team_name": "oilers",
-      "home_team_id": 6,
-      "away_team_name": "panthers",
-      "away_team_id": 26,
-      "home_elo_pre": 1605.4620510652,
-      "away_elo_pre": 1640.5089460993,
-      "elo_diff": -60.0468950342,
-      "elo_spread": 3.0636170936,
-      "home_elo_prob": 0.4927711816,
-      "away_elo_prob": 0.5072288184,
-      "home_elo_post": 1602.7419694121,
-      "away_elo_post": 1643.2290277524,
-      "tournament_id": null,
-      "str_event_id": "20240622_oilers_panthers",
-      "season": 2024
-    },
-    {
       "id": 401675111,
       "datetime": "2024-06-25T00:00:00.000Z",
       "neutral_site": 0,
@@ -30,18 +9,18 @@
       "home_team_id": 26,
       "away_team_name": "oilers",
       "away_team_id": 6,
-      "home_elo_pre": 1643.2290277524,
-      "away_elo_pre": 1602.7419694121,
-      "elo_diff": 15.4870583403,
-      "elo_spread": -0.7901560378,
-      "home_elo_prob": 0.5469827112,
-      "away_elo_prob": 0.4530172888,
-      "home_elo_post": 1645.6684743755,
-      "away_elo_post": 1600.302522789,
+      "home_elo_pre": 1633.9481581621,
+      "away_elo_pre": 1612.0228390024,
+      "elo_diff": -3.0746808403,
+      "elo_spread": 0.1568714714,
+      "home_elo_prob": 0.5337142464,
+      "away_elo_prob": 0.4662857536,
+      "home_elo_post": 1636.4797963464,
+      "away_elo_post": 1609.4912008181,
       "tournament_id": null,
       "str_event_id": "20240625_panthers_oilers",
       "season": 2024
     }
   ],
-  "lastupdated": "2024-06-21T09:08:21.494509"
+  "lastupdated": "2024-06-22T09:08:05.048316"
 }
