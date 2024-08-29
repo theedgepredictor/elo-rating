@@ -252,7 +252,7 @@ def get_upcoming_short_shift_for_sport(sport):
         ESPNSportTypes.COLLEGE_HOCKEY: 7,
         ESPNSportTypes.COLLEGE_LACROSSE: 7,
         ESPNSportTypes.NBA: 2,
-        ESPNSportTypes.NFL: 7,
+        ESPNSportTypes.NFL: 14,
         ESPNSportTypes.MLB: 2,
         ESPNSportTypes.NHL: 2,
         ESPNSportTypes.PLL: 7,
