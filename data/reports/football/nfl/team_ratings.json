@@ -1,34 +1,34 @@
 {
   "teams": [
     {
-      "id": 401547379,
-      "team_name": "ravens",
-      "rank": 1,
-      "elo_rating": 1812.1216107622,
-      "season": 2023,
-      "lastupdated": "2024-01-28T20:00:00.000Z"
-    },
-    {
       "id": 401547378,
       "team_name": "49ers",
-      "rank": 2,
-      "elo_rating": 1810.2720922089,
+      "rank": 1,
+      "elo_rating": 1810.7613320103,
       "season": 2023,
       "lastupdated": "2024-02-11T23:30:00.000Z"
     },
     {
       "id": 401547378,
       "team_name": "chiefs",
-      "rank": 3,
-      "elo_rating": 1809.6137389036,
+      "rank": 2,
+      "elo_rating": 1807.6423441182,
       "season": 2023,
       "lastupdated": "2024-02-11T23:30:00.000Z"
+    },
+    {
+      "id": 401547379,
+      "team_name": "ravens",
+      "rank": 3,
+      "elo_rating": 1770.2341266563,
+      "season": 2023,
+      "lastupdated": "2024-01-28T20:00:00.000Z"
     },
     {
       "id": 401547758,
       "team_name": "bills",
       "rank": 4,
-      "elo_rating": 1765.9234426954,
+      "elo_rating": 1766.7108830071,
       "season": 2023,
       "lastupdated": "2024-01-21T23:30:00.000Z"
     },
@@ -36,39 +36,39 @@
       "id": 401547752,
       "team_name": "cowboys",
       "rank": 5,
-      "elo_rating": 1678.9467358711,
+      "elo_rating": 1679.215208185,
       "season": 2023,
       "lastupdated": "2024-01-14T21:30:00.000Z"
     },
     {
-      "id": 401547756,
-      "team_name": "packers",
-      "rank": 6,
-      "elo_rating": 1618.0736150763,
-      "season": 2023,
-      "lastupdated": "2024-01-21T01:15:00.000Z"
-    },
-    {
       "id": 401547380,
       "team_name": "lions",
-      "rank": 7,
-      "elo_rating": 1615.0914645072,
+      "rank": 6,
+      "elo_rating": 1639.7441036762,
       "season": 2023,
       "lastupdated": "2024-01-28T23:30:00.000Z"
     },
     {
       "id": 401547641,
       "team_name": "bengals",
-      "rank": 8,
-      "elo_rating": 1610.6646040372,
+      "rank": 7,
+      "elo_rating": 1619.041098907,
       "season": 2023,
       "lastupdated": "2024-01-07T18:00:00.000Z"
+    },
+    {
+      "id": 401547756,
+      "team_name": "packers",
+      "rank": 8,
+      "elo_rating": 1617.322584942,
+      "season": 2023,
+      "lastupdated": "2024-01-21T01:15:00.000Z"
     },
     {
       "id": 401547750,
       "team_name": "dolphins",
       "rank": 9,
-      "elo_rating": 1583.3153447078,
+      "elo_rating": 1583.3365897256,
       "season": 2023,
       "lastupdated": "2024-01-14T01:00:00.000Z"
     },
@@ -81,42 +81,42 @@
       "lastupdated": "2024-01-16T01:15:00.000Z"
     },
     {
+      "id": 401547751,
+      "team_name": "steelers",
+      "rank": 11,
+      "elo_rating": 1552.6956907965,
+      "season": 2023,
+      "lastupdated": "2024-01-15T21:30:00.000Z"
+    },
+    {
       "id": 401547757,
       "team_name": "buccaneers",
-      "rank": 11,
-      "elo_rating": 1548.7364912927,
+      "rank": 12,
+      "elo_rating": 1549.9455201462,
       "season": 2023,
       "lastupdated": "2024-01-21T20:00:00.000Z"
     },
     {
       "id": 401547649,
       "team_name": "saints",
-      "rank": 12,
-      "elo_rating": 1538.5031588368,
+      "rank": 13,
+      "elo_rating": 1538.6468893341,
       "season": 2023,
       "lastupdated": "2024-01-07T18:00:00.000Z"
     },
     {
       "id": 401547753,
       "team_name": "rams",
-      "rank": 13,
-      "elo_rating": 1535.2614615717,
+      "rank": 14,
+      "elo_rating": 1535.637243152,
       "season": 2023,
       "lastupdated": "2024-01-15T01:15:00.000Z"
-    },
-    {
-      "id": 401547751,
-      "team_name": "steelers",
-      "rank": 14,
-      "elo_rating": 1534.7863913387,
-      "season": 2023,
-      "lastupdated": "2024-01-15T21:30:00.000Z"
     },
     {
       "id": 401547749,
       "team_name": "browns",
       "rank": 15,
-      "elo_rating": 1500.2125298281,
+      "elo_rating": 1502.7632750173,
       "season": 2023,
       "lastupdated": "2024-01-13T21:30:00.000Z"
     },
@@ -124,7 +124,7 @@
       "id": 401547638,
       "team_name": "seahawks",
       "rank": 16,
-      "elo_rating": 1499.3441565462,
+      "elo_rating": 1497.779211213,
       "season": 2023,
       "lastupdated": "2024-01-07T21:25:00.000Z"
     },
@@ -132,7 +132,7 @@
       "id": 401547646,
       "team_name": "raiders",
       "rank": 17,
-      "elo_rating": 1488.4712776896,
+      "elo_rating": 1487.7436210043,
       "season": 2023,
       "lastupdated": "2024-01-07T21:25:00.000Z"
     },
@@ -140,7 +140,7 @@
       "id": 401547642,
       "team_name": "vikings",
       "rank": 18,
-      "elo_rating": 1486.0054220953,
+      "elo_rating": 1477.719878139,
       "season": 2023,
       "lastupdated": "2024-01-07T18:00:00.000Z"
     },
@@ -153,34 +153,34 @@
       "lastupdated": "2024-01-07T18:00:00.000Z"
     },
     {
-      "id": 401547646,
-      "team_name": "broncos",
-      "rank": 20,
-      "elo_rating": 1457.3081227629,
-      "season": 2023,
-      "lastupdated": "2024-01-07T21:25:00.000Z"
-    },
-    {
       "id": 401547755,
       "team_name": "texans",
-      "rank": 21,
-      "elo_rating": 1455.1386283184,
+      "rank": 20,
+      "elo_rating": 1474.2511624441,
       "season": 2023,
       "lastupdated": "2024-01-20T21:30:00.000Z"
     },
     {
-      "id": 401547628,
+      "id": 401547646,
+      "team_name": "broncos",
+      "rank": 21,
+      "elo_rating": 1430.2949553063,
+      "season": 2023,
+      "lastupdated": "2024-01-07T21:25:00.000Z"
+    },
+    {
+      "id": 401547644,
       "team_name": "colts",
       "rank": 22,
-      "elo_rating": 1414.7591861487,
+      "elo_rating": 1421.3101038536,
       "season": 2023,
-      "lastupdated": "2023-12-31T18:00:00.000Z"
+      "lastupdated": "2024-01-07T01:15:00.000Z"
     },
     {
       "id": 401547643,
       "team_name": "bears",
       "rank": 23,
-      "elo_rating": 1406.2941063397,
+      "elo_rating": 1406.4157697447,
       "season": 2023,
       "lastupdated": "2024-01-07T21:25:00.000Z"
     },
@@ -196,7 +196,7 @@
       "id": 401547645,
       "team_name": "chargers",
       "rank": 25,
-      "elo_rating": 1389.1664043612,
+      "elo_rating": 1387.87524515,
       "season": 2023,
       "lastupdated": "2024-01-07T21:25:00.000Z"
     },
@@ -204,7 +204,7 @@
       "id": 401547648,
       "team_name": "jets",
       "rank": 26,
-      "elo_rating": 1383.0742126467,
+      "elo_rating": 1382.9951591438,
       "season": 2023,
       "lastupdated": "2024-01-07T18:00:00.000Z"
     },
@@ -220,7 +220,7 @@
       "id": 401547649,
       "team_name": "falcons",
       "rank": 28,
-      "elo_rating": 1355.7415580843,
+      "elo_rating": 1357.822127985,
       "season": 2023,
       "lastupdated": "2024-01-07T18:00:00.000Z"
     },
@@ -228,7 +228,7 @@
       "id": 401547648,
       "team_name": "patriots",
       "rank": 29,
-      "elo_rating": 1315.3366086046,
+      "elo_rating": 1314.2639223482,
       "season": 2023,
       "lastupdated": "2024-01-07T18:00:00.000Z"
     },
@@ -236,7 +236,7 @@
       "id": 401547638,
       "team_name": "cardinals",
       "rank": 30,
-      "elo_rating": 1313.4560734069,
+      "elo_rating": 1313.4324905994,
       "season": 2023,
       "lastupdated": "2024-01-07T21:25:00.000Z"
     },
@@ -244,7 +244,7 @@
       "id": 401547653,
       "team_name": "commanders",
       "rank": 31,
-      "elo_rating": 1251.0190424859,
+      "elo_rating": 1251.0369445227,
       "season": 2023,
       "lastupdated": "2024-01-07T21:25:00.000Z"
     },
@@ -257,5 +257,5 @@
       "lastupdated": "2024-01-07T18:00:00.000Z"
     }
   ],
-  "lastupdated": "2024-08-30T09:10:03.895821"
+  "lastupdated": "2024-08-30T16:39:24.686283"
 }
