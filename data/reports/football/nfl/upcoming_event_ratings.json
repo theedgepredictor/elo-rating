@@ -335,7 +335,28 @@
       "tournament_id": null,
       "str_event_id": "20240910_49ers_jets",
       "season": 2024
+    },
+    {
+      "id": 401671807,
+      "datetime": "2024-09-13T00:15:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "dolphins",
+      "home_team_id": 15,
+      "away_team_name": "bills",
+      "away_team_id": 2,
+      "home_elo_pre": 1563.6652643017,
+      "away_elo_pre": 1683.2081861098,
+      "elo_diff": -194.5429218081,
+      "elo_spread": 7.7817168723,
+      "home_elo_prob": 0.46799262,
+      "away_elo_prob": 0.53200738,
+      "home_elo_post": 1555.7165069367,
+      "away_elo_post": 1691.1569434748,
+      "tournament_id": null,
+      "str_event_id": "20240913_dolphins_bills",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-08-30T16:39:24.604622"
+  "lastupdated": "2024-08-31T09:08:04.769769"
 }

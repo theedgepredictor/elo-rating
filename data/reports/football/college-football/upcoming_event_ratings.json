@@ -2015,7 +2015,49 @@
       "tournament_id": null,
       "str_event_id": "20240902_floridastate_bostoncollege",
       "season": 2024
+    },
+    {
+      "id": 401628463,
+      "datetime": "2024-09-06T23:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "indiana",
+      "home_team_id": 84,
+      "away_team_name": "willinois",
+      "away_team_id": 2710,
+      "home_elo_pre": 1409.4348339409,
+      "away_elo_pre": 1197.2926828996,
+      "elo_diff": 150.1421510413,
+      "elo_spread": -6.0056860417,
+      "home_elo_prob": 0.6876261375,
+      "away_elo_prob": 0.3123738625,
+      "home_elo_post": 1414.2480813961,
+      "away_elo_post": 1192.4794354444,
+      "tournament_id": null,
+      "str_event_id": "20240906_indiana_willinois",
+      "season": 2024
+    },
+    {
+      "id": 401634765,
+      "datetime": "2024-09-06T23:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "smu",
+      "home_team_id": 2567,
+      "away_team_name": "byu",
+      "away_team_id": 252,
+      "home_elo_pre": 1695.0327048479,
+      "away_elo_pre": 1528.6076494672,
+      "elo_diff": 104.4250553807,
+      "elo_spread": -4.1770022152,
+      "home_elo_prob": 0.6586896179,
+      "away_elo_prob": 0.3413103821,
+      "home_elo_post": 1700.3908311238,
+      "away_elo_post": 1523.2495231914,
+      "tournament_id": null,
+      "str_event_id": "20240906_smu_byu",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-08-30T16:39:23.052988"
+  "lastupdated": "2024-08-31T09:08:03.401343"
 }
