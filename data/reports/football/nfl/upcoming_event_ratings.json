@@ -629,7 +629,28 @@
       "tournament_id": null,
       "str_event_id": "20240915_chiefs_bengals",
       "season": 2024
+    },
+    {
+      "id": 401671786,
+      "datetime": "2024-09-16T00:20:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "texans",
+      "home_team_id": 34,
+      "away_team_name": "bears",
+      "away_team_id": 3,
+      "home_elo_pre": 1476.4758257772,
+      "away_elo_pre": 1446.36415481,
+      "elo_diff": -44.8883290328,
+      "elo_spread": 1.7955331613,
+      "home_elo_prob": 0.5750622745,
+      "away_elo_prob": 0.4249377255,
+      "home_elo_post": 1483.5036593759,
+      "away_elo_post": 1439.3363212113,
+      "tournament_id": null,
+      "str_event_id": "20240916_texans_bears",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-09-02T09:09:56.079153"
+  "lastupdated": "2024-09-03T09:09:41.564779"
 }
