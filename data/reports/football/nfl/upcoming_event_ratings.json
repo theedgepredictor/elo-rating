@@ -650,7 +650,28 @@
       "tournament_id": null,
       "str_event_id": "20240916_texans_bears",
       "season": 2024
+    },
+    {
+      "id": 401671691,
+      "datetime": "2024-09-17T00:15:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "eagles",
+      "home_team_id": 21,
+      "away_team_name": "falcons",
+      "away_team_id": 1,
+      "home_elo_pre": 1536.7878404213,
+      "away_elo_pre": 1399.0947680669,
+      "elo_diff": 62.6930723544,
+      "elo_spread": -2.5077228942,
+      "home_elo_prob": 0.6484378999,
+      "away_elo_prob": 0.3515621001,
+      "home_elo_post": 1542.3428923546,
+      "away_elo_post": 1393.5397161335,
+      "tournament_id": null,
+      "str_event_id": "20240917_eagles_falcons",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-09-03T09:09:41.564779"
+  "lastupdated": "2024-09-04T09:09:53.806662"
 }
