@@ -4724,7 +4724,49 @@
       "tournament_id": null,
       "str_event_id": "20240908_usc_utahstate",
       "season": 2024
+    },
+    {
+      "id": 401636867,
+      "datetime": "2024-09-12T23:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "texasstate",
+      "home_team_id": 326,
+      "away_team_name": "arizonastate",
+      "away_team_id": 9,
+      "home_elo_pre": 1537.3750008976,
+      "away_elo_pre": 1410.7319308142,
+      "elo_diff": 64.6430700835,
+      "elo_spread": -2.5857228033,
+      "home_elo_prob": 0.6325003485,
+      "away_elo_prob": 0.3674996515,
+      "home_elo_post": 1543.2403494195,
+      "away_elo_post": 1404.8665822923,
+      "tournament_id": null,
+      "str_event_id": "20240912_texasstate_arizonastate",
+      "season": 2024
+    },
+    {
+      "id": 401643788,
+      "datetime": "2024-09-12T23:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "southalabama",
+      "home_team_id": 6,
+      "away_team_name": "nwesternstate",
+      "away_team_id": 2466,
+      "home_elo_pre": 1601.3564962322,
+      "away_elo_pre": 1271.4882293046,
+      "elo_diff": 267.8682669275,
+      "elo_spread": -10.7147306771,
+      "home_elo_prob": 0.7554488409,
+      "away_elo_prob": 0.2445511591,
+      "home_elo_post": 1604.953533617,
+      "away_elo_post": 1267.8911919198,
+      "tournament_id": null,
+      "str_event_id": "20240912_southalabama_nwesternstate",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-09-05T09:09:29.040893"
+  "lastupdated": "2024-09-06T09:10:07.229300"
 }
