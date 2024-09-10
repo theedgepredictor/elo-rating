@@ -1,20 +1,20 @@
 {
   "teams": [
     {
-      "id": 401547378,
-      "team_name": "49ers",
-      "rank": 1,
-      "elo_rating": 1810.7613320103,
-      "season": 2023,
-      "lastupdated": "2024-02-11T23:30:00.000Z"
-    },
-    {
       "id": 401671789,
       "team_name": "chiefs",
-      "rank": 2,
+      "rank": 1,
       "elo_rating": 1728.0736034108,
       "season": 2024,
       "lastupdated": "2024-09-06T00:40:00.000Z"
+    },
+    {
+      "id": 401671696,
+      "team_name": "49ers",
+      "rank": 2,
+      "elo_rating": 1723.6830864882,
+      "season": 2024,
+      "lastupdated": "2024-09-10T00:15:00.000Z"
     },
     {
       "id": 401671617,
@@ -201,9 +201,17 @@
       "lastupdated": "2024-09-08T17:00:00.000Z"
     },
     {
+      "id": 401671696,
+      "team_name": "jets",
+      "rank": 26,
+      "elo_rating": 1408.8212409479,
+      "season": 2024,
+      "lastupdated": "2024-09-10T00:15:00.000Z"
+    },
+    {
       "id": 401671719,
       "team_name": "titans",
-      "rank": 26,
+      "rank": 27,
       "elo_rating": 1391.9232570783,
       "season": 2024,
       "lastupdated": "2024-09-08T17:00:00.000Z"
@@ -211,18 +219,10 @@
     {
       "id": 401671712,
       "team_name": "giants",
-      "rank": 27,
+      "rank": 28,
       "elo_rating": 1390.3083245782,
       "season": 2024,
       "lastupdated": "2024-09-08T17:00:00.000Z"
-    },
-    {
-      "id": 401547648,
-      "team_name": "jets",
-      "rank": 28,
-      "elo_rating": 1382.9951591438,
-      "season": 2023,
-      "lastupdated": "2024-01-07T18:00:00.000Z"
     },
     {
       "id": 401671744,
@@ -257,5 +257,5 @@
       "lastupdated": "2024-09-08T17:00:00.000Z"
     }
   ],
-  "lastupdated": "2024-09-09T09:11:02.870991"
+  "lastupdated": "2024-09-10T09:10:34.283451"
 }
