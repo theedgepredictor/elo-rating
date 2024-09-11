@@ -650,7 +650,28 @@
       "tournament_id": null,
       "str_event_id": "20240923_bills_jaguars",
       "season": 2024
+    },
+    {
+      "id": 401671490,
+      "datetime": "2024-09-24T00:15:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "bengals",
+      "home_team_id": 4,
+      "away_team_name": "commanders",
+      "away_team_id": 28,
+      "home_elo_pre": 1537.623102563,
+      "away_elo_pre": 1324.2857622345,
+      "elo_diff": 138.3373403284,
+      "elo_spread": -5.5334936131,
+      "home_elo_prob": 0.6963341184,
+      "away_elo_prob": 0.3036658816,
+      "home_elo_post": 1542.2754794912,
+      "away_elo_post": 1319.6333853064,
+      "tournament_id": null,
+      "str_event_id": "20240924_bengals_commanders",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-09-10T09:10:34.124993"
+  "lastupdated": "2024-09-11T09:09:19.018883"
 }
