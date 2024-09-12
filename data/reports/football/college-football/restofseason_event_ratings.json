@@ -719,20 +719,20 @@
       "datetime": "2024-09-14T19:00:00.000Z",
       "neutral_site": 1,
       "is_postseason": 0,
-      "home_team_name": "howard",
-      "home_team_id": 47,
-      "away_team_name": "morehouse",
-      "away_team_id": 60,
-      "home_elo_pre": 1487.2916974567,
-      "away_elo_pre": 1411.2206183259,
-      "elo_diff": 76.0710791308,
-      "elo_spread": -3.0428431652,
-      "home_elo_prob": 0.554519912,
-      "away_elo_prob": 0.445480088,
-      "home_elo_post": 1494.753274487,
-      "away_elo_post": 1403.7590412955,
+      "home_team_name": "morehouse",
+      "home_team_id": 60,
+      "away_team_name": "howard",
+      "away_team_id": 47,
+      "home_elo_pre": 1411.2206183259,
+      "away_elo_pre": 1487.2916974567,
+      "elo_diff": -76.0710791308,
+      "elo_spread": 3.0428431652,
+      "home_elo_prob": 0.445480088,
+      "away_elo_prob": 0.554519912,
+      "home_elo_post": 1403.7590412955,
+      "away_elo_post": 1494.753274487,
       "tournament_id": null,
-      "str_event_id": "20240914_howard_morehouse",
+      "str_event_id": "20240914_morehouse_howard",
       "season": 2024
     },
     {
@@ -27553,5 +27553,5 @@
       "season": 2024
     }
   ],
-  "lastupdated": "2024-09-11T09:09:17.536910"
+  "lastupdated": "2024-09-12T09:10:11.397257"
 }
