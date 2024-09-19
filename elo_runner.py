@@ -63,7 +63,7 @@ def run_elo_for_sport(event_root_path: str, elo_root_path: str, sport: ESPNSport
         elo_df = er.run_to_date()
         elo_df = elo_df.rename(columns={'home_team_name': 'home_team_id', 'away_team_name': 'away_team_id'})
         elo_df = pd.merge(elo_df, df[['id', 'str_event_id', 'home_team_name', 'away_team_name', 'is_postseason', 'tournament_id', 'is_finished', 'datetime']], on=['str_event_id'])
-        elo_df = elo_df.loc[elo_df.season == season]
+        elo_df = elo_df.loc[elo_df.season == season].copy()
         put_dataframe(elo_df, f'{elo_root_path}/{sport.value}/{season}.parquet', ELO_SCHEMA)
 
 

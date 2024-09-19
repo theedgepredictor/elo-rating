@@ -82,12 +82,13 @@ def run_events_for_sport(root_path: str, sport: ESPNSportTypes, espn_events_api:
         else:
             # Upsert will be shifted back two days to make sure we do not miss any games
             try:
-                start_date = pd.Timestamp(pd.Timestamp(fs_df.loc[fs_df['is_finished'] == True].datetime.max()).to_pydatetime() - datetime.timedelta(days=7)).strftime('%Y%m%d')
+                start_date = pd.Timestamp(pd.Timestamp(fs_df.loc[fs_df['is_finished'] == 1].datetime.max()).to_pydatetime() - datetime.timedelta(days=7)).strftime('%Y%m%d')
                 dates = f"{start_date}-{end_date}"
                 print(f'    Updating data from {dates}...')
                 on_days = [day for day in on_days if pd.Timestamp(start_date).to_pydatetime() <= day <= pd.Timestamp(end_date).to_pydatetime()]
 
-                fs_df = fs_df.loc[((fs_df.season == season) & (fs_df.is_finished == True) & (fs_df.datetime <= start_date))]
+                fs_df = fs_df.loc[((fs_df.season == season) & (fs_df.is_finished == True) & (fs_df.datetime <= fs_df.loc[fs_df['is_finished'] == True].datetime.max()))]
+
             except Exception as e:
                 print(f'Issue with Upsert for {sport.value} - {season}. Handling as refresh for Season...')
                 fs_df = pd.DataFrame()
@@ -102,7 +103,6 @@ def run_events_for_sport(root_path: str, sport: ESPNSportTypes, espn_events_api:
 
         missed_dates = []
         for date in on_days:
-            print(date.strftime('%Y%m%d'))
             try:
                 res = espn_events_api.get_events_for_elo(sport, date.strftime('%Y%m%d'), groups=groups)
                 events.extend(res)
@@ -121,12 +121,12 @@ def run_events_for_sport(root_path: str, sport: ESPNSportTypes, espn_events_api:
 
         df = df.loc[((df.away_team_id.isin(team_ids)) & (df.home_team_id.isin(team_ids)))].copy()
 
-        df = pd.concat([fs_df, df], ignore_index=True).drop_duplicates(['id'], keep='last')
+        df = pd.concat([fs_df, df], ignore_index=True).drop_duplicates(['str_event_id'], keep='last')
         df = df.sort_values(['datetime'])
 
         if season != seasons[-1]:
-            df = df.loc[((df.home_team_score.notnull()) & (df.away_team_score.notnull()))]
-        df = df.loc[df.season == season]
+            df = df.loc[((df.home_team_score.notnull()) & (df.away_team_score.notnull()))].copy()
+        df = df.loc[df.season == season].copy()
         put_dataframe(df, f'{root_path}/{sport.value}/{season}.parquet', espn_events_api.SCHEMA)
 
 
@@ -137,7 +137,7 @@ def main():
     Returns:
         None
     """
-    sports = [ESPNSportTypes.NFL]#get_active_sports()
+    sports = [ESPNSportTypes.NBA, ESPNSportTypes.COLLEGE_BASKETBALL]#get_active_sports()
     status_reports = {}
     for sport in sports:
         start = time.time()
