@@ -419,7 +419,7 @@ def run_reports_for_sport(elo_root_path: str, report_root_path: str, sport: ESPN
     elo_df['point_dif'] = elo_df.away_team_score - elo_df.home_team_score
 
     # Generate Gamma Distribution for calculating spreads from probabilities
-    elo_df['elo_diff'] = (elo_df['home_elo_pre'] - (elo_df['away_elo_pre'] + (elo_df['neutral_site'] == 0) * ELO_HYPERPARAMETERS[sport]['hfa']))
+    elo_df['elo_diff'] = (elo_df['home_elo_pre'] + (elo_df['neutral_site'] == 0) * ELO_HYPERPARAMETERS[sport]['hfa']) - elo_df['away_elo_pre']
     if sport in [ESPNSportTypes.SOCCER_EPL]:
         shape, loc, scale = generate_gamma_distribution(elo_df.loc[elo_df.is_finished == 1].sort_values(['datetime']))
         elo_df['elo_spread'] = [calculate_spread_from_probability(prob, shape, loc, scale) for prob in elo_df.home_elo_prob.values]
