@@ -965,7 +965,49 @@
       "tournament_id": null,
       "str_event_id": "20240922_mets_phillies",
       "season": 2024
+    },
+    {
+      "id": 401570812,
+      "datetime": "2024-09-23T22:40:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "phillies",
+      "home_team_id": 22,
+      "away_team_name": "cubs",
+      "away_team_id": 16,
+      "home_elo_pre": 1573.9563464585,
+      "away_elo_pre": 1553.64228052,
+      "elo_diff": 70.3140659385,
+      "elo_spread": -5.6251252751,
+      "home_elo_prob": 0.5504230538,
+      "away_elo_prob": 0.4495769462,
+      "home_elo_post": 1575.4662049277,
+      "away_elo_post": 1552.1324220508,
+      "tournament_id": null,
+      "str_event_id": "20240923_phillies_cubs",
+      "season": 2024
+    },
+    {
+      "id": 401570811,
+      "datetime": "2024-09-23T23:07:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "bluejays",
+      "home_team_id": 14,
+      "away_team_name": "redsox",
+      "away_team_id": 2,
+      "home_elo_pre": 1498.9136726955,
+      "away_elo_pre": 1491.4809702364,
+      "elo_diff": 57.4327024591,
+      "elo_spread": -4.5946161967,
+      "home_elo_prob": 0.5412323027,
+      "away_elo_prob": 0.4587676973,
+      "home_elo_post": 1500.4631890516,
+      "away_elo_post": 1489.9314538802,
+      "tournament_id": null,
+      "str_event_id": "20240923_bluejays_redsox",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-09-21T09:08:37.249791"
+  "lastupdated": "2024-09-22T09:08:55.264237"
 }
