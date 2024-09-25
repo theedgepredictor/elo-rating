@@ -944,7 +944,28 @@
       "tournament_id": null,
       "str_event_id": "20241007_steelers_cowboys",
       "season": 2024
+    },
+    {
+      "id": 401671687,
+      "datetime": "2024-10-08T00:15:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "chiefs",
+      "home_team_id": 12,
+      "away_team_name": "saints",
+      "away_team_id": 18,
+      "home_elo_pre": 1743.9833679277,
+      "away_elo_pre": 1619.0075334442,
+      "elo_diff": 199.9758344835,
+      "elo_spread": -7.9990333793,
+      "home_elo_prob": 0.6400489757,
+      "away_elo_prob": 0.3599510243,
+      "home_elo_post": 1749.7011117788,
+      "away_elo_post": 1613.2897895931,
+      "tournament_id": null,
+      "str_event_id": "20241008_chiefs_saints",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-09-24T09:09:57.974968"
+  "lastupdated": "2024-09-25T09:09:50.578417"
 }
