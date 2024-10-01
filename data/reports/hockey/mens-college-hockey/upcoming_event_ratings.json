@@ -503,7 +503,49 @@
       "tournament_id": null,
       "str_event_id": "20241006_stthomasminnesotatommies_stcloudstatehuskies",
       "season": 2025
+    },
+    {
+      "id": 401712187,
+      "datetime": "2024-10-07T01:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "alaskaanchorageseawolves",
+      "home_team_id": 1,
+      "away_team_name": "denverpioneers",
+      "away_team_id": 2172,
+      "home_elo_pre": 1438.5166397399,
+      "away_elo_pre": 1649.9037272557,
+      "elo_diff": -206.3870875157,
+      "elo_spread": 6.8795695839,
+      "home_elo_prob": 0.3557107687,
+      "away_elo_prob": 0.6442892313,
+      "home_elo_post": 1436.262506068,
+      "away_elo_post": 1652.1578609277,
+      "tournament_id": null,
+      "str_event_id": "20241007_alaskaanchorageseawolves_denverpioneers",
+      "season": 2025
+    },
+    {
+      "id": 401713425,
+      "datetime": "2024-10-07T01:07:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "alaskabulldogs",
+      "home_team_id": 298,
+      "away_team_name": "pennstatenittanylions",
+      "away_team_id": 213,
+      "home_elo_pre": 1529.615973858,
+      "away_elo_pre": 1503.2482688101,
+      "elo_diff": 31.3677050478,
+      "elo_spread": -1.0455901683,
+      "home_elo_prob": 0.5225555591,
+      "away_elo_prob": 0.4774444409,
+      "home_elo_post": 1532.8788443749,
+      "away_elo_post": 1499.9853982932,
+      "tournament_id": null,
+      "str_event_id": "20241007_alaskabulldogs_pennstatenittanylions",
+      "season": 2025
     }
   ],
-  "lastupdated": "2024-09-30T09:10:50.754848"
+  "lastupdated": "2024-10-01T09:10:17.500904"
 }
