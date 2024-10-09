@@ -1532,7 +1532,49 @@
       "tournament_id": null,
       "str_event_id": "20241021_steelers_jets",
       "season": 2024
+    },
+    {
+      "id": 401671695,
+      "datetime": "2024-10-22T00:15:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "buccaneers",
+      "home_team_id": 27,
+      "away_team_name": "ravens",
+      "away_team_id": 33,
+      "home_elo_pre": 1591.9494795812,
+      "away_elo_pre": 1612.335811187,
+      "elo_diff": 54.6136683942,
+      "elo_spread": -2.1845467358,
+      "home_elo_prob": 0.5392169758,
+      "away_elo_prob": 0.4607830242,
+      "home_elo_post": 1599.7408254875,
+      "away_elo_post": 1604.5444652807,
+      "tournament_id": null,
+      "str_event_id": "20241022_buccaneers_ravens",
+      "season": 2024
+    },
+    {
+      "id": 401671699,
+      "datetime": "2024-10-22T01:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "cardinals",
+      "home_team_id": 22,
+      "away_team_name": "chargers",
+      "away_team_id": 24,
+      "home_elo_pre": 1405.944860918,
+      "away_elo_pre": 1486.2455402438,
+      "elo_diff": -5.3006793258,
+      "elo_spread": 0.212027173,
+      "home_elo_prob": 0.4961859286,
+      "away_elo_prob": 0.5038140714,
+      "home_elo_post": 1397.3672808007,
+      "away_elo_post": 1494.8231203611,
+      "tournament_id": null,
+      "str_event_id": "20241022_cardinals_chargers",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-10-08T09:10:09.724412"
+  "lastupdated": "2024-10-09T09:10:25.960728"
 }
