@@ -1868,7 +1868,28 @@
       "tournament_id": null,
       "str_event_id": "20241027_broncos_panthers",
       "season": 2024
+    },
+    {
+      "id": 401671795,
+      "datetime": "2024-10-28T00:20:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "49ers",
+      "home_team_id": 25,
+      "away_team_name": "cowboys",
+      "away_team_id": 6,
+      "home_elo_pre": 1722.5612558523,
+      "away_elo_pre": 1612.2501900412,
+      "elo_diff": 185.3110658111,
+      "elo_spread": -7.4124426324,
+      "home_elo_prob": 0.6302683298,
+      "away_elo_prob": 0.3697316702,
+      "home_elo_post": 1728.4704706982,
+      "away_elo_post": 1606.3409751952,
+      "tournament_id": null,
+      "str_event_id": "20241028_49ers_cowboys",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-10-14T09:11:18.128259"
+  "lastupdated": "2024-10-15T09:10:16.723661"
 }
