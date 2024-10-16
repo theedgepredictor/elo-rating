@@ -11633,7 +11633,49 @@
       "tournament_id": null,
       "str_event_id": "20241020_sacramentostate_weberstate",
       "season": 2024
+    },
+    {
+      "id": 401640984,
+      "datetime": "2024-10-22T23:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "fiu",
+      "home_team_id": 2229,
+      "away_team_name": "samhouston",
+      "away_team_id": 2534,
+      "home_elo_pre": 1289.5138235781,
+      "away_elo_pre": 1495.8463407836,
+      "elo_diff": -144.3325172055,
+      "elo_spread": 5.7733006882,
+      "home_elo_prob": 0.3976126521,
+      "away_elo_prob": 0.6023873479,
+      "home_elo_post": 1283.0479213358,
+      "away_elo_post": 1502.312243026,
+      "tournament_id": null,
+      "str_event_id": "20241022_fiu_samhouston",
+      "season": 2024
+    },
+    {
+      "id": 401641011,
+      "datetime": "2024-10-23T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "louisianatech",
+      "home_team_id": 2348,
+      "away_team_name": "utep",
+      "away_team_id": 2638,
+      "home_elo_pre": 1397.6067807249,
+      "away_elo_pre": 1303.0984056141,
+      "elo_diff": 156.5083751108,
+      "elo_spread": -6.2603350044,
+      "home_elo_prob": 0.6107503364,
+      "away_elo_prob": 0.3892496636,
+      "home_elo_post": 1403.9039795955,
+      "away_elo_post": 1296.8012067435,
+      "tournament_id": null,
+      "str_event_id": "20241023_louisianatech_utep",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-10-15T09:10:15.193255"
+  "lastupdated": "2024-10-16T09:10:31.221736"
 }

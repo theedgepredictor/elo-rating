@@ -1889,7 +1889,28 @@
       "tournament_id": null,
       "str_event_id": "20241028_49ers_cowboys",
       "season": 2024
+    },
+    {
+      "id": 401671685,
+      "datetime": "2024-10-29T00:15:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "steelers",
+      "home_team_id": 23,
+      "away_team_name": "giants",
+      "away_team_id": 19,
+      "home_elo_pre": 1619.5079451794,
+      "away_elo_pre": 1342.4869449489,
+      "elo_diff": 352.0210002305,
+      "elo_spread": -14.0808400092,
+      "home_elo_prob": 0.7336455138,
+      "away_elo_prob": 0.2663544862,
+      "home_elo_post": 1623.4868534095,
+      "away_elo_post": 1338.5080367188,
+      "tournament_id": null,
+      "str_event_id": "20241029_steelers_giants",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-10-15T09:10:16.723661"
+  "lastupdated": "2024-10-16T09:10:32.710033"
 }
