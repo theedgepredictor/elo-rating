@@ -11675,7 +11675,49 @@
       "tournament_id": null,
       "str_event_id": "20241023_louisianatech_utep",
       "season": 2024
+    },
+    {
+      "id": 401640993,
+      "datetime": "2024-10-23T23:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "kennesawstate",
+      "home_team_id": 338,
+      "away_team_name": "liberty",
+      "away_team_id": 2335,
+      "home_elo_pre": 1371.6657751575,
+      "away_elo_pre": 1769.7568721459,
+      "elo_diff": -336.0910969883,
+      "elo_spread": 13.4436438795,
+      "home_elo_prob": 0.27540943,
+      "away_elo_prob": 0.72459057,
+      "home_elo_post": 1367.5257583187,
+      "away_elo_post": 1773.8968889847,
+      "tournament_id": null,
+      "str_event_id": "20241023_kennesawstate_liberty",
+      "season": 2024
+    },
+    {
+      "id": 401641003,
+      "datetime": "2024-10-23T23:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "jaxstate",
+      "home_team_id": 55,
+      "away_team_name": "mtsu",
+      "away_team_id": 2393,
+      "home_elo_pre": 1551.1903665109,
+      "away_elo_pre": 1421.0373586931,
+      "elo_diff": 192.1530078178,
+      "elo_spread": -7.6861203127,
+      "home_elo_prob": 0.6348454313,
+      "away_elo_prob": 0.3651545687,
+      "home_elo_post": 1557.0097360248,
+      "away_elo_post": 1415.2179891791,
+      "tournament_id": null,
+      "str_event_id": "20241023_jaxstate_mtsu",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-10-16T09:10:31.221736"
+  "lastupdated": "2024-10-17T09:10:14.137060"
 }
