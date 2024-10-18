@@ -11717,7 +11717,49 @@
       "tournament_id": null,
       "str_event_id": "20241023_jaxstate_mtsu",
       "season": 2024
+    },
+    {
+      "id": 401643815,
+      "datetime": "2024-10-24T23:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "olddominion",
+      "home_team_id": 295,
+      "away_team_name": "gasouthern",
+      "away_team_id": 290,
+      "home_elo_pre": 1368.9637253187,
+      "away_elo_pre": 1504.9829254364,
+      "elo_diff": -74.0192001176,
+      "elo_spread": 2.9607680047,
+      "home_elo_prob": 0.4469394448,
+      "away_elo_prob": 0.5530605552,
+      "home_elo_post": 1361.4709500243,
+      "away_elo_post": 1512.4757007308,
+      "tournament_id": null,
+      "str_event_id": "20241024_olddominion_gasouthern",
+      "season": 2024
+    },
+    {
+      "id": 401634770,
+      "datetime": "2024-10-24T23:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "pitt",
+      "home_team_id": 221,
+      "away_team_name": "syracuse",
+      "away_team_id": 183,
+      "home_elo_pre": 1564.3901834186,
+      "away_elo_pre": 1512.7707569033,
+      "elo_diff": 113.6194265153,
+      "elo_spread": -4.5447770606,
+      "home_elo_prob": 0.5810348504,
+      "away_elo_prob": 0.4189651496,
+      "home_elo_post": 1571.2937596888,
+      "away_elo_post": 1505.8671806331,
+      "tournament_id": null,
+      "str_event_id": "20241024_pitt_syracuse",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-10-17T09:10:14.137060"
+  "lastupdated": "2024-10-18T09:10:16.641764"
 }
