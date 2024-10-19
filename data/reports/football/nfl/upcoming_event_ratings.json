@@ -1910,7 +1910,28 @@
       "tournament_id": null,
       "str_event_id": "20241029_steelers_giants",
       "season": 2024
+    },
+    {
+      "id": 401671809,
+      "datetime": "2024-11-01T00:15:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "jets",
+      "home_team_id": 20,
+      "away_team_name": "texans",
+      "away_team_id": 34,
+      "home_elo_pre": 1425.5155678203,
+      "away_elo_pre": 1519.0403063198,
+      "elo_diff": -18.5247384995,
+      "elo_spread": 0.74098954,
+      "home_elo_prob": 0.4866735361,
+      "away_elo_prob": 0.5133264639,
+      "home_elo_post": 1417.1525772728,
+      "away_elo_post": 1527.4032968672,
+      "tournament_id": null,
+      "str_event_id": "20241101_jets_texans",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-10-18T09:10:18.093506"
+  "lastupdated": "2024-10-19T09:09:08.160799"
 }

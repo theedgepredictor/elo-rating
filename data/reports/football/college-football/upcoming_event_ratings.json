@@ -11759,7 +11759,49 @@
       "tournament_id": null,
       "str_event_id": "20241024_pitt_syracuse",
       "season": 2024
+    },
+    {
+      "id": 401673036,
+      "datetime": "2024-10-25T23:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "penn",
+      "home_team_id": 219,
+      "away_team_name": "yale",
+      "away_team_id": 43,
+      "home_elo_pre": 1570.1611997295,
+      "away_elo_pre": 1664.4738404313,
+      "elo_diff": -32.3126407018,
+      "elo_spread": 1.2925056281,
+      "home_elo_prob": 0.4767659307,
+      "away_elo_prob": 0.5232340693,
+      "home_elo_post": 1562.0190638544,
+      "away_elo_post": 1672.6159763065,
+      "tournament_id": null,
+      "str_event_id": "20241025_penn_yale",
+      "season": 2024
+    },
+    {
+      "id": 401634771,
+      "datetime": "2024-10-25T23:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "bostoncollege",
+      "home_team_id": 103,
+      "away_team_name": "louisville",
+      "away_team_id": 97,
+      "home_elo_pre": 1579.1540367441,
+      "away_elo_pre": 1735.6874279009,
+      "elo_diff": -94.5333911568,
+      "elo_spread": 3.7813356463,
+      "home_elo_prob": 0.4323943276,
+      "away_elo_prob": 0.5676056724,
+      "home_elo_post": 1571.9699137924,
+      "away_elo_post": 1742.8715508527,
+      "tournament_id": null,
+      "str_event_id": "20241025_bostoncollege_louisville",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-10-18T09:10:16.641764"
+  "lastupdated": "2024-10-19T09:09:06.645465"
 }
