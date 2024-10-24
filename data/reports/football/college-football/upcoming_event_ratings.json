@@ -14111,7 +14111,49 @@
       "tournament_id": null,
       "str_event_id": "20241030_samhouston_louisianatech",
       "season": 2024
+    },
+    {
+      "id": 401640994,
+      "datetime": "2024-10-30T23:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "liberty",
+      "home_team_id": 2335,
+      "away_team_name": "jaxstate",
+      "away_team_id": 55,
+      "home_elo_pre": 1773.8968889847,
+      "away_elo_pre": 1557.0097360248,
+      "elo_diff": 278.8871529599,
+      "elo_spread": -11.1554861184,
+      "home_elo_prob": 0.6905521151,
+      "away_elo_prob": 0.3094478849,
+      "home_elo_post": 1778.6559241341,
+      "away_elo_post": 1552.2507008754,
+      "tournament_id": null,
+      "str_event_id": "20241030_liberty_jaxstate",
+      "season": 2024
+    },
+    {
+      "id": 401641020,
+      "datetime": "2024-10-30T23:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "westernky",
+      "home_team_id": 98,
+      "away_team_name": "kennesawstate",
+      "away_team_id": 338,
+      "home_elo_pre": 1626.575710365,
+      "away_elo_pre": 1367.5257583187,
+      "elo_diff": 321.0499520463,
+      "elo_spread": -12.8419980819,
+      "home_elo_prob": 0.7158678309,
+      "away_elo_prob": 0.2841321691,
+      "home_elo_post": 1630.8723319559,
+      "away_elo_post": 1363.2291367277,
+      "tournament_id": null,
+      "str_event_id": "20241030_westernky_kennesawstate",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-10-23T09:10:11.629283"
+  "lastupdated": "2024-10-24T09:09:46.015060"
 }
