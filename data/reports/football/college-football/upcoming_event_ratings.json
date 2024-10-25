@@ -14153,7 +14153,49 @@
       "tournament_id": null,
       "str_event_id": "20241030_westernky_kennesawstate",
       "season": 2024
+    },
+    {
+      "id": 401654541,
+      "datetime": "2024-10-31T23:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "scstate",
+      "home_team_id": 2569,
+      "away_team_name": "nccentral",
+      "away_team_id": 2428,
+      "home_elo_pre": 1409.5082327507,
+      "away_elo_pre": 1560.7830979395,
+      "elo_diff": -89.2748651888,
+      "elo_spread": 3.5709946076,
+      "home_elo_prob": 0.4361126989,
+      "away_elo_prob": 0.5638873011,
+      "home_elo_post": 1402.2456859623,
+      "away_elo_post": 1568.0456447279,
+      "tournament_id": null,
+      "str_event_id": "20241031_scstate_nccentral",
+      "season": 2024
+    },
+    {
+      "id": 401645356,
+      "datetime": "2024-10-31T23:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "charlotte",
+      "home_team_id": 2429,
+      "away_team_name": "tulane",
+      "away_team_id": 2655,
+      "home_elo_pre": 1270.2153369249,
+      "away_elo_pre": 1653.0683451178,
+      "elo_diff": -320.8530081929,
+      "elo_spread": 12.8341203277,
+      "home_elo_prob": 0.2842474811,
+      "away_elo_prob": 0.7157525189,
+      "home_elo_post": 1265.9166357825,
+      "away_elo_post": 1657.3670462603,
+      "tournament_id": null,
+      "str_event_id": "20241031_charlotte_tulane",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-10-24T09:09:46.015060"
+  "lastupdated": "2024-10-25T09:10:24.636850"
 }
