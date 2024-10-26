@@ -2225,7 +2225,28 @@
       "tournament_id": null,
       "str_event_id": "20241105_chiefs_buccaneers",
       "season": 2024
+    },
+    {
+      "id": 401671810,
+      "datetime": "2024-11-08T01:15:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "ravens",
+      "home_team_id": 33,
+      "away_team_name": "bengals",
+      "away_team_id": 4,
+      "home_elo_pre": 1617.2741981963,
+      "away_elo_pre": 1568.259357546,
+      "elo_diff": 124.0148406503,
+      "elo_spread": -4.960593626,
+      "home_elo_prob": 0.5883003176,
+      "away_elo_prob": 0.4116996824,
+      "home_elo_post": 1624.0277119011,
+      "away_elo_post": 1561.5058438412,
+      "tournament_id": null,
+      "str_event_id": "20241108_ravens_bengals",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-10-25T09:10:26.124449"
+  "lastupdated": "2024-10-26T09:08:35.037734"
 }
