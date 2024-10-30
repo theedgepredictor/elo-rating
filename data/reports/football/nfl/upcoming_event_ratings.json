@@ -2498,7 +2498,28 @@
       "tournament_id": null,
       "str_event_id": "20241111_texans_lions",
       "season": 2024
+    },
+    {
+      "id": 401671693,
+      "datetime": "2024-11-12T01:15:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "rams",
+      "home_team_id": 14,
+      "away_team_name": "dolphins",
+      "away_team_id": 15,
+      "home_elo_pre": 1431.3853894553,
+      "away_elo_pre": 1548.2903035278,
+      "elo_diff": -41.9049140726,
+      "elo_spread": 1.6761965629,
+      "home_elo_prob": 0.469883491,
+      "away_elo_prob": 0.530116509,
+      "home_elo_post": 1423.3951250946,
+      "away_elo_post": 1556.2805678885,
+      "tournament_id": null,
+      "str_event_id": "20241112_rams_dolphins",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-10-29T09:10:28.664768"
+  "lastupdated": "2024-10-30T09:10:09.171892"
 }
