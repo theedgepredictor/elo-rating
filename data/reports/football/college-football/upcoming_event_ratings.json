@@ -16337,7 +16337,49 @@
       "tournament_id": null,
       "str_event_id": "20241105_cmichigan_bowlinggreen",
       "season": 2024
+    },
+    {
+      "id": 401644762,
+      "datetime": "2024-11-07T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "wmichigan",
+      "home_team_id": 2711,
+      "away_team_name": "nillinois",
+      "away_team_id": 2459,
+      "home_elo_pre": 1421.9950717892,
+      "away_elo_pre": 1531.3467784319,
+      "elo_diff": -47.3517066427,
+      "elo_spread": 1.8940682657,
+      "home_elo_prob": 0.4659803507,
+      "away_elo_prob": 0.5340196493,
+      "home_elo_post": 1414.090384199,
+      "away_elo_post": 1539.251466022,
+      "tournament_id": null,
+      "str_event_id": "20241107_wmichigan_nillinois",
+      "season": 2024
+    },
+    {
+      "id": 401644761,
+      "datetime": "2024-11-07T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "kentstate",
+      "home_team_id": 2309,
+      "away_team_name": "ohio",
+      "away_team_id": 195,
+      "home_elo_pre": 1227.9233406354,
+      "away_elo_pre": 1638.4970809128,
+      "elo_diff": -348.5737402774,
+      "elo_spread": 13.9429496111,
+      "home_elo_prob": 0.2682978334,
+      "away_elo_prob": 0.7317021666,
+      "home_elo_post": 1223.9099806876,
+      "away_elo_post": 1642.5104408606,
+      "tournament_id": null,
+      "str_event_id": "20241107_kentstate_ohio",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-10-30T09:10:07.688470"
+  "lastupdated": "2024-10-31T09:09:54.131664"
 }
