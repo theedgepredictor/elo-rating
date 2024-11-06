@@ -2792,7 +2792,28 @@
       "tournament_id": null,
       "str_event_id": "20241118_jets_colts",
       "season": 2024
+    },
+    {
+      "id": 401671694,
+      "datetime": "2024-11-19T01:15:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "cowboys",
+      "home_team_id": 6,
+      "away_team_name": "texans",
+      "away_team_id": 34,
+      "home_elo_pre": 1619.2253728914,
+      "away_elo_pre": 1535.7577595732,
+      "elo_diff": 158.4676133183,
+      "elo_spread": -6.3387045327,
+      "home_elo_prob": 0.6120901136,
+      "away_elo_prob": 0.3879098864,
+      "home_elo_post": 1625.4956838928,
+      "away_elo_post": 1529.4874485717,
+      "tournament_id": null,
+      "str_event_id": "20241119_cowboys_texans",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-11-05T09:10:50.611136"
+  "lastupdated": "2024-11-06T09:10:09.821364"
 }
