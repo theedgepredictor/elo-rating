@@ -2813,7 +2813,28 @@
       "tournament_id": null,
       "str_event_id": "20241119_cowboys_texans",
       "season": 2024
+    },
+    {
+      "id": 401671875,
+      "datetime": "2024-11-22T01:15:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "browns",
+      "home_team_id": 5,
+      "away_team_name": "steelers",
+      "away_team_id": 23,
+      "home_elo_pre": 1497.1523824849,
+      "away_elo_pre": 1636.036434321,
+      "elo_diff": -63.8840518361,
+      "elo_spread": 2.5553620734,
+      "home_elo_prob": 0.4541608061,
+      "away_elo_prob": 0.5458391939,
+      "home_elo_post": 1489.5044574457,
+      "away_elo_post": 1643.6843593602,
+      "tournament_id": null,
+      "str_event_id": "20241122_browns_steelers",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-11-08T09:09:48.716709"
+  "lastupdated": "2024-11-09T09:08:55.151511"
 }
