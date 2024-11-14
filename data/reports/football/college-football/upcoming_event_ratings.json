@@ -21083,7 +21083,49 @@
       "tournament_id": null,
       "str_event_id": "20241119_kentstate_akron",
       "season": 2024
+    },
+    {
+      "id": 401644772,
+      "datetime": "2024-11-21T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "emichigan",
+      "home_team_id": 2199,
+      "away_team_name": "buffalo",
+      "away_team_id": 2084,
+      "home_elo_pre": 1521.5533197516,
+      "away_elo_pre": 1453.7682476169,
+      "elo_diff": 129.7850721347,
+      "elo_spread": -5.1914028854,
+      "home_elo_prob": 0.5923168582,
+      "away_elo_prob": 0.4076831418,
+      "home_elo_post": 1528.2243828056,
+      "away_elo_post": 1447.0971845629,
+      "tournament_id": null,
+      "str_event_id": "20241121_emichigan_buffalo",
+      "season": 2024
+    },
+    {
+      "id": 401644773,
+      "datetime": "2024-11-21T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "toledo",
+      "home_team_id": 2649,
+      "away_team_name": "ohio",
+      "away_team_id": 195,
+      "home_elo_pre": 1761.882731814,
+      "away_elo_pre": 1648.5308406113,
+      "elo_diff": 175.3518912027,
+      "elo_spread": -7.0140756481,
+      "home_elo_prob": 0.623563989,
+      "away_elo_prob": 0.376436011,
+      "home_elo_post": 1767.9243233083,
+      "away_elo_post": 1642.4892491171,
+      "tournament_id": null,
+      "str_event_id": "20241121_toledo_ohio",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-11-13T09:09:53.940329"
+  "lastupdated": "2024-11-14T09:09:46.611505"
 }
