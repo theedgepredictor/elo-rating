@@ -3086,7 +3086,49 @@
       "tournament_id": null,
       "str_event_id": "20241126_chargers_ravens",
       "season": 2024
+    },
+    {
+      "id": 401671492,
+      "datetime": "2024-11-28T17:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "lions",
+      "home_team_id": 8,
+      "away_team_name": "bears",
+      "away_team_id": 3,
+      "home_elo_pre": 1587.0046165288,
+      "away_elo_pre": 1444.8104973122,
+      "elo_diff": 217.1941192166,
+      "elo_spread": -8.6877647687,
+      "home_elo_prob": 0.6513855047,
+      "away_elo_prob": 0.3486144953,
+      "home_elo_post": 1592.5028358865,
+      "away_elo_post": 1439.3122779545,
+      "tournament_id": null,
+      "str_event_id": "20241128_lions_bears",
+      "season": 2024
+    },
+    {
+      "id": 401671779,
+      "datetime": "2024-11-28T21:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "cowboys",
+      "home_team_id": 6,
+      "away_team_name": "giants",
+      "away_team_id": 19,
+      "home_elo_pre": 1630.5013876806,
+      "away_elo_pre": 1345.7746062179,
+      "elo_diff": 359.7267814628,
+      "elo_spread": -14.3890712585,
+      "home_elo_prob": 0.7379569924,
+      "away_elo_prob": 0.2620430076,
+      "home_elo_post": 1634.4041051606,
+      "away_elo_post": 1341.8718887379,
+      "tournament_id": null,
+      "str_event_id": "20241128_cowboys_giants",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-11-14T09:09:48.101112"
+  "lastupdated": "2024-11-15T09:10:02.287432"
 }
