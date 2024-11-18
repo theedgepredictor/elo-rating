@@ -23540,7 +23540,49 @@
       "tournament_id": null,
       "str_event_id": "20241124_wyoming_boisestate",
       "season": 2024
+    },
+    {
+      "id": 401634042,
+      "datetime": "2024-11-24T01:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "mcneese",
+      "home_team_id": 2377,
+      "away_team_name": "lamar",
+      "away_team_id": 2320,
+      "home_elo_pre": 1300.2238025888,
+      "away_elo_pre": 1435.9208684621,
+      "elo_diff": -73.6970658732,
+      "elo_spread": 2.9478826349,
+      "home_elo_prob": 0.4471686399,
+      "away_elo_prob": 0.5528313601,
+      "home_elo_post": 1292.7261228127,
+      "away_elo_post": 1443.4185482382,
+      "tournament_id": null,
+      "str_event_id": "20241124_mcneese_lamar",
+      "season": 2024
+    },
+    {
+      "id": 401643765,
+      "datetime": "2024-11-24T03:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "fresnostate",
+      "home_team_id": 278,
+      "away_team_name": "coloradostate",
+      "away_team_id": 36,
+      "home_elo_pre": 1690.1295471233,
+      "away_elo_pre": 1375.8014133404,
+      "elo_diff": 376.3281337829,
+      "elo_spread": -15.0531253513,
+      "home_elo_prob": 0.747091412,
+      "away_elo_prob": 0.252908588,
+      "home_elo_post": 1693.8719501124,
+      "away_elo_post": 1372.0590103512,
+      "tournament_id": null,
+      "str_event_id": "20241124_fresnostate_coloradostate",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-11-17T09:09:14.389120"
+  "lastupdated": "2024-11-18T09:11:36.854612"
 }
