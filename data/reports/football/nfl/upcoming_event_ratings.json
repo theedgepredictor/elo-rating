@@ -3380,7 +3380,28 @@
       "tournament_id": null,
       "str_event_id": "20241201_ravens_eagles",
       "season": 2024
+    },
+    {
+      "id": 401671781,
+      "datetime": "2024-12-02T01:20:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "bills",
+      "home_team_id": 2,
+      "away_team_name": "49ers",
+      "away_team_id": 25,
+      "home_elo_pre": 1775.4972379744,
+      "away_elo_pre": 1749.1526653056,
+      "elo_diff": 101.3445726688,
+      "elo_spread": -4.0537829068,
+      "home_elo_prob": 0.572410588,
+      "away_elo_prob": 0.427589412,
+      "home_elo_post": 1782.5805022265,
+      "away_elo_post": 1742.0694010535,
+      "tournament_id": null,
+      "str_event_id": "20241202_bills_49ers",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-11-18T09:11:38.343820"
+  "lastupdated": "2024-11-19T09:10:28.945372"
 }
