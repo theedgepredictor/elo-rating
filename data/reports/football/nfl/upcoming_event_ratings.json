@@ -3422,7 +3422,28 @@
       "tournament_id": null,
       "str_event_id": "20241203_broncos_browns",
       "season": 2024
+    },
+    {
+      "id": 401671814,
+      "datetime": "2024-12-06T01:15:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "lions",
+      "home_team_id": 8,
+      "away_team_name": "packers",
+      "away_team_id": 9,
+      "home_elo_pre": 1592.5028358865,
+      "away_elo_pre": 1625.4413296538,
+      "elo_diff": 42.0615062327,
+      "elo_spread": -1.6824602493,
+      "home_elo_prob": 0.5302287758,
+      "away_elo_prob": 0.4697712242,
+      "home_elo_post": 1600.4906332451,
+      "away_elo_post": 1617.4535322952,
+      "tournament_id": null,
+      "str_event_id": "20241206_lions_packers",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-11-22T09:10:28.273226"
+  "lastupdated": "2024-11-23T09:09:49.594781"
 }
