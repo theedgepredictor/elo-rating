@@ -24989,7 +24989,49 @@
       "tournament_id": null,
       "str_event_id": "20241130_washingtonstate_wyoming",
       "season": 2024
+    },
+    {
+      "id": 401643772,
+      "datetime": "2024-12-01T01:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "unlv",
+      "home_team_id": 2439,
+      "away_team_name": "nevada",
+      "away_team_id": 2440,
+      "home_elo_pre": 1647.8857641231,
+      "away_elo_pre": 1254.8660481982,
+      "elo_diff": 455.0197159249,
+      "elo_spread": -18.200788637,
+      "home_elo_prob": 0.7874549202,
+      "away_elo_prob": 0.2125450798,
+      "home_elo_post": 1650.9376722526,
+      "away_elo_post": 1251.8141400686,
+      "tournament_id": null,
+      "str_event_id": "20241201_unlv_nevada",
+      "season": 2024
+    },
+    {
+      "id": 401643771,
+      "datetime": "2024-12-01T04:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "hawaii",
+      "home_team_id": 62,
+      "away_team_name": "newmexico",
+      "away_team_id": 167,
+      "home_elo_pre": 1346.3969787947,
+      "away_elo_pre": 1255.7973493596,
+      "elo_diff": 152.5996294351,
+      "elo_spread": -6.1039851774,
+      "home_elo_prob": 0.6080724512,
+      "away_elo_prob": 0.3919275488,
+      "home_elo_post": 1352.7480344359,
+      "away_elo_post": 1249.4462937185,
+      "tournament_id": null,
+      "str_event_id": "20241201_hawaii_newmexico",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-11-24T09:09:56.796415"
+  "lastupdated": "2024-11-25T09:11:02.607771"
 }
