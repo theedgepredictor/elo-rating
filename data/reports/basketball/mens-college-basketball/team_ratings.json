@@ -1,12 +1,12 @@
 {
   "teams": [
     {
-      "id": 401715610,
+      "id": 401715611,
       "team_name": "uconn",
       "rank": 1,
-      "elo_rating": 2189.1985474979,
+      "elo_rating": 2161.7055480481,
       "season": 2025,
-      "lastupdated": "2024-11-20T00:00:00.000Z"
+      "lastupdated": "2024-11-25T19:30:00.000Z"
     },
     {
       "id": 401707981,
@@ -25,9 +25,17 @@
       "lastupdated": "2024-11-21T02:00:00.000Z"
     },
     {
+      "id": 401714643,
+      "team_name": "auburn",
+      "rank": 4,
+      "elo_rating": 2065.3132117752,
+      "season": 2025,
+      "lastupdated": "2024-11-26T02:00:00.000Z"
+    },
+    {
       "id": 401729733,
       "team_name": "tennessee",
-      "rank": 4,
+      "rank": 5,
       "elo_rating": 2059.3872401279,
       "season": 2025,
       "lastupdated": "2024-11-23T02:30:00.000Z"
@@ -35,18 +43,10 @@
     {
       "id": 401706949,
       "team_name": "houston",
-      "rank": 5,
+      "rank": 6,
       "elo_rating": 2051.5205740091,
       "season": 2025,
       "lastupdated": "2024-11-23T01:00:00.000Z"
-    },
-    {
-      "id": 401711733,
-      "team_name": "auburn",
-      "rank": 6,
-      "elo_rating": 2050.1182243581,
-      "season": 2025,
-      "lastupdated": "2024-11-19T02:00:00.000Z"
     },
     {
       "id": 401714900,
@@ -57,12 +57,12 @@
       "lastupdated": "2024-11-23T16:00:00.000Z"
     },
     {
-      "id": 401706956,
+      "id": 401714643,
       "team_name": "iowastate",
       "rank": 8,
-      "elo_rating": 2008.14203313,
+      "elo_rating": 1992.947045713,
       "season": 2025,
-      "lastupdated": "2024-11-19T01:00:00.000Z"
+      "lastupdated": "2024-11-26T02:00:00.000Z"
     },
     {
       "id": 401707850,
@@ -73,9 +73,17 @@
       "lastupdated": "2024-11-21T02:00:00.000Z"
     },
     {
+      "id": 401716056,
+      "team_name": "northcarolina",
+      "rank": 10,
+      "elo_rating": 1980.5325134508,
+      "season": 2025,
+      "lastupdated": "2024-11-26T04:45:00.000Z"
+    },
+    {
       "id": 401725352,
       "team_name": "saintmarys",
-      "rank": 10,
+      "rank": 11,
       "elo_rating": 1977.0142599469,
       "season": 2025,
       "lastupdated": "2024-11-24T01:00:00.000Z"
@@ -83,42 +91,34 @@
     {
       "id": 401706885,
       "team_name": "duke",
-      "rank": 11,
+      "rank": 12,
       "elo_rating": 1976.7768499637,
       "season": 2025,
       "lastupdated": "2024-11-23T03:30:00.000Z"
     },
     {
+      "id": 401707852,
+      "team_name": "illinois",
+      "rank": 13,
+      "elo_rating": 1974.1170382388,
+      "season": 2025,
+      "lastupdated": "2024-11-26T02:00:00.000Z"
+    },
+    {
       "id": 401729794,
       "team_name": "drake",
-      "rank": 12,
+      "rank": 14,
       "elo_rating": 1967.3244276069,
       "season": 2025,
       "lastupdated": "2024-11-25T01:30:00.000Z"
     },
     {
-      "id": 401700437,
-      "team_name": "northcarolina",
-      "rank": 13,
-      "elo_rating": 1966.7763247702,
-      "season": 2025,
-      "lastupdated": "2024-11-23T05:30:00.000Z"
-    },
-    {
       "id": 401714893,
       "team_name": "florida",
-      "rank": 14,
+      "rank": 15,
       "elo_rating": 1962.4553038425,
       "season": 2025,
       "lastupdated": "2024-11-23T00:00:00.000Z"
-    },
-    {
-      "id": 401707851,
-      "team_name": "illinois",
-      "rank": 15,
-      "elo_rating": 1954.4935154301,
-      "season": 2025,
-      "lastupdated": "2024-11-23T21:00:00.000Z"
     },
     {
       "id": 401714910,
@@ -169,9 +169,17 @@
       "lastupdated": "2024-11-23T00:00:00.000Z"
     },
     {
+      "id": 401715611,
+      "team_name": "memphis",
+      "rank": 22,
+      "elo_rating": 1899.1893198022,
+      "season": 2025,
+      "lastupdated": "2024-11-25T19:30:00.000Z"
+    },
+    {
       "id": 401715631,
       "team_name": "cincinnati",
-      "rank": 22,
+      "rank": 23,
       "elo_rating": 1891.8352767062,
       "season": 2025,
       "lastupdated": "2024-11-23T19:00:00.000Z"
@@ -179,39 +187,47 @@
     {
       "id": 401722260,
       "team_name": "newmexico",
-      "rank": 23,
+      "rank": 24,
       "elo_rating": 1886.0673232381,
       "season": 2025,
       "lastupdated": "2024-11-25T01:00:00.000Z"
     },
     {
+      "id": 401716055,
+      "team_name": "michiganstate",
+      "rank": 25,
+      "elo_rating": 1885.076242278,
+      "season": 2025,
+      "lastupdated": "2024-11-25T22:45:00.000Z"
+    },
+    {
       "id": 401721653,
       "team_name": "oregon",
-      "rank": 24,
+      "rank": 26,
       "elo_rating": 1882.4717480084,
       "season": 2025,
       "lastupdated": "2024-11-22T03:00:00.000Z"
     },
     {
+      "id": 401716066,
+      "team_name": "clemson",
+      "rank": 27,
+      "elo_rating": 1881.8302212572,
+      "season": 2025,
+      "lastupdated": "2024-11-25T23:45:00.000Z"
+    },
+    {
       "id": 401714901,
       "team_name": "stjohns",
-      "rank": 25,
+      "rank": 28,
       "elo_rating": 1881.1401734524,
       "season": 2025,
       "lastupdated": "2024-11-24T16:00:00.000Z"
     },
     {
-      "id": 401706921,
-      "team_name": "colorado",
-      "rank": 26,
-      "elo_rating": 1879.5054241326,
-      "season": 2025,
-      "lastupdated": "2024-11-17T19:00:00.000Z"
-    },
-    {
       "id": 401722265,
       "team_name": "sandiegostate",
-      "rank": 27,
+      "rank": 29,
       "elo_rating": 1878.7891457951,
       "season": 2025,
       "lastupdated": "2024-11-19T03:00:00.000Z"
@@ -219,23 +235,15 @@
     {
       "id": 401715359,
       "team_name": "texasam",
-      "rank": 28,
+      "rank": 30,
       "elo_rating": 1875.8357891052,
       "season": 2025,
       "lastupdated": "2024-11-21T01:00:00.000Z"
     },
     {
-      "id": 401718250,
-      "team_name": "dayton",
-      "rank": 29,
-      "elo_rating": 1875.5011041194,
-      "season": 2025,
-      "lastupdated": "2024-11-21T00:00:00.000Z"
-    },
-    {
       "id": 401729804,
       "team_name": "pitt",
-      "rank": 30,
+      "rank": 31,
       "elo_rating": 1875.3642216491,
       "season": 2025,
       "lastupdated": "2024-11-24T23:30:00.000Z"
@@ -243,7 +251,7 @@
     {
       "id": 401700447,
       "team_name": "mississippistate",
-      "rank": 31,
+      "rank": 32,
       "elo_rating": 1873.0269940159,
       "season": 2025,
       "lastupdated": "2024-11-23T01:30:00.000Z"
@@ -251,18 +259,10 @@
     {
       "id": 401715452,
       "team_name": "creighton",
-      "rank": 32,
+      "rank": 33,
       "elo_rating": 1872.6901814126,
       "season": 2025,
       "lastupdated": "2024-11-23T01:00:00.000Z"
-    },
-    {
-      "id": 401722268,
-      "team_name": "memphis",
-      "rank": 33,
-      "elo_rating": 1871.6963203523,
-      "season": 2025,
-      "lastupdated": "2024-11-22T03:00:00.000Z"
     },
     {
       "id": 401729733,
@@ -289,36 +289,36 @@
       "lastupdated": "2024-11-23T02:00:00.000Z"
     },
     {
+      "id": 401716056,
+      "team_name": "dayton",
+      "rank": 37,
+      "elo_rating": 1861.7449154388,
+      "season": 2025,
+      "lastupdated": "2024-11-26T04:45:00.000Z"
+    },
+    {
       "id": 401729822,
       "team_name": "texas",
-      "rank": 37,
+      "rank": 38,
       "elo_rating": 1860.1356737754,
       "season": 2025,
       "lastupdated": "2024-11-23T02:30:00.000Z"
     },
     {
+      "id": 401715409,
+      "team_name": "ohiostate",
+      "rank": 39,
+      "elo_rating": 1856.9883606791,
+      "season": 2025,
+      "lastupdated": "2024-11-26T00:00:00.000Z"
+    },
+    {
       "id": 401718467,
       "team_name": "washingtonstate",
-      "rank": 38,
+      "rank": 40,
       "elo_rating": 1846.0210131966,
       "season": 2025,
       "lastupdated": "2024-11-22T02:30:00.000Z"
-    },
-    {
-      "id": 401700421,
-      "team_name": "clemson",
-      "rank": 39,
-      "elo_rating": 1845.0848228548,
-      "season": 2025,
-      "lastupdated": "2024-11-22T00:00:00.000Z"
-    },
-    {
-      "id": 401721647,
-      "team_name": "michiganstate",
-      "rank": 40,
-      "elo_rating": 1839.2836170342,
-      "season": 2025,
-      "lastupdated": "2024-11-20T01:00:00.000Z"
     },
     {
       "id": 401715452,
@@ -329,12 +329,12 @@
       "lastupdated": "2024-11-23T01:00:00.000Z"
     },
     {
-      "id": 401715408,
-      "team_name": "ohiostate",
+      "id": 401716055,
+      "team_name": "colorado",
       "rank": 42,
-      "elo_rating": 1838.6574161983,
+      "elo_rating": 1833.7127988888,
       "season": 2025,
-      "lastupdated": "2024-11-22T23:00:00.000Z"
+      "lastupdated": "2024-11-25T22:45:00.000Z"
     },
     {
       "id": 401706913,
@@ -369,9 +369,17 @@
       "lastupdated": "2024-11-23T01:00:00.000Z"
     },
     {
+      "id": 401729773,
+      "team_name": "boisestate",
+      "rank": 47,
+      "elo_rating": 1825.1426638495,
+      "season": 2025,
+      "lastupdated": "2024-11-25T18:55:00.000Z"
+    },
+    {
       "id": 401718351,
       "team_name": "loyolachicago",
-      "rank": 47,
+      "rank": 48,
       "elo_rating": 1823.7469268198,
       "season": 2025,
       "lastupdated": "2024-11-23T23:00:00.000Z"
@@ -379,7 +387,7 @@
     {
       "id": 401729793,
       "team_name": "fau",
-      "rank": 48,
+      "rank": 49,
       "elo_rating": 1822.6107222196,
       "season": 2025,
       "lastupdated": "2024-11-24T23:00:00.000Z"
@@ -387,42 +395,34 @@
     {
       "id": 401729791,
       "team_name": "vcu",
-      "rank": 49,
+      "rank": 50,
       "elo_rating": 1822.5606364968,
       "season": 2025,
       "lastupdated": "2024-11-24T17:30:00.000Z"
     },
     {
-      "id": 401715871,
-      "team_name": "boisestate",
-      "rank": 50,
-      "elo_rating": 1816.3275106723,
+      "id": 401732168,
+      "team_name": "louisianatech",
+      "rank": 51,
+      "elo_rating": 1820.5261484397,
       "season": 2025,
-      "lastupdated": "2024-11-24T16:00:00.000Z"
+      "lastupdated": "2024-11-25T20:00:00.000Z"
     },
     {
-      "id": 401732296,
-      "team_name": "mcneese",
-      "rank": 51,
-      "elo_rating": 1808.642707995,
+      "id": 401715417,
+      "team_name": "pennstate",
+      "rank": 52,
+      "elo_rating": 1813.5452412729,
       "season": 2025,
-      "lastupdated": "2024-11-24T22:30:00.000Z"
+      "lastupdated": "2024-11-25T21:00:00.000Z"
     },
     {
       "id": 401721111,
       "team_name": "indianastate",
-      "rank": 52,
+      "rank": 53,
       "elo_rating": 1803.1365658502,
       "season": 2025,
       "lastupdated": "2024-11-23T00:00:00.000Z"
-    },
-    {
-      "id": 401728318,
-      "team_name": "louisianatech",
-      "rank": 53,
-      "elo_rating": 1801.8087867974,
-      "season": 2025,
-      "lastupdated": "2024-11-19T00:30:00.000Z"
     },
     {
       "id": 401715382,
@@ -449,12 +449,12 @@
       "lastupdated": "2024-11-20T01:00:00.000Z"
     },
     {
-      "id": 401715416,
-      "team_name": "pennstate",
+      "id": 401715330,
+      "team_name": "xavier",
       "rank": 57,
-      "elo_rating": 1790.6722298372,
+      "elo_rating": 1791.0605978842,
       "season": 2025,
-      "lastupdated": "2024-11-21T00:00:00.000Z"
+      "lastupdated": "2024-11-26T01:30:00.000Z"
     },
     {
       "id": 401729793,
@@ -465,20 +465,20 @@
       "lastupdated": "2024-11-24T23:00:00.000Z"
     },
     {
-      "id": 401722268,
-      "team_name": "sanfrancisco",
-      "rank": 59,
-      "elo_rating": 1781.6791786893,
-      "season": 2025,
-      "lastupdated": "2024-11-22T03:00:00.000Z"
-    },
-    {
       "id": 401707860,
       "team_name": "indiana",
-      "rank": 60,
+      "rank": 59,
       "elo_rating": 1780.5539480795,
       "season": 2025,
       "lastupdated": "2024-11-21T23:30:00.000Z"
+    },
+    {
+      "id": 401732300,
+      "team_name": "mcneese",
+      "rank": 60,
+      "elo_rating": 1780.1388052881,
+      "season": 2025,
+      "lastupdated": "2024-11-26T01:15:00.000Z"
     },
     {
       "id": 401715656,
@@ -489,9 +489,17 @@
       "lastupdated": "2024-11-24T20:30:00.000Z"
     },
     {
+      "id": 401722272,
+      "team_name": "northtexas",
+      "rank": 62,
+      "elo_rating": 1776.5970052392,
+      "season": 2025,
+      "lastupdated": "2024-11-26T01:00:00.000Z"
+    },
+    {
       "id": 401722387,
       "team_name": "unlv",
-      "rank": 62,
+      "rank": 63,
       "elo_rating": 1773.8551974174,
       "season": 2025,
       "lastupdated": "2024-11-24T00:00:00.000Z"
@@ -499,31 +507,15 @@
     {
       "id": 401723761,
       "team_name": "grandcanyon",
-      "rank": 63,
+      "rank": 64,
       "elo_rating": 1769.814748919,
       "season": 2025,
       "lastupdated": "2024-11-23T02:00:00.000Z"
     },
     {
-      "id": 401734106,
-      "team_name": "northtexas",
-      "rank": 64,
-      "elo_rating": 1765.599925512,
-      "season": 2025,
-      "lastupdated": "2024-11-22T01:00:00.000Z"
-    },
-    {
-      "id": 401715329,
-      "team_name": "southcarolina",
-      "rank": 65,
-      "elo_rating": 1762.061858554,
-      "season": 2025,
-      "lastupdated": "2024-11-22T00:00:00.000Z"
-    },
-    {
       "id": 401715535,
       "team_name": "providence",
-      "rank": 66,
+      "rank": 65,
       "elo_rating": 1758.8504429248,
       "season": 2025,
       "lastupdated": "2024-11-20T00:00:00.000Z"
@@ -531,23 +523,15 @@
     {
       "id": 401726428,
       "team_name": "samhouston",
-      "rank": 67,
+      "rank": 66,
       "elo_rating": 1757.4730477639,
       "season": 2025,
       "lastupdated": "2024-11-22T00:30:00.000Z"
     },
     {
-      "id": 401706165,
-      "team_name": "xavier",
-      "rank": 68,
-      "elo_rating": 1756.1330057394,
-      "season": 2025,
-      "lastupdated": "2024-11-20T23:30:00.000Z"
-    },
-    {
       "id": 401706984,
       "team_name": "tcu",
-      "rank": 69,
+      "rank": 67,
       "elo_rating": 1755.1756681711,
       "season": 2025,
       "lastupdated": "2024-11-20T01:00:00.000Z"
@@ -555,7 +539,7 @@
     {
       "id": 401727258,
       "team_name": "oklahoma",
-      "rank": 70,
+      "rank": 68,
       "elo_rating": 1754.6315304816,
       "season": 2025,
       "lastupdated": "2024-11-22T01:00:00.000Z"
@@ -563,7 +547,7 @@
     {
       "id": 401718451,
       "team_name": "charleston",
-      "rank": 71,
+      "rank": 69,
       "elo_rating": 1753.4100534995,
       "season": 2025,
       "lastupdated": "2024-11-24T17:00:00.000Z"
@@ -571,7 +555,7 @@
     {
       "id": 401710003,
       "team_name": "ucla",
-      "rank": 72,
+      "rank": 70,
       "elo_rating": 1752.8012554852,
       "season": 2025,
       "lastupdated": "2024-11-23T03:00:00.000Z"
@@ -579,18 +563,34 @@
     {
       "id": 401714901,
       "team_name": "georgia",
-      "rank": 73,
+      "rank": 71,
       "elo_rating": 1752.4403918307,
       "season": 2025,
       "lastupdated": "2024-11-24T16:00:00.000Z"
     },
     {
+      "id": 401729774,
+      "team_name": "highpoint",
+      "rank": 72,
+      "elo_rating": 1752.1524331615,
+      "season": 2025,
+      "lastupdated": "2024-11-25T22:00:00.000Z"
+    },
+    {
       "id": 401700467,
       "team_name": "wakeforest",
-      "rank": 74,
+      "rank": 73,
       "elo_rating": 1749.7172612861,
       "season": 2025,
       "lastupdated": "2024-11-23T21:00:00.000Z"
+    },
+    {
+      "id": 401732301,
+      "team_name": "kansasstate",
+      "rank": 74,
+      "elo_rating": 1748.1410316825,
+      "season": 2025,
+      "lastupdated": "2024-11-25T22:30:00.000Z"
     },
     {
       "id": 401729767,
@@ -609,25 +609,33 @@
       "lastupdated": "2024-11-24T15:30:00.000Z"
     },
     {
+      "id": 401732300,
+      "team_name": "liberty",
+      "rank": 77,
+      "elo_rating": 1745.3039820473,
+      "season": 2025,
+      "lastupdated": "2024-11-26T01:15:00.000Z"
+    },
+    {
+      "id": 401716066,
+      "team_name": "sanfrancisco",
+      "rank": 78,
+      "elo_rating": 1744.9337802869,
+      "season": 2025,
+      "lastupdated": "2024-11-25T23:45:00.000Z"
+    },
+    {
       "id": 401724533,
       "team_name": "arkansasstate",
-      "rank": 77,
+      "rank": 79,
       "elo_rating": 1742.2775121624,
       "season": 2025,
       "lastupdated": "2024-11-16T20:00:00.000Z"
     },
     {
-      "id": 401715869,
-      "team_name": "highpoint",
-      "rank": 78,
-      "elo_rating": 1741.8267479481,
-      "season": 2025,
-      "lastupdated": "2024-11-24T22:00:00.000Z"
-    },
-    {
       "id": 401722224,
       "team_name": "coloradostate",
-      "rank": 79,
+      "rank": 80,
       "elo_rating": 1740.8001697605,
       "season": 2025,
       "lastupdated": "2024-11-23T02:00:00.000Z"
@@ -635,7 +643,7 @@
     {
       "id": 401722187,
       "team_name": "vermont",
-      "rank": 80,
+      "rank": 81,
       "elo_rating": 1734.7270327056,
       "season": 2025,
       "lastupdated": "2024-11-24T18:00:00.000Z"
@@ -643,18 +651,10 @@
     {
       "id": 401721691,
       "team_name": "yale",
-      "rank": 81,
+      "rank": 82,
       "elo_rating": 1734.6245841248,
       "season": 2025,
       "lastupdated": "2024-11-24T23:00:00.000Z"
-    },
-    {
-      "id": 401715870,
-      "team_name": "sdakotastate",
-      "rank": 82,
-      "elo_rating": 1732.6107139485,
-      "season": 2025,
-      "lastupdated": "2024-11-24T18:30:00.000Z"
     },
     {
       "id": 401719338,
@@ -665,9 +665,41 @@
       "lastupdated": "2024-11-24T19:00:00.000Z"
     },
     {
+      "id": 401723726,
+      "team_name": "arkansas",
+      "rank": 84,
+      "elo_rating": 1730.9131824787,
+      "season": 2025,
+      "lastupdated": "2024-11-26T01:00:00.000Z"
+    },
+    {
+      "id": 401715330,
+      "team_name": "southcarolina",
+      "rank": 85,
+      "elo_rating": 1727.1342664092,
+      "season": 2025,
+      "lastupdated": "2024-11-26T01:30:00.000Z"
+    },
+    {
+      "id": 401732299,
+      "team_name": "uab",
+      "rank": 86,
+      "elo_rating": 1726.3502298867,
+      "season": 2025,
+      "lastupdated": "2024-11-25T17:30:00.000Z"
+    },
+    {
+      "id": 401729773,
+      "team_name": "sdakotastate",
+      "rank": 87,
+      "elo_rating": 1723.7955607713,
+      "season": 2025,
+      "lastupdated": "2024-11-25T18:55:00.000Z"
+    },
+    {
       "id": 401715433,
       "team_name": "washington",
-      "rank": 84,
+      "rank": 88,
       "elo_rating": 1721.5836576958,
       "season": 2025,
       "lastupdated": "2024-11-23T03:00:00.000Z"
@@ -675,7 +707,7 @@
     {
       "id": 401715321,
       "team_name": "olemiss",
-      "rank": 85,
+      "rank": 89,
       "elo_rating": 1721.439295414,
       "season": 2025,
       "lastupdated": "2024-11-22T01:00:00.000Z"
@@ -683,7 +715,7 @@
     {
       "id": 401721658,
       "team_name": "usc",
-      "rank": 86,
+      "rank": 90,
       "elo_rating": 1717.7873625224,
       "season": 2025,
       "lastupdated": "2024-11-25T00:00:00.000Z"
@@ -691,39 +723,31 @@
     {
       "id": 401720545,
       "team_name": "utah",
-      "rank": 87,
+      "rank": 91,
       "elo_rating": 1716.9988394336,
       "season": 2025,
       "lastupdated": "2024-11-17T21:00:00.000Z"
     },
     {
-      "id": 401732297,
-      "team_name": "liberty",
-      "rank": 88,
-      "elo_rating": 1716.8000793404,
-      "season": 2025,
-      "lastupdated": "2024-11-25T01:00:00.000Z"
-    },
-    {
       "id": 401722562,
       "team_name": "belmont",
-      "rank": 89,
+      "rank": 92,
       "elo_rating": 1716.7327274372,
       "season": 2025,
       "lastupdated": "2024-11-20T00:30:00.000Z"
     },
     {
-      "id": 401727319,
-      "team_name": "arkansas",
-      "rank": 90,
-      "elo_rating": 1712.203931654,
+      "id": 401729775,
+      "team_name": "bostoncollege",
+      "rank": 93,
+      "elo_rating": 1711.8743639057,
       "season": 2025,
-      "lastupdated": "2024-11-23T02:00:00.000Z"
+      "lastupdated": "2024-11-26T00:30:00.000Z"
     },
     {
       "id": 401707870,
       "team_name": "maryland",
-      "rank": 91,
+      "rank": 94,
       "elo_rating": 1710.9850859381,
       "season": 2025,
       "lastupdated": "2024-11-24T18:00:00.000Z"
@@ -731,7 +755,7 @@
     {
       "id": 401715982,
       "team_name": "wichitastate",
-      "rank": 92,
+      "rank": 95,
       "elo_rating": 1710.7728492652,
       "season": 2025,
       "lastupdated": "2024-11-23T03:30:00.000Z"
@@ -739,39 +763,31 @@
     {
       "id": 401716880,
       "team_name": "georgemason",
-      "rank": 93,
+      "rank": 96,
       "elo_rating": 1708.8432912066,
       "season": 2025,
       "lastupdated": "2024-11-23T19:00:00.000Z"
     },
     {
-      "id": 401732297,
-      "team_name": "kansasstate",
-      "rank": 94,
-      "elo_rating": 1707.0800216702,
+      "id": 401722178,
+      "team_name": "umasslowell",
+      "rank": 97,
+      "elo_rating": 1707.7615658248,
       "season": 2025,
-      "lastupdated": "2024-11-25T01:00:00.000Z"
+      "lastupdated": "2024-11-25T23:00:00.000Z"
     },
     {
       "id": 401715697,
       "team_name": "stanford",
-      "rank": 95,
+      "rank": 98,
       "elo_rating": 1706.7292547752,
       "season": 2025,
       "lastupdated": "2024-11-24T03:00:00.000Z"
     },
     {
-      "id": 401732294,
-      "team_name": "uab",
-      "rank": 96,
-      "elo_rating": 1705.6320616596,
-      "season": 2025,
-      "lastupdated": "2024-11-23T20:00:00.000Z"
-    },
-    {
       "id": 401706965,
       "team_name": "uncwilmington",
-      "rank": 97,
+      "rank": 99,
       "elo_rating": 1704.5061044169,
       "season": 2025,
       "lastupdated": "2024-11-20T01:00:00.000Z"
@@ -779,7 +795,7 @@
     {
       "id": 401729803,
       "team_name": "lsu",
-      "rank": 98,
+      "rank": 100,
       "elo_rating": 1702.6941955516,
       "season": 2025,
       "lastupdated": "2024-11-24T20:00:00.000Z"
@@ -787,7 +803,7 @@
     {
       "id": 401720449,
       "team_name": "furman",
-      "rank": 99,
+      "rank": 101,
       "elo_rating": 1698.2388006925,
       "season": 2025,
       "lastupdated": "2024-11-23T19:00:00.000Z"
@@ -795,7 +811,7 @@
     {
       "id": 401712996,
       "team_name": "butler",
-      "rank": 100,
+      "rank": 102,
       "elo_rating": 1698.223333103,
       "season": 2025,
       "lastupdated": "2024-11-23T00:00:00.000Z"
@@ -803,23 +819,15 @@
     {
       "id": 401720946,
       "team_name": "akron",
-      "rank": 101,
+      "rank": 103,
       "elo_rating": 1698.1243667619,
       "season": 2025,
       "lastupdated": "2024-11-24T20:00:00.000Z"
     },
     {
-      "id": 401706871,
-      "team_name": "bostoncollege",
-      "rank": 102,
-      "elo_rating": 1696.7564438288,
-      "season": 2025,
-      "lastupdated": "2024-11-25T00:30:00.000Z"
-    },
-    {
       "id": 401722190,
       "team_name": "charlotte",
-      "rank": 103,
+      "rank": 104,
       "elo_rating": 1693.9320434934,
       "season": 2025,
       "lastupdated": "2024-11-20T00:00:00.000Z"
@@ -827,34 +835,26 @@
     {
       "id": 401729848,
       "team_name": "southflorida",
-      "rank": 104,
+      "rank": 105,
       "elo_rating": 1692.1044589471,
       "season": 2025,
       "lastupdated": "2024-11-24T18:00:00.000Z"
     },
     {
-      "id": 401722177,
-      "team_name": "umasslowell",
-      "rank": 105,
-      "elo_rating": 1691.2113081704,
+      "id": 401716157,
+      "team_name": "troy",
+      "rank": 106,
+      "elo_rating": 1691.2619461697,
       "season": 2025,
-      "lastupdated": "2024-11-23T18:00:00.000Z"
+      "lastupdated": "2024-11-26T01:00:00.000Z"
     },
     {
       "id": 401729767,
       "team_name": "toledo",
-      "rank": 106,
+      "rank": 107,
       "elo_rating": 1689.5411780301,
       "season": 2025,
       "lastupdated": "2024-11-23T22:45:00.000Z"
-    },
-    {
-      "id": 401732296,
-      "team_name": "longwood",
-      "rank": 107,
-      "elo_rating": 1689.0724294761,
-      "season": 2025,
-      "lastupdated": "2024-11-24T22:30:00.000Z"
     },
     {
       "id": 401715917,
@@ -897,12 +897,12 @@
       "lastupdated": "2024-11-24T20:00:00.000Z"
     },
     {
-      "id": 401721986,
-      "team_name": "troy",
+      "id": 401715392,
+      "team_name": "minnesota",
       "rank": 113,
-      "elo_rating": 1675.6521493396,
+      "elo_rating": 1676.1706466123,
       "season": 2025,
-      "lastupdated": "2024-11-20T00:00:00.000Z"
+      "lastupdated": "2024-11-26T01:00:00.000Z"
     },
     {
       "id": 401729735,
@@ -945,36 +945,36 @@
       "lastupdated": "2024-11-24T01:00:00.000Z"
     },
     {
-      "id": 401715391,
-      "team_name": "minnesota",
-      "rank": 119,
-      "elo_rating": 1663.3797451729,
-      "season": 2025,
-      "lastupdated": "2024-11-20T00:00:00.000Z"
-    },
-    {
       "id": 401729848,
       "team_name": "wrightstate",
-      "rank": 120,
+      "rank": 119,
       "elo_rating": 1662.566909524,
       "season": 2025,
       "lastupdated": "2024-11-24T18:00:00.000Z"
     },
     {
-      "id": 401716870,
-      "team_name": "drexel",
-      "rank": 121,
-      "elo_rating": 1660.3020409857,
+      "id": 401706905,
+      "team_name": "michigan",
+      "rank": 120,
+      "elo_rating": 1659.5236043186,
       "season": 2025,
-      "lastupdated": "2024-11-23T00:00:00.000Z"
+      "lastupdated": "2024-11-25T23:00:00.000Z"
     },
     {
-      "id": 401722346,
-      "team_name": "ucdavis",
-      "rank": 122,
-      "elo_rating": 1658.0782482882,
+      "id": 401706168,
+      "team_name": "cornell",
+      "rank": 121,
+      "elo_rating": 1658.5916871399,
       "season": 2025,
-      "lastupdated": "2024-11-21T02:00:00.000Z"
+      "lastupdated": "2024-11-26T00:00:00.000Z"
+    },
+    {
+      "id": 401709973,
+      "team_name": "uncgreensboro",
+      "rank": 122,
+      "elo_rating": 1655.6809898543,
+      "season": 2025,
+      "lastupdated": "2024-11-26T04:00:00.000Z"
     },
     {
       "id": 401721031,
@@ -993,41 +993,33 @@
       "lastupdated": "2024-11-23T03:00:00.000Z"
     },
     {
-      "id": 401715869,
-      "team_name": "missouristate",
-      "rank": 125,
-      "elo_rating": 1652.2048640169,
-      "season": 2025,
-      "lastupdated": "2024-11-24T22:00:00.000Z"
-    },
-    {
       "id": 401723750,
       "team_name": "towson",
-      "rank": 126,
+      "rank": 125,
       "elo_rating": 1650.0336660019,
       "season": 2025,
       "lastupdated": "2024-11-24T21:00:00.000Z"
     },
     {
-      "id": 401722422,
-      "team_name": "utep",
-      "rank": 127,
-      "elo_rating": 1648.4231903088,
-      "season": 2025,
-      "lastupdated": "2024-11-21T03:00:00.000Z"
-    },
-    {
       "id": 401722306,
       "team_name": "arizonastate",
-      "rank": 128,
+      "rank": 126,
       "elo_rating": 1648.0201872746,
       "season": 2025,
       "lastupdated": "2024-11-21T02:00:00.000Z"
     },
     {
+      "id": 401732301,
+      "team_name": "longwood",
+      "rank": 127,
+      "elo_rating": 1648.0114194638,
+      "season": 2025,
+      "lastupdated": "2024-11-25T22:30:00.000Z"
+    },
+    {
       "id": 401700269,
       "team_name": "rutgers",
-      "rank": 129,
+      "rank": 128,
       "elo_rating": 1644.8698766196,
       "season": 2025,
       "lastupdated": "2024-11-24T18:00:00.000Z"
@@ -1035,10 +1027,18 @@
     {
       "id": 401700466,
       "team_name": "wcarolina",
-      "rank": 130,
+      "rank": 129,
       "elo_rating": 1642.8301908975,
       "season": 2025,
       "lastupdated": "2024-11-20T00:00:00.000Z"
+    },
+    {
+      "id": 401716088,
+      "team_name": "purduefw",
+      "rank": 130,
+      "elo_rating": 1642.7576544011,
+      "season": 2025,
+      "lastupdated": "2024-11-25T18:04:00.000Z"
     },
     {
       "id": 401718451,
@@ -1049,12 +1049,12 @@
       "lastupdated": "2024-11-24T17:00:00.000Z"
     },
     {
-      "id": 401721110,
-      "team_name": "ekentucky",
+      "id": 401729775,
+      "team_name": "missouristate",
       "rank": 132,
-      "elo_rating": 1639.2221440626,
+      "elo_rating": 1637.0869439399,
       "season": 2025,
-      "lastupdated": "2024-11-20T00:00:00.000Z"
+      "lastupdated": "2024-11-26T00:30:00.000Z"
     },
     {
       "id": 401729794,
@@ -1065,25 +1065,41 @@
       "lastupdated": "2024-11-25T01:30:00.000Z"
     },
     {
+      "id": 401732169,
+      "team_name": "richmond",
+      "rank": 134,
+      "elo_rating": 1631.9365794815,
+      "season": 2025,
+      "lastupdated": "2024-11-25T23:00:00.000Z"
+    },
+    {
+      "id": 401727340,
+      "team_name": "chattanooga",
+      "rank": 135,
+      "elo_rating": 1631.7438130176,
+      "season": 2025,
+      "lastupdated": "2024-11-26T00:00:00.000Z"
+    },
+    {
       "id": 401729850,
       "team_name": "texasstate",
-      "rank": 134,
+      "rank": 136,
       "elo_rating": 1629.3015048099,
       "season": 2025,
       "lastupdated": "2024-11-25T01:00:00.000Z"
     },
     {
-      "id": 401721687,
-      "team_name": "cornell",
-      "rank": 135,
-      "elo_rating": 1623.8524432064,
+      "id": 401716088,
+      "team_name": "drexel",
+      "rank": 137,
+      "elo_rating": 1628.3162273196,
       "season": 2025,
-      "lastupdated": "2024-11-21T23:00:00.000Z"
+      "lastupdated": "2024-11-25T18:04:00.000Z"
     },
     {
       "id": 401721783,
       "team_name": "davidson",
-      "rank": 136,
+      "rank": 138,
       "elo_rating": 1623.2977038497,
       "season": 2025,
       "lastupdated": "2024-11-23T00:00:00.000Z"
@@ -1091,90 +1107,74 @@
     {
       "id": 401718419,
       "team_name": "temple",
-      "rank": 137,
+      "rank": 139,
       "elo_rating": 1622.7711594798,
       "season": 2025,
       "lastupdated": "2024-11-23T22:00:00.000Z"
     },
     {
-      "id": 401728787,
-      "team_name": "michigan",
-      "rank": 138,
-      "elo_rating": 1621.7430751227,
+      "id": 401722410,
+      "team_name": "norfolkstate",
+      "rank": 140,
+      "elo_rating": 1620.6254830059,
       "season": 2025,
-      "lastupdated": "2024-11-22T01:30:00.000Z"
+      "lastupdated": "2024-11-26T02:00:00.000Z"
     },
     {
       "id": 401720750,
       "team_name": "texasamcc",
-      "rank": 139,
+      "rank": 141,
       "elo_rating": 1617.173583187,
       "season": 2025,
       "lastupdated": "2024-11-23T21:30:00.000Z"
     },
     {
-      "id": 401707860,
-      "team_name": "uncgreensboro",
-      "rank": 140,
-      "elo_rating": 1615.3612366472,
+      "id": 401721692,
+      "team_name": "columbia",
+      "rank": 142,
+      "elo_rating": 1615.6209113831,
       "season": 2025,
-      "lastupdated": "2024-11-21T23:30:00.000Z"
+      "lastupdated": "2024-11-26T00:00:00.000Z"
     },
     {
       "id": 401723725,
       "team_name": "murraystate",
-      "rank": 141,
+      "rank": 143,
       "elo_rating": 1615.2464346114,
       "season": 2025,
       "lastupdated": "2024-11-21T01:00:00.000Z"
     },
     {
-      "id": 401727328,
-      "team_name": "chattanooga",
-      "rank": 142,
-      "elo_rating": 1614.7545530721,
+      "id": 401732167,
+      "team_name": "ekentucky",
+      "rank": 144,
+      "elo_rating": 1612.4814552269,
       "season": 2025,
-      "lastupdated": "2024-11-17T20:00:00.000Z"
+      "lastupdated": "2024-11-25T17:00:00.000Z"
     },
     {
-      "id": 401706904,
-      "team_name": "virginiatech",
-      "rank": 143,
-      "elo_rating": 1612.1797045851,
+      "id": 401725375,
+      "team_name": "abilenechrstn",
+      "rank": 145,
+      "elo_rating": 1611.6070098588,
       "season": 2025,
-      "lastupdated": "2024-11-21T00:00:00.000Z"
+      "lastupdated": "2024-11-26T02:00:00.000Z"
     },
     {
       "id": 401700437,
       "team_name": "hawaii",
-      "rank": 144,
+      "rank": 146,
       "elo_rating": 1611.5230324273,
       "season": 2025,
       "lastupdated": "2024-11-23T05:30:00.000Z"
     },
     {
-      "id": 401715416,
-      "team_name": "purduefw",
-      "rank": 145,
-      "elo_rating": 1610.771840735,
-      "season": 2025,
-      "lastupdated": "2024-11-21T00:00:00.000Z"
-    },
-    {
       "id": 401729765,
       "team_name": "eastcarolina",
-      "rank": 146,
+      "rank": 147,
       "elo_rating": 1608.8418621828,
       "season": 2025,
       "lastupdated": "2024-11-23T18:00:00.000Z"
-    },
-    {
-      "id": 401718460,
-      "team_name": "richmond",
-      "rank": 147,
-      "elo_rating": 1606.6219605844,
-      "season": 2025,
-      "lastupdated": "2024-11-21T00:00:00.000Z"
     },
     {
       "id": 401707870,
@@ -1225,25 +1225,17 @@
       "lastupdated": "2024-11-21T00:00:00.000Z"
     },
     {
-      "id": 401721690,
-      "team_name": "columbia",
+      "id": 401722366,
+      "team_name": "utep",
       "rank": 154,
-      "elo_rating": 1596.4565875175,
+      "elo_rating": 1595.5636671368,
       "season": 2025,
-      "lastupdated": "2024-11-24T00:00:00.000Z"
-    },
-    {
-      "id": 401732294,
-      "team_name": "illinoisstate",
-      "rank": 155,
-      "elo_rating": 1595.525650669,
-      "season": 2025,
-      "lastupdated": "2024-11-23T20:00:00.000Z"
+      "lastupdated": "2024-11-26T01:30:00.000Z"
     },
     {
       "id": 401722422,
       "team_name": "santabarbara",
-      "rank": 156,
+      "rank": 155,
       "elo_rating": 1595.4722545796,
       "season": 2025,
       "lastupdated": "2024-11-21T03:00:00.000Z"
@@ -1251,10 +1243,18 @@
     {
       "id": 401720561,
       "team_name": "southernutah",
-      "rank": 157,
+      "rank": 156,
       "elo_rating": 1592.508106837,
       "season": 2025,
       "lastupdated": "2024-11-23T22:00:00.000Z"
+    },
+    {
+      "id": 401722410,
+      "team_name": "ucdavis",
+      "rank": 157,
+      "elo_rating": 1592.4829172146,
+      "season": 2025,
+      "lastupdated": "2024-11-26T02:00:00.000Z"
     },
     {
       "id": 401719230,
@@ -1273,25 +1273,9 @@
       "lastupdated": "2024-11-24T03:00:00.000Z"
     },
     {
-      "id": 401714893,
-      "team_name": "sillinois",
-      "rank": 160,
-      "elo_rating": 1589.1944001256,
-      "season": 2025,
-      "lastupdated": "2024-11-23T00:00:00.000Z"
-    },
-    {
-      "id": 401700268,
-      "team_name": "abilenechrstn",
-      "rank": 161,
-      "elo_rating": 1586.2095893296,
-      "season": 2025,
-      "lastupdated": "2024-11-21T00:00:00.000Z"
-    },
-    {
       "id": 401725799,
       "team_name": "utarlington",
-      "rank": 162,
+      "rank": 160,
       "elo_rating": 1586.145937555,
       "season": 2025,
       "lastupdated": "2024-11-20T01:00:00.000Z"
@@ -1299,23 +1283,15 @@
     {
       "id": 401720569,
       "team_name": "etsu",
-      "rank": 163,
+      "rank": 161,
       "elo_rating": 1585.5936022649,
       "season": 2025,
       "lastupdated": "2024-11-16T22:00:00.000Z"
     },
     {
-      "id": 401722177,
-      "team_name": "quinnipiac",
-      "rank": 164,
-      "elo_rating": 1585.023656379,
-      "season": 2025,
-      "lastupdated": "2024-11-23T18:00:00.000Z"
-    },
-    {
       "id": 401729850,
       "team_name": "ohio",
-      "rank": 165,
+      "rank": 162,
       "elo_rating": 1583.6253543567,
       "season": 2025,
       "lastupdated": "2024-11-25T01:00:00.000Z"
@@ -1323,7 +1299,7 @@
     {
       "id": 401727069,
       "team_name": "southalabama",
-      "rank": 166,
+      "rank": 163,
       "elo_rating": 1581.6299647777,
       "season": 2025,
       "lastupdated": "2024-11-19T01:00:00.000Z"
@@ -1331,7 +1307,7 @@
     {
       "id": 401721688,
       "team_name": "colgate",
-      "rank": 167,
+      "rank": 164,
       "elo_rating": 1580.3227526449,
       "season": 2025,
       "lastupdated": "2024-11-23T00:00:00.000Z"
@@ -1339,7 +1315,7 @@
     {
       "id": 401706167,
       "team_name": "rider",
-      "rank": 168,
+      "rank": 165,
       "elo_rating": 1579.3159807008,
       "season": 2025,
       "lastupdated": "2024-11-24T00:00:00.000Z"
@@ -1347,7 +1323,7 @@
     {
       "id": 401729764,
       "team_name": "lasalle",
-      "rank": 169,
+      "rank": 166,
       "elo_rating": 1578.9020987981,
       "season": 2025,
       "lastupdated": "2024-11-23T16:00:00.000Z"
@@ -1355,7 +1331,7 @@
     {
       "id": 401706164,
       "team_name": "westvirginia",
-      "rank": 170,
+      "rank": 167,
       "elo_rating": 1577.8549230926,
       "season": 2025,
       "lastupdated": "2024-11-21T00:00:00.000Z"
@@ -1363,31 +1339,47 @@
     {
       "id": 401727836,
       "team_name": "sfaustin",
-      "rank": 171,
+      "rank": 168,
       "elo_rating": 1576.436244309,
       "season": 2025,
       "lastupdated": "2024-11-24T00:00:00.000Z"
     },
     {
+      "id": 401727091,
+      "team_name": "csunorthridge",
+      "rank": 169,
+      "elo_rating": 1574.7204278732,
+      "season": 2025,
+      "lastupdated": "2024-11-25T21:00:00.000Z"
+    },
+    {
       "id": 401715890,
       "team_name": "milwaukee",
-      "rank": 172,
+      "rank": 170,
       "elo_rating": 1574.6306056496,
       "season": 2025,
       "lastupdated": "2024-11-23T21:00:00.000Z"
     },
     {
-      "id": 401721653,
-      "team_name": "oregonstate",
-      "rank": 173,
-      "elo_rating": 1570.951237649,
+      "id": 401706905,
+      "team_name": "virginiatech",
+      "rank": 171,
+      "elo_rating": 1574.3991753891,
       "season": 2025,
-      "lastupdated": "2024-11-22T03:00:00.000Z"
+      "lastupdated": "2024-11-25T23:00:00.000Z"
+    },
+    {
+      "id": 401732168,
+      "team_name": "sillinois",
+      "rank": 172,
+      "elo_rating": 1570.4770384833,
+      "season": 2025,
+      "lastupdated": "2024-11-25T20:00:00.000Z"
     },
     {
       "id": 401726044,
       "team_name": "northeastern",
-      "rank": 174,
+      "rank": 173,
       "elo_rating": 1569.4434778792,
       "season": 2025,
       "lastupdated": "2024-11-23T18:00:00.000Z"
@@ -1395,23 +1387,15 @@
     {
       "id": 401722093,
       "team_name": "marist",
-      "rank": 175,
+      "rank": 174,
       "elo_rating": 1568.4786316206,
       "season": 2025,
       "lastupdated": "2024-11-23T19:00:00.000Z"
     },
     {
-      "id": 401727319,
-      "team_name": "littlerock",
-      "rank": 176,
-      "elo_rating": 1564.432938728,
-      "season": 2025,
-      "lastupdated": "2024-11-23T02:00:00.000Z"
-    },
-    {
       "id": 401729849,
       "team_name": "mtsu",
-      "rank": 177,
+      "rank": 175,
       "elo_rating": 1561.7649348982,
       "season": 2025,
       "lastupdated": "2024-11-24T22:30:00.000Z"
@@ -1419,15 +1403,23 @@
     {
       "id": 401721023,
       "team_name": "oakland",
-      "rank": 178,
+      "rank": 176,
       "elo_rating": 1560.1095632134,
       "season": 2025,
       "lastupdated": "2024-11-22T00:00:00.000Z"
     },
     {
+      "id": 401722272,
+      "team_name": "oregonstate",
+      "rank": 177,
+      "elo_rating": 1559.9541579218,
+      "season": 2025,
+      "lastupdated": "2024-11-26T01:00:00.000Z"
+    },
+    {
       "id": 401715937,
       "team_name": "wyoming",
-      "rank": 179,
+      "rank": 178,
       "elo_rating": 1559.6075140688,
       "season": 2025,
       "lastupdated": "2024-11-23T01:30:00.000Z"
@@ -1435,18 +1427,26 @@
     {
       "id": 401720732,
       "team_name": "tulane",
-      "rank": 180,
+      "rank": 179,
       "elo_rating": 1559.3274213456,
       "season": 2025,
       "lastupdated": "2024-11-23T00:30:00.000Z"
     },
     {
-      "id": 401715870,
-      "team_name": "duquesne",
-      "rank": 181,
-      "elo_rating": 1558.0992781596,
+      "id": 401732298,
+      "team_name": "gwashington",
+      "rank": 180,
+      "elo_rating": 1558.730759054,
       "season": 2025,
-      "lastupdated": "2024-11-24T18:30:00.000Z"
+      "lastupdated": "2024-11-25T20:00:00.000Z"
+    },
+    {
+      "id": 401732298,
+      "team_name": "illinoisstate",
+      "rank": 181,
+      "elo_rating": 1557.7648740884,
+      "season": 2025,
+      "lastupdated": "2024-11-25T20:00:00.000Z"
     },
     {
       "id": 401706166,
@@ -1457,20 +1457,20 @@
       "lastupdated": "2024-11-23T18:00:00.000Z"
     },
     {
-      "id": 401723761,
-      "team_name": "norfolkstate",
-      "rank": 183,
-      "elo_rating": 1555.0301519323,
-      "season": 2025,
-      "lastupdated": "2024-11-23T02:00:00.000Z"
-    },
-    {
       "id": 401706877,
       "team_name": "california",
-      "rank": 184,
+      "rank": 183,
       "elo_rating": 1554.948343126,
       "season": 2025,
       "lastupdated": "2024-11-24T21:00:00.000Z"
+    },
+    {
+      "id": 401716087,
+      "team_name": "radford",
+      "rank": 184,
+      "elo_rating": 1554.8936269532,
+      "season": 2025,
+      "lastupdated": "2024-11-25T15:30:00.000Z"
     },
     {
       "id": 401727326,
@@ -1505,9 +1505,17 @@
       "lastupdated": "2024-11-24T20:30:00.000Z"
     },
     {
+      "id": 401707852,
+      "team_name": "littlerock",
+      "rank": 189,
+      "elo_rating": 1544.8094159193,
+      "season": 2025,
+      "lastupdated": "2024-11-26T02:00:00.000Z"
+    },
+    {
       "id": 401721691,
       "team_name": "delaware",
-      "rank": 189,
+      "rank": 190,
       "elo_rating": 1544.6935613297,
       "season": 2025,
       "lastupdated": "2024-11-24T23:00:00.000Z"
@@ -1515,15 +1523,23 @@
     {
       "id": 401719338,
       "team_name": "bryant",
-      "rank": 190,
+      "rank": 191,
       "elo_rating": 1544.3821518798,
       "season": 2025,
       "lastupdated": "2024-11-24T19:00:00.000Z"
     },
     {
+      "id": 401719325,
+      "team_name": "quinnipiac",
+      "rank": 192,
+      "elo_rating": 1543.3276099757,
+      "season": 2025,
+      "lastupdated": "2024-11-26T01:00:00.000Z"
+    },
+    {
       "id": 401700269,
       "team_name": "kennesawstate",
-      "rank": 191,
+      "rank": 193,
       "elo_rating": 1543.1687279293,
       "season": 2025,
       "lastupdated": "2024-11-24T18:00:00.000Z"
@@ -1531,7 +1547,7 @@
     {
       "id": 401715956,
       "team_name": "rice",
-      "rank": 192,
+      "rank": 194,
       "elo_rating": 1541.5147578989,
       "season": 2025,
       "lastupdated": "2024-11-23T01:00:00.000Z"
@@ -1539,7 +1555,7 @@
     {
       "id": 401727836,
       "team_name": "youngstownstate",
-      "rank": 193,
+      "rank": 195,
       "elo_rating": 1540.1559332147,
       "season": 2025,
       "lastupdated": "2024-11-24T00:00:00.000Z"
@@ -1547,7 +1563,7 @@
     {
       "id": 401729791,
       "team_name": "miami",
-      "rank": 194,
+      "rank": 196,
       "elo_rating": 1538.8416086955,
       "season": 2025,
       "lastupdated": "2024-11-24T17:30:00.000Z"
@@ -1555,7 +1571,7 @@
     {
       "id": 401721281,
       "team_name": "ucriverside",
-      "rank": 195,
+      "rank": 197,
       "elo_rating": 1538.5961764151,
       "season": 2025,
       "lastupdated": "2024-11-24T22:00:00.000Z"
@@ -1563,31 +1579,31 @@
     {
       "id": 401720887,
       "team_name": "montanastate",
-      "rank": 196,
+      "rank": 198,
       "elo_rating": 1537.3717472447,
       "season": 2025,
       "lastupdated": "2024-11-25T01:00:00.000Z"
     },
     {
-      "id": 401720882,
-      "team_name": "csunorthridge",
-      "rank": 197,
-      "elo_rating": 1536.3693596286,
-      "season": 2025,
-      "lastupdated": "2024-11-17T01:00:00.000Z"
-    },
-    {
       "id": 401711747,
       "team_name": "northflorida",
-      "rank": 198,
+      "rank": 199,
       "elo_rating": 1536.165141459,
       "season": 2025,
       "lastupdated": "2024-11-22T00:00:00.000Z"
     },
     {
+      "id": 401726443,
+      "team_name": "nicholls",
+      "rank": 200,
+      "elo_rating": 1535.0674416389,
+      "season": 2025,
+      "lastupdated": "2024-11-26T00:30:00.000Z"
+    },
+    {
       "id": 401728787,
       "team_name": "tarletonstate",
-      "rank": 199,
+      "rank": 201,
       "elo_rating": 1534.0631091996,
       "season": 2025,
       "lastupdated": "2024-11-22T01:30:00.000Z"
@@ -1595,39 +1611,15 @@
     {
       "id": 401718468,
       "team_name": "cabaptist",
-      "rank": 200,
+      "rank": 202,
       "elo_rating": 1533.0778829493,
       "season": 2025,
       "lastupdated": "2024-11-24T01:00:00.000Z"
     },
     {
-      "id": 401729951,
-      "team_name": "cmichigan",
-      "rank": 201,
-      "elo_rating": 1532.6387213708,
-      "season": 2025,
-      "lastupdated": "2024-11-21T00:00:00.000Z"
-    },
-    {
-      "id": 401700421,
-      "team_name": "radford",
-      "rank": 202,
-      "elo_rating": 1530.9729842299,
-      "season": 2025,
-      "lastupdated": "2024-11-22T00:00:00.000Z"
-    },
-    {
-      "id": 401709972,
-      "team_name": "longbeachstate",
-      "rank": 203,
-      "elo_rating": 1530.4679177148,
-      "season": 2025,
-      "lastupdated": "2024-11-23T22:00:00.000Z"
-    },
-    {
       "id": 401721947,
       "team_name": "austinpeay",
-      "rank": 204,
+      "rank": 203,
       "elo_rating": 1528.1609977492,
       "season": 2025,
       "lastupdated": "2024-11-21T00:00:00.000Z"
@@ -1635,7 +1627,7 @@
     {
       "id": 401722168,
       "team_name": "saintpeters",
-      "rank": 205,
+      "rank": 204,
       "elo_rating": 1527.5482473281,
       "season": 2025,
       "lastupdated": "2024-11-16T19:00:00.000Z"
@@ -1643,7 +1635,7 @@
     {
       "id": 401727538,
       "team_name": "nkentucky",
-      "rank": 206,
+      "rank": 205,
       "elo_rating": 1526.620166664,
       "season": 2025,
       "lastupdated": "2024-11-23T18:00:00.000Z"
@@ -1651,7 +1643,7 @@
     {
       "id": 401721658,
       "team_name": "grambling",
-      "rank": 207,
+      "rank": 206,
       "elo_rating": 1526.0623527063,
       "season": 2025,
       "lastupdated": "2024-11-25T00:00:00.000Z"
@@ -1659,31 +1651,23 @@
     {
       "id": 401725193,
       "team_name": "northdakota",
-      "rank": 208,
+      "rank": 207,
       "elo_rating": 1525.1674194028,
       "season": 2025,
       "lastupdated": "2024-11-23T03:00:00.000Z"
     },
     {
-      "id": 401706904,
-      "team_name": "jacksonville",
-      "rank": 209,
-      "elo_rating": 1523.9750986975,
+      "id": 401715392,
+      "team_name": "cmichigan",
+      "rank": 208,
+      "elo_rating": 1519.8478199314,
       "season": 2025,
-      "lastupdated": "2024-11-21T00:00:00.000Z"
-    },
-    {
-      "id": 401732295,
-      "team_name": "gwashington",
-      "rank": 210,
-      "elo_rating": 1520.9699824734,
-      "season": 2025,
-      "lastupdated": "2024-11-23T22:30:00.000Z"
+      "lastupdated": "2024-11-26T01:00:00.000Z"
     },
     {
       "id": 401718468,
       "team_name": "ewashington",
-      "rank": 211,
+      "rank": 209,
       "elo_rating": 1516.1491991746,
       "season": 2025,
       "lastupdated": "2024-11-24T01:00:00.000Z"
@@ -1691,7 +1675,7 @@
     {
       "id": 401719651,
       "team_name": "portlandstate",
-      "rank": 212,
+      "rank": 210,
       "elo_rating": 1515.7179597726,
       "season": 2025,
       "lastupdated": "2024-11-24T17:00:00.000Z"
@@ -1699,15 +1683,39 @@
     {
       "id": 401707981,
       "team_name": "marshall",
-      "rank": 213,
+      "rank": 211,
       "elo_rating": 1514.26266295,
       "season": 2025,
       "lastupdated": "2024-11-23T17:00:00.000Z"
     },
     {
+      "id": 401729772,
+      "team_name": "duquesne",
+      "rank": 212,
+      "elo_rating": 1514.0152546412,
+      "season": 2025,
+      "lastupdated": "2024-11-25T16:00:00.000Z"
+    },
+    {
+      "id": 401719325,
+      "team_name": "saintlouis",
+      "rank": 213,
+      "elo_rating": 1512.8275481554,
+      "season": 2025,
+      "lastupdated": "2024-11-26T01:00:00.000Z"
+    },
+    {
+      "id": 401715947,
+      "team_name": "jacksonville",
+      "rank": 214,
+      "elo_rating": 1512.0203655814,
+      "season": 2025,
+      "lastupdated": "2024-11-25T20:00:00.000Z"
+    },
+    {
       "id": 401721804,
       "team_name": "maine",
-      "rank": 214,
+      "rank": 215,
       "elo_rating": 1511.927871398,
       "season": 2025,
       "lastupdated": "2024-11-24T17:00:00.000Z"
@@ -1715,7 +1723,7 @@
     {
       "id": 401722190,
       "team_name": "gardnerwebb",
-      "rank": 215,
+      "rank": 216,
       "elo_rating": 1510.2552213729,
       "season": 2025,
       "lastupdated": "2024-11-20T00:00:00.000Z"
@@ -1723,7 +1731,7 @@
     {
       "id": 401709972,
       "team_name": "fresnostate",
-      "rank": 216,
+      "rank": 217,
       "elo_rating": 1509.645250347,
       "season": 2025,
       "lastupdated": "2024-11-23T22:00:00.000Z"
@@ -1731,18 +1739,10 @@
     {
       "id": 401722102,
       "team_name": "kansascity",
-      "rank": 217,
+      "rank": 218,
       "elo_rating": 1507.481972894,
       "season": 2025,
       "lastupdated": "2024-11-23T18:00:00.000Z"
-    },
-    {
-      "id": 401721803,
-      "team_name": "howard",
-      "rank": 218,
-      "elo_rating": 1505.303175607,
-      "season": 2025,
-      "lastupdated": "2024-11-24T17:00:00.000Z"
     },
     {
       "id": 401599590,
@@ -1769,33 +1769,17 @@
       "lastupdated": "2024-11-24T18:00:00.000Z"
     },
     {
-      "id": 401712996,
-      "team_name": "merrimack",
-      "rank": 222,
-      "elo_rating": 1497.9318951215,
-      "season": 2025,
-      "lastupdated": "2024-11-23T00:00:00.000Z"
-    },
-    {
       "id": 401715461,
       "team_name": "depaul",
-      "rank": 223,
+      "rank": 222,
       "elo_rating": 1497.576901608,
       "season": 2025,
       "lastupdated": "2024-11-23T22:00:00.000Z"
     },
     {
-      "id": 401726050,
-      "team_name": "nicholls",
-      "rank": 224,
-      "elo_rating": 1497.1361109802,
-      "season": 2025,
-      "lastupdated": "2024-11-21T00:30:00.000Z"
-    },
-    {
       "id": 401700429,
       "team_name": "louisville",
-      "rank": 225,
+      "rank": 223,
       "elo_rating": 1493.9877329671,
       "season": 2025,
       "lastupdated": "2024-11-23T00:00:00.000Z"
@@ -1803,15 +1787,23 @@
     {
       "id": 401726041,
       "team_name": "presbyterian",
-      "rank": 226,
+      "rank": 224,
       "elo_rating": 1493.6019180714,
       "season": 2025,
       "lastupdated": "2024-11-23T17:00:00.000Z"
     },
     {
+      "id": 401706169,
+      "team_name": "miamioh",
+      "rank": 225,
+      "elo_rating": 1492.9845283516,
+      "season": 2025,
+      "lastupdated": "2024-11-25T16:00:00.000Z"
+    },
+    {
       "id": 401729765,
       "team_name": "uic",
-      "rank": 227,
+      "rank": 226,
       "elo_rating": 1491.1194444734,
       "season": 2025,
       "lastupdated": "2024-11-23T18:00:00.000Z"
@@ -1819,10 +1811,18 @@
     {
       "id": 401711735,
       "team_name": "northalabama",
-      "rank": 228,
+      "rank": 227,
       "elo_rating": 1490.5760468795,
       "season": 2025,
       "lastupdated": "2024-11-24T20:00:00.000Z"
+    },
+    {
+      "id": 401709973,
+      "team_name": "longbeachstate",
+      "rank": 228,
+      "elo_rating": 1490.1481645077,
+      "season": 2025,
+      "lastupdated": "2024-11-26T04:00:00.000Z"
     },
     {
       "id": 401700429,
@@ -1865,12 +1865,12 @@
       "lastupdated": "2024-11-24T17:00:00.000Z"
     },
     {
-      "id": 401716870,
-      "team_name": "fordham",
+      "id": 401722178,
+      "team_name": "merrimack",
       "rank": 234,
-      "elo_rating": 1480.2822942912,
+      "elo_rating": 1481.3816374671,
       "season": 2025,
-      "lastupdated": "2024-11-23T00:00:00.000Z"
+      "lastupdated": "2024-11-25T23:00:00.000Z"
     },
     {
       "id": 401734421,
@@ -1881,17 +1881,9 @@
       "lastupdated": "2024-11-14T03:00:00.000Z"
     },
     {
-      "id": 401722593,
-      "team_name": "greenbay",
-      "rank": 236,
-      "elo_rating": 1477.4882393055,
-      "season": 2025,
-      "lastupdated": "2024-11-23T01:00:00.000Z"
-    },
-    {
       "id": 401715631,
       "team_name": "georgiatech",
-      "rank": 237,
+      "rank": 236,
       "elo_rating": 1471.9792811116,
       "season": 2025,
       "lastupdated": "2024-11-23T19:00:00.000Z"
@@ -1899,31 +1891,15 @@
     {
       "id": 401721982,
       "team_name": "gasouthern",
-      "rank": 238,
+      "rank": 237,
       "elo_rating": 1471.7075232063,
       "season": 2025,
       "lastupdated": "2024-11-23T17:00:00.000Z"
     },
     {
-      "id": 401715982,
-      "team_name": "saintlouis",
-      "rank": 239,
-      "elo_rating": 1471.1315017522,
-      "season": 2025,
-      "lastupdated": "2024-11-23T03:30:00.000Z"
-    },
-    {
-      "id": 401707876,
-      "team_name": "miamioh",
-      "rank": 240,
-      "elo_rating": 1470.2059917036,
-      "season": 2025,
-      "lastupdated": "2024-11-18T23:00:00.000Z"
-    },
-    {
       "id": 401721690,
       "team_name": "stonybrook",
-      "rank": 241,
+      "rank": 238,
       "elo_rating": 1469.8852533089,
       "season": 2025,
       "lastupdated": "2024-11-24T00:00:00.000Z"
@@ -1931,7 +1907,7 @@
     {
       "id": 401721004,
       "team_name": "bowlinggreen",
-      "rank": 242,
+      "rank": 239,
       "elo_rating": 1469.3353818015,
       "season": 2025,
       "lastupdated": "2024-11-23T20:00:00.000Z"
@@ -1939,7 +1915,7 @@
     {
       "id": 401721077,
       "team_name": "southdakota",
-      "rank": 243,
+      "rank": 240,
       "elo_rating": 1468.3999691309,
       "season": 2025,
       "lastupdated": "2024-11-21T00:00:00.000Z"
@@ -1947,18 +1923,42 @@
     {
       "id": 401722594,
       "team_name": "evansville",
-      "rank": 244,
+      "rank": 241,
       "elo_rating": 1460.2333118305,
       "season": 2025,
       "lastupdated": "2024-11-24T21:00:00.000Z"
     },
     {
+      "id": 401715947,
+      "team_name": "mercer",
+      "rank": 242,
+      "elo_rating": 1459.3419875166,
+      "season": 2025,
+      "lastupdated": "2024-11-25T20:00:00.000Z"
+    },
+    {
       "id": 401721278,
       "team_name": "xavierla",
-      "rank": 245,
+      "rank": 243,
       "elo_rating": 1459.3035952048,
       "season": 2025,
       "lastupdated": "2024-11-09T21:00:00.000Z"
+    },
+    {
+      "id": 401715409,
+      "team_name": "greenbay",
+      "rank": 244,
+      "elo_rating": 1459.1572948247,
+      "season": 2025,
+      "lastupdated": "2024-11-26T00:00:00.000Z"
+    },
+    {
+      "id": 401715417,
+      "team_name": "fordham",
+      "rank": 245,
+      "elo_rating": 1457.4092828556,
+      "season": 2025,
+      "lastupdated": "2024-11-25T21:00:00.000Z"
     },
     {
       "id": 401710002,
@@ -1977,17 +1977,9 @@
       "lastupdated": "2024-11-22T23:00:00.000Z"
     },
     {
-      "id": 401720887,
-      "team_name": "southernmiss",
-      "rank": 248,
-      "elo_rating": 1456.8176872001,
-      "season": 2025,
-      "lastupdated": "2024-11-25T01:00:00.000Z"
-    },
-    {
       "id": 401594418,
       "team_name": "swminnstate",
-      "rank": 249,
+      "rank": 248,
       "elo_rating": 1455.5042996442,
       "season": 2024,
       "lastupdated": "2023-11-15T01:00:00.000Z"
@@ -1995,7 +1987,7 @@
     {
       "id": 401715937,
       "team_name": "selouisiana",
-      "rank": 250,
+      "rank": 249,
       "elo_rating": 1453.2535695217,
       "season": 2025,
       "lastupdated": "2024-11-23T01:30:00.000Z"
@@ -2003,7 +1995,7 @@
     {
       "id": 401723703,
       "team_name": "mountstmarys",
-      "rank": 251,
+      "rank": 250,
       "elo_rating": 1452.6957775321,
       "season": 2025,
       "lastupdated": "2024-11-23T21:00:00.000Z"
@@ -2011,7 +2003,7 @@
     {
       "id": 401706167,
       "team_name": "bucknell",
-      "rank": 252,
+      "rank": 251,
       "elo_rating": 1452.3869462535,
       "season": 2025,
       "lastupdated": "2024-11-24T00:00:00.000Z"
@@ -2019,7 +2011,7 @@
     {
       "id": 401727498,
       "team_name": "scstate",
-      "rank": 253,
+      "rank": 252,
       "elo_rating": 1452.2426037921,
       "season": 2025,
       "lastupdated": "2024-11-23T19:00:00.000Z"
@@ -2027,10 +2019,18 @@
     {
       "id": 401722387,
       "team_name": "newmexicostate",
-      "rank": 254,
+      "rank": 253,
       "elo_rating": 1452.0641368409,
       "season": 2025,
       "lastupdated": "2024-11-24T00:00:00.000Z"
+    },
+    {
+      "id": 401722170,
+      "team_name": "howard",
+      "rank": 254,
+      "elo_rating": 1451.7494882486,
+      "season": 2025,
+      "lastupdated": "2024-11-25T17:00:00.000Z"
     },
     {
       "id": 401715470,
@@ -2073,17 +2073,9 @@
       "lastupdated": "2024-11-24T18:00:00.000Z"
     },
     {
-      "id": 401715329,
-      "team_name": "mercer",
-      "rank": 260,
-      "elo_rating": 1447.3872544005,
-      "season": 2025,
-      "lastupdated": "2024-11-22T00:00:00.000Z"
-    },
-    {
       "id": 401721031,
       "team_name": "clevelandstate",
-      "rank": 261,
+      "rank": 260,
       "elo_rating": 1446.5654820648,
       "season": 2025,
       "lastupdated": "2024-11-24T00:00:00.000Z"
@@ -2091,7 +2083,7 @@
     {
       "id": 401611836,
       "team_name": "albanystate",
-      "rank": 262,
+      "rank": 261,
       "elo_rating": 1446.2933649893,
       "season": 2024,
       "lastupdated": "2023-11-30T00:00:00.000Z"
@@ -2099,7 +2091,7 @@
     {
       "id": 401617059,
       "team_name": "lynchburg",
-      "rank": 263,
+      "rank": 262,
       "elo_rating": 1444.4515528624,
       "season": 2024,
       "lastupdated": "2023-12-16T20:00:00.000Z"
@@ -2107,7 +2099,7 @@
     {
       "id": 401583785,
       "team_name": "worceststate",
-      "rank": 264,
+      "rank": 263,
       "elo_rating": 1444.2962549153,
       "season": 2024,
       "lastupdated": "2023-11-10T00:00:00.000Z"
@@ -2115,7 +2107,7 @@
     {
       "id": 401721688,
       "team_name": "harvard",
-      "rank": 265,
+      "rank": 264,
       "elo_rating": 1444.2802856501,
       "season": 2025,
       "lastupdated": "2024-11-23T00:00:00.000Z"
@@ -2123,7 +2115,7 @@
     {
       "id": 401597920,
       "team_name": "malone",
-      "rank": 266,
+      "rank": 265,
       "elo_rating": 1443.4851137907,
       "season": 2024,
       "lastupdated": "2023-11-07T00:00:00.000Z"
@@ -2131,7 +2123,7 @@
     {
       "id": 401587172,
       "team_name": "devalley",
-      "rank": 267,
+      "rank": 266,
       "elo_rating": 1442.0573649994,
       "season": 2024,
       "lastupdated": "2023-12-22T18:00:00.000Z"
@@ -2139,7 +2131,7 @@
     {
       "id": 401587212,
       "team_name": "trumanstate",
-      "rank": 268,
+      "rank": 267,
       "elo_rating": 1441.8602798562,
       "season": 2024,
       "lastupdated": "2023-12-29T01:00:00.000Z"
@@ -2147,7 +2139,7 @@
     {
       "id": 401718449,
       "team_name": "frankpierce",
-      "rank": 269,
+      "rank": 268,
       "elo_rating": 1441.3462916273,
       "season": 2025,
       "lastupdated": "2024-11-13T00:00:00.000Z"
@@ -2155,7 +2147,7 @@
     {
       "id": 401720668,
       "team_name": "lamar",
-      "rank": 270,
+      "rank": 269,
       "elo_rating": 1440.7711149672,
       "season": 2025,
       "lastupdated": "2024-11-24T17:00:00.000Z"
@@ -2163,7 +2155,7 @@
     {
       "id": 401606989,
       "team_name": "eoregon",
-      "rank": 271,
+      "rank": 270,
       "elo_rating": 1440.5585743904,
       "season": 2024,
       "lastupdated": "2023-11-15T02:00:00.000Z"
@@ -2171,7 +2163,7 @@
     {
       "id": 401609950,
       "team_name": "angelostate",
-      "rank": 272,
+      "rank": 271,
       "elo_rating": 1438.8823951736,
       "season": 2024,
       "lastupdated": "2023-11-26T20:00:00.000Z"
@@ -2179,7 +2171,7 @@
     {
       "id": 401734106,
       "team_name": "txweslyan",
-      "rank": 273,
+      "rank": 272,
       "elo_rating": 1438.6586532311,
       "season": 2025,
       "lastupdated": "2024-11-22T01:00:00.000Z"
@@ -2187,7 +2179,7 @@
     {
       "id": 401581353,
       "team_name": "lakesuperior",
-      "rank": 274,
+      "rank": 273,
       "elo_rating": 1438.0171015576,
       "season": 2024,
       "lastupdated": "2023-12-02T00:00:00.000Z"
@@ -2195,7 +2187,7 @@
     {
       "id": 401721796,
       "team_name": "wagner",
-      "rank": 275,
+      "rank": 274,
       "elo_rating": 1437.9856363272,
       "season": 2025,
       "lastupdated": "2024-11-20T00:00:00.000Z"
@@ -2203,7 +2195,7 @@
     {
       "id": 401726024,
       "team_name": "dakotawes",
-      "rank": 276,
+      "rank": 275,
       "elo_rating": 1436.1974399357,
       "season": 2025,
       "lastupdated": "2024-11-15T00:00:00.000Z"
@@ -2211,7 +2203,7 @@
     {
       "id": 401608975,
       "team_name": "wvtech",
-      "rank": 277,
+      "rank": 276,
       "elo_rating": 1435.8059626571,
       "season": 2024,
       "lastupdated": "2023-11-08T00:00:00.000Z"
@@ -2219,7 +2211,7 @@
     {
       "id": 401617382,
       "team_name": "monttech",
-      "rank": 278,
+      "rank": 277,
       "elo_rating": 1435.6511012186,
       "season": 2024,
       "lastupdated": "2023-12-09T20:00:00.000Z"
@@ -2227,7 +2219,7 @@
     {
       "id": 401721930,
       "team_name": "ualbany",
-      "rank": 279,
+      "rank": 278,
       "elo_rating": 1433.61193614,
       "season": 2025,
       "lastupdated": "2024-11-24T17:00:00.000Z"
@@ -2235,7 +2227,7 @@
     {
       "id": 401594586,
       "team_name": "swesleyan",
-      "rank": 280,
+      "rank": 279,
       "elo_rating": 1433.4288040686,
       "season": 2024,
       "lastupdated": "2023-12-29T19:00:00.000Z"
@@ -2243,7 +2235,7 @@
     {
       "id": 401720977,
       "team_name": "chapman",
-      "rank": 281,
+      "rank": 280,
       "elo_rating": 1433.3162342788,
       "season": 2025,
       "lastupdated": "2024-11-05T04:00:00.000Z"
@@ -2251,31 +2243,31 @@
     {
       "id": 401727102,
       "team_name": "ndakotastate",
-      "rank": 282,
+      "rank": 281,
       "elo_rating": 1432.8180977285,
       "season": 2025,
       "lastupdated": "2024-11-19T01:00:00.000Z"
     },
     {
-      "id": 401721228,
-      "team_name": "tennesseestate",
-      "rank": 283,
-      "elo_rating": 1432.3594015483,
-      "season": 2025,
-      "lastupdated": "2024-11-17T01:00:00.000Z"
-    },
-    {
       "id": 401715915,
       "team_name": "dubuque",
-      "rank": 284,
+      "rank": 282,
       "elo_rating": 1431.6182610228,
       "season": 2025,
       "lastupdated": "2024-11-05T01:00:00.000Z"
     },
     {
+      "id": 401725375,
+      "team_name": "southernmiss",
+      "rank": 283,
+      "elo_rating": 1431.4202666709,
+      "season": 2025,
+      "lastupdated": "2024-11-26T02:00:00.000Z"
+    },
+    {
       "id": 401583779,
       "team_name": "lakeerie",
-      "rank": 285,
+      "rank": 284,
       "elo_rating": 1430.8081301629,
       "season": 2024,
       "lastupdated": "2023-11-19T20:00:00.000Z"
@@ -2283,7 +2275,7 @@
     {
       "id": 401718351,
       "team_name": "tulsa",
-      "rank": 286,
+      "rank": 285,
       "elo_rating": 1430.675104605,
       "season": 2025,
       "lastupdated": "2024-11-23T23:00:00.000Z"
@@ -2291,7 +2283,7 @@
     {
       "id": 401727831,
       "team_name": "westernoregon",
-      "rank": 287,
+      "rank": 286,
       "elo_rating": 1430.6185525748,
       "season": 2025,
       "lastupdated": "2024-11-13T04:00:00.000Z"
@@ -2299,7 +2291,7 @@
     {
       "id": 401722390,
       "team_name": "westmnster",
-      "rank": 288,
+      "rank": 287,
       "elo_rating": 1428.8664495665,
       "season": 2025,
       "lastupdated": "2024-11-14T02:00:00.000Z"
@@ -2307,7 +2299,7 @@
     {
       "id": 401610339,
       "team_name": "lsushreveport",
-      "rank": 289,
+      "rank": 288,
       "elo_rating": 1428.8491463941,
       "season": 2024,
       "lastupdated": "2023-12-30T19:00:00.000Z"
@@ -2315,7 +2307,7 @@
     {
       "id": 401721174,
       "team_name": "mercyhurst",
-      "rank": 290,
+      "rank": 289,
       "elo_rating": 1428.0314555069,
       "season": 2025,
       "lastupdated": "2024-11-24T21:00:00.000Z"
@@ -2323,7 +2315,7 @@
     {
       "id": 401720868,
       "team_name": "hawhilo",
-      "rank": 291,
+      "rank": 290,
       "elo_rating": 1427.8325339452,
       "season": 2025,
       "lastupdated": "2024-11-05T02:00:00.000Z"
@@ -2331,7 +2323,7 @@
     {
       "id": 401601456,
       "team_name": "heidelberg",
-      "rank": 292,
+      "rank": 291,
       "elo_rating": 1426.9512410338,
       "season": 2024,
       "lastupdated": "2023-11-15T00:30:00.000Z"
@@ -2339,7 +2331,7 @@
     {
       "id": 401608999,
       "team_name": "sunypotsdam",
-      "rank": 293,
+      "rank": 292,
       "elo_rating": 1425.1831915498,
       "season": 2024,
       "lastupdated": "2023-12-06T00:00:00.000Z"
@@ -2347,7 +2339,7 @@
     {
       "id": 401602689,
       "team_name": "vanguard",
-      "rank": 294,
+      "rank": 293,
       "elo_rating": 1424.7583857441,
       "season": 2024,
       "lastupdated": "2023-11-08T02:00:00.000Z"
@@ -2355,7 +2347,7 @@
     {
       "id": 401587189,
       "team_name": "colbysawyer",
-      "rank": 295,
+      "rank": 294,
       "elo_rating": 1424.5074949803,
       "season": 2024,
       "lastupdated": "2023-12-09T00:00:00.000Z"
@@ -2363,7 +2355,7 @@
     {
       "id": 401721085,
       "team_name": "sacredheart",
-      "rank": 296,
+      "rank": 295,
       "elo_rating": 1423.8004722881,
       "season": 2025,
       "lastupdated": "2024-11-22T01:00:00.000Z"
@@ -2371,39 +2363,23 @@
     {
       "id": 401576679,
       "team_name": "concordiaca",
-      "rank": 297,
+      "rank": 296,
       "elo_rating": 1423.1615380083,
       "season": 2024,
       "lastupdated": "2023-11-07T03:00:00.000Z"
     },
     {
-      "id": 401706164,
-      "team_name": "iona",
-      "rank": 298,
-      "elo_rating": 1422.454626815,
-      "season": 2025,
-      "lastupdated": "2024-11-21T00:00:00.000Z"
-    },
-    {
       "id": 401597301,
       "team_name": "carrollmt",
-      "rank": 299,
+      "rank": 297,
       "elo_rating": 1421.0153311808,
       "season": 2024,
       "lastupdated": "2023-12-31T20:00:00.000Z"
     },
     {
-      "id": 401732295,
-      "team_name": "louisiana",
-      "rank": 300,
-      "elo_rating": 1418.4836497621,
-      "season": 2025,
-      "lastupdated": "2024-11-23T22:30:00.000Z"
-    },
-    {
       "id": 401609479,
       "team_name": "hawaiipac",
-      "rank": 301,
+      "rank": 298,
       "elo_rating": 1418.4107354794,
       "season": 2024,
       "lastupdated": "2023-12-11T03:00:00.000Z"
@@ -2411,7 +2387,7 @@
     {
       "id": 401722594,
       "team_name": "campbell",
-      "rank": 302,
+      "rank": 299,
       "elo_rating": 1417.1572055856,
       "season": 2025,
       "lastupdated": "2024-11-24T21:00:00.000Z"
@@ -2419,7 +2395,7 @@
     {
       "id": 401726437,
       "team_name": "campbelsvl",
-      "rank": 303,
+      "rank": 300,
       "elo_rating": 1417.1095128161,
       "season": 2025,
       "lastupdated": "2024-11-13T01:00:00.000Z"
@@ -2427,7 +2403,7 @@
     {
       "id": 401726392,
       "team_name": "fgcu",
-      "rank": 304,
+      "rank": 301,
       "elo_rating": 1416.8291699448,
       "season": 2025,
       "lastupdated": "2024-11-24T20:00:00.000Z"
@@ -2435,7 +2411,7 @@
     {
       "id": 401604767,
       "team_name": "monstnor",
-      "rank": 305,
+      "rank": 302,
       "elo_rating": 1416.5328003398,
       "season": 2024,
       "lastupdated": "2023-12-06T02:00:00.000Z"
@@ -2443,7 +2419,7 @@
     {
       "id": 401721950,
       "team_name": "uniontn",
-      "rank": 306,
+      "rank": 303,
       "elo_rating": 1416.3343973234,
       "season": 2025,
       "lastupdated": "2024-11-05T01:00:00.000Z"
@@ -2451,7 +2427,7 @@
     {
       "id": 401594477,
       "team_name": "coe",
-      "rank": 307,
+      "rank": 304,
       "elo_rating": 1416.1184989838,
       "season": 2024,
       "lastupdated": "2023-12-07T01:00:00.000Z"
@@ -2459,15 +2435,23 @@
     {
       "id": 401597830,
       "team_name": "washandlee",
-      "rank": 308,
+      "rank": 305,
       "elo_rating": 1415.5585476632,
       "season": 2024,
       "lastupdated": "2023-11-07T00:00:00.000Z"
     },
     {
+      "id": 401727340,
+      "team_name": "tennesseestate",
+      "rank": 306,
+      "elo_rating": 1415.3701416028,
+      "season": 2025,
+      "lastupdated": "2024-11-26T00:00:00.000Z"
+    },
+    {
       "id": 401720575,
       "team_name": "tusculum",
-      "rank": 309,
+      "rank": 307,
       "elo_rating": 1414.0745881687,
       "season": 2025,
       "lastupdated": "2024-11-14T00:00:00.000Z"
@@ -2475,7 +2459,7 @@
     {
       "id": 401607612,
       "team_name": "morehouse",
-      "rank": 310,
+      "rank": 308,
       "elo_rating": 1413.7181210995,
       "season": 2024,
       "lastupdated": "2024-01-16T00:00:00.000Z"
@@ -2483,7 +2467,7 @@
     {
       "id": 401732252,
       "team_name": "wayland",
-      "rank": 311,
+      "rank": 309,
       "elo_rating": 1413.5151582595,
       "season": 2025,
       "lastupdated": "2024-11-08T01:30:00.000Z"
@@ -2491,15 +2475,23 @@
     {
       "id": 401715321,
       "team_name": "oralroberts",
-      "rank": 312,
+      "rank": 310,
       "elo_rating": 1411.098069197,
       "season": 2025,
       "lastupdated": "2024-11-22T01:00:00.000Z"
     },
     {
+      "id": 401732169,
+      "team_name": "flatech",
+      "rank": 311,
+      "elo_rating": 1410.1546203937,
+      "season": 2025,
+      "lastupdated": "2024-11-25T23:00:00.000Z"
+    },
+    {
       "id": 401604796,
       "team_name": "queensny",
-      "rank": 313,
+      "rank": 312,
       "elo_rating": 1409.9623683523,
       "season": 2024,
       "lastupdated": "2024-01-23T00:00:00.000Z"
@@ -2507,7 +2499,7 @@
     {
       "id": 401606632,
       "team_name": "enewmex",
-      "rank": 314,
+      "rank": 313,
       "elo_rating": 1409.9125740506,
       "season": 2024,
       "lastupdated": "2023-12-30T02:00:00.000Z"
@@ -2515,7 +2507,7 @@
     {
       "id": 401579039,
       "team_name": "birmsouthern",
-      "rank": 315,
+      "rank": 314,
       "elo_rating": 1409.5281917553,
       "season": 2024,
       "lastupdated": "2023-12-15T00:30:00.000Z"
@@ -2523,7 +2515,7 @@
     {
       "id": 401715402,
       "team_name": "pepperdine",
-      "rank": 316,
+      "rank": 315,
       "elo_rating": 1409.2318467001,
       "season": 2025,
       "lastupdated": "2024-11-23T01:00:00.000Z"
@@ -2531,7 +2523,7 @@
     {
       "id": 401721687,
       "team_name": "robertmorris",
-      "rank": 317,
+      "rank": 316,
       "elo_rating": 1409.2126220166,
       "season": 2025,
       "lastupdated": "2024-11-21T23:00:00.000Z"
@@ -2539,7 +2531,7 @@
     {
       "id": 401721930,
       "team_name": "american",
-      "rank": 318,
+      "rank": 317,
       "elo_rating": 1408.2288309766,
       "season": 2025,
       "lastupdated": "2024-11-24T17:00:00.000Z"
@@ -2547,7 +2539,7 @@
     {
       "id": 401594608,
       "team_name": "johnbrown",
-      "rank": 319,
+      "rank": 318,
       "elo_rating": 1408.2237926101,
       "season": 2024,
       "lastupdated": "2023-12-20T01:00:00.000Z"
@@ -2555,7 +2547,7 @@
     {
       "id": 401726405,
       "team_name": "nmexhighl",
-      "rank": 320,
+      "rank": 319,
       "elo_rating": 1407.8161042528,
       "season": 2025,
       "lastupdated": "2024-11-05T02:00:00.000Z"
@@ -2563,7 +2555,7 @@
     {
       "id": 401721001,
       "team_name": "taylor",
-      "rank": 321,
+      "rank": 320,
       "elo_rating": 1407.5465433517,
       "season": 2025,
       "lastupdated": "2024-11-12T00:00:00.000Z"
@@ -2571,7 +2563,7 @@
     {
       "id": 401587135,
       "team_name": "emenonite",
-      "rank": 322,
+      "rank": 321,
       "elo_rating": 1406.8116171757,
       "season": 2024,
       "lastupdated": "2023-11-12T21:30:00.000Z"
@@ -2579,10 +2571,18 @@
     {
       "id": 401720562,
       "team_name": "sandiego",
-      "rank": 323,
+      "rank": 322,
       "elo_rating": 1404.8866896222,
       "season": 2025,
       "lastupdated": "2024-11-24T22:00:00.000Z"
+    },
+    {
+      "id": 401715957,
+      "team_name": "emichigan",
+      "rank": 323,
+      "elo_rating": 1404.425512614,
+      "season": 2025,
+      "lastupdated": "2024-11-26T01:00:00.000Z"
     },
     {
       "id": 401606991,
@@ -2641,17 +2641,9 @@
       "lastupdated": "2024-11-23T21:00:00.000Z"
     },
     {
-      "id": 401728318,
-      "team_name": "misscollege",
-      "rank": 331,
-      "elo_rating": 1400.0923975176,
-      "season": 2025,
-      "lastupdated": "2024-11-19T00:30:00.000Z"
-    },
-    {
       "id": 401732949,
       "team_name": "tabor",
-      "rank": 332,
+      "rank": 331,
       "elo_rating": 1399.9269970719,
       "season": 2025,
       "lastupdated": "2024-11-15T01:00:00.000Z"
@@ -2659,7 +2651,7 @@
     {
       "id": 401588587,
       "team_name": "illinoistech",
-      "rank": 333,
+      "rank": 332,
       "elo_rating": 1399.8413012878,
       "season": 2024,
       "lastupdated": "2023-11-14T01:00:00.000Z"
@@ -2667,7 +2659,7 @@
     {
       "id": 401604786,
       "team_name": "schreiner",
-      "rank": 334,
+      "rank": 333,
       "elo_rating": 1399.0961787018,
       "season": 2024,
       "lastupdated": "2023-12-30T21:30:00.000Z"
@@ -2675,7 +2667,7 @@
     {
       "id": 401583812,
       "team_name": "kingcoll",
-      "rank": 335,
+      "rank": 334,
       "elo_rating": 1398.9153082915,
       "season": 2024,
       "lastupdated": "2023-12-30T21:00:00.000Z"
@@ -2683,10 +2675,18 @@
     {
       "id": 401726432,
       "team_name": "sulrossstate",
-      "rank": 336,
+      "rank": 335,
       "elo_rating": 1398.4878053102,
       "season": 2025,
       "lastupdated": "2024-11-05T02:00:00.000Z"
+    },
+    {
+      "id": 401732299,
+      "team_name": "louisiana",
+      "rank": 336,
+      "elo_rating": 1397.765481535,
+      "season": 2025,
+      "lastupdated": "2024-11-25T17:30:00.000Z"
     },
     {
       "id": 401725798,
@@ -2697,33 +2697,17 @@
       "lastupdated": "2024-11-16T01:00:00.000Z"
     },
     {
-      "id": 401721023,
-      "team_name": "emichigan",
-      "rank": 338,
-      "elo_rating": 1396.8147241699,
-      "season": 2025,
-      "lastupdated": "2024-11-22T00:00:00.000Z"
-    },
-    {
       "id": 401726013,
       "team_name": "thecitadel",
-      "rank": 339,
+      "rank": 338,
       "elo_rating": 1395.6662151121,
       "season": 2025,
       "lastupdated": "2024-11-20T23:00:00.000Z"
     },
     {
-      "id": 401720888,
-      "team_name": "denver",
-      "rank": 340,
-      "elo_rating": 1395.4103678747,
-      "season": 2025,
-      "lastupdated": "2024-11-25T00:00:00.000Z"
-    },
-    {
       "id": 401597994,
       "team_name": "talladega",
-      "rank": 341,
+      "rank": 339,
       "elo_rating": 1395.343338031,
       "season": 2024,
       "lastupdated": "2023-12-29T19:00:00.000Z"
@@ -2731,7 +2715,7 @@
     {
       "id": 401722421,
       "team_name": "sanfranstate",
-      "rank": 342,
+      "rank": 340,
       "elo_rating": 1394.999498204,
       "season": 2025,
       "lastupdated": "2024-11-05T03:00:00.000Z"
@@ -2739,7 +2723,7 @@
     {
       "id": 401722290,
       "team_name": "lachristian",
-      "rank": 343,
+      "rank": 341,
       "elo_rating": 1394.3412245882,
       "season": 2025,
       "lastupdated": "2024-11-05T00:30:00.000Z"
@@ -2747,7 +2731,7 @@
     {
       "id": 401590232,
       "team_name": "mayvllestate",
-      "rank": 344,
+      "rank": 342,
       "elo_rating": 1393.8232031978,
       "season": 2024,
       "lastupdated": "2023-12-15T01:00:00.000Z"
@@ -2755,7 +2739,7 @@
     {
       "id": 401721030,
       "team_name": "niagara",
-      "rank": 345,
+      "rank": 343,
       "elo_rating": 1393.7300562347,
       "season": 2025,
       "lastupdated": "2024-11-22T00:00:00.000Z"
@@ -2763,7 +2747,7 @@
     {
       "id": 401720880,
       "team_name": "narizona",
-      "rank": 346,
+      "rank": 344,
       "elo_rating": 1393.433039095,
       "season": 2025,
       "lastupdated": "2024-11-15T03:00:00.000Z"
@@ -2771,7 +2755,7 @@
     {
       "id": 401604334,
       "team_name": "northpark",
-      "rank": 347,
+      "rank": 345,
       "elo_rating": 1392.6913083575,
       "season": 2024,
       "lastupdated": "2023-11-10T01:30:00.000Z"
@@ -2779,7 +2763,7 @@
     {
       "id": 401608093,
       "team_name": "ohiodom",
-      "rank": 348,
+      "rank": 346,
       "elo_rating": 1391.8961899094,
       "season": 2024,
       "lastupdated": "2023-12-10T19:00:00.000Z"
@@ -2787,7 +2771,7 @@
     {
       "id": 401727325,
       "team_name": "westmnstr",
-      "rank": 349,
+      "rank": 347,
       "elo_rating": 1390.683138258,
       "season": 2025,
       "lastupdated": "2024-11-05T01:30:00.000Z"
@@ -2795,7 +2779,7 @@
     {
       "id": 401598962,
       "team_name": "berea",
-      "rank": 350,
+      "rank": 348,
       "elo_rating": 1389.9000826491,
       "season": 2024,
       "lastupdated": "2023-12-07T16:00:00.000Z"
@@ -2803,7 +2787,7 @@
     {
       "id": 401579030,
       "team_name": "millsaps",
-      "rank": 351,
+      "rank": 349,
       "elo_rating": 1389.3564769004,
       "season": 2024,
       "lastupdated": "2023-11-07T00:30:00.000Z"
@@ -2811,7 +2795,7 @@
     {
       "id": 401726395,
       "team_name": "lagrange",
-      "rank": 352,
+      "rank": 350,
       "elo_rating": 1388.6974392516,
       "season": 2025,
       "lastupdated": "2024-11-04T17:30:00.000Z"
@@ -2819,7 +2803,7 @@
     {
       "id": 401730668,
       "team_name": "haskell",
-      "rank": 353,
+      "rank": 351,
       "elo_rating": 1388.656211988,
       "season": 2025,
       "lastupdated": "2024-11-17T01:00:00.000Z"
@@ -2827,15 +2811,23 @@
     {
       "id": 401590841,
       "team_name": "fresnopac",
-      "rank": 354,
+      "rank": 352,
       "elo_rating": 1388.3519156955,
       "season": 2024,
       "lastupdated": "2023-12-31T03:00:00.000Z"
     },
     {
+      "id": 401706168,
+      "team_name": "iona",
+      "rank": 353,
+      "elo_rating": 1387.7153828815,
+      "season": 2025,
+      "lastupdated": "2024-11-26T00:00:00.000Z"
+    },
+    {
       "id": 401577681,
       "team_name": "coastguard",
-      "rank": 355,
+      "rank": 354,
       "elo_rating": 1387.6738438364,
       "season": 2024,
       "lastupdated": "2023-11-07T00:30:00.000Z"
@@ -2843,7 +2835,7 @@
     {
       "id": 401589463,
       "team_name": "molloy",
-      "rank": 356,
+      "rank": 355,
       "elo_rating": 1387.6602328373,
       "season": 2024,
       "lastupdated": "2023-11-10T00:00:00.000Z"
@@ -2851,7 +2843,7 @@
     {
       "id": 401594036,
       "team_name": "georgefox",
-      "rank": 357,
+      "rank": 356,
       "elo_rating": 1387.6531586707,
       "season": 2024,
       "lastupdated": "2023-12-09T22:00:00.000Z"
@@ -2859,7 +2851,7 @@
     {
       "id": 401730464,
       "team_name": "dillard",
-      "rank": 358,
+      "rank": 357,
       "elo_rating": 1386.7751579758,
       "season": 2025,
       "lastupdated": "2024-11-11T17:00:00.000Z"
@@ -2867,7 +2859,7 @@
     {
       "id": 401600070,
       "team_name": "csdhills",
-      "rank": 359,
+      "rank": 358,
       "elo_rating": 1386.3967322679,
       "season": 2024,
       "lastupdated": "2023-12-20T03:00:00.000Z"
@@ -2875,7 +2867,7 @@
     {
       "id": 401597399,
       "team_name": "valleycity",
-      "rank": 360,
+      "rank": 359,
       "elo_rating": 1386.2982854155,
       "season": 2024,
       "lastupdated": "2023-11-17T01:00:00.000Z"
@@ -2883,7 +2875,7 @@
     {
       "id": 401589363,
       "team_name": "fduflorhm",
-      "rank": 361,
+      "rank": 360,
       "elo_rating": 1385.4874897853,
       "season": 2024,
       "lastupdated": "2023-12-06T23:00:00.000Z"
@@ -2891,7 +2883,7 @@
     {
       "id": 401727326,
       "team_name": "stambrose",
-      "rank": 362,
+      "rank": 361,
       "elo_rating": 1384.0352969957,
       "season": 2025,
       "lastupdated": "2024-11-24T00:00:00.000Z"
@@ -2899,7 +2891,7 @@
     {
       "id": 401721666,
       "team_name": "marywood",
-      "rank": 363,
+      "rank": 362,
       "elo_rating": 1383.98875312,
       "season": 2025,
       "lastupdated": "2024-11-05T00:00:00.000Z"
@@ -2907,23 +2899,15 @@
     {
       "id": 401581810,
       "team_name": "doane",
-      "rank": 364,
+      "rank": 363,
       "elo_rating": 1383.9175933908,
       "season": 2024,
       "lastupdated": "2023-11-07T01:30:00.000Z"
     },
     {
-      "id": 401720750,
-      "team_name": "lemoyne",
-      "rank": 365,
-      "elo_rating": 1383.7888585223,
-      "season": 2025,
-      "lastupdated": "2024-11-23T21:30:00.000Z"
-    },
-    {
       "id": 401727069,
       "team_name": "springhill",
-      "rank": 366,
+      "rank": 364,
       "elo_rating": 1383.4488398845,
       "season": 2025,
       "lastupdated": "2024-11-19T01:00:00.000Z"
@@ -2931,7 +2915,7 @@
     {
       "id": 401724543,
       "team_name": "nccentral",
-      "rank": 367,
+      "rank": 365,
       "elo_rating": 1383.0969414654,
       "season": 2025,
       "lastupdated": "2024-11-23T00:00:00.000Z"
@@ -2939,7 +2923,7 @@
     {
       "id": 401609946,
       "team_name": "adamsstate",
-      "rank": 368,
+      "rank": 366,
       "elo_rating": 1382.4924234668,
       "season": 2024,
       "lastupdated": "2023-12-30T02:00:00.000Z"
@@ -2947,7 +2931,7 @@
     {
       "id": 401593930,
       "team_name": "asbury",
-      "rank": 369,
+      "rank": 367,
       "elo_rating": 1382.1889099515,
       "season": 2024,
       "lastupdated": "2023-11-11T22:00:00.000Z"
@@ -2955,7 +2939,7 @@
     {
       "id": 401715618,
       "team_name": "penn",
-      "rank": 370,
+      "rank": 368,
       "elo_rating": 1380.685653236,
       "season": 2025,
       "lastupdated": "2024-11-20T00:00:00.000Z"
@@ -2963,7 +2947,7 @@
     {
       "id": 401726029,
       "team_name": "bluefieldu",
-      "rank": 371,
+      "rank": 369,
       "elo_rating": 1380.5363914595,
       "season": 2025,
       "lastupdated": "2024-11-10T01:00:00.000Z"
@@ -2971,7 +2955,7 @@
     {
       "id": 401722035,
       "team_name": "bethune",
-      "rank": 372,
+      "rank": 370,
       "elo_rating": 1379.8290949736,
       "season": 2025,
       "lastupdated": "2024-11-20T00:30:00.000Z"
@@ -2979,7 +2963,7 @@
     {
       "id": 401725790,
       "team_name": "wnewmex",
-      "rank": 373,
+      "rank": 371,
       "elo_rating": 1379.8249395834,
       "season": 2025,
       "lastupdated": "2024-11-05T01:30:00.000Z"
@@ -2987,7 +2971,7 @@
     {
       "id": 401725351,
       "team_name": "stanislausstate",
-      "rank": 374,
+      "rank": 372,
       "elo_rating": 1379.2749172985,
       "season": 2025,
       "lastupdated": "2024-11-21T03:00:00.000Z"
@@ -2995,7 +2979,7 @@
     {
       "id": 401600071,
       "team_name": "lyon",
-      "rank": 375,
+      "rank": 373,
       "elo_rating": 1379.2194801102,
       "season": 2024,
       "lastupdated": "2023-11-14T00:00:00.000Z"
@@ -3003,7 +2987,7 @@
     {
       "id": 401721174,
       "team_name": "airforce",
-      "rank": 376,
+      "rank": 374,
       "elo_rating": 1378.5668501659,
       "season": 2025,
       "lastupdated": "2024-11-24T21:00:00.000Z"
@@ -3011,7 +2995,7 @@
     {
       "id": 401602631,
       "team_name": "limestone",
-      "rank": 377,
+      "rank": 375,
       "elo_rating": 1378.152375636,
       "season": 2024,
       "lastupdated": "2023-11-25T18:00:00.000Z"
@@ -3019,7 +3003,7 @@
     {
       "id": 401722297,
       "team_name": "aubmontgomery",
-      "rank": 378,
+      "rank": 376,
       "elo_rating": 1377.9686174526,
       "season": 2025,
       "lastupdated": "2024-11-19T00:30:00.000Z"
@@ -3027,7 +3011,7 @@
     {
       "id": 401604785,
       "team_name": "texaslutheran",
-      "rank": 379,
+      "rank": 377,
       "elo_rating": 1377.2658761109,
       "season": 2024,
       "lastupdated": "2023-12-18T17:00:00.000Z"
@@ -3035,7 +3019,7 @@
     {
       "id": 401606727,
       "team_name": "brewtonparker",
-      "rank": 380,
+      "rank": 378,
       "elo_rating": 1376.770103235,
       "season": 2024,
       "lastupdated": "2023-12-22T18:00:00.000Z"
@@ -3043,7 +3027,7 @@
     {
       "id": 401583736,
       "team_name": "paciflutheran",
-      "rank": 381,
+      "rank": 379,
       "elo_rating": 1375.9289100737,
       "season": 2024,
       "lastupdated": "2023-11-18T02:00:00.000Z"
@@ -3051,7 +3035,7 @@
     {
       "id": 401604285,
       "team_name": "wiley",
-      "rank": 382,
+      "rank": 380,
       "elo_rating": 1375.8115128182,
       "season": 2024,
       "lastupdated": "2023-12-19T20:00:00.000Z"
@@ -3059,7 +3043,7 @@
     {
       "id": 401720668,
       "team_name": "omaha",
-      "rank": 383,
+      "rank": 381,
       "elo_rating": 1375.6273499355,
       "season": 2025,
       "lastupdated": "2024-11-24T17:00:00.000Z"
@@ -3067,7 +3051,7 @@
     {
       "id": 401588589,
       "team_name": "oaklandcity",
-      "rank": 384,
+      "rank": 382,
       "elo_rating": 1375.5119451037,
       "season": 2024,
       "lastupdated": "2023-11-15T00:00:00.000Z"
@@ -3075,7 +3059,7 @@
     {
       "id": 401584407,
       "team_name": "merchmarn",
-      "rank": 385,
+      "rank": 383,
       "elo_rating": 1375.3387800988,
       "season": 2024,
       "lastupdated": "2023-12-30T19:00:00.000Z"
@@ -3083,7 +3067,7 @@
     {
       "id": 401579036,
       "team_name": "belhaven",
-      "rank": 386,
+      "rank": 384,
       "elo_rating": 1375.1516761805,
       "season": 2024,
       "lastupdated": "2023-12-06T00:30:00.000Z"
@@ -3091,7 +3075,7 @@
     {
       "id": 401726010,
       "team_name": "newberry",
-      "rank": 387,
+      "rank": 385,
       "elo_rating": 1374.7673261072,
       "season": 2025,
       "lastupdated": "2024-11-14T00:00:00.000Z"
@@ -3099,7 +3083,7 @@
     {
       "id": 401719367,
       "team_name": "coloradocoll",
-      "rank": 388,
+      "rank": 386,
       "elo_rating": 1374.669880039,
       "season": 2025,
       "lastupdated": "2024-11-05T03:00:00.000Z"
@@ -3107,7 +3091,7 @@
     {
       "id": 401725193,
       "team_name": "lmu",
-      "rank": 389,
+      "rank": 387,
       "elo_rating": 1374.4180949691,
       "season": 2025,
       "lastupdated": "2024-11-23T03:00:00.000Z"
@@ -3115,7 +3099,7 @@
     {
       "id": 401722260,
       "team_name": "texassouthern",
-      "rank": 390,
+      "rank": 388,
       "elo_rating": 1373.4925196231,
       "season": 2025,
       "lastupdated": "2024-11-25T01:00:00.000Z"
@@ -3123,7 +3107,7 @@
     {
       "id": 401594560,
       "team_name": "covenant",
-      "rank": 391,
+      "rank": 389,
       "elo_rating": 1373.4328527388,
       "season": 2024,
       "lastupdated": "2023-11-07T00:00:00.000Z"
@@ -3131,7 +3115,7 @@
     {
       "id": 401720870,
       "team_name": "calmaritime",
-      "rank": 392,
+      "rank": 390,
       "elo_rating": 1373.0020666091,
       "season": 2025,
       "lastupdated": "2024-11-06T03:00:00.000Z"
@@ -3139,7 +3123,7 @@
     {
       "id": 401727843,
       "team_name": "voorhees",
-      "rank": 393,
+      "rank": 391,
       "elo_rating": 1372.8140425486,
       "season": 2025,
       "lastupdated": "2024-11-12T00:00:00.000Z"
@@ -3147,7 +3131,7 @@
     {
       "id": 401710003,
       "team_name": "fullerton",
-      "rank": 394,
+      "rank": 392,
       "elo_rating": 1372.4739917853,
       "season": 2025,
       "lastupdated": "2024-11-23T03:00:00.000Z"
@@ -3155,7 +3139,7 @@
     {
       "id": 401726560,
       "team_name": "daviselkins",
-      "rank": 395,
+      "rank": 393,
       "elo_rating": 1372.398163533,
       "season": 2025,
       "lastupdated": "2024-11-05T00:00:00.000Z"
@@ -3163,7 +3147,7 @@
     {
       "id": 401602181,
       "team_name": "greensboro",
-      "rank": 396,
+      "rank": 394,
       "elo_rating": 1370.2359972492,
       "season": 2024,
       "lastupdated": "2023-12-22T18:00:00.000Z"
@@ -3171,15 +3155,23 @@
     {
       "id": 401729764,
       "team_name": "stetson",
-      "rank": 397,
+      "rank": 395,
       "elo_rating": 1369.3331784043,
       "season": 2025,
       "lastupdated": "2024-11-23T16:00:00.000Z"
     },
     {
+      "id": 401732167,
+      "team_name": "ballstate",
+      "rank": 396,
+      "elo_rating": 1368.7206793594,
+      "season": 2025,
+      "lastupdated": "2024-11-25T17:00:00.000Z"
+    },
+    {
       "id": 401727094,
       "team_name": "hannibal",
-      "rank": 398,
+      "rank": 397,
       "elo_rating": 1368.0549574442,
       "season": 2025,
       "lastupdated": "2024-11-05T00:00:00.000Z"
@@ -3187,7 +3179,7 @@
     {
       "id": 401594565,
       "team_name": "tennwesl",
-      "rank": 399,
+      "rank": 398,
       "elo_rating": 1367.3067733134,
       "season": 2024,
       "lastupdated": "2023-12-10T19:00:00.000Z"
@@ -3195,7 +3187,7 @@
     {
       "id": 401727538,
       "team_name": "kentuckystate",
-      "rank": 400,
+      "rank": 399,
       "elo_rating": 1365.7802265845,
       "season": 2025,
       "lastupdated": "2024-11-23T18:00:00.000Z"
@@ -3203,7 +3195,7 @@
     {
       "id": 401727295,
       "team_name": "mercy",
-      "rank": 401,
+      "rank": 400,
       "elo_rating": 1365.6680239095,
       "season": 2025,
       "lastupdated": "2024-11-13T00:00:00.000Z"
@@ -3211,7 +3203,7 @@
     {
       "id": 401725959,
       "team_name": "earlham",
-      "rank": 402,
+      "rank": 401,
       "elo_rating": 1364.4991349624,
       "season": 2025,
       "lastupdated": "2024-11-07T01:00:00.000Z"
@@ -3219,7 +3211,7 @@
     {
       "id": 401727834,
       "team_name": "letourneau",
-      "rank": 403,
+      "rank": 402,
       "elo_rating": 1364.4805028253,
       "season": 2025,
       "lastupdated": "2024-11-13T00:30:00.000Z"
@@ -3227,7 +3219,7 @@
     {
       "id": 401721020,
       "team_name": "sienaheights",
-      "rank": 404,
+      "rank": 403,
       "elo_rating": 1363.3594141219,
       "season": 2025,
       "lastupdated": "2024-11-08T17:00:00.000Z"
@@ -3235,7 +3227,7 @@
     {
       "id": 401729951,
       "team_name": "centstateoh",
-      "rank": 405,
+      "rank": 404,
       "elo_rating": 1363.1710534522,
       "season": 2025,
       "lastupdated": "2024-11-21T00:00:00.000Z"
@@ -3243,10 +3235,18 @@
     {
       "id": 401719247,
       "team_name": "piedmont",
-      "rank": 406,
+      "rank": 405,
       "elo_rating": 1362.9578118075,
       "season": 2025,
       "lastupdated": "2024-11-04T23:30:00.000Z"
+    },
+    {
+      "id": 401726443,
+      "team_name": "misscollege",
+      "rank": 406,
+      "elo_rating": 1362.1610668589,
+      "season": 2025,
+      "lastupdated": "2024-11-26T00:30:00.000Z"
     },
     {
       "id": 401727352,
@@ -3281,9 +3281,17 @@
       "lastupdated": "2023-11-12T22:00:00.000Z"
     },
     {
+      "id": 401721154,
+      "team_name": "utriogrande",
+      "rank": 411,
+      "elo_rating": 1360.4388859616,
+      "season": 2025,
+      "lastupdated": "2024-11-26T00:30:00.000Z"
+    },
+    {
       "id": 401725371,
       "team_name": "hwrdpayne",
-      "rank": 411,
+      "rank": 412,
       "elo_rating": 1360.3002261851,
       "season": 2025,
       "lastupdated": "2024-11-05T01:30:00.000Z"
@@ -3291,7 +3299,7 @@
     {
       "id": 401723734,
       "team_name": "gallaudet",
-      "rank": 412,
+      "rank": 413,
       "elo_rating": 1360.1399985691,
       "season": 2025,
       "lastupdated": "2024-11-19T00:00:00.000Z"
@@ -3299,7 +3307,7 @@
     {
       "id": 401724529,
       "team_name": "williammary",
-      "rank": 413,
+      "rank": 414,
       "elo_rating": 1360.02301151,
       "season": 2025,
       "lastupdated": "2024-11-24T18:00:00.000Z"
@@ -3307,7 +3315,7 @@
     {
       "id": 401722264,
       "team_name": "occidental",
-      "rank": 414,
+      "rank": 415,
       "elo_rating": 1359.5696410063,
       "season": 2025,
       "lastupdated": "2024-11-13T03:00:00.000Z"
@@ -3315,7 +3323,7 @@
     {
       "id": 401725373,
       "team_name": "mcmurry",
-      "rank": 415,
+      "rank": 416,
       "elo_rating": 1358.6914828158,
       "season": 2025,
       "lastupdated": "2024-11-13T01:00:00.000Z"
@@ -3323,7 +3331,7 @@
     {
       "id": 401600249,
       "team_name": "stxavier",
-      "rank": 416,
+      "rank": 417,
       "elo_rating": 1358.6579937081,
       "season": 2024,
       "lastupdated": "2024-01-21T22:00:00.000Z"
@@ -3331,7 +3339,7 @@
     {
       "id": 401727073,
       "team_name": "loyolala",
-      "rank": 417,
+      "rank": 418,
       "elo_rating": 1358.4458138719,
       "season": 2025,
       "lastupdated": "2024-11-13T01:00:00.000Z"
@@ -3339,23 +3347,23 @@
     {
       "id": 401722591,
       "team_name": "brescia",
-      "rank": 418,
+      "rank": 419,
       "elo_rating": 1357.5094681168,
       "season": 2025,
       "lastupdated": "2024-11-09T19:00:00.000Z"
     },
     {
-      "id": 401721230,
-      "team_name": "alabamaam",
-      "rank": 419,
-      "elo_rating": 1356.9798545101,
+      "id": 401727091,
+      "team_name": "denver",
+      "rank": 420,
+      "elo_rating": 1357.05929963,
       "season": 2025,
-      "lastupdated": "2024-11-23T22:00:00.000Z"
+      "lastupdated": "2024-11-25T21:00:00.000Z"
     },
     {
       "id": 401709967,
       "team_name": "laverne",
-      "rank": 420,
+      "rank": 421,
       "elo_rating": 1356.2153472702,
       "season": 2025,
       "lastupdated": "2024-11-05T03:00:00.000Z"
@@ -3363,7 +3371,7 @@
     {
       "id": 401727090,
       "team_name": "colchristian",
-      "rank": 421,
+      "rank": 422,
       "elo_rating": 1356.0050538484,
       "season": 2025,
       "lastupdated": "2024-11-15T02:00:00.000Z"
@@ -3371,18 +3379,10 @@
     {
       "id": 401727426,
       "team_name": "ngreenvl",
-      "rank": 422,
+      "rank": 423,
       "elo_rating": 1355.7656851737,
       "season": 2025,
       "lastupdated": "2024-11-15T00:00:00.000Z"
-    },
-    {
-      "id": 401716156,
-      "team_name": "utsa",
-      "rank": 423,
-      "elo_rating": 1353.8385692827,
-      "season": 2025,
-      "lastupdated": "2024-11-16T21:00:00.000Z"
     },
     {
       "id": 401597436,
@@ -3417,9 +3417,17 @@
       "lastupdated": "2024-11-17T22:30:00.000Z"
     },
     {
+      "id": 401722170,
+      "team_name": "umbc",
+      "rank": 428,
+      "elo_rating": 1351.4554612137,
+      "season": 2025,
+      "lastupdated": "2024-11-25T17:00:00.000Z"
+    },
+    {
       "id": 401577559,
       "team_name": "mepresqueisle",
-      "rank": 428,
+      "rank": 429,
       "elo_rating": 1350.6621821586,
       "season": 2024,
       "lastupdated": "2023-11-08T23:00:00.000Z"
@@ -3427,7 +3435,7 @@
     {
       "id": 401594050,
       "team_name": "pacunion",
-      "rank": 429,
+      "rank": 430,
       "elo_rating": 1350.5382418808,
       "season": 2024,
       "lastupdated": "2023-11-15T02:30:00.000Z"
@@ -3435,7 +3443,7 @@
     {
       "id": 401722176,
       "team_name": "fisher",
-      "rank": 430,
+      "rank": 431,
       "elo_rating": 1350.2584956295,
       "season": 2025,
       "lastupdated": "2024-11-20T20:00:00.000Z"
@@ -3443,7 +3451,7 @@
     {
       "id": 401720783,
       "team_name": "vtlyndon",
-      "rank": 431,
+      "rank": 432,
       "elo_rating": 1350.2148013636,
       "season": 2025,
       "lastupdated": "2024-11-05T00:00:00.000Z"
@@ -3451,7 +3459,7 @@
     {
       "id": 401589061,
       "team_name": "bridgewaterva",
-      "rank": 432,
+      "rank": 433,
       "elo_rating": 1350.0788534525,
       "season": 2024,
       "lastupdated": "2023-12-20T00:00:00.000Z"
@@ -3459,15 +3467,23 @@
     {
       "id": 401728972,
       "team_name": "alicelloyd",
-      "rank": 433,
+      "rank": 434,
       "elo_rating": 1350.0383387548,
       "season": 2025,
       "lastupdated": "2024-11-05T00:00:00.000Z"
     },
     {
+      "id": 401721805,
+      "team_name": "navy",
+      "rank": 435,
+      "elo_rating": 1348.6549790045,
+      "season": 2025,
+      "lastupdated": "2024-11-26T00:00:00.000Z"
+    },
+    {
       "id": 401721171,
       "team_name": "houghton",
-      "rank": 434,
+      "rank": 436,
       "elo_rating": 1346.9720398734,
       "season": 2025,
       "lastupdated": "2024-11-09T20:00:00.000Z"
@@ -3475,7 +3491,7 @@
     {
       "id": 401581601,
       "team_name": "chaminade",
-      "rank": 435,
+      "rank": 437,
       "elo_rating": 1345.9971714279,
       "season": 2024,
       "lastupdated": "2023-11-23T02:30:00.000Z"
@@ -3483,7 +3499,7 @@
     {
       "id": 401726428,
       "team_name": "trinitytx",
-      "rank": 436,
+      "rank": 438,
       "elo_rating": 1345.7570109338,
       "season": 2025,
       "lastupdated": "2024-11-22T00:30:00.000Z"
@@ -3491,7 +3507,7 @@
     {
       "id": 401574208,
       "team_name": "hendrix",
-      "rank": 437,
+      "rank": 439,
       "elo_rating": 1345.6876202283,
       "season": 2024,
       "lastupdated": "2023-11-11T00:30:00.000Z"
@@ -3499,7 +3515,7 @@
     {
       "id": 401577655,
       "team_name": "montreat",
-      "rank": 438,
+      "rank": 440,
       "elo_rating": 1345.172852835,
       "season": 2024,
       "lastupdated": "2023-12-30T00:00:00.000Z"
@@ -3507,39 +3523,31 @@
     {
       "id": 401600094,
       "team_name": "northland",
-      "rank": 439,
+      "rank": 441,
       "elo_rating": 1344.4297945889,
       "season": 2024,
       "lastupdated": "2023-11-22T19:00:00.000Z"
     },
     {
-      "id": 401720994,
-      "team_name": "ballstate",
-      "rank": 440,
-      "elo_rating": 1341.9799905237,
+      "id": 401721154,
+      "team_name": "lemoyne",
+      "rank": 442,
+      "elo_rating": 1341.0034871104,
       "season": 2025,
-      "lastupdated": "2024-11-21T00:00:00.000Z"
+      "lastupdated": "2024-11-26T00:30:00.000Z"
     },
     {
       "id": 401597993,
       "team_name": "thmas",
-      "rank": 441,
+      "rank": 443,
       "elo_rating": 1340.649027435,
       "season": 2024,
       "lastupdated": "2023-12-21T18:00:00.000Z"
     },
     {
-      "id": 401723742,
-      "team_name": "ncat",
-      "rank": 442,
-      "elo_rating": 1340.1900542145,
-      "season": 2025,
-      "lastupdated": "2024-11-21T00:00:00.000Z"
-    },
-    {
       "id": 401722098,
       "team_name": "sunyoneonta",
-      "rank": 443,
+      "rank": 444,
       "elo_rating": 1340.025743238,
       "season": 2025,
       "lastupdated": "2024-11-10T00:00:00.000Z"
@@ -3547,15 +3555,23 @@
     {
       "id": 401724512,
       "team_name": "stfrancisil",
-      "rank": 444,
+      "rank": 445,
       "elo_rating": 1338.6366362767,
       "season": 2025,
       "lastupdated": "2024-11-05T01:00:00.000Z"
     },
     {
+      "id": 401716157,
+      "team_name": "utsa",
+      "rank": 446,
+      "elo_rating": 1338.2287724526,
+      "season": 2025,
+      "lastupdated": "2024-11-26T01:00:00.000Z"
+    },
+    {
       "id": 401715359,
       "team_name": "southern",
-      "rank": 445,
+      "rank": 447,
       "elo_rating": 1336.9479113949,
       "season": 2025,
       "lastupdated": "2024-11-21T01:00:00.000Z"
@@ -3563,7 +3579,7 @@
     {
       "id": 401723713,
       "team_name": "gwyneddmercy",
-      "rank": 446,
+      "rank": 448,
       "elo_rating": 1336.7846571562,
       "season": 2025,
       "lastupdated": "2024-11-13T00:00:00.000Z"
@@ -3571,7 +3587,7 @@
     {
       "id": 401706877,
       "team_name": "sacramentostate",
-      "rank": 447,
+      "rank": 449,
       "elo_rating": 1336.373168624,
       "season": 2025,
       "lastupdated": "2024-11-24T21:00:00.000Z"
@@ -3579,7 +3595,7 @@
     {
       "id": 401721077,
       "team_name": "wmichigan",
-      "rank": 448,
+      "rank": 450,
       "elo_rating": 1335.8579434223,
       "season": 2025,
       "lastupdated": "2024-11-21T00:00:00.000Z"
@@ -3587,7 +3603,7 @@
     {
       "id": 401591560,
       "team_name": "mtvincent",
-      "rank": 449,
+      "rank": 451,
       "elo_rating": 1335.5644283828,
       "season": 2024,
       "lastupdated": "2024-01-05T00:00:00.000Z"
@@ -3595,7 +3611,7 @@
     {
       "id": 401718348,
       "team_name": "eureka",
-      "rank": 450,
+      "rank": 452,
       "elo_rating": 1334.5121969591,
       "season": 2025,
       "lastupdated": "2024-11-10T19:00:00.000Z"
@@ -3603,7 +3619,7 @@
     {
       "id": 401726392,
       "team_name": "fiu",
-      "rank": 451,
+      "rank": 453,
       "elo_rating": 1334.2727711131,
       "season": 2025,
       "lastupdated": "2024-11-24T20:00:00.000Z"
@@ -3611,7 +3627,7 @@
     {
       "id": 401729847,
       "team_name": "portland",
-      "rank": 452,
+      "rank": 454,
       "elo_rating": 1333.0345645927,
       "season": 2025,
       "lastupdated": "2024-11-24T15:30:00.000Z"
@@ -3619,7 +3635,7 @@
     {
       "id": 401584436,
       "team_name": "bluemtn",
-      "rank": 453,
+      "rank": 455,
       "elo_rating": 1333.0325495625,
       "season": 2024,
       "lastupdated": "2023-11-22T00:30:00.000Z"
@@ -3627,7 +3643,7 @@
     {
       "id": 401727425,
       "team_name": "erskine",
-      "rank": 454,
+      "rank": 456,
       "elo_rating": 1331.4638926348,
       "season": 2025,
       "lastupdated": "2024-11-08T00:00:00.000Z"
@@ -3635,7 +3651,7 @@
     {
       "id": 401587150,
       "team_name": "milligan",
-      "rank": 455,
+      "rank": 457,
       "elo_rating": 1330.1885405285,
       "season": 2024,
       "lastupdated": "2023-11-18T23:00:00.000Z"
@@ -3643,23 +3659,31 @@
     {
       "id": 401727542,
       "team_name": "defiance",
-      "rank": 456,
+      "rank": 458,
       "elo_rating": 1329.7384428727,
       "season": 2025,
       "lastupdated": "2024-11-05T00:00:00.000Z"
     },
     {
       "id": 401715934,
-      "team_name": "williamcarey",
-      "rank": 457,
+      "team_name": "willcarey",
+      "rank": 459,
       "elo_rating": 1329.1509305495,
       "season": 2025,
       "lastupdated": "2024-11-05T01:30:00.000Z"
     },
     {
+      "id": 401721014,
+      "team_name": "ncat",
+      "rank": 460,
+      "elo_rating": 1329.1219148973,
+      "season": 2025,
+      "lastupdated": "2024-11-26T00:00:00.000Z"
+    },
+    {
       "id": 401727352,
       "team_name": "lafayette",
-      "rank": 458,
+      "rank": 461,
       "elo_rating": 1328.5989551322,
       "season": 2025,
       "lastupdated": "2024-11-24T18:00:00.000Z"
@@ -3667,7 +3691,7 @@
     {
       "id": 401721086,
       "team_name": "binghamton",
-      "rank": 459,
+      "rank": 462,
       "elo_rating": 1326.4629801422,
       "season": 2025,
       "lastupdated": "2024-11-24T18:00:00.000Z"
@@ -3675,7 +3699,7 @@
     {
       "id": 401721804,
       "team_name": "holycross",
-      "rank": 460,
+      "rank": 463,
       "elo_rating": 1325.3624076928,
       "season": 2025,
       "lastupdated": "2024-11-24T17:00:00.000Z"
@@ -3683,7 +3707,7 @@
     {
       "id": 401721982,
       "team_name": "westgeorgia",
-      "rank": 461,
+      "rank": 464,
       "elo_rating": 1323.973367751,
       "season": 2025,
       "lastupdated": "2024-11-23T17:00:00.000Z"
@@ -3691,7 +3715,7 @@
     {
       "id": 401722195,
       "team_name": "mountolive",
-      "rank": 462,
+      "rank": 465,
       "elo_rating": 1323.7948581475,
       "season": 2025,
       "lastupdated": "2024-11-13T00:00:00.000Z"
@@ -3699,7 +3723,7 @@
     {
       "id": 401604790,
       "team_name": "harstowe",
-      "rank": 463,
+      "rank": 466,
       "elo_rating": 1322.3543864815,
       "season": 2024,
       "lastupdated": "2023-12-07T00:30:00.000Z"
@@ -3707,23 +3731,23 @@
     {
       "id": 401727421,
       "team_name": "ncweslyn",
-      "rank": 464,
+      "rank": 467,
       "elo_rating": 1321.8768326163,
       "season": 2025,
       "lastupdated": "2024-11-16T18:00:00.000Z"
     },
     {
-      "id": 401727416,
-      "team_name": "washcollmd",
-      "rank": 465,
-      "elo_rating": 1321.2802912732,
+      "id": 401722366,
+      "team_name": "sanjosstate",
+      "rank": 468,
+      "elo_rating": 1321.2864564266,
       "season": 2025,
-      "lastupdated": "2024-11-04T23:00:00.000Z"
+      "lastupdated": "2024-11-26T01:30:00.000Z"
     },
     {
       "id": 401720664,
       "team_name": "paulquinn",
-      "rank": 466,
+      "rank": 469,
       "elo_rating": 1320.5900239338,
       "season": 2025,
       "lastupdated": "2024-11-05T01:00:00.000Z"
@@ -3731,7 +3755,7 @@
     {
       "id": 401720562,
       "team_name": "idaho",
-      "rank": 467,
+      "rank": 470,
       "elo_rating": 1320.0322189057,
       "season": 2025,
       "lastupdated": "2024-11-24T22:00:00.000Z"
@@ -3739,23 +3763,15 @@
     {
       "id": 401711735,
       "team_name": "nwesternstate",
-      "rank": 468,
+      "rank": 471,
       "elo_rating": 1318.2568468257,
       "season": 2025,
       "lastupdated": "2024-11-24T20:00:00.000Z"
     },
     {
-      "id": 401715443,
-      "team_name": "utriogrande",
-      "rank": 469,
-      "elo_rating": 1317.6535145497,
-      "season": 2025,
-      "lastupdated": "2024-11-19T01:00:00.000Z"
-    },
-    {
       "id": 401721281,
       "team_name": "alcornstate",
-      "rank": 470,
+      "rank": 472,
       "elo_rating": 1314.2665634285,
       "season": 2025,
       "lastupdated": "2024-11-24T22:00:00.000Z"
@@ -3763,7 +3779,7 @@
     {
       "id": 401726041,
       "team_name": "monmouth",
-      "rank": 471,
+      "rank": 473,
       "elo_rating": 1313.7588532235,
       "season": 2025,
       "lastupdated": "2024-11-23T17:00:00.000Z"
@@ -3771,7 +3787,7 @@
     {
       "id": 401722089,
       "team_name": "mefortkent",
-      "rank": 472,
+      "rank": 474,
       "elo_rating": 1312.2503603918,
       "season": 2025,
       "lastupdated": "2024-11-06T23:00:00.000Z"
@@ -3779,7 +3795,7 @@
     {
       "id": 401720946,
       "team_name": "alabamastate",
-      "rank": 473,
+      "rank": 475,
       "elo_rating": 1309.8863872875,
       "season": 2025,
       "lastupdated": "2024-11-24T20:00:00.000Z"
@@ -3787,7 +3803,7 @@
     {
       "id": 401731883,
       "team_name": "cheyneypa",
-      "rank": 474,
+      "rank": 476,
       "elo_rating": 1308.9827742252,
       "season": 2025,
       "lastupdated": "2024-11-16T21:00:00.000Z"
@@ -3795,15 +3811,23 @@
     {
       "id": 401725508,
       "team_name": "northwest",
-      "rank": 475,
+      "rank": 477,
       "elo_rating": 1308.728289345,
       "season": 2025,
       "lastupdated": "2024-11-23T03:00:00.000Z"
     },
     {
+      "id": 401721231,
+      "team_name": "alabamaam",
+      "rank": 478,
+      "elo_rating": 1305.9942083086,
+      "season": 2025,
+      "lastupdated": "2024-11-25T20:00:00.000Z"
+    },
+    {
       "id": 401721134,
       "team_name": "fairdickinson",
-      "rank": 476,
+      "rank": 479,
       "elo_rating": 1301.200286623,
       "season": 2025,
       "lastupdated": "2024-11-21T00:00:00.000Z"
@@ -3811,7 +3835,7 @@
     {
       "id": 401721801,
       "team_name": "manhattan",
-      "rank": 477,
+      "rank": 480,
       "elo_rating": 1300.4345174292,
       "season": 2025,
       "lastupdated": "2024-11-23T00:00:00.000Z"
@@ -3819,7 +3843,7 @@
     {
       "id": 401724523,
       "team_name": "valparaiso",
-      "rank": 478,
+      "rank": 481,
       "elo_rating": 1300.297529996,
       "season": 2025,
       "lastupdated": "2024-11-24T19:00:00.000Z"
@@ -3827,7 +3851,7 @@
     {
       "id": 401725352,
       "team_name": "calpoly",
-      "rank": 479,
+      "rank": 482,
       "elo_rating": 1299.0768350129,
       "season": 2025,
       "lastupdated": "2024-11-24T01:00:00.000Z"
@@ -3835,31 +3859,23 @@
     {
       "id": 401721801,
       "team_name": "army",
-      "rank": 480,
+      "rank": 483,
       "elo_rating": 1298.3969621048,
       "season": 2025,
       "lastupdated": "2024-11-23T00:00:00.000Z"
     },
     {
-      "id": 401721802,
-      "team_name": "umbc",
-      "rank": 481,
-      "elo_rating": 1297.9017738552,
+      "id": 401729772,
+      "team_name": "hampton",
+      "rank": 484,
+      "elo_rating": 1297.1343041754,
       "season": 2025,
-      "lastupdated": "2024-11-23T17:00:00.000Z"
-    },
-    {
-      "id": 401721797,
-      "team_name": "navy",
-      "rank": 482,
-      "elo_rating": 1297.6442798694,
-      "season": 2025,
-      "lastupdated": "2024-11-19T22:30:00.000Z"
+      "lastupdated": "2024-11-25T16:00:00.000Z"
     },
     {
       "id": 401721230,
       "team_name": "coastalcar",
-      "rank": 483,
+      "rank": 485,
       "elo_rating": 1296.5735823381,
       "season": 2025,
       "lastupdated": "2024-11-23T22:00:00.000Z"
@@ -3867,7 +3883,7 @@
     {
       "id": 401731988,
       "team_name": "soneworleans",
-      "rank": 484,
+      "rank": 486,
       "elo_rating": 1292.7729487348,
       "season": 2025,
       "lastupdated": "2024-11-05T02:00:00.000Z"
@@ -3875,7 +3891,7 @@
     {
       "id": 401721227,
       "team_name": "fisk",
-      "rank": 485,
+      "rank": 487,
       "elo_rating": 1291.4878052165,
       "season": 2025,
       "lastupdated": "2024-11-14T01:00:00.000Z"
@@ -3883,23 +3899,15 @@
     {
       "id": 401720560,
       "team_name": "evergreen",
-      "rank": 486,
+      "rank": 488,
       "elo_rating": 1289.9674327913,
       "season": 2025,
       "lastupdated": "2024-11-20T02:00:00.000Z"
     },
     {
-      "id": 401706871,
-      "team_name": "olddominion",
-      "rank": 487,
-      "elo_rating": 1288.4357323086,
-      "season": 2025,
-      "lastupdated": "2024-11-25T00:30:00.000Z"
-    },
-    {
       "id": 401711734,
       "team_name": "ulmonroe",
-      "rank": 488,
+      "rank": 489,
       "elo_rating": 1285.4463539296,
       "season": 2025,
       "lastupdated": "2024-11-23T22:00:00.000Z"
@@ -3907,18 +3915,10 @@
     {
       "id": 401711686,
       "team_name": "jacksonstate",
-      "rank": 489,
+      "rank": 490,
       "elo_rating": 1283.6962652768,
       "season": 2025,
       "lastupdated": "2024-11-24T22:00:00.000Z"
-    },
-    {
-      "id": 401707851,
-      "team_name": "mdeastern",
-      "rank": 490,
-      "elo_rating": 1283.4019351554,
-      "season": 2025,
-      "lastupdated": "2024-11-23T21:00:00.000Z"
     },
     {
       "id": 401720947,
@@ -3937,12 +3937,12 @@
       "lastupdated": "2024-11-23T20:00:00.000Z"
     },
     {
-      "id": 401722093,
-      "team_name": "newhampshire",
+      "id": 401729774,
+      "team_name": "olddominion",
       "rank": 493,
-      "elo_rating": 1277.9991359066,
+      "elo_rating": 1278.1100470952,
       "season": 2025,
-      "lastupdated": "2024-11-23T19:00:00.000Z"
+      "lastupdated": "2024-11-25T22:00:00.000Z"
     },
     {
       "id": 401588314,
@@ -3961,20 +3961,20 @@
       "lastupdated": "2024-11-20T00:00:00.000Z"
     },
     {
-      "id": 401721111,
-      "team_name": "chicagostate",
-      "rank": 496,
-      "elo_rating": 1271.4861219391,
-      "season": 2025,
-      "lastupdated": "2024-11-23T00:00:00.000Z"
-    },
-    {
       "id": 401715461,
       "team_name": "nillinois",
-      "rank": 497,
+      "rank": 496,
       "elo_rating": 1270.9819397873,
       "season": 2025,
       "lastupdated": "2024-11-23T22:00:00.000Z"
+    },
+    {
+      "id": 401721805,
+      "team_name": "washcollmd",
+      "rank": 497,
+      "elo_rating": 1270.2695921382,
+      "season": 2025,
+      "lastupdated": "2024-11-26T00:00:00.000Z"
     },
     {
       "id": 401598011,
@@ -3993,20 +3993,20 @@
       "lastupdated": "2024-11-07T00:30:00.000Z"
     },
     {
-      "id": 401721657,
-      "team_name": "sanjosstate",
-      "rank": 500,
-      "elo_rating": 1268.4269332546,
-      "season": 2025,
-      "lastupdated": "2024-11-21T03:00:00.000Z"
-    },
-    {
       "id": 401706166,
       "team_name": "canisius",
-      "rank": 501,
+      "rank": 500,
       "elo_rating": 1264.77104481,
       "season": 2025,
       "lastupdated": "2024-11-23T18:00:00.000Z"
+    },
+    {
+      "id": 401723726,
+      "team_name": "mdeastern",
+      "rank": 501,
+      "elo_rating": 1264.6926843308,
+      "season": 2025,
+      "lastupdated": "2024-11-26T01:00:00.000Z"
     },
     {
       "id": 401719230,
@@ -4017,20 +4017,20 @@
       "lastupdated": "2024-11-24T19:00:00.000Z"
     },
     {
+      "id": 401721692,
+      "team_name": "newhampshire",
+      "rank": 503,
+      "elo_rating": 1258.834812041,
+      "season": 2025,
+      "lastupdated": "2024-11-26T00:00:00.000Z"
+    },
+    {
       "id": 401723750,
       "team_name": "morganstate",
-      "rank": 503,
+      "rank": 504,
       "elo_rating": 1255.787121566,
       "season": 2025,
       "lastupdated": "2024-11-24T21:00:00.000Z"
-    },
-    {
-      "id": 401715871,
-      "team_name": "hampton",
-      "rank": 504,
-      "elo_rating": 1253.050280657,
-      "season": 2025,
-      "lastupdated": "2024-11-24T16:00:00.000Z"
     },
     {
       "id": 401721783,
@@ -4049,12 +4049,12 @@
       "lastupdated": "2024-11-24T19:00:00.000Z"
     },
     {
-      "id": 401727258,
-      "team_name": "easttexasam",
+      "id": 401716087,
+      "team_name": "chicagostate",
       "rank": 507,
-      "elo_rating": 1243.6651608024,
+      "elo_rating": 1247.5654792158,
       "season": 2025,
-      "lastupdated": "2024-11-22T01:00:00.000Z"
+      "lastupdated": "2024-11-25T15:30:00.000Z"
     },
     {
       "id": 401719238,
@@ -4073,36 +4073,36 @@
       "lastupdated": "2024-11-23T00:30:00.000Z"
     },
     {
+      "id": 401722012,
+      "team_name": "stonehill",
+      "rank": 510,
+      "elo_rating": 1233.3920108107,
+      "season": 2025,
+      "lastupdated": "2024-11-26T00:00:00.000Z"
+    },
+    {
       "id": 401700467,
       "team_name": "detroitmercy",
-      "rank": 510,
+      "rank": 511,
       "elo_rating": 1232.8049826624,
       "season": 2025,
       "lastupdated": "2024-11-23T21:00:00.000Z"
     },
     {
-      "id": 401706165,
-      "team_name": "siena",
-      "rank": 511,
-      "elo_rating": 1223.0289897768,
-      "season": 2025,
-      "lastupdated": "2024-11-20T23:30:00.000Z"
-    },
-    {
-      "id": 401722011,
-      "team_name": "stonehill",
+      "id": 401722012,
+      "team_name": "easttexasam",
       "rank": 512,
-      "elo_rating": 1219.1844844352,
+      "elo_rating": 1229.4576344268,
       "season": 2025,
-      "lastupdated": "2024-11-22T00:00:00.000Z"
+      "lastupdated": "2024-11-26T00:00:00.000Z"
     },
     {
-      "id": 401721013,
+      "id": 401721014,
       "team_name": "buffalo",
       "rank": 513,
-      "elo_rating": 1206.6134605262,
+      "elo_rating": 1217.6815998435,
       "season": 2025,
-      "lastupdated": "2024-11-23T00:00:00.000Z"
+      "lastupdated": "2024-11-26T00:00:00.000Z"
     },
     {
       "id": 401724542,
@@ -4121,9 +4121,17 @@
       "lastupdated": "2024-11-24T22:00:00.000Z"
     },
     {
+      "id": 401706169,
+      "team_name": "siena",
+      "rank": 516,
+      "elo_rating": 1200.2504531289,
+      "season": 2025,
+      "lastupdated": "2024-11-25T16:00:00.000Z"
+    },
+    {
       "id": 401715311,
       "team_name": "pacific",
-      "rank": 516,
+      "rank": 517,
       "elo_rating": 1183.1568126735,
       "season": 2025,
       "lastupdated": "2024-11-23T00:30:00.000Z"
@@ -4131,7 +4139,7 @@
     {
       "id": 401706870,
       "team_name": "loyolamd",
-      "rank": 517,
+      "rank": 518,
       "elo_rating": 1174.5356734394,
       "season": 2025,
       "lastupdated": "2024-11-19T23:00:00.000Z"
@@ -4139,7 +4147,7 @@
     {
       "id": 401714892,
       "team_name": "floridaam",
-      "rank": 518,
+      "rank": 519,
       "elo_rating": 1169.8795430168,
       "season": 2025,
       "lastupdated": "2024-11-20T00:00:00.000Z"
@@ -4147,7 +4155,7 @@
     {
       "id": 401720449,
       "team_name": "charlestonso",
-      "rank": 519,
+      "rank": 520,
       "elo_rating": 1160.648248635,
       "season": 2025,
       "lastupdated": "2024-11-23T19:00:00.000Z"
@@ -4155,7 +4163,7 @@
     {
       "id": 401589300,
       "team_name": "hartford",
-      "rank": 520,
+      "rank": 521,
       "elo_rating": 1149.6693119428,
       "season": 2024,
       "lastupdated": "2023-12-17T19:00:00.000Z"
@@ -4163,18 +4171,10 @@
     {
       "id": 401715470,
       "team_name": "stfrancispa",
-      "rank": 521,
+      "rank": 522,
       "elo_rating": 1145.743455076,
       "season": 2025,
       "lastupdated": "2024-11-23T17:00:00.000Z"
-    },
-    {
-      "id": 401715956,
-      "team_name": "houchristian",
-      "rank": 522,
-      "elo_rating": 1143.5827643028,
-      "season": 2025,
-      "lastupdated": "2024-11-23T01:00:00.000Z"
     },
     {
       "id": 401719372,
@@ -4185,29 +4185,37 @@
       "lastupdated": "2024-11-24T01:00:00.000Z"
     },
     {
+      "id": 401715957,
+      "team_name": "houchristian",
+      "rank": 524,
+      "elo_rating": 1135.9719758588,
+      "season": 2025,
+      "lastupdated": "2024-11-26T01:00:00.000Z"
+    },
+    {
+      "id": 401721231,
+      "team_name": "iuindy",
+      "rank": 525,
+      "elo_rating": 1090.7864804244,
+      "season": 2025,
+      "lastupdated": "2024-11-25T20:00:00.000Z"
+    },
+    {
       "id": 401716879,
       "team_name": "coppinstate",
-      "rank": 524,
+      "rank": 526,
       "elo_rating": 1052.4280892235,
       "season": 2025,
       "lastupdated": "2024-11-21T00:00:00.000Z"
     },
     {
-      "id": 401727498,
-      "team_name": "iuindy",
-      "rank": 525,
-      "elo_rating": 1039.8008342229,
-      "season": 2025,
-      "lastupdated": "2024-11-23T19:00:00.000Z"
-    },
-    {
       "id": 401706913,
       "team_name": "missvalleystate",
-      "rank": 526,
+      "rank": 527,
       "elo_rating": 1003.232993294,
       "season": 2025,
       "lastupdated": "2024-11-24T02:00:00.000Z"
     }
   ],
-  "lastupdated": "2024-11-25T09:11:02.326603"
+  "lastupdated": "2024-11-26T09:10:33.923610"
 }

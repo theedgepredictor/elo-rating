@@ -3653,7 +3653,28 @@
       "tournament_id": null,
       "str_event_id": "20241208_49ers_bears",
       "season": 2024
+    },
+    {
+      "id": 401671788,
+      "datetime": "2024-12-09T01:20:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "chiefs",
+      "home_team_id": 12,
+      "away_team_name": "chargers",
+      "away_team_id": 24,
+      "home_elo_pre": 1755.8896725928,
+      "away_elo_pre": 1477.2312387909,
+      "elo_diff": 353.6584338019,
+      "elo_spread": -14.1463373521,
+      "home_elo_prob": 0.7345654483,
+      "away_elo_prob": 0.2654345517,
+      "home_elo_post": 1759.8522959714,
+      "away_elo_post": 1473.2686154124,
+      "tournament_id": null,
+      "str_event_id": "20241209_chiefs_chargers",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-11-25T09:11:04.149843"
+  "lastupdated": "2024-11-26T09:10:35.696673"
 }
