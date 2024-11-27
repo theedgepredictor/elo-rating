@@ -3674,7 +3674,28 @@
       "tournament_id": null,
       "str_event_id": "20241209_chiefs_chargers",
       "season": 2024
+    },
+    {
+      "id": 401671690,
+      "datetime": "2024-12-10T01:15:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "cowboys",
+      "home_team_id": 6,
+      "away_team_name": "bengals",
+      "away_team_id": 4,
+      "home_elo_pre": 1634.4041051606,
+      "away_elo_pre": 1578.7935258975,
+      "elo_diff": 130.6105792631,
+      "elo_spread": -5.2244231705,
+      "home_elo_prob": 0.592890483,
+      "away_elo_prob": 0.407109517,
+      "home_elo_post": 1641.0634222098,
+      "away_elo_post": 1572.1342088483,
+      "tournament_id": null,
+      "str_event_id": "20241210_cowboys_bengals",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-11-26T09:10:35.696673"
+  "lastupdated": "2024-11-27T09:10:28.130130"
 }
