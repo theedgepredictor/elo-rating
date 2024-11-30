@@ -1,40 +1,40 @@
 {
   "evaluations": {
     "ALL": {
-      "system_accuracy": 0.6585988974048675,
-      "system_precision": 0.6947240815896274,
-      "system_recall": 0.751268167569108,
-      "system_f1": 0.7218905745112,
-      "system_auc": 0.6383153916596667,
-      "system_brier_score": 0.21383606398089378,
-      "system_log_loss": 0.6159756478171133,
+      "system_accuracy": 0.6585792055917736,
+      "system_precision": 0.6947196458684655,
+      "system_recall": 0.7511680911680911,
+      "system_f1": 0.7218419755790396,
+      "system_auc": 0.6383215947321452,
+      "system_brier_score": 0.21383372406292583,
+      "system_log_loss": 0.6159689725466914,
       "system_score": 27.83,
-      "system_records": 29748,
-      "system_mse": 177.05116191551144,
-      "system_mae": 10.47140752639596,
-      "system_mape": 13.003742039461583,
-      "system_r2": -0.8484543123638484,
-      "avg_number_of_games_played": 82.99808429118775,
-      "avg_points_per_game": 102.83583776548387,
-      "home_win_percentage": 0.5892199596181816
+      "system_records": 29758,
+      "system_mse": 177.06871319966817,
+      "system_mae": 10.471729426135031,
+      "system_mape": 13.000204089677576,
+      "system_r2": -0.8485694340326402,
+      "avg_number_of_games_played": 83.02586206896552,
+      "avg_points_per_game": 102.83100545902327,
+      "home_win_percentage": 0.5891054678782403
     },
     "2025": {
-      "system_accuracy": 0.6546762589928058,
-      "system_precision": 0.6775956284153005,
-      "system_recall": 0.7701863354037267,
-      "system_f1": 0.7209302325581395,
-      "system_auc": 0.6329564155651113,
-      "system_brier_score": 0.21380285737852223,
-      "system_log_loss": 0.6148974093053775,
-      "system_score": 26.09,
-      "system_records": 278,
-      "system_mse": 177.27924661970764,
-      "system_mae": 10.632417474129152,
-      "system_mape": 5.983250293169729,
-      "system_r2": -0.9324342620752617,
-      "avg_number_of_games_played": 18.533333333333335,
-      "avg_points_per_game": 113.09936045178306,
-      "home_win_percentage": 0.579136690647482
+      "system_accuracy": 0.6527777777777778,
+      "system_precision": 0.6774193548387096,
+      "system_recall": 0.7590361445783133,
+      "system_f1": 0.7159090909090909,
+      "system_auc": 0.6336164329448943,
+      "system_brier_score": 0.2135622351116252,
+      "system_log_loss": 0.6142451165550356,
+      "system_score": 26.11,
+      "system_records": 288,
+      "system_mse": 179.0848378242012,
+      "system_mae": 10.660087588566485,
+      "system_mape": 5.861453792442209,
+      "system_r2": -0.9402058345710926,
+      "avg_number_of_games_played": 19.2,
+      "avg_points_per_game": 112.98338509672875,
+      "home_win_percentage": 0.5763888888888888
     },
     "2024": {
       "system_accuracy": 0.642041127189642,
@@ -73,5 +73,5 @@
       "home_win_percentage": 0.5818735719725818
     }
   },
-  "lastupdated": "2024-11-29T09:10:29.849000"
+  "lastupdated": "2024-11-30T09:09:09.788969"
 }

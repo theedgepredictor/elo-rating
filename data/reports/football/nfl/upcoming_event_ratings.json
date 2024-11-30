@@ -3695,7 +3695,28 @@
       "tournament_id": null,
       "str_event_id": "20241210_cowboys_bengals",
       "season": 2024
+    },
+    {
+      "id": 401671818,
+      "datetime": "2024-12-13T01:15:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "49ers",
+      "home_team_id": 25,
+      "away_team_name": "rams",
+      "away_team_id": 14,
+      "home_elo_pre": 1745.7982479862,
+      "away_elo_pre": 1398.4037349838,
+      "elo_diff": 422.3945130025,
+      "elo_spread": -16.8957805201,
+      "home_elo_prob": 0.7713146113,
+      "away_elo_prob": 0.2286853887,
+      "home_elo_post": 1749.1227648497,
+      "away_elo_post": 1395.0792181203,
+      "tournament_id": null,
+      "str_event_id": "20241213_49ers_rams",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-11-29T09:10:30.013315"
+  "lastupdated": "2024-11-30T09:09:09.953022"
 }
