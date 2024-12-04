@@ -3989,7 +3989,49 @@
       "tournament_id": null,
       "str_event_id": "20241216_seahawks_packers",
       "season": 2024
+    },
+    {
+      "id": 401671489,
+      "datetime": "2024-12-17T01:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "vikings",
+      "home_team_id": 16,
+      "away_team_name": "bears",
+      "away_team_id": 3,
+      "home_elo_pre": 1614.9900058794,
+      "away_elo_pre": 1435.5834310218,
+      "elo_diff": 254.4065748577,
+      "elo_spread": -10.1762629943,
+      "home_elo_prob": 0.6752968482,
+      "away_elo_prob": 0.3247031518,
+      "home_elo_post": 1620.0334608662,
+      "away_elo_post": 1430.5399760349,
+      "tournament_id": null,
+      "str_event_id": "20241217_vikings_bears",
+      "season": 2024
+    },
+    {
+      "id": 401671697,
+      "datetime": "2024-12-17T01:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "raiders",
+      "home_team_id": 13,
+      "away_team_name": "falcons",
+      "away_team_id": 1,
+      "home_elo_pre": 1470.065473493,
+      "away_elo_pre": 1343.1642931264,
+      "elo_diff": 201.9011803666,
+      "elo_spread": -8.0760472147,
+      "home_elo_prob": 0.6413246889,
+      "away_elo_prob": 0.3586753111,
+      "home_elo_post": 1475.7583858604,
+      "away_elo_post": 1337.471380759,
+      "tournament_id": null,
+      "str_event_id": "20241217_raiders_falcons",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-12-03T09:10:52.580183"
+  "lastupdated": "2024-12-04T09:10:52.058114"
 }
