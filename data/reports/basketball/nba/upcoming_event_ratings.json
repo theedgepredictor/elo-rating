@@ -1,27 +1,6 @@
 {
   "events": [
     {
-      "id": 401704925,
-      "datetime": "2024-12-10T00:30:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "raptors",
-      "home_team_id": 28,
-      "away_team_name": "knicks",
-      "away_team_id": 18,
-      "home_elo_pre": 1299.5730393087,
-      "away_elo_pre": 1629.5494177172,
-      "elo_diff": -229.9763784085,
-      "elo_spread": 7.6658792803,
-      "home_elo_prob": 0.340307269,
-      "away_elo_prob": 0.659692731,
-      "home_elo_post": 1293.1662776122,
-      "away_elo_post": 1635.9561794137,
-      "tournament_id": null,
-      "str_event_id": "20241210_raptors_knicks",
-      "season": 2025
-    },
-    {
       "id": 401734902,
       "datetime": "2024-12-11T00:00:00.000Z",
       "neutral_site": 0,
@@ -41,7 +20,49 @@
       "tournament_id": null,
       "str_event_id": "20241211_bucks_magic",
       "season": 2025
+    },
+    {
+      "id": 401734903,
+      "datetime": "2024-12-11T02:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "thunder",
+      "home_team_id": 25,
+      "away_team_name": "mavericks",
+      "away_team_id": 6,
+      "home_elo_pre": 1892.282085555,
+      "away_elo_pre": 1818.5824047846,
+      "elo_diff": 173.6996807704,
+      "elo_spread": -5.789989359,
+      "home_elo_prob": 0.6224470803,
+      "away_elo_prob": 0.3775529197,
+      "home_elo_post": 1899.5585675382,
+      "away_elo_post": 1811.3059228014,
+      "tournament_id": null,
+      "str_event_id": "20241211_thunder_mavericks",
+      "season": 2025
+    },
+    {
+      "id": 401734904,
+      "datetime": "2024-12-12T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "knicks",
+      "home_team_id": 18,
+      "away_team_name": "hawks",
+      "away_team_id": 1,
+      "home_elo_pre": 1646.1106564537,
+      "away_elo_pre": 1511.7773773049,
+      "elo_diff": 234.3332791488,
+      "elo_spread": -7.811109305,
+      "home_elo_prob": 0.6625023134,
+      "away_elo_prob": 0.3374976866,
+      "home_elo_post": 1652.4531518484,
+      "away_elo_post": 1505.4348819102,
+      "tournament_id": null,
+      "str_event_id": "20241212_knicks_hawks",
+      "season": 2025
     }
   ],
-  "lastupdated": "2024-12-09T09:11:34.214365"
+  "lastupdated": "2024-12-10T09:11:05.294737"
 }
