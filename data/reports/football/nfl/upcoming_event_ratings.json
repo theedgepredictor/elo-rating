@@ -4409,7 +4409,28 @@
       "tournament_id": null,
       "str_event_id": "20241225_texans_ravens",
       "season": 2024
+    },
+    {
+      "id": 401671876,
+      "datetime": "2024-12-27T01:15:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "bears",
+      "home_team_id": 3,
+      "away_team_name": "seahawks",
+      "away_team_id": 26,
+      "home_elo_pre": 1423.2586005989,
+      "away_elo_pre": 1574.1587752812,
+      "elo_diff": -75.9001746823,
+      "elo_spread": 3.0360069873,
+      "home_elo_prob": 0.4456016047,
+      "away_elo_prob": 0.5543983953,
+      "home_elo_post": 1415.7944277555,
+      "away_elo_post": 1581.6229481247,
+      "tournament_id": null,
+      "str_event_id": "20241227_bears_seahawks",
+      "season": 2024
     }
   ],
-  "lastupdated": "2024-12-13T09:10:28.817922"
+  "lastupdated": "2024-12-14T09:09:11.523870"
 }
