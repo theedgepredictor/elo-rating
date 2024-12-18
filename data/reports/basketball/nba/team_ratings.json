@@ -1,20 +1,20 @@
 {
   "teams": [
     {
-      "id": 401734907,
-      "team_name": "thunder",
-      "rank": 1,
-      "elo_rating": 1942.2109670133,
-      "season": 2025,
-      "lastupdated": "2024-12-15T01:30:00.000Z"
-    },
-    {
       "id": 401736811,
       "team_name": "celtics",
-      "rank": 2,
+      "rank": 1,
       "elo_rating": 1909.4855690776,
       "season": 2025,
       "lastupdated": "2024-12-15T23:00:00.000Z"
+    },
+    {
+      "id": 401734908,
+      "team_name": "thunder",
+      "rank": 2,
+      "elo_rating": 1858.4957196299,
+      "season": 2025,
+      "lastupdated": "2024-12-18T01:30:00.000Z"
     },
     {
       "id": 401737912,
@@ -49,9 +49,17 @@
       "lastupdated": "2024-12-16T00:00:00.000Z"
     },
     {
+      "id": 401734908,
+      "team_name": "bucks",
+      "rank": 7,
+      "elo_rating": 1677.5985354151,
+      "season": 2025,
+      "lastupdated": "2024-12-18T01:30:00.000Z"
+    },
+    {
       "id": 401736814,
       "team_name": "grilies",
-      "rank": 7,
+      "rank": 8,
       "elo_rating": 1666.656753286,
       "season": 2025,
       "lastupdated": "2024-12-16T02:30:00.000Z"
@@ -59,7 +67,7 @@
     {
       "id": 401736819,
       "team_name": "nuggets",
-      "rank": 8,
+      "rank": 9,
       "elo_rating": 1650.732372756,
       "season": 2025,
       "lastupdated": "2024-12-17T03:00:00.000Z"
@@ -67,7 +75,7 @@
     {
       "id": 401737902,
       "team_name": "knicks",
-      "rank": 9,
+      "rank": 10,
       "elo_rating": 1641.205221366,
       "season": 2025,
       "lastupdated": "2024-12-15T23:00:00.000Z"
@@ -75,7 +83,7 @@
     {
       "id": 401736816,
       "team_name": "heat",
-      "rank": 10,
+      "rank": 11,
       "elo_rating": 1635.5834360961,
       "season": 2025,
       "lastupdated": "2024-12-17T00:00:00.000Z"
@@ -83,18 +91,10 @@
     {
       "id": 401737912,
       "team_name": "warriors",
-      "rank": 11,
+      "rank": 12,
       "elo_rating": 1593.9573363625,
       "season": 2025,
       "lastupdated": "2024-12-16T01:30:00.000Z"
-    },
-    {
-      "id": 401734906,
-      "team_name": "bucks",
-      "rank": 12,
-      "elo_rating": 1593.8832880317,
-      "season": 2025,
-      "lastupdated": "2024-12-14T21:30:00.000Z"
     },
     {
       "id": 401737902,
@@ -241,5 +241,5 @@
       "lastupdated": "2024-12-15T23:00:00.000Z"
     }
   ],
-  "lastupdated": "2024-12-17T09:10:34.304162"
+  "lastupdated": "2024-12-18T09:10:13.222444"
 }
