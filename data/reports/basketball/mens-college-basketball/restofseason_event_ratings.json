@@ -3088,48 +3088,6 @@
       "season": 2025
     },
     {
-      "id": 401714416,
-      "datetime": "2025-01-01T17:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "nkentucky",
-      "home_team_id": 94,
-      "away_team_name": "purduefw",
-      "away_team_id": 2870,
-      "home_elo_pre": 1595.2838584163,
-      "away_elo_pre": 1646.88419062,
-      "elo_diff": 48.3996677962,
-      "elo_spread": -1.6133222599,
-      "home_elo_prob": 0.5347701495,
-      "away_elo_prob": 0.4652298505,
-      "home_elo_post": 1604.7497920801,
-      "away_elo_post": 1637.4182569562,
-      "tournament_id": null,
-      "str_event_id": "20250101_nkentucky_purduefw",
-      "season": 2025
-    },
-    {
-      "id": 401719083,
-      "datetime": "2025-01-01T17:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "depaul",
-      "home_team_id": 305,
-      "away_team_name": "uconn",
-      "away_team_id": 41,
-      "home_elo_pre": 1511.5918745085,
-      "away_elo_pre": 2164.3440974479,
-      "elo_diff": -552.7522229394,
-      "elo_spread": 18.425074098,
-      "home_elo_prob": 0.1692504513,
-      "away_elo_prob": 0.8307495487,
-      "home_elo_post": 1508.7791181837,
-      "away_elo_post": 2167.1568537727,
-      "tournament_id": null,
-      "str_event_id": "20250101_depaul_uconn",
-      "season": 2025
-    },
-    {
       "id": 401724786,
       "datetime": "2025-01-01T17:00:00.000Z",
       "neutral_site": 0,
@@ -3169,6 +3127,27 @@
       "away_elo_post": 1653.0549859994,
       "tournament_id": null,
       "str_event_id": "20250101_iuindy_youngstownstate",
+      "season": 2025
+    },
+    {
+      "id": 401714416,
+      "datetime": "2025-01-01T17:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "nkentucky",
+      "home_team_id": 94,
+      "away_team_name": "purduefw",
+      "away_team_id": 2870,
+      "home_elo_pre": 1595.2838584163,
+      "away_elo_pre": 1646.88419062,
+      "elo_diff": 48.3996677962,
+      "elo_spread": -1.6133222599,
+      "home_elo_prob": 0.5347701495,
+      "away_elo_prob": 0.4652298505,
+      "home_elo_post": 1604.7497920801,
+      "away_elo_post": 1637.4182569562,
+      "tournament_id": null,
+      "str_event_id": "20250101_nkentucky_purduefw",
       "season": 2025
     },
     {
@@ -3232,6 +3211,27 @@
       "away_elo_post": 1502.3742560945,
       "tournament_id": null,
       "str_event_id": "20250101_pitt_california",
+      "season": 2025
+    },
+    {
+      "id": 401719083,
+      "datetime": "2025-01-01T19:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "depaul",
+      "home_team_id": 305,
+      "away_team_name": "uconn",
+      "away_team_id": 41,
+      "home_elo_pre": 1511.5918745085,
+      "away_elo_pre": 2164.3440974479,
+      "elo_diff": -552.7522229394,
+      "elo_spread": 18.425074098,
+      "home_elo_prob": 0.1692504513,
+      "away_elo_prob": 0.8307495487,
+      "home_elo_post": 1508.7791181837,
+      "away_elo_post": 2167.1568537727,
+      "tournament_id": null,
+      "str_event_id": "20250101_depaul_uconn",
       "season": 2025
     },
     {
@@ -63148,5 +63148,5 @@
       "season": 2025
     }
   ],
-  "lastupdated": "2024-12-26T09:09:16.425091"
+  "lastupdated": "2024-12-27T09:09:16.294512"
 }
