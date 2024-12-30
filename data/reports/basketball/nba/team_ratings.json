@@ -1,12 +1,12 @@
 {
   "teams": [
     {
-      "id": 401704994,
+      "id": 401705006,
       "team_name": "thunder",
       "rank": 1,
-      "elo_rating": 1937.8697123442,
+      "elo_rating": 1962.5057164795,
       "season": 2025,
-      "lastupdated": "2024-12-28T23:00:00.000Z"
+      "lastupdated": "2024-12-30T00:00:00.000Z"
     },
     {
       "id": 401704990,
@@ -17,44 +17,44 @@
       "lastupdated": "2024-12-28T02:00:00.000Z"
     },
     {
-      "id": 401704986,
-      "team_name": "celtics",
-      "rank": 3,
-      "elo_rating": 1801.5701669534,
-      "season": 2025,
-      "lastupdated": "2024-12-28T00:30:00.000Z"
-    },
-    {
       "id": 401704995,
       "team_name": "knicks",
-      "rank": 4,
+      "rank": 3,
       "elo_rating": 1787.5838893842,
       "season": 2025,
       "lastupdated": "2024-12-29T00:00:00.000Z"
     },
     {
-      "id": 401704989,
-      "team_name": "grilies",
-      "rank": 5,
-      "elo_rating": 1728.4666091533,
+      "id": 401705003,
+      "team_name": "celtics",
+      "rank": 4,
+      "elo_rating": 1738.5099267205,
       "season": 2025,
-      "lastupdated": "2024-12-28T01:00:00.000Z"
+      "lastupdated": "2024-12-29T23:00:00.000Z"
     },
     {
-      "id": 401704988,
-      "team_name": "rockets",
-      "rank": 6,
-      "elo_rating": 1724.0281469283,
+      "id": 401705006,
+      "team_name": "grilies",
+      "rank": 5,
+      "elo_rating": 1703.8306050181,
       "season": 2025,
-      "lastupdated": "2024-12-28T01:00:00.000Z"
+      "lastupdated": "2024-12-30T00:00:00.000Z"
     },
     {
       "id": 401705000,
       "team_name": "mavericks",
-      "rank": 7,
+      "rank": 6,
       "elo_rating": 1703.1391865134,
       "season": 2025,
       "lastupdated": "2024-12-29T03:00:00.000Z"
+    },
+    {
+      "id": 401705005,
+      "team_name": "rockets",
+      "rank": 7,
+      "elo_rating": 1687.7447362071,
+      "season": 2025,
+      "lastupdated": "2024-12-30T00:00:00.000Z"
     },
     {
       "id": 401704992,
@@ -65,25 +65,41 @@
       "lastupdated": "2024-12-28T03:00:00.000Z"
     },
     {
-      "id": 401704988,
-      "team_name": "timberwolves",
+      "id": 401705005,
+      "team_name": "heat",
       "rank": 9,
-      "elo_rating": 1605.8039806029,
+      "elo_rating": 1616.8918175621,
       "season": 2025,
-      "lastupdated": "2024-12-28T01:00:00.000Z"
+      "lastupdated": "2024-12-30T00:00:00.000Z"
+    },
+    {
+      "id": 401705007,
+      "team_name": "timberwolves",
+      "rank": 10,
+      "elo_rating": 1615.4396517462,
+      "season": 2025,
+      "lastupdated": "2024-12-30T02:00:00.000Z"
     },
     {
       "id": 401704998,
       "team_name": "nuggets",
-      "rank": 10,
+      "rank": 11,
       "elo_rating": 1599.7582856211,
       "season": 2025,
       "lastupdated": "2024-12-29T02:00:00.000Z"
     },
     {
+      "id": 401705004,
+      "team_name": "hawks",
+      "rank": 12,
+      "elo_rating": 1592.8131622318,
+      "season": 2025,
+      "lastupdated": "2024-12-29T23:00:00.000Z"
+    },
+    {
       "id": 401704996,
       "team_name": "bucks",
-      "rank": 11,
+      "rank": 13,
       "elo_rating": 1587.7819682867,
       "season": 2025,
       "lastupdated": "2024-12-29T01:00:00.000Z"
@@ -91,50 +107,34 @@
     {
       "id": 401705001,
       "team_name": "lakers",
-      "rank": 12,
+      "rank": 14,
       "elo_rating": 1581.0108981921,
       "season": 2025,
       "lastupdated": "2024-12-29T03:30:00.000Z"
     },
     {
-      "id": 401704993,
-      "team_name": "heat",
-      "rank": 13,
-      "elo_rating": 1580.6084068409,
-      "season": 2025,
-      "lastupdated": "2024-12-28T20:00:00.000Z"
-    },
-    {
-      "id": 401704985,
-      "team_name": "magic",
-      "rank": 14,
-      "elo_rating": 1570.566073025,
-      "season": 2025,
-      "lastupdated": "2024-12-28T00:00:00.000Z"
-    },
-    {
-      "id": 401704993,
-      "team_name": "hawks",
+      "id": 401705003,
+      "team_name": "pacers",
       "rank": 15,
-      "elo_rating": 1564.125699053,
+      "elo_rating": 1578.2049013615,
       "season": 2025,
-      "lastupdated": "2024-12-28T20:00:00.000Z"
+      "lastupdated": "2024-12-29T23:00:00.000Z"
+    },
+    {
+      "id": 401705002,
+      "team_name": "magic",
+      "rank": 16,
+      "elo_rating": 1575.2597200923,
+      "season": 2025,
+      "lastupdated": "2024-12-29T20:30:00.000Z"
     },
     {
       "id": 401704997,
       "team_name": "warriors",
-      "rank": 16,
+      "rank": 17,
       "elo_rating": 1533.6496995275,
       "season": 2025,
       "lastupdated": "2024-12-29T01:30:00.000Z"
-    },
-    {
-      "id": 401704986,
-      "team_name": "pacers",
-      "rank": 17,
-      "elo_rating": 1515.1446611286,
-      "season": 2025,
-      "lastupdated": "2024-12-28T00:30:00.000Z"
     },
     {
       "id": 401704999,
@@ -145,12 +145,12 @@
       "lastupdated": "2024-12-29T02:30:00.000Z"
     },
     {
-      "id": 401704987,
+      "id": 401705007,
       "team_name": "spurs",
       "rank": 19,
-      "elo_rating": 1453.3119712277,
+      "elo_rating": 1443.6763000845,
       "season": 2025,
-      "lastupdated": "2024-12-28T00:30:00.000Z"
+      "lastupdated": "2024-12-30T02:00:00.000Z"
     },
     {
       "id": 401704996,
@@ -185,12 +185,12 @@
       "lastupdated": "2024-12-29T03:30:00.000Z"
     },
     {
-      "id": 401704987,
+      "id": 401705002,
       "team_name": "nets",
       "rank": 24,
-      "elo_rating": 1311.7204432347,
+      "elo_rating": 1307.0267961674,
       "season": 2025,
-      "lastupdated": "2024-12-28T00:30:00.000Z"
+      "lastupdated": "2024-12-29T20:30:00.000Z"
     },
     {
       "id": 401705000,
@@ -209,12 +209,12 @@
       "lastupdated": "2024-12-29T02:30:00.000Z"
     },
     {
-      "id": 401704980,
+      "id": 401705004,
       "team_name": "raptors",
       "rank": 27,
-      "elo_rating": 1195.0802928348,
+      "elo_rating": 1166.3928296559,
       "season": 2025,
-      "lastupdated": "2024-12-27T01:00:00.000Z"
+      "lastupdated": "2024-12-29T23:00:00.000Z"
     },
     {
       "id": 401704989,
@@ -241,5 +241,5 @@
       "lastupdated": "2024-12-29T00:00:00.000Z"
     }
   ],
-  "lastupdated": "2024-12-29T09:08:19.283992"
+  "lastupdated": "2024-12-30T09:09:54.449696"
 }
