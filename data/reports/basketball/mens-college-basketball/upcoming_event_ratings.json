@@ -1,48 +1,6 @@
 {
   "events": [
     {
-      "id": 401746077,
-      "datetime": "2025-03-29T22:09:00.000Z",
-      "neutral_site": 1,
-      "is_postseason": 1,
-      "home_team_name": "florida",
-      "home_team_id": 57,
-      "away_team_name": "texastech",
-      "away_team_id": 2641,
-      "home_elo_pre": 2404.7351091539,
-      "away_elo_pre": 2167.6670166805,
-      "elo_diff": 237.0680924734,
-      "elo_spread": -7.9022697491,
-      "home_elo_prob": 0.6642600516,
-      "away_elo_prob": 0.3357399484,
-      "home_elo_post": 2411.0374915765,
-      "away_elo_post": 2161.3646342579,
-      "tournament_id": 22,
-      "str_event_id": "20250329_florida_texastech",
-      "season": 2025
-    },
-    {
-      "id": 401746076,
-      "datetime": "2025-03-30T00:49:00.000Z",
-      "neutral_site": 1,
-      "is_postseason": 1,
-      "home_team_name": "duke",
-      "home_team_id": 150,
-      "away_team_name": "alabama",
-      "away_team_id": 333,
-      "home_elo_pre": 2396.2742828442,
-      "away_elo_pre": 2268.7214541557,
-      "elo_diff": 127.5528286886,
-      "elo_spread": -4.2517609563,
-      "home_elo_prob": 0.5907644701,
-      "away_elo_prob": 0.4092355299,
-      "home_elo_post": 2404.3177479436,
-      "away_elo_post": 2260.6779890563,
-      "tournament_id": 22,
-      "str_event_id": "20250330_duke_alabama",
-      "season": 2025
-    },
-    {
       "id": 401746079,
       "datetime": "2025-03-30T18:20:00.000Z",
       "neutral_site": 1,
@@ -85,5 +43,5 @@
       "season": 2025
     }
   ],
-  "lastupdated": "2025-03-29T09:08:13.966091"
+  "lastupdated": "2025-03-30T09:08:27.598245"
 }
