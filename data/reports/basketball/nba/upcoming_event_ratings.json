@@ -1,48 +1,6 @@
 {
   "events": [
     {
-      "id": 401769740,
-      "datetime": "2025-05-06T23:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 1,
-      "home_team_name": "cavaliers",
-      "home_team_id": 5,
-      "away_team_name": "pacers",
-      "away_team_id": 11,
-      "home_elo_pre": 1838.826011391,
-      "away_elo_pre": 1853.5994801273,
-      "elo_diff": 85.2265312637,
-      "elo_spread": -2.8408843755,
-      "home_elo_prob": 0.5610197473,
-      "away_elo_prob": 0.4389802527,
-      "home_elo_post": 1847.6139117328,
-      "away_elo_post": 1844.8115797855,
-      "tournament_id": null,
-      "str_event_id": "20250506_cavaliers_pacers",
-      "season": 2025
-    },
-    {
-      "id": 401769837,
-      "datetime": "2025-05-07T01:30:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 1,
-      "home_team_name": "timberwolves",
-      "home_team_id": 16,
-      "away_team_name": "warriors",
-      "away_team_id": 9,
-      "home_elo_pre": 1869.428674719,
-      "away_elo_pre": 1722.3143654567,
-      "elo_diff": 247.1143092623,
-      "elo_spread": -8.2371436421,
-      "home_elo_prob": 0.6706777814,
-      "away_elo_prob": 0.3293222186,
-      "home_elo_post": 1875.5852071637,
-      "away_elo_post": 1716.157833012,
-      "tournament_id": null,
-      "str_event_id": "20250507_timberwolves_warriors",
-      "season": 2025
-    },
-    {
       "id": 401769747,
       "datetime": "2025-05-07T23:00:00.000Z",
       "neutral_site": 0,
@@ -62,7 +20,28 @@
       "tournament_id": null,
       "str_event_id": "20250507_celtics_knicks",
       "season": 2025
+    },
+    {
+      "id": 401769821,
+      "datetime": "2025-05-08T01:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "thunder",
+      "home_team_id": 25,
+      "away_team_name": "nuggets",
+      "away_team_id": 7,
+      "home_elo_pre": 2005.8805410241,
+      "away_elo_pre": 1798.7517360534,
+      "elo_diff": 307.1288049707,
+      "elo_spread": -10.2376268324,
+      "home_elo_prob": 0.7076479008,
+      "away_elo_prob": 0.2923520992,
+      "home_elo_post": 2011.2151054743,
+      "away_elo_post": 1793.4171716033,
+      "tournament_id": null,
+      "str_event_id": "20250508_thunder_nuggets",
+      "season": 2025
     }
   ],
-  "lastupdated": "2025-05-06T09:10:45.273203"
+  "lastupdated": "2025-05-07T09:10:38.769639"
 }
