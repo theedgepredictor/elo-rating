@@ -1,12 +1,12 @@
 {
   "teams": [
     {
-      "id": 401769820,
+      "id": 401769821,
       "team_name": "thunder",
       "rank": 1,
-      "elo_rating": 2005.8805410241,
+      "elo_rating": 2035.004230855,
       "season": 2025,
-      "lastupdated": "2025-05-06T01:30:00.000Z"
+      "lastupdated": "2025-05-08T01:30:00.000Z"
     },
     {
       "id": 401769740,
@@ -17,12 +17,12 @@
       "lastupdated": "2025-05-06T23:00:00.000Z"
     },
     {
-      "id": 401769746,
+      "id": 401769747,
       "team_name": "celtics",
       "rank": 3,
-      "elo_rating": 1863.8892584592,
+      "elo_rating": 1846.6433803574,
       "season": 2025,
-      "lastupdated": "2025-05-05T23:00:00.000Z"
+      "lastupdated": "2025-05-07T23:00:00.000Z"
     },
     {
       "id": 401769740,
@@ -49,25 +49,33 @@
       "lastupdated": "2025-05-03T23:30:00.000Z"
     },
     {
-      "id": 401769820,
-      "team_name": "nuggets",
-      "rank": 7,
-      "elo_rating": 1798.7517360534,
-      "season": 2025,
-      "lastupdated": "2025-05-06T01:30:00.000Z"
-    },
-    {
       "id": 401769837,
       "team_name": "warriors",
-      "rank": 8,
+      "rank": 7,
       "elo_rating": 1778.6380567687,
       "season": 2025,
       "lastupdated": "2025-05-07T01:30:00.000Z"
     },
     {
+      "id": 401769821,
+      "team_name": "nuggets",
+      "rank": 8,
+      "elo_rating": 1769.6280462225,
+      "season": 2025,
+      "lastupdated": "2025-05-08T01:30:00.000Z"
+    },
+    {
+      "id": 401769747,
+      "team_name": "knicks",
+      "rank": 9,
+      "elo_rating": 1667.902001223,
+      "season": 2025,
+      "lastupdated": "2025-05-07T23:00:00.000Z"
+    },
+    {
       "id": 401767914,
       "team_name": "rockets",
-      "rank": 9,
+      "rank": 10,
       "elo_rating": 1661.9943019847,
       "season": 2025,
       "lastupdated": "2025-05-05T00:30:00.000Z"
@@ -75,18 +83,10 @@
     {
       "id": 401705757,
       "team_name": "bulls",
-      "rank": 10,
+      "rank": 11,
       "elo_rating": 1661.0575338933,
       "season": 2025,
       "lastupdated": "2025-04-13T17:00:00.000Z"
-    },
-    {
-      "id": 401769746,
-      "team_name": "knicks",
-      "rank": 11,
-      "elo_rating": 1650.6561231212,
-      "season": 2025,
-      "lastupdated": "2025-05-05T23:00:00.000Z"
     },
     {
       "id": 401768050,
@@ -241,5 +241,5 @@
       "lastupdated": "2025-04-13T17:00:00.000Z"
     }
   ],
-  "lastupdated": "2025-05-07T09:10:38.963581"
+  "lastupdated": "2025-05-08T09:10:39.231641"
 }
