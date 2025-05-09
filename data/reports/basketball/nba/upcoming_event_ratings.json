@@ -1,27 +1,6 @@
 {
   "events": [
     {
-      "id": 401769838,
-      "datetime": "2025-05-09T00:30:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 1,
-      "home_team_name": "timberwolves",
-      "home_team_id": 16,
-      "away_team_name": "warriors",
-      "away_team_id": 9,
-      "home_elo_pre": 1813.1049834071,
-      "away_elo_pre": 1778.6380567687,
-      "elo_diff": 134.4669266383,
-      "elo_spread": -4.4822308879,
-      "home_elo_prob": 0.5955667878,
-      "away_elo_prob": 0.4044332122,
-      "home_elo_post": 1821.0305165029,
-      "away_elo_post": 1770.7125236729,
-      "tournament_id": null,
-      "str_event_id": "20250509_timberwolves_warriors",
-      "season": 2025
-    },
-    {
       "id": 401769741,
       "datetime": "2025-05-09T23:30:00.000Z",
       "neutral_site": 0,
@@ -41,7 +20,49 @@
       "tournament_id": null,
       "str_event_id": "20250509_pacers_cavaliers",
       "season": 2025
+    },
+    {
+      "id": 401769822,
+      "datetime": "2025-05-10T02:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "nuggets",
+      "home_team_id": 7,
+      "away_team_name": "thunder",
+      "away_team_id": 25,
+      "home_elo_pre": 1769.6280462225,
+      "away_elo_pre": 2035.004230855,
+      "elo_diff": -165.3761846325,
+      "elo_spread": 5.5125394878,
+      "home_elo_prob": 0.3831992565,
+      "away_elo_prob": 0.6168007435,
+      "home_elo_post": 1762.2167557593,
+      "away_elo_post": 2042.4155213183,
+      "tournament_id": null,
+      "str_event_id": "20250510_nuggets_thunder",
+      "season": 2025
+    },
+    {
+      "id": 401769748,
+      "datetime": "2025-05-10T19:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "knicks",
+      "home_team_id": 18,
+      "away_team_name": "celtics",
+      "away_team_id": 2,
+      "home_elo_pre": 1667.902001223,
+      "away_elo_pre": 1846.6433803574,
+      "elo_diff": -78.7413791344,
+      "elo_spread": 2.6247126378,
+      "home_elo_prob": 0.4435823025,
+      "away_elo_prob": 0.5564176975,
+      "home_elo_post": 1658.9967009294,
+      "away_elo_post": 1855.5486806511,
+      "tournament_id": null,
+      "str_event_id": "20250510_knicks_celtics",
+      "season": 2025
     }
   ],
-  "lastupdated": "2025-05-08T09:10:39.024514"
+  "lastupdated": "2025-05-09T09:10:20.823660"
 }
