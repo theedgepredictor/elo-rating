@@ -1,24 +1,24 @@
 {
   "events": [
     {
-      "id": 401769992,
-      "datetime": "2025-05-18T19:30:00.000Z",
+      "id": 401773148,
+      "datetime": "2025-05-21T00:30:00.000Z",
       "neutral_site": 0,
       "is_postseason": 1,
       "home_team_name": "thunder",
       "home_team_id": 25,
-      "away_team_name": "nuggets",
-      "away_team_id": 7,
-      "home_elo_pre": 1977.5953143517,
-      "away_elo_pre": 1827.0369627258,
-      "elo_diff": 250.5583516259,
-      "elo_spread": -8.3519450542,
-      "home_elo_prob": 0.6728634859,
-      "away_elo_prob": 0.3271365141,
-      "home_elo_post": 1983.7023909901,
-      "away_elo_post": 1820.9298860875,
+      "away_team_name": "timberwolves",
+      "away_team_id": 16,
+      "home_elo_pre": 2008.4018158326,
+      "away_elo_pre": 1922.7650672412,
+      "elo_diff": 185.6367485915,
+      "elo_spread": -6.1878916197,
+      "home_elo_prob": 0.6304867433,
+      "away_elo_prob": 0.3695132567,
+      "home_elo_post": 2015.4877172231,
+      "away_elo_post": 1915.6791658506,
       "tournament_id": null,
-      "str_event_id": "20250518_thunder_nuggets",
+      "str_event_id": "20250521_thunder_timberwolves",
       "season": 2025
     },
     {
@@ -43,6 +43,27 @@
       "season": 2025
     },
     {
+      "id": 401773149,
+      "datetime": "2025-05-23T00:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "thunder",
+      "home_team_id": 25,
+      "away_team_name": "timberwolves",
+      "away_team_id": 16,
+      "home_elo_pre": 2015.4877172231,
+      "away_elo_pre": 1915.6791658506,
+      "elo_diff": 199.8085513725,
+      "elo_spread": -6.6602850457,
+      "home_elo_prob": 0.6399380419,
+      "away_elo_prob": 0.3600619581,
+      "home_elo_post": 2022.3516028613,
+      "away_elo_post": 1908.8152802125,
+      "tournament_id": null,
+      "str_event_id": "20250523_thunder_timberwolves",
+      "season": 2025
+    },
+    {
       "id": 401772990,
       "datetime": "2025-05-24T00:00:00.000Z",
       "neutral_site": 0,
@@ -61,6 +82,27 @@
       "away_elo_post": 1908.061403661,
       "tournament_id": null,
       "str_event_id": "20250524_knicks_pacers",
+      "season": 2025
+    },
+    {
+      "id": 401773150,
+      "datetime": "2025-05-25T00:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "timberwolves",
+      "home_team_id": 16,
+      "away_team_name": "thunder",
+      "away_team_id": 25,
+      "home_elo_pre": 1908.8152802125,
+      "away_elo_pre": 2022.3516028613,
+      "elo_diff": -13.5363226488,
+      "elo_spread": 0.451210755,
+      "home_elo_prob": 0.4902610648,
+      "away_elo_prob": 0.5097389352,
+      "home_elo_post": 1898.6829310358,
+      "away_elo_post": 2032.4839520379,
+      "tournament_id": null,
+      "str_event_id": "20250525_timberwolves_thunder",
       "season": 2025
     },
     {
@@ -85,6 +127,27 @@
       "season": 2025
     },
     {
+      "id": 401773151,
+      "datetime": "2025-05-27T00:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "timberwolves",
+      "home_team_id": 16,
+      "away_team_name": "thunder",
+      "away_team_id": 25,
+      "home_elo_pre": 1898.6829310358,
+      "away_elo_pre": 2032.4839520379,
+      "elo_diff": -33.8010210021,
+      "elo_spread": 1.1267007001,
+      "home_elo_prob": 0.4756973755,
+      "away_elo_prob": 0.5243026245,
+      "home_elo_post": 1888.9407618621,
+      "away_elo_post": 2042.2261212116,
+      "tournament_id": null,
+      "str_event_id": "20250527_timberwolves_thunder",
+      "season": 2025
+    },
+    {
       "id": 401772992,
       "datetime": "2025-05-28T00:00:00.000Z",
       "neutral_site": 0,
@@ -103,6 +166,27 @@
       "away_elo_post": 1684.8099711909,
       "tournament_id": null,
       "str_event_id": "20250528_pacers_knicks",
+      "season": 2025
+    },
+    {
+      "id": 401773152,
+      "datetime": "2025-05-29T00:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "thunder",
+      "home_team_id": 25,
+      "away_team_name": "timberwolves",
+      "away_team_id": 16,
+      "home_elo_pre": 2042.2261212116,
+      "away_elo_pre": 1888.9407618621,
+      "elo_diff": 253.2853593495,
+      "elo_spread": -8.4428453116,
+      "home_elo_prob": 0.6745888349,
+      "away_elo_prob": 0.3254111651,
+      "home_elo_post": 2048.2942358838,
+      "away_elo_post": 1882.8726471899,
+      "tournament_id": null,
+      "str_event_id": "20250529_thunder_timberwolves",
       "season": 2025
     },
     {
@@ -127,6 +211,27 @@
       "season": 2025
     },
     {
+      "id": 401773153,
+      "datetime": "2025-05-31T00:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "timberwolves",
+      "home_team_id": 16,
+      "away_team_name": "thunder",
+      "away_team_id": 25,
+      "home_elo_pre": 1882.8726471899,
+      "away_elo_pre": 2048.2942358838,
+      "elo_diff": -65.4215886939,
+      "elo_spread": 2.1807196231,
+      "home_elo_prob": 0.4530639825,
+      "away_elo_prob": 0.5469360175,
+      "home_elo_post": 1873.7235150549,
+      "away_elo_post": 2057.4433680188,
+      "tournament_id": null,
+      "str_event_id": "20250531_timberwolves_thunder",
+      "season": 2025
+    },
+    {
       "id": 401772994,
       "datetime": "2025-06-01T00:00:00.000Z",
       "neutral_site": 0,
@@ -145,6 +250,27 @@
       "away_elo_post": 1672.0656728631,
       "tournament_id": null,
       "str_event_id": "20250601_pacers_knicks",
+      "season": 2025
+    },
+    {
+      "id": 401773154,
+      "datetime": "2025-06-02T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "thunder",
+      "home_team_id": 25,
+      "away_team_name": "timberwolves",
+      "away_team_id": 16,
+      "home_elo_pre": 2057.4433680188,
+      "away_elo_pre": 1873.7235150549,
+      "elo_diff": 283.7198529639,
+      "elo_spread": -9.4573284321,
+      "home_elo_prob": 0.6935165571,
+      "away_elo_prob": 0.3064834429,
+      "home_elo_post": 2063.0884961723,
+      "away_elo_post": 1868.0783869015,
+      "tournament_id": null,
+      "str_event_id": "20250602_thunder_timberwolves",
       "season": 2025
     },
     {
@@ -169,5 +295,5 @@
       "season": 2025
     }
   ],
-  "lastupdated": "2025-05-18T09:08:47.306796"
+  "lastupdated": "2025-05-19T09:11:51.234035"
 }
