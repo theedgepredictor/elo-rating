@@ -1,4 +1,26 @@
 {
-  "events": null,
-  "lastupdated": "2025-06-10T09:11:35.144449"
+  "events": [
+    {
+      "id": 401766124,
+      "datetime": "2025-06-12T00:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "pacers",
+      "home_team_id": 11,
+      "away_team_name": "thunder",
+      "away_team_id": 25,
+      "home_elo_pre": 1867.2469571565,
+      "away_elo_pre": 2059.2973990758,
+      "elo_diff": -92.0504419193,
+      "elo_spread": 3.068348064,
+      "home_elo_prob": 0.4341491303,
+      "away_elo_prob": 0.5658508697,
+      "home_elo_post": 1858.5816460246,
+      "away_elo_post": 2067.9627102077,
+      "tournament_id": null,
+      "str_event_id": "20250612_pacers_thunder",
+      "season": 2025
+    }
+  ],
+  "lastupdated": "2025-06-11T09:11:29.538877"
 }
