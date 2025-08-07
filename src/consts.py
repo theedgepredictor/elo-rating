@@ -54,7 +54,7 @@ SEASON_START_MONTH = {
     ESPNSportTypes.COLLEGE_HOCKEY: {'start': 10, 'wrap': True},
     ESPNSportTypes.COLLEGE_LACROSSE: {'start': 1, 'wrap': False},
     ESPNSportTypes.NBA: {'start': 10, 'wrap': True},
-    ESPNSportTypes.NFL: {'start': 8, 'wrap': False},
+    ESPNSportTypes.NFL: {'start': 6, 'wrap': False},
     ESPNSportTypes.MLB: {'start': 4, 'wrap': False},
     ESPNSportTypes.NHL: {'start': 10, 'wrap': True},
     ESPNSportTypes.PLL: {'start': 6, 'wrap': True},

@@ -19,7 +19,8 @@ def get_active_sports():
     for sport in ESPNSportTypes:
         sport_api = ESPNSport(sport)
         espn_sports.append(sport_api)
-    return [espn_sport.sport for espn_sport in espn_sports if espn_sport.is_active and espn_sport.sport != ESPNSportTypes.SOCCER_EPL] + [ESPNSportTypes.NFL]
+    return [espn_sport.sport for espn_sport in espn_sports if espn_sport.is_active and espn_sport.sport != ESPNSportTypes.SOCCER_EPL] + [ESPNSportTypes.NFL, ESPNSportTypes.COLLEGE_FOOTBALL]
+    #return [espn_sport.sport for espn_sport in espn_sports if espn_sport.sport != ESPNSportTypes.SOCCER_EPL]
 
 
 def get_valid_team_ids_for_sport_season(sport: ESPNSportTypes, season: int, espn_events_api: ESPNEventsAPI):
@@ -137,7 +138,7 @@ def main():
     Returns:
         None
     """
-    sports = [ESPNSportTypes.NBA, ESPNSportTypes.COLLEGE_BASKETBALL]#get_active_sports()
+    sports = get_active_sports()
     status_reports = {}
     for sport in sports:
         start = time.time()
