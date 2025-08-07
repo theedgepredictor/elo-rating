@@ -139,22 +139,22 @@ async function fetchUpcomingEvents(sport) {
                   {event.away_team_name}
                 </td>
                 <td className="py-2 px-4 text-center">
-                  {event.elo_spread.toFixed(2)}
+                  {typeof event.elo_spread === 'number' ? event.elo_spread.toFixed(2) : ''}
                 </td>
                 <td className="py-2 px-4 text-center">
-                  {event.home_elo_prob.toFixed(2)}
+                  {typeof event.home_elo_prob === 'number' ? event.home_elo_prob.toFixed(2) : ''}
                 </td>
                 <td className="py-2 px-4 text-center">
-                  {event.away_elo_prob.toFixed(2)}
+                  {typeof event.away_elo_prob === 'number' ? event.away_elo_prob.toFixed(2) : ''}
                 </td>
                 <td className="py-2 px-4 text-center">
-                  {event.home_elo_pre.toFixed(2)}
+                  {typeof event.home_elo_pre === 'number' ? event.home_elo_pre.toFixed(2) : ''}
                 </td>
                 <td className="py-2 px-4 text-center">
-                  {event.away_elo_pre.toFixed(2)}
+                  {typeof event.away_elo_pre === 'number' ? event.away_elo_pre.toFixed(2) : ''}
                 </td>
                 <td className="py-2 px-4 text-center">
-                  {event.elo_diff.toFixed(2)}
+                  {typeof event.elo_diff === 'number' ? event.elo_diff.toFixed(2) : ''}
                 </td>
               </tr>
             )})}

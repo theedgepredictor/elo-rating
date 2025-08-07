@@ -140,7 +140,7 @@ function TeamRatingsPage() {
                 <tr key={team.rank} className="bg-white border-b">
                   <td className="py-2 px-4 text-center">{team.rank}</td>
                   <td className="py-2 px-4 text-center">{team.team_name}</td>
-                  <td className="py-2 px-4 text-center">{team.elo_rating.toFixed(2)}</td>
+                  <td className="py-2 px-4 text-center">{typeof team.elo_rating === 'number' ? team.elo_rating.toFixed(2) : ''}</td>
                   <td className="py-2 px-4 text-center">{new Date(team.lastupdated).toLocaleString()}</td>
                 </tr>
               ))}

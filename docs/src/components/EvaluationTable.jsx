@@ -27,7 +27,7 @@ export const EvaluationTable = ({ data, title }) => {
               <tr className="bg-white border-b" key={row.sport}>
                 <td className="bg-gray-200 py-2 px-4 text-center font-bold">{row.sport}</td>
                 {metricNames.map((metric) => (
-                  <td className="py-2 px-4 text-center" key={metric}>{metric==='system_records'? row[metric]:row[metric].toFixed(2) }</td>
+                  <td className="py-2 px-4 text-center" key={metric}>{metric==='system_records' ? row[metric] : (typeof row[metric] === 'number' ? row[metric].toFixed(2) : '')}</td>
                 ))}
               </tr>
             ))}

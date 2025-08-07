@@ -91,7 +91,7 @@ async function fetchPastEvents(sport) {
         </h1>
 
         {totalGames> 0 ? <p className="flex text-center justify-center font-semibold mb-4">
-          {`The system went ${correctPredictions}-${totalGames - correctPredictions} (${percentageCorrect!==null ? percentageCorrect.toFixed(2): 'N/A'}%) over the past ${totalGames} games with a Mean Average Error (MAE) of ${mae !== null ? mae.toFixed(2) : 'N/A'}`}
+          {`The system went ${correctPredictions}-${totalGames - correctPredictions} (${typeof percentageCorrect === 'number' ? percentageCorrect.toFixed(2): 'N/A'}%) over the past ${totalGames} games with a Mean Average Error (MAE) of ${typeof mae === 'number' ? mae.toFixed(2) : 'N/A'}`}
         </p>:<p className="flex text-center justify-center font-semibold mb-4">No Games to Show</p>}
 
         <div className="flex items-center justify-center mb-4">
@@ -161,13 +161,13 @@ async function fetchPastEvents(sport) {
                   {event.away_team_name}
                 </td>
                 <td className="py-2 px-4 text-center">
-                  {event.elo_spread.toFixed(2)}
+                  {typeof event.elo_spread === 'number' ? event.elo_spread.toFixed(2) : ''}
                 </td>
                 <td className="py-2 px-4 text-center">
-                  {event.point_dif.toFixed(2)}
+                  {typeof event.point_dif === 'number' ? event.point_dif.toFixed(2) : ''}
                 </td>
                 <td className={`py-2 px-4 text-center ${isCorrectPrediction ? 'text-green-600' : 'text-red-500'}`}>
-                  {event.home_elo_prob.toFixed(2)}
+                  {typeof event.home_elo_prob === 'number' ? event.home_elo_prob.toFixed(2) : ''}
                 </td>
                 <td className="py-2 px-4 text-center">
                   {event.result ? 1 : 0}
