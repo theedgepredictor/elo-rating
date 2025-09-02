@@ -5648,7 +5648,49 @@
       "tournament_id": null,
       "str_event_id": "20250914_chiefs_eagles",
       "season": 2025
+    },
+    {
+      "id": 401772919,
+      "datetime": "2025-09-15T00:20:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "vikings",
+      "home_team_id": 16,
+      "away_team_name": "falcons",
+      "away_team_id": 1,
+      "home_elo_pre": 1575.6415777158,
+      "away_elo_pre": 1419.7400696971,
+      "elo_diff": 230.9015080187,
+      "elo_spread": -9.2360603207,
+      "home_elo_prob": 0.6602902564,
+      "away_elo_prob": 0.3397097436,
+      "home_elo_post": 1580.9691431325,
+      "away_elo_post": 1414.4125042803,
+      "tournament_id": null,
+      "str_event_id": "20250915_vikings_falcons",
+      "season": 2025
+    },
+    {
+      "id": 401772715,
+      "datetime": "2025-09-15T23:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "texans",
+      "home_team_id": 34,
+      "away_team_name": "buccaneers",
+      "away_team_id": 27,
+      "home_elo_pre": 1526.0106189136,
+      "away_elo_pre": 1574.2352254769,
+      "elo_diff": 26.7753934367,
+      "elo_spread": -1.0710157375,
+      "home_elo_prob": 0.5192569145,
+      "away_elo_prob": 0.4807430855,
+      "home_elo_post": 1534.2410917045,
+      "away_elo_post": 1566.004752686,
+      "tournament_id": null,
+      "str_event_id": "20250915_texans_buccaneers",
+      "season": 2025
     }
   ],
-  "lastupdated": "2025-09-01T09:13:52.422817"
+  "lastupdated": "2025-09-02T09:11:51.355831"
 }
