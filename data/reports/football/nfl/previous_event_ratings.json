@@ -1,4 +1,30 @@
 {
-  "events": null,
-  "lastupdated": "2025-09-04T09:11:32.480592"
+  "events": [
+    {
+      "id": 401772510,
+      "datetime": "2025-09-05T00:20:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "eagles",
+      "home_team_id": 21,
+      "away_team_name": "cowboys",
+      "away_team_id": 6,
+      "home_elo_pre": 1548.5480669992,
+      "away_elo_pre": 1582.4175639415,
+      "elo_diff": 41.1305030577,
+      "elo_spread": -1.6452201223,
+      "home_elo_prob": 0.5295612601,
+      "away_elo_prob": 0.4704387399,
+      "home_elo_post": 1567.1292280862,
+      "away_elo_post": 1563.8364028544,
+      "tournament_id": null,
+      "str_event_id": "20250905_eagles_cowboys",
+      "season": 2025,
+      "result": true,
+      "point_dif": -4,
+      "home_team_score": 24,
+      "away_team_score": 20
+    }
+  ],
+  "lastupdated": "2025-09-05T09:11:41.739500"
 }
