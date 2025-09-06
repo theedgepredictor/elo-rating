@@ -1,17 +1,9 @@
 {
   "teams": [
     {
-      "id": 401671670,
-      "team_name": "chiefs",
-      "rank": 1,
-      "elo_rating": 1733.0454181423,
-      "season": 2024,
-      "lastupdated": "2024-09-15T20:25:00.000Z"
-    },
-    {
       "id": 401671807,
       "team_name": "bills",
-      "rank": 2,
+      "rank": 1,
       "elo_rating": 1725.3826695572,
       "season": 2024,
       "lastupdated": "2024-09-13T00:15:00.000Z"
@@ -19,7 +11,7 @@
     {
       "id": 401671645,
       "team_name": "49ers",
-      "rank": 3,
+      "rank": 2,
       "elo_rating": 1693.4938302979,
       "season": 2024,
       "lastupdated": "2024-09-15T17:00:00.000Z"
@@ -27,10 +19,18 @@
     {
       "id": 401671624,
       "team_name": "ravens",
-      "rank": 4,
+      "rank": 3,
       "elo_rating": 1633.3092496481,
       "season": 2024,
       "lastupdated": "2024-09-15T17:00:00.000Z"
+    },
+    {
+      "id": 401772714,
+      "team_name": "chiefs",
+      "rank": 4,
+      "elo_rating": 1612.6705654518,
+      "season": 2025,
+      "lastupdated": "2025-09-06T00:00:00.000Z"
     },
     {
       "id": 401671709,
@@ -137,20 +137,20 @@
       "lastupdated": "2024-09-15T17:00:00.000Z"
     },
     {
-      "id": 401671652,
-      "team_name": "chargers",
+      "id": 401671624,
+      "team_name": "raiders",
       "rank": 18,
-      "elo_rating": 1489.8547315148,
+      "elo_rating": 1489.1446528542,
       "season": 2024,
       "lastupdated": "2024-09-15T17:00:00.000Z"
     },
     {
-      "id": 401671624,
-      "team_name": "raiders",
+      "id": 401772714,
+      "team_name": "chargers",
       "rank": 19,
-      "elo_rating": 1489.1446528542,
-      "season": 2024,
-      "lastupdated": "2024-09-15T17:00:00.000Z"
+      "elo_rating": 1478.8108253921,
+      "season": 2025,
+      "lastupdated": "2025-09-06T00:00:00.000Z"
     },
     {
       "id": 401671754,
@@ -257,5 +257,5 @@
       "lastupdated": "2024-09-15T17:00:00.000Z"
     }
   ],
-  "lastupdated": "2025-09-05T09:11:41.851872"
+  "lastupdated": "2025-09-06T09:09:35.502906"
 }
