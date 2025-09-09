@@ -25495,27 +25495,6 @@
       "season": 2025
     },
     {
-      "id": 401767232,
-      "datetime": "2025-09-13T17:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "tennesseetech",
-      "home_team_id": 2635,
-      "away_team_name": "davidson",
-      "away_team_id": 2166,
-      "home_elo_pre": 1460.4272786829,
-      "away_elo_pre": 1528.6029678463,
-      "elo_diff": -6.1756891634,
-      "elo_spread": 0.2470275665,
-      "home_elo_prob": 0.4955563514,
-      "away_elo_prob": 0.5044436486,
-      "home_elo_post": 1451.8639797933,
-      "away_elo_post": 1537.1662667359,
-      "tournament_id": null,
-      "str_event_id": "20250913_tennesseetech_davidson",
-      "season": 2025
-    },
-    {
       "id": 401767351,
       "datetime": "2025-09-13T17:00:00.000Z",
       "neutral_site": 1,
@@ -25534,6 +25513,27 @@
       "away_elo_post": 1443.0525518576,
       "tournament_id": null,
       "str_event_id": "20250913_howard_morehouse",
+      "season": 2025
+    },
+    {
+      "id": 401767232,
+      "datetime": "2025-09-13T17:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "tennesseetech",
+      "home_team_id": 2635,
+      "away_team_name": "davidson",
+      "away_team_id": 2166,
+      "home_elo_pre": 1460.4272786829,
+      "away_elo_pre": 1528.6029678463,
+      "elo_diff": -6.1756891634,
+      "elo_spread": 0.2470275665,
+      "home_elo_prob": 0.4955563514,
+      "away_elo_prob": 0.5044436486,
+      "home_elo_post": 1451.8639797933,
+      "away_elo_post": 1537.1662667359,
+      "tournament_id": null,
+      "str_event_id": "20250913_tennesseetech_davidson",
       "season": 2025
     },
     {
@@ -25621,6 +25621,27 @@
       "season": 2025
     },
     {
+      "id": 401762818,
+      "datetime": "2025-09-13T18:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "ballstate",
+      "home_team_id": 2050,
+      "away_team_name": "newhampshire",
+      "away_team_id": 160,
+      "home_elo_pre": 1417.9718572288,
+      "away_elo_pre": 1535.1158008304,
+      "elo_diff": -55.1439436016,
+      "elo_spread": 2.2057577441,
+      "home_elo_prob": 0.4604038307,
+      "away_elo_prob": 0.5395961693,
+      "home_elo_post": 1410.1887536302,
+      "away_elo_post": 1542.898904429,
+      "tournament_id": null,
+      "str_event_id": "20250913_ballstate_newhampshire",
+      "season": 2025
+    },
+    {
       "id": 401767120,
       "datetime": "2025-09-13T18:00:00.000Z",
       "neutral_site": 0,
@@ -25663,27 +25684,6 @@
       "season": 2025
     },
     {
-      "id": 401762818,
-      "datetime": "2025-09-13T18:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "ballstate",
-      "home_team_id": 2050,
-      "away_team_name": "newhampshire",
-      "away_team_id": 160,
-      "home_elo_pre": 1417.9718572288,
-      "away_elo_pre": 1535.1158008304,
-      "elo_diff": -55.1439436016,
-      "elo_spread": 2.2057577441,
-      "home_elo_prob": 0.4604038307,
-      "away_elo_prob": 0.5395961693,
-      "home_elo_post": 1410.1887536302,
-      "away_elo_post": 1542.898904429,
-      "tournament_id": null,
-      "str_event_id": "20250913_ballstate_newhampshire",
-      "season": 2025
-    },
-    {
       "id": 401767150,
       "datetime": "2025-09-13T18:30:00.000Z",
       "neutral_site": 0,
@@ -25705,5 +25705,5 @@
       "season": 2025
     }
   ],
-  "lastupdated": "2025-09-08T09:13:30.920513"
+  "lastupdated": "2025-09-09T09:12:12.376077"
 }
