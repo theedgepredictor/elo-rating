@@ -5690,7 +5690,28 @@
       "tournament_id": null,
       "str_event_id": "20250923_ravens_lions",
       "season": 2025
+    },
+    {
+      "id": 401772938,
+      "datetime": "2025-09-26T00:15:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "cardinals",
+      "home_team_id": 22,
+      "away_team_name": "seahawks",
+      "away_team_id": 26,
+      "home_elo_pre": 1492.5355976238,
+      "away_elo_pre": 1536.1618843996,
+      "elo_diff": 31.3737132242,
+      "elo_spread": -1.254948529,
+      "home_elo_prob": 0.5225598736,
+      "away_elo_prob": 0.4774401264,
+      "home_elo_post": 1500.69267824,
+      "away_elo_post": 1528.0048037835,
+      "tournament_id": null,
+      "str_event_id": "20250926_cardinals_seahawks",
+      "season": 2025
     }
   ],
-  "lastupdated": "2025-09-12T09:11:20.209397"
+  "lastupdated": "2025-09-13T09:10:13.840211"
 }
