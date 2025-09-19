@@ -1,6 +1,31 @@
 {
   "events": [
     {
+      "id": 401772937,
+      "datetime": "2025-09-19T00:15:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "bills",
+      "home_team_id": 2,
+      "away_team_name": "dolphins",
+      "away_team_id": 15,
+      "home_elo_pre": 1687.8977145267,
+      "away_elo_pre": 1455.7779083288,
+      "elo_diff": 307.1198061979,
+      "elo_spread": -12.2847922479,
+      "home_elo_prob": 0.7076425425,
+      "away_elo_prob": 0.2923574575,
+      "home_elo_post": 1703.2768523735,
+      "away_elo_post": 1440.398770482,
+      "tournament_id": null,
+      "str_event_id": "20250919_bills_dolphins",
+      "season": 2025,
+      "result": true,
+      "point_dif": -10,
+      "home_team_score": 31,
+      "away_team_score": 21
+    },
+    {
       "id": 401772811,
       "datetime": "2025-09-16T02:00:00.000Z",
       "neutral_site": 0,
@@ -801,5 +826,5 @@
       "away_team_score": 20
     }
   ],
-  "lastupdated": "2025-09-18T09:11:51.224897"
+  "lastupdated": "2025-09-19T09:12:15.375803"
 }
