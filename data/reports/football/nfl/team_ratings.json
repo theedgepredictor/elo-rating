@@ -41,17 +41,9 @@
       "lastupdated": "2025-09-21T17:00:00.000Z"
     },
     {
-      "id": 401772726,
-      "team_name": "ravens",
-      "rank": 6,
-      "elo_rating": 1604.2174914024,
-      "season": 2025,
-      "lastupdated": "2025-09-14T17:00:00.000Z"
-    },
-    {
       "id": 401772840,
       "team_name": "buccaneers",
-      "rank": 7,
+      "rank": 6,
       "elo_rating": 1598.3397652378,
       "season": 2025,
       "lastupdated": "2025-09-21T17:00:00.000Z"
@@ -59,10 +51,18 @@
     {
       "id": 401772842,
       "team_name": "packers",
-      "rank": 8,
+      "rank": 7,
       "elo_rating": 1591.5726733837,
       "season": 2025,
       "lastupdated": "2025-09-21T17:00:00.000Z"
+    },
+    {
+      "id": 401772812,
+      "team_name": "lions",
+      "rank": 8,
+      "elo_rating": 1591.3260361897,
+      "season": 2025,
+      "lastupdated": "2025-09-23T00:15:00.000Z"
     },
     {
       "id": 401772731,
@@ -73,12 +73,12 @@
       "lastupdated": "2025-09-21T17:00:00.000Z"
     },
     {
-      "id": 401772835,
-      "team_name": "lions",
+      "id": 401772812,
+      "team_name": "ravens",
       "rank": 10,
-      "elo_rating": 1557.1934279371,
+      "elo_rating": 1570.0848831499,
       "season": 2025,
-      "lastupdated": "2025-09-14T17:00:00.000Z"
+      "lastupdated": "2025-09-23T00:15:00.000Z"
     },
     {
       "id": 401772732,
@@ -257,5 +257,5 @@
       "lastupdated": "2025-09-21T17:00:00.000Z"
     }
   ],
-  "lastupdated": "2025-09-22T09:13:15.379055"
+  "lastupdated": "2025-09-23T09:12:16.579976"
 }
