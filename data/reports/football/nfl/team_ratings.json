@@ -89,17 +89,9 @@
       "lastupdated": "2025-09-28T20:25:00.000Z"
     },
     {
-      "id": 401772731,
-      "team_name": "bengals",
-      "rank": 12,
-      "elo_rating": 1531.2985668717,
-      "season": 2025,
-      "lastupdated": "2025-09-21T17:00:00.000Z"
-    },
-    {
       "id": 401772921,
       "team_name": "cowboys",
-      "rank": 13,
+      "rank": 12,
       "elo_rating": 1530.7853044082,
       "season": 2025,
       "lastupdated": "2025-09-29T00:20:00.000Z"
@@ -107,7 +99,7 @@
     {
       "id": 401772848,
       "team_name": "jaguars",
-      "rank": 14,
+      "rank": 13,
       "elo_rating": 1515.0186832084,
       "season": 2025,
       "lastupdated": "2025-09-28T20:05:00.000Z"
@@ -115,7 +107,7 @@
     {
       "id": 401772737,
       "team_name": "chargers",
-      "rank": 15,
+      "rank": 14,
       "elo_rating": 1509.5622164929,
       "season": 2025,
       "lastupdated": "2025-09-28T17:00:00.000Z"
@@ -123,10 +115,18 @@
     {
       "id": 401772849,
       "team_name": "rams",
-      "rank": 16,
+      "rank": 15,
       "elo_rating": 1497.2183179321,
       "season": 2025,
       "lastupdated": "2025-09-28T20:05:00.000Z"
+    },
+    {
+      "id": 401772716,
+      "team_name": "bengals",
+      "rank": 16,
+      "elo_rating": 1489.1622404645,
+      "season": 2025,
+      "lastupdated": "2025-09-30T00:15:00.000Z"
     },
     {
       "id": 401772738,
@@ -153,9 +153,17 @@
       "lastupdated": "2025-09-26T00:15:00.000Z"
     },
     {
+      "id": 401772716,
+      "team_name": "broncos",
+      "rank": 20,
+      "elo_rating": 1480.2981407295,
+      "season": 2025,
+      "lastupdated": "2025-09-30T00:15:00.000Z"
+    },
+    {
       "id": 401772740,
       "team_name": "saints",
-      "rank": 20,
+      "rank": 21,
       "elo_rating": 1474.4406699583,
       "season": 2025,
       "lastupdated": "2025-09-28T17:00:00.000Z"
@@ -163,15 +171,23 @@
     {
       "id": 401772742,
       "team_name": "bears",
-      "rank": 21,
+      "rank": 22,
       "elo_rating": 1460.0165747946,
       "season": 2025,
       "lastupdated": "2025-09-28T20:25:00.000Z"
     },
     {
+      "id": 401772813,
+      "team_name": "dolphins",
+      "rank": 23,
+      "elo_rating": 1459.830414964,
+      "season": 2025,
+      "lastupdated": "2025-09-29T23:15:00.000Z"
+    },
+    {
       "id": 401772846,
       "team_name": "browns",
-      "rank": 22,
+      "rank": 24,
       "elo_rating": 1454.8972791308,
       "season": 2025,
       "lastupdated": "2025-09-28T17:00:00.000Z"
@@ -179,7 +195,7 @@
     {
       "id": 401772847,
       "team_name": "patriots",
-      "rank": 23,
+      "rank": 25,
       "elo_rating": 1444.4072095569,
       "season": 2025,
       "lastupdated": "2025-09-28T17:00:00.000Z"
@@ -187,34 +203,18 @@
     {
       "id": 401772742,
       "team_name": "raiders",
-      "rank": 24,
+      "rank": 26,
       "elo_rating": 1444.3350093781,
       "season": 2025,
       "lastupdated": "2025-09-28T20:25:00.000Z"
     },
     {
-      "id": 401772937,
-      "team_name": "dolphins",
-      "rank": 25,
-      "elo_rating": 1440.398770482,
-      "season": 2025,
-      "lastupdated": "2025-09-19T00:15:00.000Z"
-    },
-    {
       "id": 401772739,
       "team_name": "falcons",
-      "rank": 26,
+      "rank": 27,
       "elo_rating": 1438.2089635997,
       "season": 2025,
       "lastupdated": "2025-09-28T17:00:00.000Z"
-    },
-    {
-      "id": 401772735,
-      "team_name": "broncos",
-      "rank": 27,
-      "elo_rating": 1438.1618143223,
-      "season": 2025,
-      "lastupdated": "2025-09-21T20:05:00.000Z"
     },
     {
       "id": 401772739,
@@ -225,12 +225,12 @@
       "lastupdated": "2025-09-28T17:00:00.000Z"
     },
     {
-      "id": 401772840,
+      "id": 401772813,
       "team_name": "jets",
       "rank": 29,
-      "elo_rating": 1403.0252043937,
+      "elo_rating": 1383.5935599117,
       "season": 2025,
-      "lastupdated": "2025-09-21T17:00:00.000Z"
+      "lastupdated": "2025-09-29T23:15:00.000Z"
     },
     {
       "id": 401772737,
@@ -257,5 +257,5 @@
       "lastupdated": "2025-09-28T17:00:00.000Z"
     }
   ],
-  "lastupdated": "2025-09-29T09:12:37.096161"
+  "lastupdated": "2025-09-30T09:12:12.889972"
 }
