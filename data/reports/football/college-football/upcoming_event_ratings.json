@@ -25745,7 +25745,49 @@
       "tournament_id": null,
       "str_event_id": "20251004_tennesseetech_willinois",
       "season": 2025
+    },
+    {
+      "id": 401757278,
+      "datetime": "2025-10-08T23:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "mtsu",
+      "home_team_id": 2393,
+      "away_team_name": "missouristate",
+      "away_team_id": 2623,
+      "home_elo_pre": 1461.3822215202,
+      "away_elo_pre": 1482.6903012122,
+      "elo_diff": 40.691920308,
+      "elo_spread": -1.6276768123,
+      "home_elo_prob": 0.5292467658,
+      "away_elo_prob": 0.4707532342,
+      "home_elo_post": 1469.3916091886,
+      "away_elo_post": 1474.6809135438,
+      "tournament_id": null,
+      "str_event_id": "20251008_mtsu_missouristate",
+      "season": 2025
+    },
+    {
+      "id": 401757277,
+      "datetime": "2025-10-09T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "utep",
+      "home_team_id": 2638,
+      "away_team_name": "liberty",
+      "away_team_id": 2335,
+      "home_elo_pre": 1385.5280060721,
+      "away_elo_pre": 1668.4019109765,
+      "elo_diff": -220.8739049044,
+      "elo_spread": 8.8349561962,
+      "home_elo_prob": 0.3462132754,
+      "away_elo_prob": 0.6537867246,
+      "home_elo_post": 1380.0759577282,
+      "away_elo_post": 1673.8539593204,
+      "tournament_id": null,
+      "str_event_id": "20251009_utep_liberty",
+      "season": 2025
     }
   ],
-  "lastupdated": "2025-10-01T09:11:57.267620"
+  "lastupdated": "2025-10-02T09:11:03.162215"
 }
