@@ -5648,7 +5648,28 @@
       "tournament_id": null,
       "str_event_id": "20251020_lions_buccaneers",
       "season": 2025
+    },
+    {
+      "id": 401772826,
+      "datetime": "2025-10-21T02:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "seahawks",
+      "home_team_id": 26,
+      "away_team_name": "texans",
+      "away_team_id": 34,
+      "home_elo_pre": 1596.1832478285,
+      "away_elo_pre": 1544.0158438689,
+      "elo_diff": 127.1674039596,
+      "elo_spread": -5.0866961584,
+      "home_elo_prob": 0.5904962467,
+      "away_elo_prob": 0.4095037533,
+      "home_elo_post": 1602.8916395124,
+      "away_elo_post": 1537.3074521849,
+      "tournament_id": null,
+      "str_event_id": "20251021_seahawks_texans",
+      "season": 2025
     }
   ],
-  "lastupdated": "2025-10-07T09:13:16.206867"
+  "lastupdated": "2025-10-08T09:12:05.286628"
 }
