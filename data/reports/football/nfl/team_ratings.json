@@ -41,17 +41,9 @@
       "lastupdated": "2025-10-05T20:05:00.000Z"
     },
     {
-      "id": 401772745,
-      "team_name": "eagles",
-      "rank": 6,
-      "elo_rating": 1604.7320863287,
-      "season": 2025,
-      "lastupdated": "2025-10-05T17:00:00.000Z"
-    },
-    {
       "id": 401772746,
       "team_name": "buccaneers",
-      "rank": 7,
+      "rank": 6,
       "elo_rating": 1592.7158894001,
       "season": 2025,
       "lastupdated": "2025-10-05T20:05:00.000Z"
@@ -59,7 +51,7 @@
     {
       "id": 401772921,
       "team_name": "packers",
-      "rank": 8,
+      "rank": 7,
       "elo_rating": 1591.9734869743,
       "season": 2025,
       "lastupdated": "2025-09-29T00:20:00.000Z"
@@ -67,7 +59,7 @@
     {
       "id": 401772632,
       "team_name": "steelers",
-      "rank": 9,
+      "rank": 8,
       "elo_rating": 1574.1918609192,
       "season": 2025,
       "lastupdated": "2025-09-28T13:30:00.000Z"
@@ -75,7 +67,7 @@
     {
       "id": 401772633,
       "team_name": "vikings",
-      "rank": 10,
+      "rank": 9,
       "elo_rating": 1571.9624562177,
       "season": 2025,
       "lastupdated": "2025-10-05T13:30:00.000Z"
@@ -83,10 +75,18 @@
     {
       "id": 401772850,
       "team_name": "cowboys",
-      "rank": 11,
+      "rank": 10,
       "elo_rating": 1560.8677909577,
       "season": 2025,
       "lastupdated": "2025-10-05T17:00:00.000Z"
+    },
+    {
+      "id": 401772940,
+      "team_name": "eagles",
+      "rank": 11,
+      "elo_rating": 1555.0040867643,
+      "season": 2025,
+      "lastupdated": "2025-10-10T00:15:00.000Z"
     },
     {
       "id": 401772743,
@@ -225,18 +225,18 @@
       "lastupdated": "2025-10-05T17:00:00.000Z"
     },
     {
-      "id": 401772850,
-      "team_name": "jets",
+      "id": 401772940,
+      "team_name": "giants",
       "rank": 29,
-      "elo_rating": 1353.5110733622,
+      "elo_rating": 1394.1975477063,
       "season": 2025,
-      "lastupdated": "2025-10-05T17:00:00.000Z"
+      "lastupdated": "2025-10-10T00:15:00.000Z"
     },
     {
-      "id": 401772744,
-      "team_name": "giants",
+      "id": 401772850,
+      "team_name": "jets",
       "rank": 30,
-      "elo_rating": 1344.4695481418,
+      "elo_rating": 1353.5110733622,
       "season": 2025,
       "lastupdated": "2025-10-05T17:00:00.000Z"
     },
@@ -257,5 +257,5 @@
       "lastupdated": "2025-10-05T20:05:00.000Z"
     }
   ],
-  "lastupdated": "2025-10-09T09:13:14.125808"
+  "lastupdated": "2025-10-10T09:12:54.359653"
 }
