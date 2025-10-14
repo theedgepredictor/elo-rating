@@ -1,33 +1,25 @@
 {
   "teams": [
     {
-      "id": 401809277,
+      "id": 401809290,
       "team_name": "brewers",
       "rank": 1,
-      "elo_rating": 1619.6669811163,
+      "elo_rating": 1617.740191248,
       "season": 2025,
-      "lastupdated": "2025-10-12T00:08:00.000Z"
+      "lastupdated": "2025-10-14T00:08:00.000Z"
     },
     {
-      "id": 401809281,
+      "id": 401809290,
       "team_name": "dodgers",
       "rank": 2,
-      "elo_rating": 1612.0191301034,
+      "elo_rating": 1613.9459199716,
       "season": 2025,
-      "lastupdated": "2025-10-09T22:08:00.000Z"
-    },
-    {
-      "id": 401809266,
-      "team_name": "bluejays",
-      "rank": 3,
-      "elo_rating": 1585.8766186752,
-      "season": 2025,
-      "lastupdated": "2025-10-08T23:08:00.000Z"
+      "lastupdated": "2025-10-14T00:08:00.000Z"
     },
     {
       "id": 401809281,
       "team_name": "phillies",
-      "rank": 4,
+      "rank": 3,
       "elo_rating": 1584.5567681043,
       "season": 2025,
       "lastupdated": "2025-10-09T22:08:00.000Z"
@@ -35,10 +27,18 @@
     {
       "id": 401809266,
       "team_name": "yankees",
-      "rank": 5,
+      "rank": 4,
       "elo_rating": 1581.7298373509,
       "season": 2025,
       "lastupdated": "2025-10-08T23:08:00.000Z"
+    },
+    {
+      "id": 401809284,
+      "team_name": "bluejays",
+      "rank": 5,
+      "elo_rating": 1579.6941646925,
+      "season": 2025,
+      "lastupdated": "2025-10-13T21:03:00.000Z"
     },
     {
       "id": 401809256,
@@ -57,12 +57,12 @@
       "lastupdated": "2025-10-12T00:08:00.000Z"
     },
     {
-      "id": 401809272,
+      "id": 401809284,
       "team_name": "mariners",
       "rank": 8,
-      "elo_rating": 1539.8380483764,
+      "elo_rating": 1546.0205023591,
       "season": 2025,
-      "lastupdated": "2025-10-11T00:08:00.000Z"
+      "lastupdated": "2025-10-13T21:03:00.000Z"
     },
     {
       "id": 401809262,
@@ -241,5 +241,5 @@
       "lastupdated": "2025-09-28T19:05:00.000Z"
     }
   ],
-  "lastupdated": "2025-10-13T09:13:57.397558"
+  "lastupdated": "2025-10-14T09:12:20.710116"
 }
