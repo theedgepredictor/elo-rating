@@ -105,12 +105,12 @@
       "lastupdated": "2025-10-11T20:15:00.000Z"
     },
     {
-      "id": 401754553,
-      "team_name": "miami",
+      "id": 401754564,
+      "team_name": "louisville",
       "rank": 14,
-      "elo_rating": 1731.9353741652,
+      "elo_rating": 1728.5397039126,
       "season": 2025,
-      "lastupdated": "2025-10-04T23:30:00.000Z"
+      "lastupdated": "2025-10-17T23:00:00.000Z"
     },
     {
       "id": 401752732,
@@ -129,12 +129,12 @@
       "lastupdated": "2025-09-20T16:00:00.000Z"
     },
     {
-      "id": 401754554,
-      "team_name": "louisville",
+      "id": 401754564,
+      "team_name": "miami",
       "rank": 17,
-      "elo_rating": 1708.2982358143,
+      "elo_rating": 1711.6939060669,
       "season": 2025,
-      "lastupdated": "2025-10-04T19:30:00.000Z"
+      "lastupdated": "2025-10-17T23:00:00.000Z"
     },
     {
       "id": 401752870,
@@ -449,17 +449,9 @@
       "lastupdated": "2025-10-04T16:00:00.000Z"
     },
     {
-      "id": 401752846,
-      "team_name": "nebraska",
-      "rank": 57,
-      "elo_rating": 1593.9715807576,
-      "season": 2025,
-      "lastupdated": "2025-09-20T19:30:00.000Z"
-    },
-    {
       "id": 401761589,
       "team_name": "appstate",
-      "rank": 58,
+      "rank": 57,
       "elo_rating": 1592.9830089855,
       "season": 2025,
       "lastupdated": "2025-08-29T23:00:00.000Z"
@@ -467,7 +459,7 @@
     {
       "id": 401752835,
       "team_name": "villanova",
-      "rank": 59,
+      "rank": 58,
       "elo_rating": 1590.3777755805,
       "season": 2025,
       "lastupdated": "2025-09-13T19:30:00.000Z"
@@ -475,10 +467,18 @@
     {
       "id": 401767209,
       "team_name": "stthomasmn",
-      "rank": 60,
+      "rank": 59,
       "elo_rating": 1589.2876560504,
       "season": 2025,
       "lastupdated": "2025-08-28T23:00:00.000Z"
+    },
+    {
+      "id": 401752872,
+      "team_name": "minnesota",
+      "rank": 60,
+      "elo_rating": 1589.1499557213,
+      "season": 2025,
+      "lastupdated": "2025-10-18T00:00:00.000Z"
     },
     {
       "id": 401754559,
@@ -673,9 +673,17 @@
       "lastupdated": "2025-10-11T16:00:00.000Z"
     },
     {
+      "id": 401752872,
+      "team_name": "nebraska",
+      "rank": 85,
+      "elo_rating": 1558.6758508294,
+      "season": 2025,
+      "lastupdated": "2025-10-18T00:00:00.000Z"
+    },
+    {
       "id": 401752674,
       "team_name": "carkansas",
-      "rank": 85,
+      "rank": 86,
       "elo_rating": 1557.2449007935,
       "season": 2025,
       "lastupdated": "2025-08-28T23:30:00.000Z"
@@ -683,18 +691,10 @@
     {
       "id": 401767476,
       "team_name": "incarnateword",
-      "rank": 86,
+      "rank": 87,
       "elo_rating": 1554.6023236443,
       "season": 2025,
       "lastupdated": "2025-08-23T17:00:00.000Z"
-    },
-    {
-      "id": 401752859,
-      "team_name": "minnesota",
-      "rank": 87,
-      "elo_rating": 1553.8542257931,
-      "season": 2025,
-      "lastupdated": "2025-10-04T23:30:00.000Z"
     },
     {
       "id": 401752733,
@@ -2369,5 +2369,5 @@
       "lastupdated": "2024-09-14T23:00:00.000Z"
     }
   ],
-  "lastupdated": "2025-10-17T09:12:18.466032"
+  "lastupdated": "2025-10-18T09:10:42.362349"
 }
