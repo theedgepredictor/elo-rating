@@ -2624,7 +2624,28 @@
       "tournament_id": null,
       "str_event_id": "20240929_braves_royals",
       "season": 2024
+    },
+    {
+      "id": 401809288,
+      "datetime": "2025-10-20T00:03:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "bluejays",
+      "home_team_id": 14,
+      "away_team_name": "mariners",
+      "away_team_id": 12,
+      "home_elo_pre": 1581.6401822401,
+      "away_elo_pre": 1544.0744848115,
+      "elo_diff": 87.5656974286,
+      "elo_spread": -7.0052557943,
+      "home_elo_prob": 0.562677157,
+      "away_elo_prob": 0.437322843,
+      "home_elo_post": 1583.0978103446,
+      "away_elo_post": 1542.616856707,
+      "tournament_id": null,
+      "str_event_id": "20251020_bluejays_mariners",
+      "season": 2025
     }
   ],
-  "lastupdated": "2025-10-18T09:10:43.986459"
+  "lastupdated": "2025-10-19T09:11:16.750952"
 }
