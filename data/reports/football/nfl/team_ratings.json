@@ -1,28 +1,28 @@
 {
   "teams": [
     {
-      "id": 401772923,
+      "id": 401772753,
       "team_name": "chiefs",
       "rank": 1,
-      "elo_rating": 1654.7756040503,
+      "elo_rating": 1677.3889389743,
       "season": 2025,
-      "lastupdated": "2025-10-13T00:20:00.000Z"
+      "lastupdated": "2025-10-19T17:00:00.000Z"
+    },
+    {
+      "id": 401772924,
+      "team_name": "49ers",
+      "rank": 2,
+      "elo_rating": 1654.917065722,
+      "season": 2025,
+      "lastupdated": "2025-10-20T00:20:00.000Z"
     },
     {
       "id": 401772815,
       "team_name": "bills",
-      "rank": 2,
+      "rank": 3,
       "elo_rating": 1649.599408052,
       "season": 2025,
       "lastupdated": "2025-10-13T23:15:00.000Z"
-    },
-    {
-      "id": 401772749,
-      "team_name": "49ers",
-      "rank": 3,
-      "elo_rating": 1636.5597877846,
-      "season": 2025,
-      "lastupdated": "2025-10-12T20:25:00.000Z"
     },
     {
       "id": 401772857,
@@ -33,9 +33,17 @@
       "lastupdated": "2025-10-12T17:00:00.000Z"
     },
     {
+      "id": 401772863,
+      "team_name": "packers",
+      "rank": 5,
+      "elo_rating": 1627.8136585256,
+      "season": 2025,
+      "lastupdated": "2025-10-19T20:25:00.000Z"
+    },
+    {
       "id": 401772749,
       "team_name": "buccaneers",
-      "rank": 5,
+      "rank": 6,
       "elo_rating": 1623.7713001959,
       "season": 2025,
       "lastupdated": "2025-10-12T20:25:00.000Z"
@@ -43,219 +51,211 @@
     {
       "id": 401772923,
       "team_name": "lions",
-      "rank": 6,
+      "rank": 7,
       "elo_rating": 1618.6593385553,
       "season": 2025,
       "lastupdated": "2025-10-13T00:20:00.000Z"
     },
     {
-      "id": 401772752,
-      "team_name": "packers",
-      "rank": 7,
-      "elo_rating": 1610.6476379103,
+      "id": 401772862,
+      "team_name": "eagles",
+      "rank": 8,
+      "elo_rating": 1583.7289723103,
       "season": 2025,
-      "lastupdated": "2025-10-12T20:25:00.000Z"
+      "lastupdated": "2025-10-19T17:00:00.000Z"
     },
     {
       "id": 401772941,
       "team_name": "steelers",
-      "rank": 8,
+      "rank": 9,
       "elo_rating": 1580.101473661,
       "season": 2025,
       "lastupdated": "2025-10-17T00:15:00.000Z"
     },
     {
-      "id": 401772633,
-      "team_name": "vikings",
-      "rank": 9,
-      "elo_rating": 1571.9624562177,
+      "id": 401772756,
+      "team_name": "colts",
+      "rank": 10,
+      "elo_rating": 1571.7122674805,
       "season": 2025,
-      "lastupdated": "2025-10-05T13:30:00.000Z"
+      "lastupdated": "2025-10-19T20:05:00.000Z"
     },
     {
-      "id": 401772940,
-      "team_name": "eagles",
-      "rank": 10,
-      "elo_rating": 1555.0040867643,
+      "id": 401772864,
+      "team_name": "cowboys",
+      "rank": 11,
+      "elo_rating": 1566.839804565,
       "season": 2025,
-      "lastupdated": "2025-10-10T00:15:00.000Z"
+      "lastupdated": "2025-10-19T20:25:00.000Z"
+    },
+    {
+      "id": 401772635,
+      "team_name": "rams",
+      "rank": 12,
+      "elo_rating": 1562.3844646301,
+      "season": 2025,
+      "lastupdated": "2025-10-19T13:30:00.000Z"
     },
     {
       "id": 401772743,
       "team_name": "texans",
-      "rank": 11,
+      "rank": 13,
       "elo_rating": 1544.0158438689,
       "season": 2025,
       "lastupdated": "2025-10-05T17:00:00.000Z"
     },
     {
-      "id": 401772858,
-      "team_name": "cowboys",
-      "rank": 12,
-      "elo_rating": 1538.1565682908,
-      "season": 2025,
-      "lastupdated": "2025-10-12T17:00:00.000Z"
-    },
-    {
-      "id": 401772856,
-      "team_name": "colts",
-      "rank": 13,
-      "elo_rating": 1536.9045262893,
-      "season": 2025,
-      "lastupdated": "2025-10-12T17:00:00.000Z"
-    },
-    {
-      "id": 401772855,
-      "team_name": "rams",
+      "id": 401772862,
+      "team_name": "vikings",
       "rank": 14,
-      "elo_rating": 1521.4816329045,
+      "elo_rating": 1543.2375706717,
       "season": 2025,
-      "lastupdated": "2025-10-12T17:00:00.000Z"
+      "lastupdated": "2025-10-19T17:00:00.000Z"
     },
     {
-      "id": 401772634,
-      "team_name": "broncos",
-      "rank": 15,
-      "elo_rating": 1519.8820608854,
-      "season": 2025,
-      "lastupdated": "2025-10-12T13:30:00.000Z"
-    },
-    {
-      "id": 401772857,
-      "team_name": "jaguars",
-      "rank": 16,
-      "elo_rating": 1506.4688354159,
-      "season": 2025,
-      "lastupdated": "2025-10-12T17:00:00.000Z"
-    },
-    {
-      "id": 401772751,
+      "id": 401772755,
       "team_name": "patriots",
-      "rank": 17,
-      "elo_rating": 1503.6067435202,
+      "rank": 15,
+      "elo_rating": 1530.8867561991,
       "season": 2025,
-      "lastupdated": "2025-10-12T17:00:00.000Z"
+      "lastupdated": "2025-10-19T17:00:00.000Z"
     },
     {
-      "id": 401772815,
-      "team_name": "falcons",
-      "rank": 18,
-      "elo_rating": 1478.9410035457,
+      "id": 401772757,
+      "team_name": "broncos",
+      "rank": 16,
+      "elo_rating": 1525.5906564932,
       "season": 2025,
-      "lastupdated": "2025-10-13T23:15:00.000Z"
+      "lastupdated": "2025-10-19T20:05:00.000Z"
     },
     {
-      "id": 401772750,
-      "team_name": "chargers",
-      "rank": 19,
-      "elo_rating": 1476.7367666587,
-      "season": 2025,
-      "lastupdated": "2025-10-12T17:00:00.000Z"
-    },
-    {
-      "id": 401772717,
+      "id": 401772861,
       "team_name": "bears",
-      "rank": 20,
-      "elo_rating": 1470.1245280052,
+      "rank": 17,
+      "elo_rating": 1497.6459986761,
       "season": 2025,
-      "lastupdated": "2025-10-14T00:15:00.000Z"
+      "lastupdated": "2025-10-19T17:00:00.000Z"
     },
     {
-      "id": 401772751,
-      "team_name": "saints",
-      "rank": 21,
-      "elo_rating": 1467.4568843302,
+      "id": 401772635,
+      "team_name": "jaguars",
+      "rank": 18,
+      "elo_rating": 1465.5660036903,
       "season": 2025,
-      "lastupdated": "2025-10-12T17:00:00.000Z"
+      "lastupdated": "2025-10-19T13:30:00.000Z"
     },
     {
-      "id": 401772717,
-      "team_name": "commanders",
-      "rank": 22,
-      "elo_rating": 1459.81797092,
+      "id": 401772924,
+      "team_name": "falcons",
+      "rank": 19,
+      "elo_rating": 1460.5837256083,
       "season": 2025,
-      "lastupdated": "2025-10-14T00:15:00.000Z"
+      "lastupdated": "2025-10-20T00:20:00.000Z"
     },
     {
       "id": 401772941,
       "team_name": "bengals",
-      "rank": 23,
+      "rank": 20,
       "elo_rating": 1456.7171400839,
       "season": 2025,
       "lastupdated": "2025-10-17T00:15:00.000Z"
     },
     {
-      "id": 401772856,
-      "team_name": "cardinals",
-      "rank": 24,
-      "elo_rating": 1455.0497416511,
+      "id": 401772754,
+      "team_name": "browns",
+      "rank": 21,
+      "elo_rating": 1452.3673362184,
       "season": 2025,
-      "lastupdated": "2025-10-12T17:00:00.000Z"
+      "lastupdated": "2025-10-19T17:00:00.000Z"
     },
     {
       "id": 401772855,
       "team_name": "ravens",
-      "rank": 25,
+      "rank": 22,
       "elo_rating": 1446.8384339976,
       "season": 2025,
       "lastupdated": "2025-10-12T17:00:00.000Z"
     },
     {
-      "id": 401772859,
-      "team_name": "raiders",
+      "id": 401772756,
+      "team_name": "chargers",
+      "rank": 23,
+      "elo_rating": 1441.9290254675,
+      "season": 2025,
+      "lastupdated": "2025-10-19T20:05:00.000Z"
+    },
+    {
+      "id": 401772861,
+      "team_name": "saints",
+      "rank": 24,
+      "elo_rating": 1439.9354136593,
+      "season": 2025,
+      "lastupdated": "2025-10-19T17:00:00.000Z"
+    },
+    {
+      "id": 401772863,
+      "team_name": "cardinals",
+      "rank": 25,
+      "elo_rating": 1437.8837210358,
+      "season": 2025,
+      "lastupdated": "2025-10-19T20:25:00.000Z"
+    },
+    {
+      "id": 401772864,
+      "team_name": "commanders",
       "rank": 26,
-      "elo_rating": 1429.7313140104,
+      "elo_rating": 1431.1347346458,
       "season": 2025,
-      "lastupdated": "2025-10-12T20:05:00.000Z"
+      "lastupdated": "2025-10-19T20:25:00.000Z"
     },
     {
-      "id": 401772750,
-      "team_name": "dolphins",
+      "id": 401772753,
+      "team_name": "raiders",
       "rank": 27,
-      "elo_rating": 1424.869826741,
+      "elo_rating": 1407.1179790864,
       "season": 2025,
-      "lastupdated": "2025-10-12T17:00:00.000Z"
+      "lastupdated": "2025-10-19T17:00:00.000Z"
     },
     {
-      "id": 401772748,
-      "team_name": "browns",
+      "id": 401772754,
+      "team_name": "dolphins",
       "rank": 28,
-      "elo_rating": 1416.6262328543,
+      "elo_rating": 1389.1287233768,
       "season": 2025,
-      "lastupdated": "2025-10-12T17:00:00.000Z"
+      "lastupdated": "2025-10-19T17:00:00.000Z"
     },
     {
-      "id": 401772940,
+      "id": 401772757,
       "team_name": "giants",
       "rank": 29,
-      "elo_rating": 1394.1975477063,
+      "elo_rating": 1388.4889520985,
       "season": 2025,
-      "lastupdated": "2025-10-10T00:15:00.000Z"
+      "lastupdated": "2025-10-19T20:05:00.000Z"
     },
     {
-      "id": 401772858,
+      "id": 401772860,
       "team_name": "panthers",
       "rank": 30,
-      "elo_rating": 1354.1688426249,
+      "elo_rating": 1383.4181257529,
       "season": 2025,
-      "lastupdated": "2025-10-12T17:00:00.000Z"
+      "lastupdated": "2025-10-19T17:00:00.000Z"
     },
     {
-      "id": 401772634,
+      "id": 401772860,
       "team_name": "jets",
       "rank": 31,
-      "elo_rating": 1343.5276170317,
+      "elo_rating": 1314.2783339037,
       "season": 2025,
-      "lastupdated": "2025-10-12T13:30:00.000Z"
+      "lastupdated": "2025-10-19T17:00:00.000Z"
     },
     {
-      "id": 401772859,
+      "id": 401772755,
       "team_name": "titans",
       "rank": 32,
-      "elo_rating": 1281.1217431446,
+      "elo_rating": 1253.8417304657,
       "season": 2025,
-      "lastupdated": "2025-10-12T20:05:00.000Z"
+      "lastupdated": "2025-10-19T17:00:00.000Z"
     }
   ],
-  "lastupdated": "2025-10-19T09:11:16.578834"
+  "lastupdated": "2025-10-20T09:13:50.921220"
 }
