@@ -1,12 +1,12 @@
 {
   "teams": [
     {
-      "id": 401802435,
+      "id": 401802447,
       "team_name": "jets",
       "rank": 1,
-      "elo_rating": 1593.5259700789,
+      "elo_rating": 1595.8589366518,
       "season": 2026,
-      "lastupdated": "2025-10-18T23:00:00.000Z"
+      "lastupdated": "2025-10-21T01:30:00.000Z"
     },
     {
       "id": 401802436,
@@ -17,28 +17,28 @@
       "lastupdated": "2025-10-19T01:00:00.000Z"
     },
     {
-      "id": 401802437,
-      "team_name": "hurricanes",
-      "rank": 3,
-      "elo_rating": 1580.9478384244,
-      "season": 2026,
-      "lastupdated": "2025-10-19T01:00:00.000Z"
-    },
-    {
       "id": 401802427,
       "team_name": "panthers",
-      "rank": 4,
+      "rank": 3,
       "elo_rating": 1580.4502528291,
       "season": 2026,
       "lastupdated": "2025-10-18T17:00:00.000Z"
     },
     {
-      "id": 401802438,
+      "id": 401802448,
+      "team_name": "hurricanes",
+      "rank": 4,
+      "elo_rating": 1575.5395333392,
+      "season": 2026,
+      "lastupdated": "2025-10-21T02:00:00.000Z"
+    },
+    {
+      "id": 401802448,
       "team_name": "goldenknights",
       "rank": 5,
-      "elo_rating": 1569.0613263576,
+      "elo_rating": 1574.4696314427,
       "season": 2026,
-      "lastupdated": "2025-10-19T02:00:00.000Z"
+      "lastupdated": "2025-10-21T02:00:00.000Z"
     },
     {
       "id": 401802441,
@@ -97,12 +97,12 @@
       "lastupdated": "2025-10-18T23:00:00.000Z"
     },
     {
-      "id": 401802431,
+      "id": 401802444,
       "team_name": "rangers",
       "rank": 13,
-      "elo_rating": 1525.6706578928,
+      "elo_rating": 1520.8253500205,
       "season": 2026,
-      "lastupdated": "2025-10-18T23:00:00.000Z"
+      "lastupdated": "2025-10-20T23:00:00.000Z"
     },
     {
       "id": 401688921,
@@ -153,20 +153,20 @@
       "lastupdated": "2025-10-19T23:00:00.000Z"
     },
     {
+      "id": 401802444,
+      "team_name": "wild",
+      "rank": 20,
+      "elo_rating": 1502.5629724541,
+      "season": 2026,
+      "lastupdated": "2025-10-20T23:00:00.000Z"
+    },
+    {
       "id": 401688920,
       "team_name": "sweden",
-      "rank": 20,
+      "rank": 21,
       "elo_rating": 1502.2947274884,
       "season": 2025,
       "lastupdated": "2025-02-18T01:00:00.000Z"
-    },
-    {
-      "id": 401802432,
-      "team_name": "wild",
-      "rank": 21,
-      "elo_rating": 1497.7176645818,
-      "season": 2026,
-      "lastupdated": "2025-10-18T23:00:00.000Z"
     },
     {
       "id": 401688919,
@@ -193,25 +193,9 @@
       "lastupdated": "2025-10-19T23:00:00.000Z"
     },
     {
-      "id": 401802430,
-      "team_name": "kraken",
-      "rank": 25,
-      "elo_rating": 1483.4230231548,
-      "season": 2026,
-      "lastupdated": "2025-10-18T23:00:00.000Z"
-    },
-    {
-      "id": 401802427,
-      "team_name": "sabres",
-      "rank": 26,
-      "elo_rating": 1483.2404634768,
-      "season": 2026,
-      "lastupdated": "2025-10-18T17:00:00.000Z"
-    },
-    {
       "id": 401802433,
       "team_name": "bluejackets",
-      "rank": 27,
+      "rank": 25,
       "elo_rating": 1482.0166036031,
       "season": 2026,
       "lastupdated": "2025-10-18T23:00:00.000Z"
@@ -219,26 +203,42 @@
     {
       "id": 401802439,
       "team_name": "penguins",
-      "rank": 28,
+      "rank": 26,
       "elo_rating": 1481.2203372918,
       "season": 2026,
       "lastupdated": "2025-10-19T02:00:00.000Z"
     },
     {
-      "id": 401802438,
-      "team_name": "flames",
-      "rank": 29,
-      "elo_rating": 1481.1190398599,
+      "id": 401802446,
+      "team_name": "sabres",
+      "rank": 27,
+      "elo_rating": 1478.9701889263,
       "season": 2026,
-      "lastupdated": "2025-10-19T02:00:00.000Z"
+      "lastupdated": "2025-10-20T23:30:00.000Z"
     },
     {
-      "id": 401802431,
+      "id": 401802447,
+      "team_name": "flames",
+      "rank": 28,
+      "elo_rating": 1478.7860732871,
+      "season": 2026,
+      "lastupdated": "2025-10-21T01:30:00.000Z"
+    },
+    {
+      "id": 401802445,
+      "team_name": "kraken",
+      "rank": 29,
+      "elo_rating": 1477.7436396342,
+      "season": 2026,
+      "lastupdated": "2025-10-20T23:00:00.000Z"
+    },
+    {
+      "id": 401802446,
       "team_name": "canadiens",
       "rank": 30,
-      "elo_rating": 1473.2661246053,
+      "elo_rating": 1477.5363991558,
       "season": 2026,
-      "lastupdated": "2025-10-18T23:00:00.000Z"
+      "lastupdated": "2025-10-20T23:30:00.000Z"
     },
     {
       "id": 401802428,
@@ -257,12 +257,12 @@
       "lastupdated": "2025-10-18T23:00:00.000Z"
     },
     {
-      "id": 401802432,
+      "id": 401802445,
       "team_name": "flyers",
       "rank": 33,
-      "elo_rating": 1445.7150774272,
+      "elo_rating": 1451.3944609478,
       "season": 2026,
-      "lastupdated": "2025-10-18T23:00:00.000Z"
+      "lastupdated": "2025-10-20T23:00:00.000Z"
     },
     {
       "id": 401802442,
@@ -289,5 +289,5 @@
       "lastupdated": "2025-10-19T02:00:00.000Z"
     }
   ],
-  "lastupdated": "2025-10-20T09:13:51.813115"
+  "lastupdated": "2025-10-21T09:13:35.028840"
 }
