@@ -1,20 +1,20 @@
 {
   "teams": [
     {
+      "id": 401772817,
+      "team_name": "chiefs",
+      "rank": 1,
+      "elo_rating": 1696.5398149362,
+      "season": 2025,
+      "lastupdated": "2025-10-28T00:15:00.000Z"
+    },
+    {
       "id": 401772865,
       "team_name": "bills",
-      "rank": 1,
+      "rank": 2,
       "elo_rating": 1678.7597838577,
       "season": 2025,
       "lastupdated": "2025-10-26T17:00:00.000Z"
-    },
-    {
-      "id": 401772753,
-      "team_name": "chiefs",
-      "rank": 2,
-      "elo_rating": 1677.3889389743,
-      "season": 2025,
-      "lastupdated": "2025-10-19T17:00:00.000Z"
     },
     {
       "id": 401772925,
@@ -185,20 +185,20 @@
       "lastupdated": "2025-10-19T20:25:00.000Z"
     },
     {
-      "id": 401772864,
-      "team_name": "commanders",
-      "rank": 24,
-      "elo_rating": 1431.1347346458,
-      "season": 2025,
-      "lastupdated": "2025-10-19T20:25:00.000Z"
-    },
-    {
       "id": 401772868,
       "team_name": "browns",
-      "rank": 25,
+      "rank": 24,
       "elo_rating": 1424.9734147747,
       "season": 2025,
       "lastupdated": "2025-10-26T17:00:00.000Z"
+    },
+    {
+      "id": 401772817,
+      "team_name": "commanders",
+      "rank": 25,
+      "elo_rating": 1411.9838586839,
+      "season": 2025,
+      "lastupdated": "2025-10-28T00:15:00.000Z"
     },
     {
       "id": 401772760,
@@ -257,5 +257,5 @@
       "lastupdated": "2025-10-26T20:25:00.000Z"
     }
   ],
-  "lastupdated": "2025-10-27T09:14:53.762681"
+  "lastupdated": "2025-10-28T09:13:23.646954"
 }
