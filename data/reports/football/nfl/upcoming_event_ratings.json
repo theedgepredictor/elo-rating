@@ -5606,7 +5606,28 @@
       "tournament_id": null,
       "str_event_id": "20251110_chargers_steelers",
       "season": 2025
+    },
+    {
+      "id": 401772630,
+      "datetime": "2025-11-11T01:15:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "packers",
+      "home_team_id": 9,
+      "away_team_name": "eagles",
+      "away_team_id": 21,
+      "home_elo_pre": 1663.0617763664,
+      "away_elo_pre": 1604.3660832704,
+      "elo_diff": 133.695693096,
+      "elo_spread": -5.3478277238,
+      "home_elo_prob": 0.5950320008,
+      "away_elo_prob": 0.4049679992,
+      "home_elo_post": 1669.6773061984,
+      "away_elo_post": 1597.7505534384,
+      "tournament_id": null,
+      "str_event_id": "20251111_packers_eagles",
+      "season": 2025
     }
   ],
-  "lastupdated": "2025-10-28T09:13:23.516041"
+  "lastupdated": "2025-10-29T09:13:12.329484"
 }

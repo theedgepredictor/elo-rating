@@ -1,6 +1,31 @@
 {
   "events": [
     {
+      "id": 401809300,
+      "datetime": "2025-10-29T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "dodgers",
+      "home_team_id": 19,
+      "away_team_name": "bluejays",
+      "away_team_id": 14,
+      "home_elo_pre": 1625.0108792733,
+      "away_elo_pre": 1585.8869132609,
+      "elo_diff": 89.1239660124,
+      "elo_spread": -7.129917281,
+      "home_elo_prob": 0.5637804902,
+      "away_elo_prob": 0.4362195098,
+      "home_elo_post": 1620.2824790799,
+      "away_elo_post": 1590.6153134543,
+      "tournament_id": null,
+      "str_event_id": "20251029_dodgers_bluejays",
+      "season": 2025,
+      "result": false,
+      "point_dif": 4,
+      "home_team_score": 2,
+      "away_team_score": 6
+    },
+    {
       "id": 401809299,
       "datetime": "2025-10-28T00:00:00.000Z",
       "neutral_site": 0,
@@ -24,32 +49,7 @@
       "point_dif": -1,
       "home_team_score": 6,
       "away_team_score": 5
-    },
-    {
-      "id": 401809298,
-      "datetime": "2025-10-26T00:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 1,
-      "home_team_name": "bluejays",
-      "home_team_id": 14,
-      "away_team_name": "dodgers",
-      "away_team_id": 19,
-      "home_elo_pre": 1591.5429689954,
-      "away_elo_pre": 1619.3548235388,
-      "elo_diff": 22.1881454566,
-      "elo_spread": -1.7750516365,
-      "home_elo_prob": 0.51596023,
-      "away_elo_prob": 0.48403977,
-      "home_elo_post": 1587.3486371978,
-      "away_elo_post": 1623.5491553364,
-      "tournament_id": null,
-      "str_event_id": "20251026_bluejays_dodgers",
-      "season": 2025,
-      "result": false,
-      "point_dif": 4,
-      "home_team_score": 1,
-      "away_team_score": 5
     }
   ],
-  "lastupdated": "2025-10-28T09:13:23.877839"
+  "lastupdated": "2025-10-29T09:13:12.664264"
 }
