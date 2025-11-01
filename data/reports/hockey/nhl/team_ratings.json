@@ -9,20 +9,20 @@
       "lastupdated": "2025-10-31T00:00:00.000Z"
     },
     {
+      "id": 401802529,
+      "team_name": "avalanche",
+      "rank": 2,
+      "elo_rating": 1583.408336048,
+      "season": 2026,
+      "lastupdated": "2025-10-31T20:00:00.000Z"
+    },
+    {
       "id": 401802504,
       "team_name": "panthers",
-      "rank": 2,
+      "rank": 3,
       "elo_rating": 1578.9732391581,
       "season": 2026,
       "lastupdated": "2025-10-28T23:00:00.000Z"
-    },
-    {
-      "id": 401802512,
-      "team_name": "avalanche",
-      "rank": 3,
-      "elo_rating": 1578.8588484648,
-      "season": 2026,
-      "lastupdated": "2025-10-29T01:00:00.000Z"
     },
     {
       "id": 401802522,
@@ -33,12 +33,12 @@
       "lastupdated": "2025-10-30T23:30:00.000Z"
     },
     {
-      "id": 401802506,
+      "id": 401802529,
       "team_name": "goldenknights",
       "rank": 5,
-      "elo_rating": 1572.3365269427,
+      "elo_rating": 1567.7870393596,
       "season": 2026,
-      "lastupdated": "2025-10-28T22:30:00.000Z"
+      "lastupdated": "2025-10-31T20:00:00.000Z"
     },
     {
       "id": 401802526,
@@ -73,20 +73,20 @@
       "lastupdated": "2025-10-29T23:30:00.000Z"
     },
     {
-      "id": 401802510,
-      "team_name": "capitals",
-      "rank": 10,
-      "elo_rating": 1538.0827156414,
-      "season": 2026,
-      "lastupdated": "2025-10-29T00:50:00.000Z"
-    },
-    {
       "id": 401802528,
       "team_name": "kings",
-      "rank": 11,
+      "rank": 10,
       "elo_rating": 1537.6380391975,
       "season": 2026,
       "lastupdated": "2025-10-31T02:30:00.000Z"
+    },
+    {
+      "id": 401802530,
+      "team_name": "capitals",
+      "rank": 11,
+      "elo_rating": 1532.8328857799,
+      "season": 2026,
+      "lastupdated": "2025-10-31T23:00:00.000Z"
     },
     {
       "id": 401802513,
@@ -113,17 +113,9 @@
       "lastupdated": "2025-10-31T02:00:00.000Z"
     },
     {
-      "id": 401802528,
-      "team_name": "redwings",
-      "rank": 15,
-      "elo_rating": 1511.3811906664,
-      "season": 2026,
-      "lastupdated": "2025-10-31T02:30:00.000Z"
-    },
-    {
       "id": 401688921,
       "team_name": "usa",
-      "rank": 16,
+      "rank": 15,
       "elo_rating": 1510.8584462156,
       "season": 2025,
       "lastupdated": "2025-02-21T01:00:00.000Z"
@@ -131,10 +123,18 @@
     {
       "id": 401688921,
       "team_name": "canada",
-      "rank": 17,
+      "rank": 16,
       "elo_rating": 1510.5894520212,
       "season": 2025,
       "lastupdated": "2025-02-21T01:00:00.000Z"
+    },
+    {
+      "id": 401802531,
+      "team_name": "redwings",
+      "rank": 17,
+      "elo_rating": 1505.3514677311,
+      "season": 2026,
+      "lastupdated": "2025-11-01T02:00:00.000Z"
     },
     {
       "id": 401802519,
@@ -241,12 +241,12 @@
       "lastupdated": "2025-10-30T23:00:00.000Z"
     },
     {
-      "id": 401802522,
+      "id": 401802530,
       "team_name": "islanders",
       "rank": 31,
-      "elo_rating": 1464.4027827099,
+      "elo_rating": 1469.6526125713,
       "season": 2026,
-      "lastupdated": "2025-10-30T23:30:00.000Z"
+      "lastupdated": "2025-10-31T23:00:00.000Z"
     },
     {
       "id": 401802521,
@@ -257,20 +257,20 @@
       "lastupdated": "2025-10-30T23:00:00.000Z"
     },
     {
+      "id": 401802531,
+      "team_name": "ducks",
+      "rank": 33,
+      "elo_rating": 1447.167206203,
+      "season": 2026,
+      "lastupdated": "2025-11-01T02:00:00.000Z"
+    },
+    {
       "id": 401802521,
       "team_name": "predators",
-      "rank": 33,
+      "rank": 34,
       "elo_rating": 1442.3564059328,
       "season": 2026,
       "lastupdated": "2025-10-30T23:00:00.000Z"
-    },
-    {
-      "id": 401802504,
-      "team_name": "ducks",
-      "rank": 34,
-      "elo_rating": 1441.1374832677,
-      "season": 2026,
-      "lastupdated": "2025-10-28T23:00:00.000Z"
     },
     {
       "id": 401802525,
@@ -289,5 +289,5 @@
       "lastupdated": "2025-10-31T02:00:00.000Z"
     }
   ],
-  "lastupdated": "2025-10-31T09:12:56.091239"
+  "lastupdated": "2025-11-01T09:10:36.169326"
 }
