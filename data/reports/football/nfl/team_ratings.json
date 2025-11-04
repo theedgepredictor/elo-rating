@@ -113,17 +113,9 @@
       "lastupdated": "2025-11-02T18:00:00.000Z"
     },
     {
-      "id": 401772762,
-      "team_name": "cowboys",
-      "rank": 15,
-      "elo_rating": 1531.1773877688,
-      "season": 2025,
-      "lastupdated": "2025-10-26T20:25:00.000Z"
-    },
-    {
       "id": 401772871,
       "team_name": "vikings",
-      "rank": 16,
+      "rank": 15,
       "elo_rating": 1524.8061650641,
       "season": 2025,
       "lastupdated": "2025-11-02T18:00:00.000Z"
@@ -131,7 +123,7 @@
     {
       "id": 401772943,
       "team_name": "ravens",
-      "rank": 17,
+      "rank": 16,
       "elo_rating": 1521.1428171401,
       "season": 2025,
       "lastupdated": "2025-10-31T00:15:00.000Z"
@@ -139,10 +131,18 @@
     {
       "id": 401772764,
       "team_name": "chargers",
-      "rank": 18,
+      "rank": 17,
       "elo_rating": 1503.8802624511,
       "season": 2025,
       "lastupdated": "2025-11-02T18:00:00.000Z"
+    },
+    {
+      "id": 401772818,
+      "team_name": "cowboys",
+      "rank": 18,
+      "elo_rating": 1491.0102662889,
+      "season": 2025,
+      "lastupdated": "2025-11-04T01:15:00.000Z"
     },
     {
       "id": 401772765,
@@ -153,20 +153,20 @@
       "lastupdated": "2025-11-02T18:00:00.000Z"
     },
     {
+      "id": 401772818,
+      "team_name": "cardinals",
+      "rank": 20,
+      "elo_rating": 1478.0508425156,
+      "season": 2025,
+      "lastupdated": "2025-11-04T01:15:00.000Z"
+    },
+    {
       "id": 401772873,
       "team_name": "jaguars",
-      "rank": 20,
+      "rank": 21,
       "elo_rating": 1474.5039364472,
       "season": 2025,
       "lastupdated": "2025-11-02T21:05:00.000Z"
-    },
-    {
-      "id": 401772863,
-      "team_name": "cardinals",
-      "rank": 21,
-      "elo_rating": 1437.8837210358,
-      "season": 2025,
-      "lastupdated": "2025-10-19T20:25:00.000Z"
     },
     {
       "id": 401772868,
@@ -257,5 +257,5 @@
       "lastupdated": "2025-11-02T18:00:00.000Z"
     }
   ],
-  "lastupdated": "2025-11-03T09:15:42.791875"
+  "lastupdated": "2025-11-04T09:14:35.617980"
 }
