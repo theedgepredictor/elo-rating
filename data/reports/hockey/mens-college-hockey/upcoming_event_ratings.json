@@ -1,27 +1,6 @@
 {
   "events": [
     {
-      "id": 401821163,
-      "datetime": "2025-11-07T00:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "massachusettsminutemen",
-      "home_team_id": 113,
-      "away_team_name": "maineblackbears",
-      "away_team_id": 311,
-      "home_elo_pre": 1562.1230856023,
-      "away_elo_pre": 1589.1070704106,
-      "elo_diff": -21.9839848082,
-      "elo_spread": 0.7327994936,
-      "home_elo_prob": 0.4841865271,
-      "away_elo_prob": 0.5158134729,
-      "home_elo_post": 1558.8001653542,
-      "away_elo_post": 1592.4299906587,
-      "tournament_id": null,
-      "str_event_id": "20251107_massachusettsminutemen_maineblackbears",
-      "season": 2026
-    },
-    {
       "id": 401822043,
       "datetime": "2025-11-07T23:00:00.000Z",
       "neutral_site": 0,
@@ -282,14 +261,14 @@
       "home_team_id": 113,
       "away_team_name": "maineblackbears",
       "away_team_id": 311,
-      "home_elo_pre": 1558.8001653542,
-      "away_elo_pre": 1592.4299906587,
-      "elo_diff": -28.6298253044,
-      "elo_spread": 0.9543275101,
-      "home_elo_prob": 0.4794108339,
-      "away_elo_prob": 0.5205891661,
-      "home_elo_post": 1555.5198314872,
-      "away_elo_post": 1595.7103245257,
+      "home_elo_pre": 1554.4075037212,
+      "away_elo_pre": 1596.8226522917,
+      "elo_diff": -37.4151485705,
+      "elo_spread": 1.247171619,
+      "home_elo_prob": 0.4731036246,
+      "away_elo_prob": 0.5268963754,
+      "home_elo_post": 1551.1830374163,
+      "away_elo_post": 1600.0471185967,
       "tournament_id": null,
       "str_event_id": "20251108_massachusettsminutemen_maineblackbears",
       "season": 2026
@@ -925,6 +904,27 @@
       "season": 2026
     },
     {
+      "id": 401821577,
+      "datetime": "2025-11-09T00:07:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "minnesotastatemavericks",
+      "home_team_id": 2364,
+      "away_team_name": "bowlinggreenfalcons",
+      "away_team_id": 189,
+      "home_elo_pre": 1609.8056375529,
+      "away_elo_pre": 1484.8933991094,
+      "elo_diff": 129.9122384435,
+      "elo_spread": -4.3304079481,
+      "home_elo_prob": 0.5924052394,
+      "away_elo_prob": 0.4075947606,
+      "home_elo_post": 1612.4733386786,
+      "away_elo_post": 1482.2256979836,
+      "tournament_id": null,
+      "str_event_id": "20251109_minnesotastatemavericks_bowlinggreenfalcons",
+      "season": 2026
+    },
+    {
       "id": 401821658,
       "datetime": "2025-11-09T00:07:00.000Z",
       "neutral_site": 0,
@@ -964,27 +964,6 @@
       "away_elo_post": 1539.469832876,
       "tournament_id": null,
       "str_event_id": "20251109_minnesotaduluthbulldogs_stcloudstatehuskies",
-      "season": 2026
-    },
-    {
-      "id": 401821577,
-      "datetime": "2025-11-09T00:07:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "minnesotastatemavericks",
-      "home_team_id": 2364,
-      "away_team_name": "bowlinggreenfalcons",
-      "away_team_id": 189,
-      "home_elo_pre": 1609.8056375529,
-      "away_elo_pre": 1484.8933991094,
-      "elo_diff": 129.9122384435,
-      "elo_spread": -4.3304079481,
-      "home_elo_prob": 0.5924052394,
-      "away_elo_prob": 0.4075947606,
-      "home_elo_post": 1612.4733386786,
-      "away_elo_post": 1482.2256979836,
-      "tournament_id": null,
-      "str_event_id": "20251109_minnesotastatemavericks_bowlinggreenfalcons",
       "season": 2026
     },
     {
@@ -1093,5 +1072,5 @@
       "season": 2026
     }
   ],
-  "lastupdated": "2025-11-06T09:12:42.467234"
+  "lastupdated": "2025-11-07T09:13:21.763010"
 }
