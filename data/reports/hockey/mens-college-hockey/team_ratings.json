@@ -233,17 +233,9 @@
       "lastupdated": "2025-11-09T19:00:00.000Z"
     },
     {
-      "id": 401821320,
-      "team_name": "stcloudstatehuskies",
-      "rank": 30,
-      "elo_rating": 1521.094582292,
-      "season": 2026,
-      "lastupdated": "2025-11-09T00:07:00.000Z"
-    },
-    {
       "id": 401821459,
       "team_name": "uniondutchmen",
-      "rank": 31,
+      "rank": 30,
       "elo_rating": 1518.7518875673,
       "season": 2026,
       "lastupdated": "2025-11-09T00:00:00.000Z"
@@ -251,7 +243,7 @@
     {
       "id": 401822089,
       "team_name": "longislanduniversitylongislanduniversity",
-      "rank": 32,
+      "rank": 31,
       "elo_rating": 1517.6551454556,
       "season": 2026,
       "lastupdated": "2025-11-09T00:00:00.000Z"
@@ -259,10 +251,18 @@
     {
       "id": 401822056,
       "team_name": "rittigers",
-      "rank": 33,
+      "rank": 32,
       "elo_rating": 1516.227050786,
       "season": 2026,
       "lastupdated": "2025-11-08T22:00:00.000Z"
+    },
+    {
+      "id": 401821737,
+      "team_name": "stcloudstatehuskies",
+      "rank": 33,
+      "elo_rating": 1515.1645059342,
+      "season": 2026,
+      "lastupdated": "2025-11-12T01:07:00.000Z"
     },
     {
       "id": 401821889,
@@ -321,9 +321,17 @@
       "lastupdated": "2025-11-08T22:05:00.000Z"
     },
     {
+      "id": 401821737,
+      "team_name": "stthomasminnesotatommies",
+      "rank": 41,
+      "elo_rating": 1480.7632126015,
+      "season": 2026,
+      "lastupdated": "2025-11-12T01:07:00.000Z"
+    },
+    {
       "id": 401821557,
       "team_name": "colgateraiders",
-      "rank": 41,
+      "rank": 42,
       "elo_rating": 1479.5266982971,
       "season": 2026,
       "lastupdated": "2025-11-09T00:00:00.000Z"
@@ -331,18 +339,10 @@
     {
       "id": 401727266,
       "team_name": "assumptionfalcons",
-      "rank": 42,
+      "rank": 43,
       "elo_rating": 1477.1272075046,
       "season": 2025,
       "lastupdated": "2025-01-03T19:00:00.000Z"
-    },
-    {
-      "id": 401821575,
-      "team_name": "stthomasminnesotatommies",
-      "rank": 43,
-      "elo_rating": 1474.8331362437,
-      "season": 2026,
-      "lastupdated": "2025-11-01T23:07:00.000Z"
     },
     {
       "id": 401718867,
@@ -529,5 +529,5 @@
       "lastupdated": "2025-11-08T22:00:00.000Z"
     }
   ],
-  "lastupdated": "2025-11-11T09:13:46.626434"
+  "lastupdated": "2025-11-12T09:14:56.379065"
 }
