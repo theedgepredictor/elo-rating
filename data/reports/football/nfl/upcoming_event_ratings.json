@@ -5669,7 +5669,49 @@
       "tournament_id": null,
       "str_event_id": "20251127_cowboys_chiefs",
       "season": 2025
+    },
+    {
+      "id": 401772930,
+      "datetime": "2025-11-28T01:20:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "ravens",
+      "home_team_id": 33,
+      "away_team_name": "bengals",
+      "away_team_id": 4,
+      "home_elo_pre": 1564.7848770297,
+      "away_elo_pre": 1406.8522303361,
+      "elo_diff": 232.9326466936,
+      "elo_spread": -9.3173058677,
+      "home_elo_prob": 0.6616003434,
+      "away_elo_prob": 0.3383996566,
+      "home_elo_post": 1570.0874661702,
+      "away_elo_post": 1401.5496411956,
+      "tournament_id": null,
+      "str_event_id": "20251128_ravens_bengals",
+      "season": 2025
+    },
+    {
+      "id": 401772621,
+      "datetime": "2025-11-28T20:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "eagles",
+      "home_team_id": 21,
+      "away_team_name": "bears",
+      "away_team_id": 3,
+      "home_elo_pre": 1640.6783978973,
+      "away_elo_pre": 1503.4266601749,
+      "elo_diff": 212.2517377223,
+      "elo_spread": -8.4900695089,
+      "home_elo_prob": 0.6481482683,
+      "away_elo_prob": 0.3518517317,
+      "home_elo_post": 1646.2390434802,
+      "away_elo_post": 1497.866014592,
+      "tournament_id": null,
+      "str_event_id": "20251128_eagles_bears",
+      "season": 2025
     }
   ],
-  "lastupdated": "2025-11-14T09:13:07.981218"
+  "lastupdated": "2025-11-15T09:11:56.820252"
 }
