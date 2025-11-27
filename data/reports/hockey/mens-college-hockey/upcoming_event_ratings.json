@@ -1,69 +1,6 @@
 {
   "events": [
     {
-      "id": 401822680,
-      "datetime": "2025-11-26T19:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "merrimackwarriors",
-      "home_team_id": 2771,
-      "away_team_name": "notredamefightingirish",
-      "away_team_id": 87,
-      "home_elo_pre": 1474.8334123961,
-      "away_elo_pre": 1496.5356689091,
-      "elo_diff": -16.702256513,
-      "elo_spread": 0.5567418838,
-      "home_elo_prob": 0.4879840743,
-      "away_elo_prob": 0.5120159257,
-      "home_elo_post": 1471.4764503799,
-      "away_elo_post": 1499.8926309253,
-      "tournament_id": null,
-      "str_event_id": "20251126_merrimackwarriors_notredamefightingirish",
-      "season": 2026
-    },
-    {
-      "id": 401821761,
-      "datetime": "2025-11-26T22:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "quinnipiacbobcats",
-      "home_team_id": 2514,
-      "away_team_name": "holycrosscrusaders",
-      "away_team_id": 107,
-      "home_elo_pre": 1645.312314294,
-      "away_elo_pre": 1545.3623590991,
-      "elo_diff": 104.9499551949,
-      "elo_spread": -3.4983318398,
-      "home_elo_prob": 0.5749485292,
-      "away_elo_prob": 0.4250514708,
-      "home_elo_post": 1648.1243974867,
-      "away_elo_post": 1542.5502759064,
-      "tournament_id": null,
-      "str_event_id": "20251126_quinnipiacbobcats_holycrosscrusaders",
-      "season": 2026
-    },
-    {
-      "id": 401821559,
-      "datetime": "2025-11-27T00:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "michiganstatespartans",
-      "home_team_id": 127,
-      "away_team_name": "colgateraiders",
-      "away_team_id": 2142,
-      "home_elo_pre": 1608.6763035305,
-      "away_elo_pre": 1493.375001788,
-      "elo_diff": 120.3013017425,
-      "elo_spread": -4.0100433914,
-      "home_elo_prob": 0.5857091277,
-      "away_elo_prob": 0.4142908723,
-      "home_elo_post": 1611.3990620345,
-      "away_elo_post": 1490.6522432839,
-      "tournament_id": null,
-      "str_event_id": "20251127_michiganstatespartans_colgateraiders",
-      "season": 2026
-    },
-    {
       "id": 401821462,
       "datetime": "2025-11-28T14:00:00.000Z",
       "neutral_site": 1,
@@ -148,27 +85,6 @@
       "season": 2026
     },
     {
-      "id": 401821560,
-      "datetime": "2025-11-28T21:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "michiganstatespartans",
-      "home_team_id": 127,
-      "away_team_name": "colgateraiders",
-      "away_team_id": 2142,
-      "home_elo_pre": 1611.3990620345,
-      "away_elo_pre": 1490.6522432839,
-      "elo_diff": 125.7468187506,
-      "elo_spread": -4.191560625,
-      "home_elo_prob": 0.5895071742,
-      "away_elo_prob": 0.4104928258,
-      "home_elo_post": 1614.0905427821,
-      "away_elo_post": 1487.9607625364,
-      "tournament_id": null,
-      "str_event_id": "20251128_michiganstatespartans_colgateraiders",
-      "season": 2026
-    },
-    {
       "id": 401821491,
       "datetime": "2025-11-28T21:00:00.000Z",
       "neutral_site": 1,
@@ -187,6 +103,27 @@
       "away_elo_post": 1373.7596015415,
       "tournament_id": null,
       "str_event_id": "20251128_alaskabulldogs_stlawrencesaints",
+      "season": 2026
+    },
+    {
+      "id": 401821560,
+      "datetime": "2025-11-28T21:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "michiganstatespartans",
+      "home_team_id": 127,
+      "away_team_name": "colgateraiders",
+      "away_team_id": 2142,
+      "home_elo_pre": 1614.1218205386,
+      "away_elo_pre": 1487.9294847799,
+      "elo_diff": 131.1923357586,
+      "elo_spread": -4.3730778586,
+      "home_elo_prob": 0.5932945794,
+      "away_elo_prob": 0.4067054206,
+      "home_elo_post": 1616.7822392643,
+      "away_elo_post": 1485.2690660542,
+      "tournament_id": null,
+      "str_event_id": "20251128_michiganstatespartans_colgateraiders",
       "season": 2026
     },
     {
@@ -862,5 +799,5 @@
       "season": 2026
     }
   ],
-  "lastupdated": "2025-11-26T09:13:29.267537"
+  "lastupdated": "2025-11-27T09:12:51.067575"
 }
