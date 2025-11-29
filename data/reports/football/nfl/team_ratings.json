@@ -49,17 +49,9 @@
       "lastupdated": "2025-11-25T01:15:00.000Z"
     },
     {
-      "id": 401772890,
-      "team_name": "eagles",
-      "rank": 7,
-      "elo_rating": 1629.7696606715,
-      "season": 2025,
-      "lastupdated": "2025-11-23T21:25:00.000Z"
-    },
-    {
       "id": 401772781,
       "team_name": "patriots",
-      "rank": 8,
+      "rank": 7,
       "elo_rating": 1627.2087259274,
       "season": 2025,
       "lastupdated": "2025-11-23T18:00:00.000Z"
@@ -67,7 +59,7 @@
     {
       "id": 401772891,
       "team_name": "lions",
-      "rank": 9,
+      "rank": 8,
       "elo_rating": 1609.4425418411,
       "season": 2025,
       "lastupdated": "2025-11-27T18:00:00.000Z"
@@ -75,10 +67,18 @@
     {
       "id": 401772778,
       "team_name": "broncos",
-      "rank": 10,
+      "rank": 9,
       "elo_rating": 1608.6081089813,
       "season": 2025,
       "lastupdated": "2025-11-16T21:25:00.000Z"
+    },
+    {
+      "id": 401772621,
+      "team_name": "eagles",
+      "rank": 10,
+      "elo_rating": 1591.0896429021,
+      "season": 2025,
+      "lastupdated": "2025-11-28T20:00:00.000Z"
     },
     {
       "id": 401772946,
@@ -89,9 +89,17 @@
       "lastupdated": "2025-11-21T01:15:00.000Z"
     },
     {
+      "id": 401772621,
+      "team_name": "bears",
+      "rank": 12,
+      "elo_rating": 1573.3717176703,
+      "season": 2025,
+      "lastupdated": "2025-11-28T20:00:00.000Z"
+    },
+    {
       "id": 401772779,
       "team_name": "colts",
-      "rank": 12,
+      "rank": 13,
       "elo_rating": 1568.7930520214,
       "season": 2025,
       "lastupdated": "2025-11-23T18:00:00.000Z"
@@ -99,7 +107,7 @@
     {
       "id": 401772694,
       "team_name": "cowboys",
-      "rank": 13,
+      "rank": 14,
       "elo_rating": 1563.1944163635,
       "season": 2025,
       "lastupdated": "2025-11-27T21:30:00.000Z"
@@ -107,7 +115,7 @@
     {
       "id": 401772780,
       "team_name": "steelers",
-      "rank": 14,
+      "rank": 15,
       "elo_rating": 1548.388169444,
       "season": 2025,
       "lastupdated": "2025-11-23T18:00:00.000Z"
@@ -115,18 +123,10 @@
     {
       "id": 401772929,
       "team_name": "buccaneers",
-      "rank": 15,
+      "rank": 16,
       "elo_rating": 1541.8651612045,
       "season": 2025,
       "lastupdated": "2025-11-24T01:20:00.000Z"
-    },
-    {
-      "id": 401772780,
-      "team_name": "bears",
-      "rank": 16,
-      "elo_rating": 1534.6916999009,
-      "season": 2025,
-      "lastupdated": "2025-11-23T18:00:00.000Z"
     },
     {
       "id": 401772930,
@@ -257,5 +257,5 @@
       "lastupdated": "2025-11-23T18:00:00.000Z"
     }
   ],
-  "lastupdated": "2025-11-28T09:14:06.219510"
+  "lastupdated": "2025-11-29T09:10:46.393588"
 }
