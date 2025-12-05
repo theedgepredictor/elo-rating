@@ -57,9 +57,17 @@
       "lastupdated": "2025-12-02T01:15:00.000Z"
     },
     {
+      "id": 401772947,
+      "team_name": "lions",
+      "rank": 8,
+      "elo_rating": 1635.9830726184,
+      "season": 2025,
+      "lastupdated": "2025-12-05T01:15:00.000Z"
+    },
+    {
       "id": 401772931,
       "team_name": "broncos",
-      "rank": 8,
+      "rank": 9,
       "elo_rating": 1614.4221472167,
       "season": 2025,
       "lastupdated": "2025-12-01T01:20:00.000Z"
@@ -67,18 +75,10 @@
     {
       "id": 401772787,
       "team_name": "texans",
-      "rank": 9,
+      "rank": 10,
       "elo_rating": 1611.9483699709,
       "season": 2025,
       "lastupdated": "2025-11-30T18:00:00.000Z"
-    },
-    {
-      "id": 401772891,
-      "team_name": "lions",
-      "rank": 10,
-      "elo_rating": 1609.4425418411,
-      "season": 2025,
-      "lastupdated": "2025-11-27T18:00:00.000Z"
     },
     {
       "id": 401772621,
@@ -97,17 +97,9 @@
       "lastupdated": "2025-11-28T20:00:00.000Z"
     },
     {
-      "id": 401772694,
-      "team_name": "cowboys",
-      "rank": 13,
-      "elo_rating": 1563.1944163635,
-      "season": 2025,
-      "lastupdated": "2025-11-27T21:30:00.000Z"
-    },
-    {
       "id": 401772895,
       "team_name": "buccaneers",
-      "rank": 14,
+      "rank": 13,
       "elo_rating": 1553.0258064937,
       "season": 2025,
       "lastupdated": "2025-11-30T18:00:00.000Z"
@@ -115,7 +107,7 @@
     {
       "id": 401772787,
       "team_name": "colts",
-      "rank": 15,
+      "rank": 14,
       "elo_rating": 1546.5664726389,
       "season": 2025,
       "lastupdated": "2025-11-30T18:00:00.000Z"
@@ -123,10 +115,18 @@
     {
       "id": 401772786,
       "team_name": "jaguars",
-      "rank": 16,
+      "rank": 15,
       "elo_rating": 1538.9635525376,
       "season": 2025,
       "lastupdated": "2025-11-30T18:00:00.000Z"
+    },
+    {
+      "id": 401772947,
+      "team_name": "cowboys",
+      "rank": 16,
+      "elo_rating": 1536.6538855862,
+      "season": 2025,
+      "lastupdated": "2025-12-05T01:15:00.000Z"
     },
     {
       "id": 401772930,
@@ -257,5 +257,5 @@
       "lastupdated": "2025-11-30T18:00:00.000Z"
     }
   ],
-  "lastupdated": "2025-12-04T09:16:06.457845"
+  "lastupdated": "2025-12-05T09:14:32.613863"
 }
