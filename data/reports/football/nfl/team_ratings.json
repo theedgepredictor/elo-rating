@@ -129,17 +129,9 @@
       "lastupdated": "2025-12-09T01:15:00.000Z"
     },
     {
-      "id": 401772792,
-      "team_name": "buccaneers",
-      "rank": 17,
-      "elo_rating": 1521.7095449601,
-      "season": 2025,
-      "lastupdated": "2025-12-07T18:00:00.000Z"
-    },
-    {
       "id": 401772790,
       "team_name": "dolphins",
-      "rank": 18,
+      "rank": 17,
       "elo_rating": 1516.1051440498,
       "season": 2025,
       "lastupdated": "2025-12-07T18:00:00.000Z"
@@ -147,10 +139,18 @@
     {
       "id": 401772793,
       "team_name": "colts",
-      "rank": 19,
+      "rank": 18,
       "elo_rating": 1514.9002671043,
       "season": 2025,
       "lastupdated": "2025-12-07T18:00:00.000Z"
+    },
+    {
+      "id": 401772948,
+      "team_name": "buccaneers",
+      "rank": 19,
+      "elo_rating": 1508.9068046393,
+      "season": 2025,
+      "lastupdated": "2025-12-12T01:15:00.000Z"
     },
     {
       "id": 401772791,
@@ -193,20 +193,20 @@
       "lastupdated": "2025-11-30T18:00:00.000Z"
     },
     {
+      "id": 401772948,
+      "team_name": "falcons",
+      "rank": 25,
+      "elo_rating": 1377.6069101072,
+      "season": 2025,
+      "lastupdated": "2025-12-12T01:15:00.000Z"
+    },
+    {
       "id": 401772901,
       "team_name": "cardinals",
-      "rank": 25,
+      "rank": 26,
       "elo_rating": 1365.9624324067,
       "season": 2025,
       "lastupdated": "2025-12-07T21:25:00.000Z"
-    },
-    {
-      "id": 401772900,
-      "team_name": "falcons",
-      "rank": 26,
-      "elo_rating": 1364.8041697864,
-      "season": 2025,
-      "lastupdated": "2025-12-07T18:00:00.000Z"
     },
     {
       "id": 401772898,
@@ -257,5 +257,5 @@
       "lastupdated": "2025-12-07T18:00:00.000Z"
     }
   ],
-  "lastupdated": "2025-12-11T09:17:18.134729"
+  "lastupdated": "2025-12-12T09:17:01.893904"
 }
