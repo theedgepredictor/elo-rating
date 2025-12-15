@@ -25262,7 +25262,49 @@
       "tournament_id": null,
       "str_event_id": "20251220_montanastate_montana",
       "season": 2025
+    },
+    {
+      "id": 401779843,
+      "datetime": "2025-12-21T00:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "oregon",
+      "home_team_id": 2483,
+      "away_team_name": "jamesmadison",
+      "away_team_id": 256,
+      "home_elo_pre": 1914.2036046095,
+      "away_elo_pre": 1735.6478791847,
+      "elo_diff": 240.5557254248,
+      "elo_spread": -9.622229017,
+      "home_elo_prob": 0.6664950565,
+      "away_elo_prob": 0.3335049435,
+      "home_elo_post": 1919.41317245,
+      "away_elo_post": 1730.4383113442,
+      "tournament_id": null,
+      "str_event_id": "20251221_oregon_jamesmadison",
+      "season": 2025
+    },
+    {
+      "id": 401833990,
+      "datetime": "2025-12-21T00:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "villanova",
+      "home_team_id": 222,
+      "away_team_name": "illinoisstate",
+      "away_team_id": 2287,
+      "home_elo_pre": 1665.4403875729,
+      "away_elo_pre": 1517.2074450813,
+      "elo_diff": 210.2329424916,
+      "elo_spread": -8.4093176997,
+      "home_elo_prob": 0.64682202,
+      "away_elo_prob": 0.35317798,
+      "home_elo_post": 1671.0266682267,
+      "away_elo_post": 1511.6211644275,
+      "tournament_id": null,
+      "str_event_id": "20251221_villanova_illinoisstate",
+      "season": 2025
     }
   ],
-  "lastupdated": "2025-12-14T09:11:56.012769"
+  "lastupdated": "2025-12-15T09:22:03.034989"
 }

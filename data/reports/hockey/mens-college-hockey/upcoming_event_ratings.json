@@ -1,48 +1,6 @@
 {
   "events": [
     {
-      "id": 401821171,
-      "datetime": "2025-12-14T21:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "maineblackbears",
-      "home_team_id": 311,
-      "away_team_name": "lindenwoodlions",
-      "away_team_id": 2815,
-      "home_elo_pre": 1592.5227820817,
-      "away_elo_pre": 1426.9159860483,
-      "elo_diff": 170.6067960334,
-      "elo_spread": -5.6868932011,
-      "home_elo_prob": 0.6203527726,
-      "away_elo_prob": 0.3796472274,
-      "home_elo_post": 1594.9649124789,
-      "away_elo_post": 1424.4738556511,
-      "tournament_id": null,
-      "str_event_id": "20251214_maineblackbears_lindenwoodlions",
-      "season": 2026
-    },
-    {
-      "id": 401821271,
-      "datetime": "2025-12-14T21:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "newhampshirewildcats",
-      "home_team_id": 160,
-      "away_team_name": "dartmouthbiggreen",
-      "away_team_id": 159,
-      "home_elo_pre": 1501.2359855348,
-      "away_elo_pre": 1575.5381376531,
-      "elo_diff": -69.3021521183,
-      "elo_spread": 2.3100717373,
-      "home_elo_prob": 0.4502977771,
-      "away_elo_prob": 0.5497022229,
-      "home_elo_post": 1498.210078229,
-      "away_elo_post": 1578.5640449589,
-      "tournament_id": null,
-      "str_event_id": "20251214_newhampshirewildcats_dartmouthbiggreen",
-      "season": 2026
-    },
-    {
       "id": 401821701,
       "datetime": "2025-12-20T01:07:00.000Z",
       "neutral_site": 0,
@@ -62,7 +20,28 @@
       "tournament_id": null,
       "str_event_id": "20251220_augustanauniversitysdvikings_omahamavericks",
       "season": 2026
+    },
+    {
+      "id": 401821695,
+      "datetime": "2025-12-21T00:07:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "augustanauniversitysdvikings",
+      "home_team_id": 2043,
+      "away_team_name": "omahamavericks",
+      "away_team_id": 2437,
+      "home_elo_pre": 1546.9214459145,
+      "away_elo_pre": 1516.4298976205,
+      "elo_diff": 35.491548294,
+      "elo_spread": -1.1830516098,
+      "home_elo_prob": 0.525516037,
+      "away_elo_prob": 0.474483963,
+      "home_elo_post": 1550.15810269,
+      "away_elo_post": 1513.193240845,
+      "tournament_id": null,
+      "str_event_id": "20251221_augustanauniversitysdvikings_omahamavericks",
+      "season": 2026
     }
   ],
-  "lastupdated": "2025-12-14T09:11:56.659722"
+  "lastupdated": "2025-12-15T09:22:03.639159"
 }
