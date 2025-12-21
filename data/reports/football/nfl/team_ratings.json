@@ -33,17 +33,9 @@
       "lastupdated": "2025-12-14T21:25:00.000Z"
     },
     {
-      "id": 401772800,
-      "team_name": "packers",
-      "rank": 5,
-      "elo_rating": 1667.6344625354,
-      "season": 2025,
-      "lastupdated": "2025-12-14T21:25:00.000Z"
-    },
-    {
       "id": 401772903,
       "team_name": "texans",
-      "rank": 6,
+      "rank": 5,
       "elo_rating": 1665.8445810824,
       "season": 2025,
       "lastupdated": "2025-12-14T18:00:00.000Z"
@@ -51,10 +43,18 @@
     {
       "id": 401772800,
       "team_name": "broncos",
-      "rank": 7,
+      "rank": 6,
       "elo_rating": 1656.8573328981,
       "season": 2025,
       "lastupdated": "2025-12-14T21:25:00.000Z"
+    },
+    {
+      "id": 401772613,
+      "team_name": "packers",
+      "rank": 7,
+      "elo_rating": 1642.6879038384,
+      "season": 2025,
+      "lastupdated": "2025-12-21T01:20:00.000Z"
     },
     {
       "id": 401772795,
@@ -73,17 +73,25 @@
       "lastupdated": "2025-12-14T21:25:00.000Z"
     },
     {
-      "id": 401772906,
+      "id": 401772612,
       "team_name": "eagles",
       "rank": 10,
-      "elo_rating": 1592.8331919464,
+      "elo_rating": 1614.1668118541,
       "season": 2025,
-      "lastupdated": "2025-12-14T18:00:00.000Z"
+      "lastupdated": "2025-12-20T22:00:00.000Z"
+    },
+    {
+      "id": 401772613,
+      "team_name": "bears",
+      "rank": 11,
+      "elo_rating": 1604.1437362796,
+      "season": 2025,
+      "lastupdated": "2025-12-21T01:20:00.000Z"
     },
     {
       "id": 401772797,
       "team_name": "jaguars",
-      "rank": 11,
+      "rank": 12,
       "elo_rating": 1590.4195397156,
       "season": 2025,
       "lastupdated": "2025-12-14T18:00:00.000Z"
@@ -91,16 +99,8 @@
     {
       "id": 401772798,
       "team_name": "chiefs",
-      "rank": 12,
-      "elo_rating": 1590.1575590582,
-      "season": 2025,
-      "lastupdated": "2025-12-14T18:00:00.000Z"
-    },
-    {
-      "id": 401772904,
-      "team_name": "bears",
       "rank": 13,
-      "elo_rating": 1579.1971775826,
+      "elo_rating": 1590.1575590582,
       "season": 2025,
       "lastupdated": "2025-12-14T18:00:00.000Z"
     },
@@ -217,12 +217,12 @@
       "lastupdated": "2025-12-14T18:00:00.000Z"
     },
     {
-      "id": 401772905,
+      "id": 401772612,
       "team_name": "commanders",
       "rank": 28,
-      "elo_rating": 1335.6708198621,
+      "elo_rating": 1314.3371999544,
       "season": 2025,
-      "lastupdated": "2025-12-14T18:00:00.000Z"
+      "lastupdated": "2025-12-20T22:00:00.000Z"
     },
     {
       "id": 401772797,
@@ -257,5 +257,5 @@
       "lastupdated": "2025-12-14T21:25:00.000Z"
     }
   ],
-  "lastupdated": "2025-12-20T09:12:00.708118"
+  "lastupdated": "2025-12-21T09:12:20.102291"
 }
