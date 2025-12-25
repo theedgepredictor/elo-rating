@@ -6322,27 +6322,6 @@
       "season": 2026
     },
     {
-      "id": 401804864,
-      "datetime": "2026-01-04T20:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "westernky",
-      "home_team_id": 98,
-      "away_team_name": "louisianatech",
-      "away_team_id": 2348,
-      "home_elo_pre": 1520.5105467299,
-      "away_elo_pre": 1573.2333047701,
-      "elo_diff": 47.2772419598,
-      "elo_spread": -1.5759080653,
-      "home_elo_prob": 0.5339663153,
-      "away_elo_prob": 0.4660336847,
-      "home_elo_post": 1529.9975718665,
-      "away_elo_post": 1563.7462796334,
-      "tournament_id": null,
-      "str_event_id": "20260104_westernky_louisianatech",
-      "season": 2026
-    },
-    {
       "id": 401804861,
       "datetime": "2026-01-04T20:00:00.000Z",
       "neutral_site": 0,
@@ -6364,6 +6343,27 @@
       "season": 2026
     },
     {
+      "id": 401804864,
+      "datetime": "2026-01-04T20:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "westernky",
+      "home_team_id": 98,
+      "away_team_name": "louisianatech",
+      "away_team_id": 2348,
+      "home_elo_pre": 1520.5105467299,
+      "away_elo_pre": 1573.2333047701,
+      "elo_diff": 47.2772419598,
+      "elo_spread": -1.5759080653,
+      "home_elo_prob": 0.5339663153,
+      "away_elo_prob": 0.4660336847,
+      "home_elo_post": 1529.9975718665,
+      "away_elo_post": 1563.7462796334,
+      "tournament_id": null,
+      "str_event_id": "20260104_westernky_louisianatech",
+      "season": 2026
+    },
+    {
       "id": 401817609,
       "datetime": "2026-01-04T20:00:00.000Z",
       "neutral_site": 0,
@@ -6382,27 +6382,6 @@
       "away_elo_post": 1707.6660326034,
       "tournament_id": null,
       "str_event_id": "20260104_oakland_robertmorris",
-      "season": 2026
-    },
-    {
-      "id": 401830235,
-      "datetime": "2026-01-04T20:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "murraystate",
-      "home_team_id": 93,
-      "away_team_name": "bradley",
-      "away_team_id": 71,
-      "home_elo_pre": 1780.4803141037,
-      "away_elo_pre": 1828.2826039526,
-      "elo_diff": 52.1977101511,
-      "elo_spread": -1.7399236717,
-      "home_elo_prob": 0.5374887843,
-      "away_elo_prob": 0.4625112157,
-      "home_elo_post": 1789.8750624792,
-      "away_elo_post": 1818.8878555772,
-      "tournament_id": null,
-      "str_event_id": "20260104_murraystate_bradley",
       "season": 2026
     },
     {
@@ -6529,6 +6508,27 @@
       "away_elo_post": 1454.4963887923,
       "tournament_id": null,
       "str_event_id": "20260104_fiu_utep",
+      "season": 2026
+    },
+    {
+      "id": 401830235,
+      "datetime": "2026-01-04T22:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "murraystate",
+      "home_team_id": 93,
+      "away_team_name": "bradley",
+      "away_team_id": 71,
+      "home_elo_pre": 1780.4803141037,
+      "away_elo_pre": 1828.2826039526,
+      "elo_diff": 52.1977101511,
+      "elo_spread": -1.7399236717,
+      "home_elo_prob": 0.5374887843,
+      "away_elo_prob": 0.4625112157,
+      "home_elo_post": 1789.8750624792,
+      "away_elo_post": 1818.8878555772,
+      "tournament_id": null,
+      "str_event_id": "20260104_murraystate_bradley",
       "season": 2026
     },
     {
@@ -54832,5 +54832,5 @@
       "season": 2026
     }
   ],
-  "lastupdated": "2025-12-24T09:16:33.876117"
+  "lastupdated": "2025-12-25T09:14:49.600892"
 }
