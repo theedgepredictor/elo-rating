@@ -1,6 +1,31 @@
 {
   "events": [
     {
+      "id": 401821385,
+      "datetime": "2025-12-27T22:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "dartmouthbiggreen",
+      "home_team_id": 159,
+      "away_team_name": "arizonastatesundevils",
+      "away_team_id": 9,
+      "home_elo_pre": 1571.6039618057,
+      "away_elo_pre": 1558.6198097537,
+      "elo_diff": 17.984152052,
+      "elo_spread": -0.5994717351,
+      "home_elo_prob": 0.512937749,
+      "away_elo_prob": 0.487062251,
+      "home_elo_post": 1563.280506164,
+      "away_elo_post": 1566.9432653953,
+      "tournament_id": null,
+      "str_event_id": "20251227_dartmouthbiggreen_arizonastatesundevils",
+      "season": 2026,
+      "result": false,
+      "point_dif": 4,
+      "home_team_score": 1,
+      "away_team_score": 5
+    },
+    {
       "id": 401821695,
       "datetime": "2025-12-21T00:07:00.000Z",
       "neutral_site": 0,
@@ -24,32 +49,7 @@
       "point_dif": 3,
       "home_team_score": 1,
       "away_team_score": 4
-    },
-    {
-      "id": 401821701,
-      "datetime": "2025-12-20T01:07:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "augustanauniversitysdvikings",
-      "home_team_id": 2043,
-      "away_team_name": "omahamavericks",
-      "away_team_id": 2437,
-      "home_elo_pre": 1543.6430594948,
-      "away_elo_pre": 1519.7082840403,
-      "elo_diff": 28.9347754545,
-      "elo_spread": -0.9644925152,
-      "home_elo_prob": 0.5208082193,
-      "away_elo_prob": 0.4791917807,
-      "home_elo_post": 1550.1998323343,
-      "away_elo_post": 1513.1515112008,
-      "tournament_id": null,
-      "str_event_id": "20251220_augustanauniversitysdvikings_omahamavericks",
-      "season": 2026,
-      "result": true,
-      "point_dif": -3,
-      "home_team_score": 7,
-      "away_team_score": 4
     }
   ],
-  "lastupdated": "2025-12-27T09:12:17.615399"
+  "lastupdated": "2025-12-28T09:11:25.660586"
 }
