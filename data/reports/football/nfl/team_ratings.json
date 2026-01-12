@@ -9,60 +9,60 @@
       "lastupdated": "2026-01-04T01:00:00.000Z"
     },
     {
-      "id": 401772967,
+      "id": 401772977,
       "team_name": "bills",
       "rank": 2,
-      "elo_rating": 1727.7506350561,
+      "elo_rating": 1745.594027326,
       "season": 2025,
-      "lastupdated": "2026-01-04T21:25:00.000Z"
+      "lastupdated": "2026-01-11T18:00:00.000Z"
+    },
+    {
+      "id": 401772980,
+      "team_name": "49ers",
+      "rank": 3,
+      "elo_rating": 1713.2321411293,
+      "season": 2025,
+      "lastupdated": "2026-01-11T21:30:00.000Z"
+    },
+    {
+      "id": 401772978,
+      "team_name": "patriots",
+      "rank": 4,
+      "elo_rating": 1707.5354764255,
+      "season": 2025,
+      "lastupdated": "2026-01-12T01:15:00.000Z"
     },
     {
       "id": 401772962,
       "team_name": "texans",
-      "rank": 3,
+      "rank": 5,
       "elo_rating": 1704.4118885851,
       "season": 2025,
       "lastupdated": "2026-01-04T18:00:00.000Z"
     },
     {
-      "id": 401772961,
-      "team_name": "49ers",
-      "rank": 4,
-      "elo_rating": 1694.6959511317,
-      "season": 2025,
-      "lastupdated": "2026-01-04T01:00:00.000Z"
-    },
-    {
       "id": 401772979,
       "team_name": "rams",
-      "rank": 5,
+      "rank": 6,
       "elo_rating": 1691.2975888834,
       "season": 2025,
       "lastupdated": "2026-01-10T21:30:00.000Z"
     },
     {
-      "id": 401772958,
-      "team_name": "patriots",
-      "rank": 6,
-      "elo_rating": 1686.4764248425,
-      "season": 2025,
-      "lastupdated": "2026-01-04T21:25:00.000Z"
-    },
-    {
-      "id": 401772970,
-      "team_name": "jaguars",
-      "rank": 7,
-      "elo_rating": 1668.3270192786,
-      "season": 2025,
-      "lastupdated": "2026-01-04T18:00:00.000Z"
-    },
-    {
       "id": 401772956,
       "team_name": "broncos",
-      "rank": 8,
+      "rank": 7,
       "elo_rating": 1665.609989646,
       "season": 2025,
       "lastupdated": "2026-01-04T21:25:00.000Z"
+    },
+    {
+      "id": 401772977,
+      "team_name": "jaguars",
+      "rank": 8,
+      "elo_rating": 1650.4836270087,
+      "season": 2025,
+      "lastupdated": "2026-01-11T18:00:00.000Z"
     },
     {
       "id": 401772981,
@@ -73,17 +73,9 @@
       "lastupdated": "2026-01-11T01:00:00.000Z"
     },
     {
-      "id": 401772959,
-      "team_name": "eagles",
-      "rank": 10,
-      "elo_rating": 1577.3363712068,
-      "season": 2025,
-      "lastupdated": "2026-01-04T21:25:00.000Z"
-    },
-    {
       "id": 401772968,
       "team_name": "vikings",
-      "rank": 11,
+      "rank": 10,
       "elo_rating": 1576.8486873345,
       "season": 2025,
       "lastupdated": "2026-01-04T18:00:00.000Z"
@@ -91,7 +83,7 @@
     {
       "id": 401772965,
       "team_name": "lions",
-      "rank": 12,
+      "rank": 11,
       "elo_rating": 1575.7024849174,
       "season": 2025,
       "lastupdated": "2026-01-04T21:25:00.000Z"
@@ -99,7 +91,7 @@
     {
       "id": 401772960,
       "team_name": "steelers",
-      "rank": 13,
+      "rank": 12,
       "elo_rating": 1570.9273232606,
       "season": 2025,
       "lastupdated": "2026-01-05T01:20:00.000Z"
@@ -107,26 +99,34 @@
     {
       "id": 401772960,
       "team_name": "ravens",
-      "rank": 14,
+      "rank": 13,
       "elo_rating": 1563.4779505244,
       "season": 2025,
       "lastupdated": "2026-01-05T01:20:00.000Z"
     },
     {
-      "id": 401772956,
-      "team_name": "chargers",
-      "rank": 15,
-      "elo_rating": 1546.8941532242,
+      "id": 401772980,
+      "team_name": "eagles",
+      "rank": 14,
+      "elo_rating": 1558.8001812092,
       "season": 2025,
-      "lastupdated": "2026-01-04T21:25:00.000Z"
+      "lastupdated": "2026-01-11T21:30:00.000Z"
     },
     {
       "id": 401772981,
       "team_name": "packers",
-      "rank": 16,
+      "rank": 15,
       "elo_rating": 1544.0889274069,
       "season": 2025,
       "lastupdated": "2026-01-11T01:00:00.000Z"
+    },
+    {
+      "id": 401772978,
+      "team_name": "chargers",
+      "rank": 16,
+      "elo_rating": 1525.8351016412,
+      "season": 2025,
+      "lastupdated": "2026-01-12T01:15:00.000Z"
     },
     {
       "id": 401772957,
@@ -257,5 +257,5 @@
       "lastupdated": "2026-01-04T18:00:00.000Z"
     }
   ],
-  "lastupdated": "2026-01-11T09:12:00.705695"
+  "lastupdated": "2026-01-12T09:23:10.508547"
 }
