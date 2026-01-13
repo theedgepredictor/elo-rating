@@ -17,9 +17,17 @@
       "lastupdated": "2026-01-11T18:00:00.000Z"
     },
     {
+      "id": 401772976,
+      "team_name": "texans",
+      "rank": 3,
+      "elo_rating": 1740.3148683859,
+      "season": 2025,
+      "lastupdated": "2026-01-13T01:15:00.000Z"
+    },
+    {
       "id": 401772980,
       "team_name": "49ers",
-      "rank": 3,
+      "rank": 4,
       "elo_rating": 1713.2321411293,
       "season": 2025,
       "lastupdated": "2026-01-11T21:30:00.000Z"
@@ -27,18 +35,10 @@
     {
       "id": 401772978,
       "team_name": "patriots",
-      "rank": 4,
+      "rank": 5,
       "elo_rating": 1707.5354764255,
       "season": 2025,
       "lastupdated": "2026-01-12T01:15:00.000Z"
-    },
-    {
-      "id": 401772962,
-      "team_name": "texans",
-      "rank": 5,
-      "elo_rating": 1704.4118885851,
-      "season": 2025,
-      "lastupdated": "2026-01-04T18:00:00.000Z"
     },
     {
       "id": 401772979,
@@ -90,16 +90,8 @@
     },
     {
       "id": 401772960,
-      "team_name": "steelers",
-      "rank": 12,
-      "elo_rating": 1570.9273232606,
-      "season": 2025,
-      "lastupdated": "2026-01-05T01:20:00.000Z"
-    },
-    {
-      "id": 401772960,
       "team_name": "ravens",
-      "rank": 13,
+      "rank": 12,
       "elo_rating": 1563.4779505244,
       "season": 2025,
       "lastupdated": "2026-01-05T01:20:00.000Z"
@@ -107,7 +99,7 @@
     {
       "id": 401772980,
       "team_name": "eagles",
-      "rank": 14,
+      "rank": 13,
       "elo_rating": 1558.8001812092,
       "season": 2025,
       "lastupdated": "2026-01-11T21:30:00.000Z"
@@ -115,10 +107,18 @@
     {
       "id": 401772981,
       "team_name": "packers",
-      "rank": 15,
+      "rank": 14,
       "elo_rating": 1544.0889274069,
       "season": 2025,
       "lastupdated": "2026-01-11T01:00:00.000Z"
+    },
+    {
+      "id": 401772976,
+      "team_name": "steelers",
+      "rank": 15,
+      "elo_rating": 1535.0243434598,
+      "season": 2025,
+      "lastupdated": "2026-01-13T01:15:00.000Z"
     },
     {
       "id": 401772978,
@@ -257,5 +257,5 @@
       "lastupdated": "2026-01-04T18:00:00.000Z"
     }
   ],
-  "lastupdated": "2026-01-12T09:23:10.508547"
+  "lastupdated": "2026-01-13T09:19:56.395884"
 }

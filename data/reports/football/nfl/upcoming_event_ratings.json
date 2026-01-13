@@ -5041,29 +5041,8 @@
       "season": 2024
     },
     {
-      "id": 401772976,
-      "datetime": "2026-01-13T01:15:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 1,
-      "home_team_name": "steelers",
-      "home_team_id": 23,
-      "away_team_name": "texans",
-      "away_team_id": 34,
-      "home_elo_pre": 1570.9273232606,
-      "away_elo_pre": 1704.4118885851,
-      "elo_diff": -58.4845653245,
-      "elo_spread": 2.339382613,
-      "home_elo_prob": 0.4580160626,
-      "away_elo_prob": 0.5419839374,
-      "home_elo_post": 1563.196037378,
-      "away_elo_post": 1712.1431744677,
-      "tournament_id": null,
-      "str_event_id": "20260113_steelers_texans",
-      "season": 2025
-    },
-    {
       "id": 401772982,
-      "datetime": "2026-01-17T05:00:00.000Z",
+      "datetime": "2026-01-17T21:30:00.000Z",
       "neutral_site": 0,
       "is_postseason": 1,
       "home_team_name": "broncos",
@@ -5084,7 +5063,7 @@
     },
     {
       "id": 401772984,
-      "datetime": "2026-01-17T05:00:00.000Z",
+      "datetime": "2026-01-18T01:00:00.000Z",
       "neutral_site": 0,
       "is_postseason": 1,
       "home_team_name": "seahawks",
@@ -5100,12 +5079,33 @@
       "home_elo_post": 1814.0418907846,
       "away_elo_post": 1707.1144800741,
       "tournament_id": null,
-      "str_event_id": "20260117_seahawks_49ers",
+      "str_event_id": "20260118_seahawks_49ers",
+      "season": 2025
+    },
+    {
+      "id": 401772983,
+      "datetime": "2026-01-18T20:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "patriots",
+      "home_team_id": 17,
+      "away_team_name": "texans",
+      "away_team_id": 34,
+      "home_elo_pre": 1707.5354764255,
+      "away_elo_pre": 1740.3148683859,
+      "elo_diff": 42.2206080396,
+      "elo_spread": -1.6888243216,
+      "home_elo_prob": 0.5303428387,
+      "away_elo_prob": 0.4696571613,
+      "home_elo_post": 1715.5207676503,
+      "away_elo_post": 1732.329577161,
+      "tournament_id": null,
+      "str_event_id": "20260118_patriots_texans",
       "season": 2025
     },
     {
       "id": 401772985,
-      "datetime": "2026-01-18T05:00:00.000Z",
+      "datetime": "2026-01-18T23:30:00.000Z",
       "neutral_site": 0,
       "is_postseason": 1,
       "home_team_name": "bears",
@@ -5125,5 +5125,5 @@
       "season": 2025
     }
   ],
-  "lastupdated": "2026-01-12T09:23:10.384142"
+  "lastupdated": "2026-01-13T09:19:56.273489"
 }
