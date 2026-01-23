@@ -6,17 +6,17 @@
       "system_recall": 0.7852740109828533,
       "system_f1": 0.7665044029973199,
       "system_auc": 0.6894593869783447,
-      "system_brier_score": 0.19930434585848397,
-      "system_log_loss": 0.5857535122503306,
+      "system_brier_score": 0.1993030695992662,
+      "system_log_loss": 0.5857509069899693,
       "system_score": 30.82,
       "system_records": 29427,
-      "system_mse": 379.8753251937909,
-      "system_mae": 15.16252369408806,
-      "system_mape": 15.7422899494748,
-      "system_r2": -4.464104192874973,
+      "system_mse": 379.87497821393066,
+      "system_mae": 15.162439417743208,
+      "system_mape": 15.742253823714343,
+      "system_r2": -4.464085639336152,
       "avg_number_of_games_played": 8.180242058974468,
       "avg_points_per_game": 24.871825408711246,
-      "home_win_percentage": 0.6129981996815915
+      "home_win_percentage": 0.6130293994385684
     },
     "2025": {
       "system_accuracy": 0.6820428336079077,
@@ -24,17 +24,17 @@
       "system_recall": 0.7904509283819628,
       "system_f1": 0.7553865652724968,
       "system_auc": 0.6473993772344596,
-      "system_brier_score": 0.20769406689440148,
-      "system_log_loss": 0.6045922746458317,
-      "system_score": 31.9,
+      "system_brier_score": 0.207632194604448,
+      "system_log_loss": 0.6044659731686476,
+      "system_score": 31.89,
       "system_records": 607,
-      "system_mse": 416.27141169371276,
-      "system_mae": 15.839298945167345,
-      "system_mape": 10.502312622934872,
-      "system_r2": -9.14067837103051,
+      "system_mse": 416.25459031587496,
+      "system_mae": 15.835213277951528,
+      "system_mape": 10.500561267493351,
+      "system_r2": -9.13847523278525,
       "avg_number_of_games_played": 4.875502008032129,
       "avg_points_per_game": 23.001151252807876,
-      "home_win_percentage": 0.6245421245421245
+      "home_win_percentage": 0.6252285191956124
     },
     "2024": {
       "system_accuracy": 0.7139107611548556,
@@ -73,5 +73,5 @@
       "home_win_percentage": 0.6068601583113457
     }
   },
-  "lastupdated": "2026-01-22T09:23:35.989312"
+  "lastupdated": "2026-01-23T09:20:46.921431"
 }

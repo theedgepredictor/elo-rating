@@ -201,17 +201,9 @@
       "lastupdated": "2026-01-19T21:00:00.000Z"
     },
     {
-      "id": 401821275,
-      "team_name": "northeasternhuskies",
-      "rank": 26,
-      "elo_rating": 1528.9132817392,
-      "season": 2026,
-      "lastupdated": "2026-01-18T21:00:00.000Z"
-    },
-    {
       "id": 401821958,
       "team_name": "holycrosscrusaders",
-      "rank": 27,
+      "rank": 26,
       "elo_rating": 1524.1860659217,
       "season": 2026,
       "lastupdated": "2026-01-18T00:00:00.000Z"
@@ -219,10 +211,18 @@
     {
       "id": 401821873,
       "team_name": "ohiostatebuckeyes",
-      "rank": 28,
+      "rank": 27,
       "elo_rating": 1523.942859484,
       "season": 2026,
       "lastupdated": "2026-01-10T22:00:00.000Z"
+    },
+    {
+      "id": 401855731,
+      "team_name": "northeasternhuskies",
+      "rank": 28,
+      "elo_rating": 1521.3098455117,
+      "season": 2026,
+      "lastupdated": "2026-01-23T00:00:00.000Z"
     },
     {
       "id": 401821685,
@@ -313,9 +313,17 @@
       "lastupdated": "2026-01-18T00:00:00.000Z"
     },
     {
+      "id": 401855731,
+      "team_name": "merrimackwarriors",
+      "rank": 40,
+      "elo_rating": 1481.4226515586,
+      "season": 2026,
+      "lastupdated": "2026-01-23T00:00:00.000Z"
+    },
+    {
       "id": 401822026,
       "team_name": "rittigers",
-      "rank": 40,
+      "rank": 41,
       "elo_rating": 1480.6676612336,
       "season": 2026,
       "lastupdated": "2026-01-18T00:00:00.000Z"
@@ -323,7 +331,7 @@
     {
       "id": 401837175,
       "team_name": "assumptionfalcons",
-      "rank": 41,
+      "rank": 42,
       "elo_rating": 1477.6444884828,
       "season": 2026,
       "lastupdated": "2025-12-05T19:00:00.000Z"
@@ -331,16 +339,8 @@
     {
       "id": 401822026,
       "team_name": "canisiusgoldengriffins",
-      "rank": 42,
-      "elo_rating": 1476.1494495222,
-      "season": 2026,
-      "lastupdated": "2026-01-18T00:00:00.000Z"
-    },
-    {
-      "id": 401821201,
-      "team_name": "merrimackwarriors",
       "rank": 43,
-      "elo_rating": 1473.8192153311,
+      "elo_rating": 1476.1494495222,
       "season": 2026,
       "lastupdated": "2026-01-18T00:00:00.000Z"
     },
@@ -529,5 +529,5 @@
       "lastupdated": "2026-01-18T00:00:00.000Z"
     }
   ],
-  "lastupdated": "2026-01-22T09:23:36.779667"
+  "lastupdated": "2026-01-23T09:20:47.707300"
 }

@@ -3,7 +3,7 @@
     {
       "id": 401769076,
       "datetime": "2026-01-20T00:30:00.000Z",
-      "neutral_site": 1,
+      "neutral_site": 0,
       "is_postseason": 1,
       "home_team_name": "indiana",
       "home_team_id": 84,
@@ -11,12 +11,12 @@
       "away_team_id": 2390,
       "home_elo_pre": 1969.9711303024,
       "away_elo_pre": 1902.4357288282,
-      "elo_diff": 67.5354014742,
-      "elo_spread": -2.701416059,
-      "home_elo_prob": 0.54844319,
-      "away_elo_prob": 0.45155681,
-      "home_elo_post": 1991.284091433,
-      "away_elo_post": 1881.1227676976,
+      "elo_diff": 129.5354014742,
+      "elo_spread": -5.181416059,
+      "home_elo_prob": 0.5921433184,
+      "away_elo_prob": 0.4078566816,
+      "home_elo_post": 1988.709152078,
+      "away_elo_post": 1883.6977070527,
       "tournament_id": null,
       "str_event_id": "20260120_indiana_miami",
       "season": 2025,
@@ -26,5 +26,5 @@
       "away_team_score": 21
     }
   ],
-  "lastupdated": "2026-01-22T09:23:35.819748"
+  "lastupdated": "2026-01-23T09:20:46.762935"
 }
