@@ -1,27 +1,6 @@
 {
   "events": [
     {
-      "id": 401821988,
-      "datetime": "2026-01-30T00:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "holycrosscrusaders",
-      "home_team_id": 107,
-      "away_team_name": "armyblackknights",
-      "away_team_id": 349,
-      "home_elo_pre": 1511.7501520966,
-      "away_elo_pre": 1437.7722996322,
-      "elo_diff": 78.9778524644,
-      "elo_spread": -2.6325950821,
-      "home_elo_prob": 0.5565856809,
-      "away_elo_prob": 0.4434143191,
-      "home_elo_post": 1514.7171534937,
-      "away_elo_post": 1434.8052982351,
-      "tournament_id": null,
-      "str_event_id": "20260130_holycrosscrusaders_armyblackknights",
-      "season": 2026
-    },
-    {
       "id": 401821879,
       "datetime": "2026-01-30T23:00:00.000Z",
       "neutral_site": 0,
@@ -303,14 +282,14 @@
       "home_team_id": 107,
       "away_team_name": "armyblackknights",
       "away_team_id": 349,
-      "home_elo_pre": 1514.7171534937,
-      "away_elo_pre": 1434.8052982351,
-      "elo_diff": 84.9118552587,
-      "elo_spread": -2.8303951753,
-      "home_elo_prob": 0.5607966797,
-      "away_elo_prob": 0.4392033203,
-      "home_elo_post": 1517.6483457555,
-      "away_elo_post": 1431.8741059733,
+      "home_elo_pre": 1507.7485401804,
+      "away_elo_pre": 1441.7739115484,
+      "elo_diff": 70.9746286321,
+      "elo_spread": -2.3658209544,
+      "home_elo_prob": 0.5508934877,
+      "away_elo_prob": 0.4491065123,
+      "home_elo_post": 1510.7642198781,
+      "away_elo_post": 1438.7582318507,
       "tournament_id": null,
       "str_event_id": "20260131_holycrosscrusaders_armyblackknights",
       "season": 2026
@@ -1135,5 +1114,5 @@
       "season": 2026
     }
   ],
-  "lastupdated": "2026-01-29T09:32:20.508885"
+  "lastupdated": "2026-01-30T09:29:05.572118"
 }
