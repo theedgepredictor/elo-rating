@@ -1,24 +1,41 @@
 {
   "evaluations": {
     "ALL": {
-      "system_accuracy": 0.73834628190899,
-      "system_precision": 0.7625835189309577,
+      "system_accuracy": 0.7381414701803052,
+      "system_precision": 0.7622439893143366,
       "system_recall": 0.8067860508953817,
-      "system_f1": 0.7840622853217312,
-      "system_auc": 0.7235684640441821,
-      "system_brier_score": 0.19775601718778973,
-      "system_log_loss": 0.5842779421958203,
-      "system_score": 30.04,
-      "system_records": 3604,
-      "system_mse": 28.17982979022526,
-      "system_mae": 4.1196598866503855,
-      "system_mape": 6.657864595666939,
-      "system_r2": -1.2139165303814412,
-      "avg_number_of_games_played": 6.976248532402822,
-      "avg_points_per_game": 9.658862061918814,
-      "home_win_percentage": 0.5918313714406536
+      "system_f1": 0.7838827838827839,
+      "system_auc": 0.7233525669176841,
+      "system_brier_score": 0.19777897318815307,
+      "system_log_loss": 0.5843250896777599,
+      "system_score": 30.02,
+      "system_records": 3605,
+      "system_mse": 28.188826253703382,
+      "system_mae": 4.120676728866288,
+      "system_mape": 6.65876752573165,
+      "system_r2": -1.2152337752577518,
+      "avg_number_of_games_played": 6.624704501085009,
+      "avg_points_per_game": 9.825987822982412,
+      "home_win_percentage": 0.5570177613559092
     },
-    "2026": null,
+    "2026": {
+      "system_accuracy": 0.0,
+      "system_precision": 0.0,
+      "system_recall": 0.0,
+      "system_f1": 0.0,
+      "system_auc": null,
+      "system_brier_score": 0.28051239849760523,
+      "system_log_loss": null,
+      "system_score": -28.0,
+      "system_records": 1,
+      "system_mse": 60.61208062886842,
+      "system_mae": 7.785376074979835,
+      "system_mape": 9.912927478952964,
+      "system_r2": NaN,
+      "avg_number_of_games_played": 1.0,
+      "avg_points_per_game": 12.5,
+      "home_win_percentage": 0.0
+    },
     "2025": {
       "system_accuracy": 0.7036395147313691,
       "system_precision": 0.7255434782608695,
@@ -56,5 +73,5 @@
       "home_win_percentage": 0.5536480686695279
     }
   },
-  "lastupdated": "2026-01-30T09:29:05.930120"
+  "lastupdated": "2026-01-31T09:18:07.508754"
 }
