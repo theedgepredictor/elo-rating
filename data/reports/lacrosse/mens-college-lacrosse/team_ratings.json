@@ -25,17 +25,9 @@
       "lastupdated": "2025-05-26T17:00:00.000Z"
     },
     {
-      "id": 401769687,
-      "team_name": "army",
-      "rank": 4,
-      "elo_rating": 1818.6917155296,
-      "season": 2025,
-      "lastupdated": "2025-05-02T20:00:00.000Z"
-    },
-    {
       "id": 401772445,
       "team_name": "richmond",
-      "rank": 5,
+      "rank": 4,
       "elo_rating": 1804.8834449186,
       "season": 2025,
       "lastupdated": "2025-05-17T16:00:00.000Z"
@@ -43,7 +35,7 @@
     {
       "id": 401772444,
       "team_name": "princeton",
-      "rank": 6,
+      "rank": 5,
       "elo_rating": 1804.5214269403,
       "season": 2025,
       "lastupdated": "2025-05-17T19:05:00.000Z"
@@ -51,7 +43,7 @@
     {
       "id": 401772446,
       "team_name": "georgetown",
-      "rank": 7,
+      "rank": 6,
       "elo_rating": 1785.6857131676,
       "season": 2025,
       "lastupdated": "2025-05-18T18:50:00.000Z"
@@ -59,7 +51,7 @@
     {
       "id": 401769969,
       "team_name": "duke",
-      "rank": 8,
+      "rank": 7,
       "elo_rating": 1778.9527762809,
       "season": 2025,
       "lastupdated": "2025-05-10T23:30:00.000Z"
@@ -67,7 +59,7 @@
     {
       "id": 401774470,
       "team_name": "syracuse",
-      "rank": 9,
+      "rank": 8,
       "elo_rating": 1778.1211205359,
       "season": 2025,
       "lastupdated": "2025-05-24T18:55:00.000Z"
@@ -75,7 +67,7 @@
     {
       "id": 401774438,
       "team_name": "pennstate",
-      "rank": 10,
+      "rank": 9,
       "elo_rating": 1767.3671203421,
       "season": 2025,
       "lastupdated": "2025-05-24T16:00:00.000Z"
@@ -83,10 +75,18 @@
     {
       "id": 401769965,
       "team_name": "ohiostate",
-      "rank": 11,
+      "rank": 10,
       "elo_rating": 1732.3390119492,
       "season": 2025,
       "lastupdated": "2025-05-11T16:00:00.000Z"
+    },
+    {
+      "id": 401837366,
+      "team_name": "army",
+      "rank": 11,
+      "elo_rating": 1731.9981029447,
+      "season": 2026,
+      "lastupdated": "2026-01-31T16:00:00.000Z"
     },
     {
       "id": 401769966,
@@ -137,20 +137,20 @@
       "lastupdated": "2025-05-10T18:30:00.000Z"
     },
     {
-      "id": 401758567,
-      "team_name": "denver",
-      "rank": 18,
-      "elo_rating": 1605.501718148,
-      "season": 2025,
-      "lastupdated": "2025-04-25T23:00:00.000Z"
-    },
-    {
       "id": 401769813,
       "team_name": "bostonuniversity",
-      "rank": 19,
+      "rank": 18,
       "elo_rating": 1603.6764209287,
       "season": 2025,
       "lastupdated": "2025-05-04T15:30:00.000Z"
+    },
+    {
+      "id": 401839839,
+      "team_name": "denver",
+      "rank": 19,
+      "elo_rating": 1599.6718966764,
+      "season": 2026,
+      "lastupdated": "2026-01-31T19:00:00.000Z"
     },
     {
       "id": 401769964,
@@ -161,12 +161,12 @@
       "lastupdated": "2025-05-10T21:00:00.000Z"
     },
     {
-      "id": 401768705,
+      "id": 401838578,
       "team_name": "michigan",
       "rank": 21,
-      "elo_rating": 1593.3006353706,
-      "season": 2025,
-      "lastupdated": "2025-04-26T17:00:00.000Z"
+      "elo_rating": 1594.4156405195,
+      "season": 2026,
+      "lastupdated": "2026-02-01T00:00:00.000Z"
     },
     {
       "id": 401769380,
@@ -185,17 +185,9 @@
       "lastupdated": "2025-05-03T16:30:00.000Z"
     },
     {
-      "id": 401769393,
-      "team_name": "jacksonville",
-      "rank": 24,
-      "elo_rating": 1578.8108510989,
-      "season": 2025,
-      "lastupdated": "2025-05-02T20:00:00.000Z"
-    },
-    {
       "id": 401768706,
       "team_name": "johnshopkins",
-      "rank": 25,
+      "rank": 24,
       "elo_rating": 1576.629021104,
       "season": 2025,
       "lastupdated": "2025-04-26T16:00:00.000Z"
@@ -203,7 +195,7 @@
     {
       "id": 401756208,
       "team_name": "vmi",
-      "rank": 26,
+      "rank": 25,
       "elo_rating": 1574.3012245432,
       "season": 2025,
       "lastupdated": "2025-04-26T16:00:00.000Z"
@@ -211,7 +203,7 @@
     {
       "id": 401769385,
       "team_name": "yale",
-      "rank": 27,
+      "rank": 26,
       "elo_rating": 1573.5407577722,
       "season": 2025,
       "lastupdated": "2025-05-02T20:00:00.000Z"
@@ -219,7 +211,7 @@
     {
       "id": 401769779,
       "team_name": "bryant",
-      "rank": 28,
+      "rank": 27,
       "elo_rating": 1559.5145186792,
       "season": 2025,
       "lastupdated": "2025-05-03T17:00:00.000Z"
@@ -227,7 +219,7 @@
     {
       "id": 401769970,
       "team_name": "robertmorris",
-      "rank": 29,
+      "rank": 28,
       "elo_rating": 1554.2719140199,
       "season": 2025,
       "lastupdated": "2025-05-07T21:00:00.000Z"
@@ -235,10 +227,18 @@
     {
       "id": 401770111,
       "team_name": "ualbany",
-      "rank": 30,
+      "rank": 29,
       "elo_rating": 1550.7540836194,
       "season": 2025,
       "lastupdated": "2025-05-11T23:30:00.000Z"
+    },
+    {
+      "id": 401837763,
+      "team_name": "jacksonville",
+      "rank": 30,
+      "elo_rating": 1542.5724850314,
+      "season": 2026,
+      "lastupdated": "2026-01-31T19:00:00.000Z"
     },
     {
       "id": 401770116,
@@ -273,12 +273,12 @@
       "lastupdated": "2025-05-02T23:00:00.000Z"
     },
     {
-      "id": 401769331,
+      "id": 401837763,
       "team_name": "rutgers",
       "rank": 35,
-      "elo_rating": 1516.9719821095,
-      "season": 2025,
-      "lastupdated": "2025-05-01T21:00:00.000Z"
+      "elo_rating": 1524.6160704409,
+      "season": 2026,
+      "lastupdated": "2026-01-31T19:00:00.000Z"
     },
     {
       "id": 401769775,
@@ -289,12 +289,12 @@
       "lastupdated": "2025-05-03T16:00:00.000Z"
     },
     {
-      "id": 401769377,
-      "team_name": "massachusetts",
+      "id": 401839812,
+      "team_name": "providence",
       "rank": 37,
-      "elo_rating": 1499.5390793224,
-      "season": 2025,
-      "lastupdated": "2025-05-01T15:00:00.000Z"
+      "elo_rating": 1504.8624367966,
+      "season": 2026,
+      "lastupdated": "2026-01-31T21:30:00.000Z"
     },
     {
       "id": 401769312,
@@ -313,20 +313,20 @@
       "lastupdated": "2026-01-30T17:30:00.000Z"
     },
     {
+      "id": 401837366,
+      "team_name": "massachusetts",
+      "rank": 40,
+      "elo_rating": 1483.4890936233,
+      "season": 2026,
+      "lastupdated": "2026-01-31T16:00:00.000Z"
+    },
+    {
       "id": 401758570,
       "team_name": "stonybrook",
-      "rank": 40,
+      "rank": 41,
       "elo_rating": 1482.2612902934,
       "season": 2025,
       "lastupdated": "2025-04-26T15:00:00.000Z"
-    },
-    {
-      "id": 401769362,
-      "team_name": "providence",
-      "rank": 41,
-      "elo_rating": 1472.6147302349,
-      "season": 2025,
-      "lastupdated": "2025-05-02T01:00:00.000Z"
     },
     {
       "id": 401769379,
@@ -473,17 +473,33 @@
       "lastupdated": "2025-04-27T20:00:00.000Z"
     },
     {
+      "id": 401838195,
+      "team_name": "mercer",
+      "rank": 60,
+      "elo_rating": 1353.4834968272,
+      "season": 2026,
+      "lastupdated": "2026-01-31T16:00:00.000Z"
+    },
+    {
       "id": 401756269,
       "team_name": "brown",
-      "rank": 60,
+      "rank": 61,
       "elo_rating": 1351.2823950458,
       "season": 2025,
       "lastupdated": "2025-04-26T21:00:00.000Z"
     },
     {
+      "id": 401838578,
+      "team_name": "mercyhurst",
+      "rank": 62,
+      "elo_rating": 1346.3322413715,
+      "season": 2026,
+      "lastupdated": "2026-02-01T00:00:00.000Z"
+    },
+    {
       "id": 401756112,
       "team_name": "hobartcollege",
-      "rank": 61,
+      "rank": 63,
       "elo_rating": 1339.5515880559,
       "season": 2025,
       "lastupdated": "2025-04-25T21:00:00.000Z"
@@ -491,39 +507,47 @@
     {
       "id": 401769256,
       "team_name": "canisius",
-      "rank": 62,
+      "rank": 64,
       "elo_rating": 1334.6752454745,
       "season": 2025,
       "lastupdated": "2025-04-27T16:00:00.000Z"
     },
     {
+      "id": 401839839,
+      "team_name": "clevelandstate",
+      "rank": 65,
+      "elo_rating": 1334.0598724454,
+      "season": 2026,
+      "lastupdated": "2026-01-31T19:00:00.000Z"
+    },
+    {
       "id": 401756152,
       "team_name": "mountstmarys",
-      "rank": 63,
+      "rank": 66,
       "elo_rating": 1330.6919291507,
       "season": 2025,
       "lastupdated": "2025-04-23T16:00:00.000Z"
     },
     {
+      "id": 401839812,
+      "team_name": "holycross",
+      "rank": 67,
+      "elo_rating": 1329.1812444417,
+      "season": 2026,
+      "lastupdated": "2026-01-31T21:30:00.000Z"
+    },
+    {
       "id": 401756204,
       "team_name": "stbonaventure",
-      "rank": 64,
+      "rank": 68,
       "elo_rating": 1316.3114681125,
       "season": 2025,
       "lastupdated": "2025-04-26T16:00:00.000Z"
     },
     {
-      "id": 401758574,
-      "team_name": "mercyhurst",
-      "rank": 65,
-      "elo_rating": 1312.821187466,
-      "season": 2025,
-      "lastupdated": "2025-04-26T15:00:00.000Z"
-    },
-    {
       "id": 401756202,
       "team_name": "umasslowell",
-      "rank": 66,
+      "rank": 69,
       "elo_rating": 1307.9277844862,
       "season": 2025,
       "lastupdated": "2025-04-26T16:00:00.000Z"
@@ -531,7 +555,7 @@
     {
       "id": 401769415,
       "team_name": "quinnipiac",
-      "rank": 67,
+      "rank": 70,
       "elo_rating": 1291.2258362374,
       "season": 2025,
       "lastupdated": "2025-05-01T19:00:00.000Z"
@@ -539,50 +563,26 @@
     {
       "id": 401758561,
       "team_name": "merrimack",
-      "rank": 68,
+      "rank": 71,
       "elo_rating": 1290.6915564123,
       "season": 2025,
       "lastupdated": "2025-04-23T19:00:00.000Z"
     },
     {
-      "id": 401758571,
-      "team_name": "clevelandstate",
-      "rank": 69,
-      "elo_rating": 1290.0959355348,
-      "season": 2025,
-      "lastupdated": "2025-04-26T22:00:00.000Z"
-    },
-    {
       "id": 401751726,
       "team_name": "queensuniversity",
-      "rank": 70,
+      "rank": 72,
       "elo_rating": 1276.6717376523,
       "season": 2025,
       "lastupdated": "2025-04-26T16:00:00.000Z"
     },
     {
-      "id": 401758562,
-      "team_name": "holycross",
-      "rank": 71,
-      "elo_rating": 1273.4507916227,
-      "season": 2025,
-      "lastupdated": "2025-04-24T20:30:00.000Z"
-    },
-    {
       "id": 401758566,
       "team_name": "stjohns",
-      "rank": 72,
+      "rank": 73,
       "elo_rating": 1264.16067878,
       "season": 2025,
       "lastupdated": "2025-04-25T23:00:00.000Z"
-    },
-    {
-      "id": 401751730,
-      "team_name": "mercer",
-      "rank": 73,
-      "elo_rating": 1239.5291167472,
-      "season": 2025,
-      "lastupdated": "2025-04-26T18:00:00.000Z"
     },
     {
       "id": 401758574,
@@ -601,21 +601,21 @@
       "lastupdated": "2025-04-23T16:00:00.000Z"
     },
     {
+      "id": 401838195,
+      "team_name": "hampton",
+      "rank": 76,
+      "elo_rating": 1172.6163012865,
+      "season": 2026,
+      "lastupdated": "2026-01-31T16:00:00.000Z"
+    },
+    {
       "id": 401756268,
       "team_name": "njit",
-      "rank": 76,
+      "rank": 77,
       "elo_rating": 1148.0294467912,
       "season": 2025,
       "lastupdated": "2025-04-26T23:00:00.000Z"
-    },
-    {
-      "id": 401758570,
-      "team_name": "hampton",
-      "rank": 77,
-      "elo_rating": 1044.6205804234,
-      "season": 2025,
-      "lastupdated": "2025-04-26T15:00:00.000Z"
     }
   ],
-  "lastupdated": "2026-01-31T09:18:07.520322"
+  "lastupdated": "2026-02-01T09:20:52.573269"
 }
