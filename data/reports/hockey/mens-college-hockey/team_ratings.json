@@ -17,9 +17,17 @@
       "lastupdated": "2026-01-31T23:00:00.000Z"
     },
     {
+      "id": 401821117,
+      "team_name": "bostoncollegeeagles",
+      "rank": 3,
+      "elo_rating": 1657.2457363449,
+      "season": 2026,
+      "lastupdated": "2026-02-02T22:00:00.000Z"
+    },
+    {
       "id": 401821336,
       "team_name": "denverpioneers",
-      "rank": 3,
+      "rank": 4,
       "elo_rating": 1657.0076101727,
       "season": 2026,
       "lastupdated": "2026-02-01T01:00:00.000Z"
@@ -27,7 +35,7 @@
     {
       "id": 401821857,
       "team_name": "michiganwolverines",
-      "rank": 4,
+      "rank": 5,
       "elo_rating": 1654.7409494374,
       "season": 2026,
       "lastupdated": "2026-01-31T22:00:00.000Z"
@@ -35,18 +43,10 @@
     {
       "id": 401821878,
       "team_name": "michiganstatespartans",
-      "rank": 5,
+      "rank": 6,
       "elo_rating": 1652.9353310239,
       "season": 2026,
       "lastupdated": "2026-01-31T18:00:00.000Z"
-    },
-    {
-      "id": 401821116,
-      "team_name": "bostoncollegeeagles",
-      "rank": 6,
-      "elo_rating": 1651.1588735135,
-      "season": 2026,
-      "lastupdated": "2026-01-31T00:00:00.000Z"
     },
     {
       "id": 401821390,
@@ -121,12 +121,12 @@
       "lastupdated": "2026-02-01T20:30:00.000Z"
     },
     {
-      "id": 401821116,
+      "id": 401821152,
       "team_name": "bostonuniversityterriers",
       "rank": 16,
-      "elo_rating": 1572.9289970544,
+      "elo_rating": 1572.2658886333,
       "season": 2026,
-      "lastupdated": "2026-01-31T00:00:00.000Z"
+      "lastupdated": "2026-02-03T01:00:00.000Z"
     },
     {
       "id": 401821670,
@@ -241,25 +241,17 @@
       "lastupdated": "2026-01-31T00:00:00.000Z"
     },
     {
-      "id": 401821521,
-      "team_name": "harvardcrimson",
-      "rank": 31,
-      "elo_rating": 1513.0837983786,
-      "season": 2026,
-      "lastupdated": "2026-01-31T00:00:00.000Z"
-    },
-    {
-      "id": 401821204,
+      "id": 401821152,
       "team_name": "northeasternhuskies",
-      "rank": 32,
-      "elo_rating": 1512.3434197583,
+      "rank": 31,
+      "elo_rating": 1513.0065281794,
       "season": 2026,
-      "lastupdated": "2026-01-31T00:00:00.000Z"
+      "lastupdated": "2026-02-03T01:00:00.000Z"
     },
     {
       "id": 401821743,
       "team_name": "stcloudstatehuskies",
-      "rank": 33,
+      "rank": 32,
       "elo_rating": 1509.219272453,
       "season": 2026,
       "lastupdated": "2026-02-01T00:00:00.000Z"
@@ -267,10 +259,18 @@
     {
       "id": 401821857,
       "team_name": "ohiostatebuckeyes",
-      "rank": 34,
+      "rank": 33,
       "elo_rating": 1506.9972849867,
       "season": 2026,
       "lastupdated": "2026-01-31T22:00:00.000Z"
+    },
+    {
+      "id": 401821117,
+      "team_name": "harvardcrimson",
+      "rank": 34,
+      "elo_rating": 1506.9969355472,
+      "season": 2026,
+      "lastupdated": "2026-02-02T22:00:00.000Z"
     },
     {
       "id": 401821960,
@@ -529,5 +529,5 @@
       "lastupdated": "2026-01-31T22:00:00.000Z"
     }
   ],
-  "lastupdated": "2026-02-02T09:35:38.572942"
+  "lastupdated": "2026-02-03T09:29:48.258198"
 }
