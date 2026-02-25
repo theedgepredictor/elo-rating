@@ -4495,6 +4495,27 @@
       "season": 2026
     },
     {
+      "id": 401803474,
+      "datetime": "2026-03-24T23:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "panthers",
+      "home_team_id": 26,
+      "away_team_name": "kraken",
+      "away_team_id": 124292,
+      "home_elo_pre": 1570.9654274976,
+      "away_elo_pre": 1481.94349744,
+      "elo_diff": 114.0219300576,
+      "elo_spread": -5.8174454111,
+      "home_elo_prob": 0.581316841,
+      "away_elo_prob": 0.418683159,
+      "home_elo_post": 1573.1727010047,
+      "away_elo_post": 1479.7362239329,
+      "tournament_id": null,
+      "str_event_id": "20260324_panthers_kraken",
+      "season": 2026
+    },
+    {
       "id": 401803473,
       "datetime": "2026-03-24T23:00:00.000Z",
       "neutral_site": 0,
@@ -4555,27 +4576,6 @@
       "away_elo_post": 1520.2397327479,
       "tournament_id": null,
       "str_event_id": "20260324_bruins_mapleleafs",
-      "season": 2026
-    },
-    {
-      "id": 401803474,
-      "datetime": "2026-03-24T23:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "panthers",
-      "home_team_id": 26,
-      "away_team_name": "kraken",
-      "away_team_id": 124292,
-      "home_elo_pre": 1570.9654274976,
-      "away_elo_pre": 1481.94349744,
-      "elo_diff": 114.0219300576,
-      "elo_spread": -5.8174454111,
-      "home_elo_prob": 0.581316841,
-      "away_elo_prob": 0.418683159,
-      "home_elo_post": 1573.1727010047,
-      "away_elo_post": 1479.7362239329,
-      "tournament_id": null,
-      "str_event_id": "20260324_panthers_kraken",
       "season": 2026
     },
     {
@@ -4748,7 +4748,7 @@
     },
     {
       "id": 401803486,
-      "datetime": "2026-03-25T23:00:00.000Z",
+      "datetime": "2026-03-25T23:30:00.000Z",
       "neutral_site": 0,
       "is_postseason": 0,
       "home_team_name": "sabres",
@@ -4915,27 +4915,6 @@
       "season": 2026
     },
     {
-      "id": 401803494,
-      "datetime": "2026-03-27T00:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "blues",
-      "home_team_id": 19,
-      "away_team_name": "sharks",
-      "away_team_id": 18,
-      "home_elo_pre": 1431.5730774146,
-      "away_elo_pre": 1367.4849953644,
-      "elo_diff": 89.0880820502,
-      "elo_spread": -4.5453103087,
-      "home_elo_prob": 0.5637550896,
-      "away_elo_prob": 0.4362449104,
-      "home_elo_post": 1433.8979866237,
-      "away_elo_post": 1365.1600861553,
-      "tournament_id": null,
-      "str_event_id": "20260327_blues_sharks",
-      "season": 2026
-    },
-    {
       "id": 401803495,
       "datetime": "2026-03-27T00:00:00.000Z",
       "neutral_site": 0,
@@ -4954,6 +4933,27 @@
       "away_elo_post": 1441.0434414226,
       "tournament_id": null,
       "str_event_id": "20260327_predators_devils",
+      "season": 2026
+    },
+    {
+      "id": 401803494,
+      "datetime": "2026-03-27T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "blues",
+      "home_team_id": 19,
+      "away_team_name": "sharks",
+      "away_team_id": 18,
+      "home_elo_pre": 1431.5730774146,
+      "away_elo_pre": 1367.4849953644,
+      "elo_diff": 89.0880820502,
+      "elo_spread": -4.5453103087,
+      "home_elo_prob": 0.5637550896,
+      "away_elo_prob": 0.4362449104,
+      "home_elo_post": 1433.8979866237,
+      "away_elo_post": 1365.1600861553,
+      "tournament_id": null,
+      "str_event_id": "20260327_blues_sharks",
       "season": 2026
     },
     {
@@ -8485,5 +8485,5 @@
       "season": 2026
     }
   ],
-  "lastupdated": "2026-02-24T09:40:43.016222"
+  "lastupdated": "2026-02-25T09:42:04.980410"
 }
