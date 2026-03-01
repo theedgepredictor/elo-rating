@@ -18,6 +18,7 @@
       "avg_points_per_game": 4.506511326673131,
       "home_win_percentage": 0.5389645913178623
     },
+    "2026": null,
     "2025": {
       "system_accuracy": 0.5623003194888179,
       "system_precision": 0.5694444444444444,
@@ -53,25 +54,7 @@
       "avg_number_of_games_played": 121.53333333333333,
       "avg_points_per_game": 4.405182298931996,
       "home_win_percentage": 0.5272727272727272
-    },
-    "2023": {
-      "system_accuracy": 0.5531572164948454,
-      "system_precision": 0.5485849056603773,
-      "system_recall": 0.7300690521029504,
-      "system_f1": 0.6264476164826286,
-      "system_auc": 0.548356829161998,
-      "system_brier_score": 0.24540976613854582,
-      "system_log_loss": 0.68385420245435,
-      "system_score": 22.92,
-      "system_records": 3104,
-      "system_mse": 88.24538053209777,
-      "system_mae": 7.582504899281016,
-      "system_mape": 2.3545140022949607,
-      "system_r2": -0.3453073880590247,
-      "avg_number_of_games_played": 206.93333333333334,
-      "avg_points_per_game": 4.610449181302147,
-      "home_win_percentage": 0.5127460471119716
     }
   },
-  "lastupdated": "2026-02-28T09:16:01.370424"
+  "lastupdated": "2026-03-01T09:19:38.698168"
 }
