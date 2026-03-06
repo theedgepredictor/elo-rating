@@ -1,17 +1,9 @@
 {
   "teams": [
     {
-      "id": 401861922,
-      "team_name": "outlaws",
-      "rank": 1,
-      "elo_rating": 1560.7509682192,
-      "season": 2026,
-      "lastupdated": "2026-02-28T23:30:00.000Z"
-    },
-    {
       "id": 401756805,
       "team_name": "archers",
-      "rank": 2,
+      "rank": 1,
       "elo_rating": 1543.9815181693,
       "season": 2025,
       "lastupdated": "2025-08-09T01:00:00.000Z"
@@ -19,7 +11,7 @@
     {
       "id": 401861958,
       "team_name": "redwoods",
-      "rank": 3,
+      "rank": 2,
       "elo_rating": 1541.3230152974,
       "season": 2026,
       "lastupdated": "2026-03-01T17:30:00.000Z"
@@ -27,7 +19,7 @@
     {
       "id": 401813929,
       "team_name": "waterdogs",
-      "rank": 4,
+      "rank": 3,
       "elo_rating": 1531.3237380038,
       "season": 2025,
       "lastupdated": "2025-09-01T16:00:00.000Z"
@@ -35,7 +27,7 @@
     {
       "id": 401797042,
       "team_name": "teamiy",
-      "rank": 5,
+      "rank": 4,
       "elo_rating": 1530.0640823703,
       "season": 2025,
       "lastupdated": "2025-07-05T00:00:00.000Z"
@@ -43,7 +35,7 @@
     {
       "id": 401861957,
       "team_name": "atlas",
-      "rank": 6,
+      "rank": 5,
       "elo_rating": 1523.2599582498,
       "season": 2026,
       "lastupdated": "2026-03-01T01:30:00.000Z"
@@ -51,10 +43,18 @@
     {
       "id": 401774035,
       "team_name": "west",
-      "rank": 7,
+      "rank": 6,
       "elo_rating": 1520.8608169652,
       "season": 2025,
       "lastupdated": "2025-07-05T17:00:00.000Z"
+    },
+    {
+      "id": 401861961,
+      "team_name": "outlaws",
+      "rank": 7,
+      "elo_rating": 1518.4227739971,
+      "season": 2026,
+      "lastupdated": "2026-03-05T23:00:00.000Z"
     },
     {
       "id": 401756782,
@@ -73,9 +73,17 @@
       "lastupdated": "2025-07-05T17:00:00.000Z"
     },
     {
+      "id": 401861961,
+      "team_name": "chaos",
+      "rank": 10,
+      "elo_rating": 1481.160097207,
+      "season": 2026,
+      "lastupdated": "2026-03-05T23:00:00.000Z"
+    },
+    {
       "id": 401797042,
       "team_name": "teamnorth",
-      "rank": 10,
+      "rank": 11,
       "elo_rating": 1479.9359176297,
       "season": 2025,
       "lastupdated": "2025-07-05T00:00:00.000Z"
@@ -83,19 +91,11 @@
     {
       "id": 401809304,
       "team_name": "whipsnakes",
-      "rank": 11,
+      "rank": 12,
       "elo_rating": 1452.2530172468,
       "season": 2025,
       "lastupdated": "2025-08-23T22:00:00.000Z"
-    },
-    {
-      "id": 401861958,
-      "team_name": "chaos",
-      "rank": 12,
-      "elo_rating": 1438.8319029849,
-      "season": 2026,
-      "lastupdated": "2026-03-01T17:30:00.000Z"
     }
   ],
-  "lastupdated": "2026-03-05T09:32:27.971762"
+  "lastupdated": "2026-03-06T09:27:54.014049"
 }

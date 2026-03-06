@@ -944,7 +944,49 @@
       "tournament_id": null,
       "str_event_id": "20260311_marquette_utah",
       "season": 2026
+    },
+    {
+      "id": 401838541,
+      "datetime": "2026-03-12T21:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "airforce",
+      "home_team_id": 2005,
+      "away_team_name": "syracuse",
+      "away_team_id": 183,
+      "home_elo_pre": 1439.0846808516,
+      "away_elo_pre": 1737.3396042557,
+      "elo_diff": -278.2549234041,
+      "elo_spread": 5.3000937791,
+      "home_elo_prob": 0.3098368718,
+      "away_elo_prob": 0.6901631282,
+      "home_elo_post": 1433.3652012136,
+      "away_elo_post": 1743.0590838936,
+      "tournament_id": null,
+      "str_event_id": "20260312_airforce_syracuse",
+      "season": 2026
+    },
+    {
+      "id": 401838574,
+      "datetime": "2026-03-12T23:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "ohiostate",
+      "home_team_id": 194,
+      "away_team_name": "denver",
+      "away_team_id": 2172,
+      "home_elo_pre": 1748.7752208712,
+      "away_elo_pre": 1646.2863565261,
+      "elo_diff": 122.4888643451,
+      "elo_spread": -2.3331212256,
+      "home_elo_prob": 0.5872361234,
+      "away_elo_prob": 0.4127638766,
+      "home_elo_post": 1756.9057243288,
+      "away_elo_post": 1638.1558530686,
+      "tournament_id": null,
+      "str_event_id": "20260312_ohiostate_denver",
+      "season": 2026
     }
   ],
-  "lastupdated": "2026-03-05T09:32:25.661266"
+  "lastupdated": "2026-03-06T09:27:52.187241"
 }

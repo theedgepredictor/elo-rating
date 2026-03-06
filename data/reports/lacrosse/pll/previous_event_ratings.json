@@ -1,6 +1,31 @@
 {
   "events": [
     {
+      "id": 401861961,
+      "datetime": "2026-03-05T23:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "outlaws",
+      "home_team_id": 122896,
+      "away_team_name": "chaos",
+      "away_team_id": 127634,
+      "home_elo_pre": 1560.7509682192,
+      "away_elo_pre": 1438.8319029849,
+      "elo_diff": 141.9190652343,
+      "elo_spread": -2.5571002745,
+      "home_elo_prob": 0.6007223732,
+      "away_elo_prob": 0.3992776268,
+      "home_elo_post": 1518.4227739971,
+      "away_elo_post": 1481.160097207,
+      "tournament_id": null,
+      "str_event_id": "20260305_outlaws_chaos",
+      "season": 2026,
+      "result": false,
+      "point_dif": 8,
+      "home_team_score": 18,
+      "away_team_score": 26
+    },
+    {
       "id": 401861958,
       "datetime": "2026-03-01T17:30:00.000Z",
       "neutral_site": 0,
@@ -101,5 +126,5 @@
       "away_team_score": 22
     }
   ],
-  "lastupdated": "2026-03-05T09:32:27.876099"
+  "lastupdated": "2026-03-06T09:27:53.933701"
 }
