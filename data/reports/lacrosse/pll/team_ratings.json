@@ -1,17 +1,9 @@
 {
   "teams": [
     {
-      "id": 401861959,
-      "team_name": "redwoods",
-      "rank": 1,
-      "elo_rating": 1550.9841122257,
-      "season": 2026,
-      "lastupdated": "2026-03-07T01:00:00.000Z"
-    },
-    {
       "id": 401756805,
       "team_name": "archers",
-      "rank": 2,
+      "rank": 1,
       "elo_rating": 1543.9815181693,
       "season": 2025,
       "lastupdated": "2025-08-09T01:00:00.000Z"
@@ -19,7 +11,7 @@
     {
       "id": 401813929,
       "team_name": "waterdogs",
-      "rank": 3,
+      "rank": 2,
       "elo_rating": 1531.3237380038,
       "season": 2025,
       "lastupdated": "2025-09-01T16:00:00.000Z"
@@ -27,10 +19,18 @@
     {
       "id": 401797042,
       "team_name": "teamiy",
-      "rank": 4,
+      "rank": 3,
       "elo_rating": 1530.0640823703,
       "season": 2025,
       "lastupdated": "2025-07-05T00:00:00.000Z"
+    },
+    {
+      "id": 401863746,
+      "team_name": "chaos",
+      "rank": 4,
+      "elo_rating": 1529.9613289353,
+      "season": 2026,
+      "lastupdated": "2026-03-08T19:00:00.000Z"
     },
     {
       "id": 401774035,
@@ -49,9 +49,17 @@
       "lastupdated": "2026-03-07T01:00:00.000Z"
     },
     {
+      "id": 401863746,
+      "team_name": "redwoods",
+      "rank": 7,
+      "elo_rating": 1512.9226038753,
+      "season": 2026,
+      "lastupdated": "2026-03-08T19:00:00.000Z"
+    },
+    {
       "id": 401863711,
       "team_name": "outlaws",
-      "rank": 7,
+      "rank": 8,
       "elo_rating": 1507.6830506192,
       "season": 2026,
       "lastupdated": "2026-03-07T23:30:00.000Z"
@@ -59,18 +67,10 @@
     {
       "id": 401756782,
       "team_name": "cannons",
-      "rank": 8,
+      "rank": 9,
       "elo_rating": 1507.2507397456,
       "season": 2025,
       "lastupdated": "2025-08-09T23:00:00.000Z"
-    },
-    {
-      "id": 401863711,
-      "team_name": "chaos",
-      "rank": 9,
-      "elo_rating": 1491.8998205849,
-      "season": 2026,
-      "lastupdated": "2026-03-07T23:30:00.000Z"
     },
     {
       "id": 401774035,
@@ -97,5 +97,5 @@
       "lastupdated": "2025-08-23T22:00:00.000Z"
     }
   ],
-  "lastupdated": "2026-03-08T09:19:06.839728"
+  "lastupdated": "2026-03-09T09:36:42.285443"
 }
