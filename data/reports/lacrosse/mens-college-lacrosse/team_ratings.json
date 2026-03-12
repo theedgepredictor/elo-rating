@@ -137,9 +137,17 @@
       "lastupdated": "2026-03-07T19:30:00.000Z"
     },
     {
+      "id": 401838638,
+      "team_name": "utah",
+      "rank": 18,
+      "elo_rating": 1612.5984351514,
+      "season": 2026,
+      "lastupdated": "2026-03-11T17:00:00.000Z"
+    },
+    {
       "id": 401839288,
       "team_name": "siena",
-      "rank": 18,
+      "rank": 19,
       "elo_rating": 1610.6460029786,
       "season": 2026,
       "lastupdated": "2026-03-07T19:00:00.000Z"
@@ -147,7 +155,7 @@
     {
       "id": 401838657,
       "team_name": "virginia",
-      "rank": 19,
+      "rank": 20,
       "elo_rating": 1603.0179217867,
       "season": 2026,
       "lastupdated": "2026-03-07T23:00:00.000Z"
@@ -155,7 +163,7 @@
     {
       "id": 401837849,
       "team_name": "lafayette",
-      "rank": 20,
+      "rank": 21,
       "elo_rating": 1592.1877933197,
       "season": 2026,
       "lastupdated": "2026-03-07T00:30:00.000Z"
@@ -163,7 +171,7 @@
     {
       "id": 401837755,
       "team_name": "rutgers",
-      "rank": 21,
+      "rank": 22,
       "elo_rating": 1590.2996533745,
       "season": 2026,
       "lastupdated": "2026-03-10T19:00:00.000Z"
@@ -171,7 +179,7 @@
     {
       "id": 401838657,
       "team_name": "towson",
-      "rank": 22,
+      "rank": 23,
       "elo_rating": 1589.8514241077,
       "season": 2026,
       "lastupdated": "2026-03-07T23:00:00.000Z"
@@ -179,7 +187,7 @@
     {
       "id": 401838527,
       "team_name": "johnshopkins",
-      "rank": 23,
+      "rank": 24,
       "elo_rating": 1589.4067719687,
       "season": 2026,
       "lastupdated": "2026-03-07T18:00:00.000Z"
@@ -187,18 +195,10 @@
     {
       "id": 401837736,
       "team_name": "jacksonville",
-      "rank": 24,
+      "rank": 25,
       "elo_rating": 1589.2279976789,
       "season": 2026,
       "lastupdated": "2026-03-10T23:00:00.000Z"
-    },
-    {
-      "id": 401838620,
-      "team_name": "utah",
-      "rank": 25,
-      "elo_rating": 1583.3659663667,
-      "season": 2026,
-      "lastupdated": "2026-03-07T19:00:00.000Z"
     },
     {
       "id": 401838647,
@@ -313,17 +313,9 @@
       "lastupdated": "2026-03-07T16:00:00.000Z"
     },
     {
-      "id": 401838200,
-      "team_name": "marquette",
-      "rank": 40,
-      "elo_rating": 1478.8017342214,
-      "season": 2026,
-      "lastupdated": "2026-03-07T18:00:00.000Z"
-    },
-    {
       "id": 401837735,
       "team_name": "bucknell",
-      "rank": 41,
+      "rank": 40,
       "elo_rating": 1477.9794802246,
       "season": 2026,
       "lastupdated": "2026-03-07T17:00:00.000Z"
@@ -331,7 +323,7 @@
     {
       "id": 401839281,
       "team_name": "marist",
-      "rank": 42,
+      "rank": 41,
       "elo_rating": 1475.9573463973,
       "season": 2026,
       "lastupdated": "2026-03-07T17:00:00.000Z"
@@ -339,7 +331,7 @@
     {
       "id": 401837841,
       "team_name": "providence",
-      "rank": 43,
+      "rank": 42,
       "elo_rating": 1475.7221584961,
       "season": 2026,
       "lastupdated": "2026-03-07T17:00:00.000Z"
@@ -347,7 +339,7 @@
     {
       "id": 401838148,
       "team_name": "stonybrook",
-      "rank": 44,
+      "rank": 43,
       "elo_rating": 1474.5506105522,
       "season": 2026,
       "lastupdated": "2026-03-07T17:00:00.000Z"
@@ -355,7 +347,7 @@
     {
       "id": 401839813,
       "team_name": "colgate",
-      "rank": 45,
+      "rank": 44,
       "elo_rating": 1472.9176012674,
       "season": 2026,
       "lastupdated": "2026-03-07T18:00:00.000Z"
@@ -363,7 +355,7 @@
     {
       "id": 401837734,
       "team_name": "bryant",
-      "rank": 46,
+      "rank": 45,
       "elo_rating": 1469.3506517997,
       "season": 2026,
       "lastupdated": "2026-03-07T17:00:00.000Z"
@@ -371,10 +363,18 @@
     {
       "id": 401839833,
       "team_name": "hofstra",
-      "rank": 47,
+      "rank": 46,
       "elo_rating": 1450.2928304814,
       "season": 2026,
       "lastupdated": "2026-03-07T21:00:00.000Z"
+    },
+    {
+      "id": 401838638,
+      "team_name": "marquette",
+      "rank": 47,
+      "elo_rating": 1449.5692654368,
+      "season": 2026,
+      "lastupdated": "2026-03-11T17:00:00.000Z"
     },
     {
       "id": 401837373,
@@ -617,5 +617,5 @@
       "lastupdated": "2026-03-07T16:00:00.000Z"
     }
   ],
-  "lastupdated": "2026-03-11T09:32:14.486092"
+  "lastupdated": "2026-03-12T09:32:45.918923"
 }
