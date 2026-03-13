@@ -49,9 +49,17 @@
       "lastupdated": "2026-03-10T23:30:00.000Z"
     },
     {
+      "id": 401847815,
+      "team_name": "georgiatech",
+      "rank": 7,
+      "elo_rating": 1724.5533068518,
+      "season": 2026,
+      "lastupdated": "2026-03-12T23:00:00.000Z"
+    },
+    {
       "id": 401851952,
       "team_name": "mississippistate",
-      "rank": 7,
+      "rank": 8,
       "elo_rating": 1724.2886552505,
       "season": 2026,
       "lastupdated": "2026-03-10T23:00:00.000Z"
@@ -59,7 +67,7 @@
     {
       "id": 401852672,
       "team_name": "ucla",
-      "rank": 8,
+      "rank": 9,
       "elo_rating": 1723.6523255402,
       "season": 2026,
       "lastupdated": "2026-03-11T01:00:00.000Z"
@@ -67,7 +75,7 @@
     {
       "id": 401847168,
       "team_name": "auburn",
-      "rank": 9,
+      "rank": 10,
       "elo_rating": 1722.4606231301,
       "season": 2026,
       "lastupdated": "2026-03-10T23:00:00.000Z"
@@ -75,7 +83,7 @@
     {
       "id": 401852122,
       "team_name": "oregon",
-      "rank": 10,
+      "rank": 11,
       "elo_rating": 1722.384519121,
       "season": 2026,
       "lastupdated": "2026-03-11T22:05:00.000Z"
@@ -83,18 +91,10 @@
     {
       "id": 401849870,
       "team_name": "wakeforest",
-      "rank": 11,
+      "rank": 12,
       "elo_rating": 1719.5229790764,
       "season": 2026,
       "lastupdated": "2026-03-10T22:00:00.000Z"
-    },
-    {
-      "id": 401847814,
-      "team_name": "clemson",
-      "rank": 12,
-      "elo_rating": 1717.7349032161,
-      "season": 2026,
-      "lastupdated": "2026-03-10T22:30:00.000Z"
     },
     {
       "id": 401849890,
@@ -113,17 +113,9 @@
       "lastupdated": "2026-03-10T23:00:00.000Z"
     },
     {
-      "id": 401847964,
-      "team_name": "georgiatech",
-      "rank": 15,
-      "elo_rating": 1711.7334186847,
-      "season": 2026,
-      "lastupdated": "2026-03-10T22:00:00.000Z"
-    },
-    {
       "id": 401847524,
       "team_name": "olemiss",
-      "rank": 16,
+      "rank": 15,
       "elo_rating": 1710.1061389438,
       "season": 2026,
       "lastupdated": "2026-03-10T23:00:00.000Z"
@@ -131,7 +123,7 @@
     {
       "id": 401847219,
       "team_name": "floridastate",
-      "rank": 17,
+      "rank": 16,
       "elo_rating": 1710.015040895,
       "season": 2026,
       "lastupdated": "2026-03-10T22:30:00.000Z"
@@ -139,7 +131,7 @@
     {
       "id": 401847311,
       "team_name": "kentucky",
-      "rank": 18,
+      "rank": 17,
       "elo_rating": 1708.4067017771,
       "season": 2026,
       "lastupdated": "2026-03-10T22:30:00.000Z"
@@ -147,7 +139,7 @@
     {
       "id": 401847524,
       "team_name": "southernmiss",
-      "rank": 19,
+      "rank": 18,
       "elo_rating": 1707.598646556,
       "season": 2026,
       "lastupdated": "2026-03-10T23:00:00.000Z"
@@ -155,7 +147,7 @@
     {
       "id": 401848470,
       "team_name": "virginia",
-      "rank": 20,
+      "rank": 19,
       "elo_rating": 1706.3604733303,
       "season": 2026,
       "lastupdated": "2026-03-10T20:00:00.000Z"
@@ -163,10 +155,18 @@
     {
       "id": 401847219,
       "team_name": "florida",
-      "rank": 21,
+      "rank": 20,
       "elo_rating": 1705.8404633343,
       "season": 2026,
       "lastupdated": "2026-03-10T22:30:00.000Z"
+    },
+    {
+      "id": 401847815,
+      "team_name": "clemson",
+      "rank": 21,
+      "elo_rating": 1704.915015049,
+      "season": 2026,
+      "lastupdated": "2026-03-12T23:00:00.000Z"
     },
     {
       "id": 401849870,
@@ -305,20 +305,20 @@
       "lastupdated": "2026-03-10T23:00:00.000Z"
     },
     {
-      "id": 401848624,
-      "team_name": "cincinnati",
-      "rank": 39,
-      "elo_rating": 1639.5621497169,
-      "season": 2026,
-      "lastupdated": "2026-03-10T19:00:00.000Z"
-    },
-    {
       "id": 401849946,
       "team_name": "kansasstate",
-      "rank": 40,
+      "rank": 39,
       "elo_rating": 1639.0621908987,
       "season": 2026,
       "lastupdated": "2026-03-11T23:00:00.000Z"
+    },
+    {
+      "id": 401848557,
+      "team_name": "cincinnati",
+      "rank": 40,
+      "elo_rating": 1631.4750177525,
+      "season": 2026,
+      "lastupdated": "2026-03-12T21:00:00.000Z"
     },
     {
       "id": 401851968,
@@ -601,17 +601,33 @@
       "lastupdated": "2026-03-12T01:30:00.000Z"
     },
     {
+      "id": 401848557,
+      "team_name": "byu",
+      "rank": 76,
+      "elo_rating": 1532.6851542548,
+      "season": 2026,
+      "lastupdated": "2026-03-12T21:00:00.000Z"
+    },
+    {
       "id": 401850016,
       "team_name": "utah",
-      "rank": 76,
+      "rank": 77,
       "elo_rating": 1530.6147415807,
       "season": 2026,
       "lastupdated": "2026-03-09T18:00:00.000Z"
     },
     {
+      "id": 401852039,
+      "team_name": "wichitastate",
+      "rank": 78,
+      "elo_rating": 1528.9912107692,
+      "season": 2026,
+      "lastupdated": "2026-03-12T23:05:00.000Z"
+    },
+    {
       "id": 401853737,
       "team_name": "mtsu",
-      "rank": 77,
+      "rank": 79,
       "elo_rating": 1527.2568196295,
       "season": 2026,
       "lastupdated": "2026-03-10T21:00:00.000Z"
@@ -619,7 +635,7 @@
     {
       "id": 401847442,
       "team_name": "missouri",
-      "rank": 78,
+      "rank": 80,
       "elo_rating": 1526.6132747293,
       "season": 2026,
       "lastupdated": "2026-03-10T18:00:00.000Z"
@@ -627,23 +643,15 @@
     {
       "id": 401853457,
       "team_name": "westernky",
-      "rank": 79,
+      "rank": 81,
       "elo_rating": 1525.5246817166,
       "season": 2026,
       "lastupdated": "2026-03-08T20:00:00.000Z"
     },
     {
-      "id": 401848556,
-      "team_name": "byu",
-      "rank": 80,
-      "elo_rating": 1524.5980222904,
-      "season": 2026,
-      "lastupdated": "2026-03-10T21:00:00.000Z"
-    },
-    {
       "id": 401853701,
       "team_name": "missouristate",
-      "rank": 81,
+      "rank": 82,
       "elo_rating": 1524.2277432709,
       "season": 2026,
       "lastupdated": "2026-03-10T20:00:00.000Z"
@@ -651,7 +659,7 @@
     {
       "id": 401852808,
       "team_name": "washington",
-      "rank": 82,
+      "rank": 83,
       "elo_rating": 1523.6307336932,
       "season": 2026,
       "lastupdated": "2026-03-11T00:00:00.000Z"
@@ -659,7 +667,7 @@
     {
       "id": 401851858,
       "team_name": "fau",
-      "rank": 83,
+      "rank": 84,
       "elo_rating": 1520.7579478198,
       "season": 2026,
       "lastupdated": "2026-03-11T20:00:00.000Z"
@@ -667,7 +675,7 @@
     {
       "id": 401851647,
       "team_name": "campbell",
-      "rank": 84,
+      "rank": 85,
       "elo_rating": 1519.6970074095,
       "season": 2026,
       "lastupdated": "2026-03-10T22:00:00.000Z"
@@ -675,7 +683,7 @@
     {
       "id": 401857730,
       "team_name": "wofford",
-      "rank": 85,
+      "rank": 86,
       "elo_rating": 1519.4113321794,
       "season": 2026,
       "lastupdated": "2026-03-11T21:30:00.000Z"
@@ -683,18 +691,10 @@
     {
       "id": 401847707,
       "team_name": "uconn",
-      "rank": 86,
+      "rank": 87,
       "elo_rating": 1518.5311835054,
       "season": 2026,
       "lastupdated": "2026-03-10T19:05:00.000Z"
-    },
-    {
-      "id": 401849945,
-      "team_name": "wichitastate",
-      "rank": 87,
-      "elo_rating": 1517.1833590506,
-      "season": 2026,
-      "lastupdated": "2026-03-10T23:00:00.000Z"
     },
     {
       "id": 401853208,
@@ -2425,17 +2425,9 @@
       "lastupdated": "2026-03-04T00:30:00.000Z"
     },
     {
-      "id": 401852038,
-      "team_name": "butler",
-      "rank": 304,
-      "elo_rating": 1394.9926296582,
-      "season": 2026,
-      "lastupdated": "2026-03-10T18:00:00.000Z"
-    },
-    {
       "id": 401852116,
       "team_name": "youngstownstate",
-      "rank": 305,
+      "rank": 304,
       "elo_rating": 1393.3888574925,
       "season": 2026,
       "lastupdated": "2026-02-22T20:05:00.000Z"
@@ -2443,7 +2435,7 @@
     {
       "id": 401848680,
       "team_name": "rice",
-      "rank": 306,
+      "rank": 305,
       "elo_rating": 1392.8535678471,
       "season": 2026,
       "lastupdated": "2026-03-10T23:30:00.000Z"
@@ -2451,7 +2443,7 @@
     {
       "id": 401856306,
       "team_name": "pepperdine",
-      "rank": 307,
+      "rank": 306,
       "elo_rating": 1391.6593414827,
       "season": 2026,
       "lastupdated": "2026-03-10T00:00:00.000Z"
@@ -2459,10 +2451,18 @@
     {
       "id": 401853669,
       "team_name": "ncat",
-      "rank": 308,
+      "rank": 307,
       "elo_rating": 1391.2401954822,
       "season": 2026,
       "lastupdated": "2026-03-11T20:00:00.000Z"
+    },
+    {
+      "id": 401852039,
+      "team_name": "butler",
+      "rank": 308,
+      "elo_rating": 1383.1847779397,
+      "season": 2026,
+      "lastupdated": "2026-03-12T23:05:00.000Z"
     },
     {
       "id": 401769235,
@@ -2489,5 +2489,5 @@
       "lastupdated": "2026-03-11T20:00:00.000Z"
     }
   ],
-  "lastupdated": "2026-03-12T09:32:45.299225"
+  "lastupdated": "2026-03-13T09:29:47.016023"
 }

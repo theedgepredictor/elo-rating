@@ -49,28 +49,28 @@
       "lastupdated": "2026-03-07T18:00:00.000Z"
     },
     {
+      "id": 401838541,
+      "team_name": "syracuse",
+      "rank": 7,
+      "elo_rating": 1763.6810992703,
+      "season": 2026,
+      "lastupdated": "2026-03-12T21:00:00.000Z"
+    },
+    {
+      "id": 401838574,
+      "team_name": "ohiostate",
+      "rank": 8,
+      "elo_rating": 1761.6617639635,
+      "season": 2026,
+      "lastupdated": "2026-03-12T23:00:00.000Z"
+    },
+    {
       "id": 401837829,
       "team_name": "princeton",
-      "rank": 7,
+      "rank": 9,
       "elo_rating": 1755.0269640818,
       "season": 2026,
       "lastupdated": "2026-03-07T17:00:00.000Z"
-    },
-    {
-      "id": 401838573,
-      "team_name": "ohiostate",
-      "rank": 8,
-      "elo_rating": 1748.7752208712,
-      "season": 2026,
-      "lastupdated": "2026-03-07T19:00:00.000Z"
-    },
-    {
-      "id": 401838527,
-      "team_name": "syracuse",
-      "rank": 9,
-      "elo_rating": 1748.6168879276,
-      "season": 2026,
-      "lastupdated": "2026-03-07T18:00:00.000Z"
     },
     {
       "id": 401837817,
@@ -105,20 +105,20 @@
       "lastupdated": "2026-03-10T19:00:00.000Z"
     },
     {
-      "id": 401838581,
-      "team_name": "denver",
-      "rank": 14,
-      "elo_rating": 1646.2863565261,
-      "season": 2026,
-      "lastupdated": "2026-02-28T20:00:00.000Z"
-    },
-    {
       "id": 401839827,
       "team_name": "sacredheart",
-      "rank": 15,
+      "rank": 14,
       "elo_rating": 1636.1296485254,
       "season": 2026,
       "lastupdated": "2026-03-07T17:00:00.000Z"
+    },
+    {
+      "id": 401838574,
+      "team_name": "denver",
+      "rank": 15,
+      "elo_rating": 1633.3998134339,
+      "season": 2026,
+      "lastupdated": "2026-03-12T23:00:00.000Z"
     },
     {
       "id": 401837373,
@@ -409,17 +409,9 @@
       "lastupdated": "2026-03-07T18:30:00.000Z"
     },
     {
-      "id": 401838540,
-      "team_name": "airforce",
-      "rank": 52,
-      "elo_rating": 1423.900748706,
-      "season": 2026,
-      "lastupdated": "2026-03-07T20:00:00.000Z"
-    },
-    {
       "id": 401839833,
       "team_name": "umbc",
-      "rank": 53,
+      "rank": 52,
       "elo_rating": 1416.9142848507,
       "season": 2026,
       "lastupdated": "2026-03-07T21:00:00.000Z"
@@ -427,10 +419,18 @@
     {
       "id": 401839821,
       "team_name": "bellarmine",
-      "rank": 54,
+      "rank": 53,
       "elo_rating": 1412.8530696179,
       "season": 2026,
       "lastupdated": "2026-03-07T17:00:00.000Z"
+    },
+    {
+      "id": 401838541,
+      "team_name": "airforce",
+      "rank": 54,
+      "elo_rating": 1408.8365373634,
+      "season": 2026,
+      "lastupdated": "2026-03-12T21:00:00.000Z"
     },
     {
       "id": 401837359,
@@ -617,5 +617,5 @@
       "lastupdated": "2026-03-07T16:00:00.000Z"
     }
   ],
-  "lastupdated": "2026-03-12T09:32:45.918923"
+  "lastupdated": "2026-03-13T09:29:47.580996"
 }
