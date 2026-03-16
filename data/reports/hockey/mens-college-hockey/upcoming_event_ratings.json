@@ -1,48 +1,6 @@
 {
   "events": [
     {
-      "id": 401859820,
-      "datetime": "2026-03-15T20:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "cornellbigred",
-      "home_team_id": 172,
-      "away_team_name": "harvardcrimson",
-      "away_team_id": 108,
-      "home_elo_pre": 1632.9590499013,
-      "away_elo_pre": 1494.6896252412,
-      "elo_diff": 143.2694246601,
-      "elo_spread": -4.7756474887,
-      "home_elo_prob": 0.6016542389,
-      "away_elo_prob": 0.3983457611,
-      "home_elo_post": 1635.5513550122,
-      "away_elo_post": 1492.0973201304,
-      "tournament_id": null,
-      "str_event_id": "20260315_cornellbigred_harvardcrimson",
-      "season": 2026
-    },
-    {
-      "id": 401859745,
-      "datetime": "2026-03-15T21:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "sacredheartpioneers",
-      "home_team_id": 2529,
-      "away_team_name": "robertmorriscolonials",
-      "away_team_id": 2523,
-      "home_elo_pre": 1491.7270893264,
-      "away_elo_pre": 1437.7122109268,
-      "elo_diff": 59.0148783996,
-      "elo_spread": -1.9671626133,
-      "home_elo_prob": 0.5423628135,
-      "away_elo_prob": 0.4576371865,
-      "home_elo_post": 1494.8163201362,
-      "away_elo_post": 1434.622980117,
-      "tournament_id": null,
-      "str_event_id": "20260315_sacredheartpioneers_robertmorriscolonials",
-      "season": 2026
-    },
-    {
       "id": 401859775,
       "datetime": "2026-03-20T20:00:00.000Z",
       "neutral_site": 1,
@@ -82,6 +40,27 @@
       "away_elo_post": 1590.7312796734,
       "tournament_id": null,
       "str_event_id": "20260320_clarksongoldenknights_dartmouthbiggreen",
+      "season": 2026
+    },
+    {
+      "id": 401859823,
+      "datetime": "2026-03-20T23:00:00.000Z",
+      "neutral_site": 1,
+      "is_postseason": 0,
+      "home_team_name": "cornellbigred",
+      "home_team_id": 172,
+      "away_team_name": "princetontigers",
+      "away_team_id": 163,
+      "home_elo_pre": 1638.143660123,
+      "away_elo_pre": 1502.0990474183,
+      "elo_diff": 136.0446127047,
+      "elo_spread": -4.5348204235,
+      "home_elo_prob": 0.5966600754,
+      "away_elo_prob": 0.4033399246,
+      "home_elo_post": 1640.7765835101,
+      "away_elo_post": 1499.4661240312,
+      "tournament_id": null,
+      "str_event_id": "20260320_cornellbigred_princetontigers",
       "season": 2026
     },
     {
@@ -148,6 +127,27 @@
       "season": 2026
     },
     {
+      "id": 401859746,
+      "datetime": "2026-03-21T04:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "bentleyfalcons",
+      "home_team_id": 2060,
+      "away_team_name": "sacredheartpioneers",
+      "away_team_id": 2529,
+      "home_elo_pre": 1569.3130334422,
+      "away_elo_pre": 1499.7126351257,
+      "elo_diff": 74.6003983164,
+      "elo_spread": -2.4866799439,
+      "home_elo_prob": 0.5534740144,
+      "away_elo_prob": 0.4465259856,
+      "home_elo_post": 1572.3066058603,
+      "away_elo_post": 1496.7190627076,
+      "tournament_id": null,
+      "str_event_id": "20260321_bentleyfalcons_sacredheartpioneers",
+      "season": 2026
+    },
+    {
       "id": 401859795,
       "datetime": "2026-03-21T04:00:00.000Z",
       "neutral_site": 0,
@@ -169,5 +169,5 @@
       "season": 2026
     }
   ],
-  "lastupdated": "2026-03-15T09:23:42.818109"
+  "lastupdated": "2026-03-16T09:53:23.770370"
 }
