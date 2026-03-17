@@ -1,25 +1,17 @@
 {
   "teams": [
     {
-      "id": 401803396,
+      "id": 401803418,
       "team_name": "avalanche",
       "rank": 1,
-      "elo_rating": 1637.8363808865,
+      "elo_rating": 1628.434132792,
       "season": 2026,
-      "lastupdated": "2026-03-14T20:00:00.000Z"
-    },
-    {
-      "id": 401803404,
-      "team_name": "stars",
-      "rank": 2,
-      "elo_rating": 1605.9520534946,
-      "season": 2026,
-      "lastupdated": "2026-03-15T00:00:00.000Z"
+      "lastupdated": "2026-03-17T01:50:00.000Z"
     },
     {
       "id": 401803400,
       "team_name": "lightning",
-      "rank": 3,
+      "rank": 2,
       "elo_rating": 1604.2141547563,
       "season": 2026,
       "lastupdated": "2026-03-14T23:00:00.000Z"
@@ -27,10 +19,18 @@
     {
       "id": 401803400,
       "team_name": "hurricanes",
-      "rank": 4,
+      "rank": 3,
       "elo_rating": 1601.6947494735,
       "season": 2026,
       "lastupdated": "2026-03-14T23:00:00.000Z"
+    },
+    {
+      "id": 401803417,
+      "team_name": "stars",
+      "rank": 4,
+      "elo_rating": 1599.1807048649,
+      "season": 2026,
+      "lastupdated": "2026-03-17T00:00:00.000Z"
     },
     {
       "id": 401803398,
@@ -81,20 +81,20 @@
       "lastupdated": "2026-03-15T21:00:00.000Z"
     },
     {
+      "id": 401803417,
+      "team_name": "mammoth",
+      "rank": 11,
+      "elo_rating": 1526.1534992801,
+      "season": 2026,
+      "lastupdated": "2026-03-17T00:00:00.000Z"
+    },
+    {
       "id": 401803408,
       "team_name": "jets",
-      "rank": 11,
+      "rank": 12,
       "elo_rating": 1520.3729813318,
       "season": 2026,
       "lastupdated": "2026-03-15T19:00:00.000Z"
-    },
-    {
-      "id": 401803405,
-      "team_name": "mammoth",
-      "rank": 12,
-      "elo_rating": 1519.3821506503,
-      "season": 2026,
-      "lastupdated": "2026-03-15T01:00:00.000Z"
     },
     {
       "id": 401803395,
@@ -105,17 +105,25 @@
       "lastupdated": "2026-03-14T19:00:00.000Z"
     },
     {
-      "id": 401803395,
-      "team_name": "bruins",
+      "id": 401803418,
+      "team_name": "penguins",
       "rank": 14,
-      "elo_rating": 1516.585721062,
+      "elo_rating": 1517.2331743848,
       "season": 2026,
-      "lastupdated": "2026-03-14T19:00:00.000Z"
+      "lastupdated": "2026-03-17T01:50:00.000Z"
+    },
+    {
+      "id": 401803415,
+      "team_name": "bruins",
+      "rank": 15,
+      "elo_rating": 1513.719889094,
+      "season": 2026,
+      "lastupdated": "2026-03-16T23:00:00.000Z"
     },
     {
       "id": 401688921,
       "team_name": "usa",
-      "rank": 15,
+      "rank": 16,
       "elo_rating": 1510.8584462156,
       "season": 2025,
       "lastupdated": "2025-02-21T01:00:00.000Z"
@@ -123,7 +131,7 @@
     {
       "id": 401688921,
       "team_name": "canada",
-      "rank": 16,
+      "rank": 17,
       "elo_rating": 1510.5894520212,
       "season": 2025,
       "lastupdated": "2025-02-21T01:00:00.000Z"
@@ -131,7 +139,7 @@
     {
       "id": 401803410,
       "team_name": "canadiens",
-      "rank": 17,
+      "rank": 18,
       "elo_rating": 1508.444565695,
       "season": 2026,
       "lastupdated": "2026-03-15T23:00:00.000Z"
@@ -139,34 +147,26 @@
     {
       "id": 401803403,
       "team_name": "bluejackets",
-      "rank": 18,
+      "rank": 19,
       "elo_rating": 1508.4119590068,
       "season": 2026,
       "lastupdated": "2026-03-14T23:30:00.000Z"
     },
     {
-      "id": 401803405,
-      "team_name": "penguins",
-      "rank": 19,
-      "elo_rating": 1507.8309262903,
+      "id": 401803414,
+      "team_name": "redwings",
+      "rank": 20,
+      "elo_rating": 1505.8436389176,
       "season": 2026,
-      "lastupdated": "2026-03-15T01:00:00.000Z"
+      "lastupdated": "2026-03-16T23:00:00.000Z"
     },
     {
       "id": 401688920,
       "team_name": "sweden",
-      "rank": 20,
+      "rank": 21,
       "elo_rating": 1502.2947274884,
       "season": 2025,
       "lastupdated": "2025-02-18T01:00:00.000Z"
-    },
-    {
-      "id": 401803404,
-      "team_name": "redwings",
-      "rank": 21,
-      "elo_rating": 1501.1467796914,
-      "season": 2026,
-      "lastupdated": "2026-03-15T00:00:00.000Z"
     },
     {
       "id": 401803402,
@@ -185,44 +185,44 @@
       "lastupdated": "2026-03-15T23:30:00.000Z"
     },
     {
+      "id": 401803416,
+      "team_name": "kings",
+      "rank": 24,
+      "elo_rating": 1496.7702153506,
+      "season": 2026,
+      "lastupdated": "2026-03-16T23:00:00.000Z"
+    },
+    {
       "id": 401688919,
       "team_name": "finland",
-      "rank": 24,
+      "rank": 25,
       "elo_rating": 1496.2573742748,
       "season": 2025,
       "lastupdated": "2025-02-17T18:00:00.000Z"
     },
     {
-      "id": 401803401,
-      "team_name": "kings",
-      "rank": 25,
-      "elo_rating": 1490.9780134318,
-      "season": 2026,
-      "lastupdated": "2026-03-14T23:00:00.000Z"
-    },
-    {
-      "id": 401803397,
+      "id": 401803416,
       "team_name": "rangers",
       "rank": 26,
-      "elo_rating": 1489.2602756308,
+      "elo_rating": 1483.4680737119,
       "season": 2026,
-      "lastupdated": "2026-03-14T22:00:00.000Z"
+      "lastupdated": "2026-03-16T23:00:00.000Z"
+    },
+    {
+      "id": 401803415,
+      "team_name": "devils",
+      "rank": 27,
+      "elo_rating": 1476.8314653197,
+      "season": 2026,
+      "lastupdated": "2026-03-16T23:00:00.000Z"
     },
     {
       "id": 401803413,
       "team_name": "kraken",
-      "rank": 27,
+      "rank": 28,
       "elo_rating": 1475.4659395896,
       "season": 2026,
       "lastupdated": "2026-03-16T00:00:00.000Z"
-    },
-    {
-      "id": 401803401,
-      "team_name": "devils",
-      "rank": 28,
-      "elo_rating": 1473.9656333517,
-      "season": 2026,
-      "lastupdated": "2026-03-14T23:00:00.000Z"
     },
     {
       "id": 401803408,
@@ -257,12 +257,12 @@
       "lastupdated": "2026-03-16T00:00:00.000Z"
     },
     {
-      "id": 401803402,
+      "id": 401803414,
       "team_name": "flames",
       "rank": 33,
-      "elo_rating": 1441.9570535573,
+      "elo_rating": 1437.260194331,
       "season": 2026,
-      "lastupdated": "2026-03-14T23:00:00.000Z"
+      "lastupdated": "2026-03-16T23:00:00.000Z"
     },
     {
       "id": 401803409,
@@ -289,5 +289,5 @@
       "lastupdated": "2026-03-15T02:00:00.000Z"
     }
   ],
-  "lastupdated": "2026-03-16T09:53:25.869408"
+  "lastupdated": "2026-03-17T09:43:32.563369"
 }

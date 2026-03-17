@@ -43,27 +43,6 @@
       "season": 2026
     },
     {
-      "id": 401859823,
-      "datetime": "2026-03-20T23:00:00.000Z",
-      "neutral_site": 1,
-      "is_postseason": 0,
-      "home_team_name": "cornellbigred",
-      "home_team_id": 172,
-      "away_team_name": "princetontigers",
-      "away_team_id": 163,
-      "home_elo_pre": 1638.143660123,
-      "away_elo_pre": 1502.0990474183,
-      "elo_diff": 136.0446127047,
-      "elo_spread": -4.5348204235,
-      "home_elo_prob": 0.5966600754,
-      "away_elo_prob": 0.4033399246,
-      "home_elo_post": 1640.7765835101,
-      "away_elo_post": 1499.4661240312,
-      "tournament_id": null,
-      "str_event_id": "20260320_cornellbigred_princetontigers",
-      "season": 2026
-    },
-    {
       "id": 401859776,
       "datetime": "2026-03-20T23:00:00.000Z",
       "neutral_site": 1,
@@ -82,6 +61,27 @@
       "away_elo_post": 1642.2967030013,
       "tournament_id": null,
       "str_event_id": "20260320_uconnhuskies_bostoncollegeeagles",
+      "season": 2026
+    },
+    {
+      "id": 401859823,
+      "datetime": "2026-03-20T23:00:00.000Z",
+      "neutral_site": 1,
+      "is_postseason": 0,
+      "home_team_name": "cornellbigred",
+      "home_team_id": 172,
+      "away_team_name": "princetontigers",
+      "away_team_id": 163,
+      "home_elo_pre": 1638.143660123,
+      "away_elo_pre": 1502.0990474183,
+      "elo_diff": 136.0446127047,
+      "elo_spread": -4.5348204235,
+      "home_elo_prob": 0.5966600754,
+      "away_elo_prob": 0.4033399246,
+      "home_elo_post": 1640.7765835101,
+      "away_elo_post": 1499.4661240312,
+      "tournament_id": null,
+      "str_event_id": "20260320_cornellbigred_princetontigers",
       "season": 2026
     },
     {
@@ -106,29 +106,8 @@
       "season": 2026
     },
     {
-      "id": 401859752,
-      "datetime": "2026-03-21T04:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "michiganwolverines",
-      "home_team_id": 130,
-      "away_team_name": "ohiostatebuckeyes",
-      "away_team_id": 194,
-      "home_elo_pre": 1663.4043443726,
-      "away_elo_pre": 1526.6366919311,
-      "elo_diff": 141.7676524415,
-      "elo_spread": -4.7255884147,
-      "home_elo_prob": 0.6006178396,
-      "away_elo_prob": 0.3993821604,
-      "home_elo_post": 1666.0050608014,
-      "away_elo_post": 1524.0359755022,
-      "tournament_id": null,
-      "str_event_id": "20260321_michiganwolverines_ohiostatebuckeyes",
-      "season": 2026
-    },
-    {
       "id": 401859746,
-      "datetime": "2026-03-21T04:00:00.000Z",
+      "datetime": "2026-03-21T23:00:00.000Z",
       "neutral_site": 0,
       "is_postseason": 0,
       "home_team_name": "bentleyfalcons",
@@ -148,8 +127,29 @@
       "season": 2026
     },
     {
+      "id": 401859752,
+      "datetime": "2026-03-22T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "michiganwolverines",
+      "home_team_id": 130,
+      "away_team_name": "ohiostatebuckeyes",
+      "away_team_id": 194,
+      "home_elo_pre": 1663.4043443726,
+      "away_elo_pre": 1526.6366919311,
+      "elo_diff": 141.7676524415,
+      "elo_spread": -4.7255884147,
+      "home_elo_prob": 0.6006178396,
+      "away_elo_prob": 0.3993821604,
+      "home_elo_post": 1666.0050608014,
+      "away_elo_post": 1524.0359755022,
+      "tournament_id": null,
+      "str_event_id": "20260322_michiganwolverines_ohiostatebuckeyes",
+      "season": 2026
+    },
+    {
       "id": 401859795,
-      "datetime": "2026-03-21T04:00:00.000Z",
+      "datetime": "2026-03-22T00:00:00.000Z",
       "neutral_site": 0,
       "is_postseason": 0,
       "home_team_name": "denverpioneers",
@@ -165,9 +165,9 @@
       "home_elo_post": 1694.6559179485,
       "away_elo_post": 1544.6133906648,
       "tournament_id": null,
-      "str_event_id": "20260321_denverpioneers_minnesotaduluthbulldogs",
+      "str_event_id": "20260322_denverpioneers_minnesotaduluthbulldogs",
       "season": 2026
     }
   ],
-  "lastupdated": "2026-03-16T09:53:23.766460"
+  "lastupdated": "2026-03-17T09:43:30.642381"
 }
