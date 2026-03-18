@@ -1,6 +1,27 @@
 {
   "events": [
     {
+      "id": 401859822,
+      "datetime": "2026-03-20T19:45:00.000Z",
+      "neutral_site": 1,
+      "is_postseason": 0,
+      "home_team_name": "clarksongoldenknights",
+      "home_team_id": 2137,
+      "away_team_name": "dartmouthbiggreen",
+      "away_team_id": 159,
+      "home_elo_pre": 1550.0341349042,
+      "away_elo_pre": 1587.507179909,
+      "elo_diff": -37.4730450048,
+      "elo_spread": 1.2491015002,
+      "home_elo_prob": 0.4730620855,
+      "away_elo_prob": 0.5269379145,
+      "home_elo_post": 1546.8100351399,
+      "away_elo_post": 1590.7312796734,
+      "tournament_id": null,
+      "str_event_id": "20260320_clarksongoldenknights_dartmouthbiggreen",
+      "season": 2026
+    },
+    {
       "id": 401859775,
       "datetime": "2026-03-20T20:00:00.000Z",
       "neutral_site": 1,
@@ -22,24 +43,24 @@
       "season": 2026
     },
     {
-      "id": 401859822,
-      "datetime": "2026-03-20T20:00:00.000Z",
+      "id": 401859823,
+      "datetime": "2026-03-20T22:50:00.000Z",
       "neutral_site": 1,
       "is_postseason": 0,
-      "home_team_name": "clarksongoldenknights",
-      "home_team_id": 2137,
-      "away_team_name": "dartmouthbiggreen",
-      "away_team_id": 159,
-      "home_elo_pre": 1550.0341349042,
-      "away_elo_pre": 1587.507179909,
-      "elo_diff": -37.4730450048,
-      "elo_spread": 1.2491015002,
-      "home_elo_prob": 0.4730620855,
-      "away_elo_prob": 0.5269379145,
-      "home_elo_post": 1546.8100351399,
-      "away_elo_post": 1590.7312796734,
+      "home_team_name": "cornellbigred",
+      "home_team_id": 172,
+      "away_team_name": "princetontigers",
+      "away_team_id": 163,
+      "home_elo_pre": 1638.143660123,
+      "away_elo_pre": 1502.0990474183,
+      "elo_diff": 136.0446127047,
+      "elo_spread": -4.5348204235,
+      "home_elo_prob": 0.5966600754,
+      "away_elo_prob": 0.4033399246,
+      "home_elo_post": 1640.7765835101,
+      "away_elo_post": 1499.4661240312,
       "tournament_id": null,
-      "str_event_id": "20260320_clarksongoldenknights_dartmouthbiggreen",
+      "str_event_id": "20260320_cornellbigred_princetontigers",
       "season": 2026
     },
     {
@@ -61,27 +82,6 @@
       "away_elo_post": 1642.2967030013,
       "tournament_id": null,
       "str_event_id": "20260320_uconnhuskies_bostoncollegeeagles",
-      "season": 2026
-    },
-    {
-      "id": 401859823,
-      "datetime": "2026-03-20T23:00:00.000Z",
-      "neutral_site": 1,
-      "is_postseason": 0,
-      "home_team_name": "cornellbigred",
-      "home_team_id": 172,
-      "away_team_name": "princetontigers",
-      "away_team_id": 163,
-      "home_elo_pre": 1638.143660123,
-      "away_elo_pre": 1502.0990474183,
-      "elo_diff": 136.0446127047,
-      "elo_spread": -4.5348204235,
-      "home_elo_prob": 0.5966600754,
-      "away_elo_prob": 0.4033399246,
-      "home_elo_post": 1640.7765835101,
-      "away_elo_post": 1499.4661240312,
-      "tournament_id": null,
-      "str_event_id": "20260320_cornellbigred_princetontigers",
       "season": 2026
     },
     {
@@ -169,5 +169,5 @@
       "season": 2026
     }
   ],
-  "lastupdated": "2026-03-17T09:43:30.642381"
+  "lastupdated": "2026-03-18T09:41:47.327003"
 }
