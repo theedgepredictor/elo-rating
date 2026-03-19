@@ -321,9 +321,17 @@
       "lastupdated": "2026-03-14T16:00:00.000Z"
     },
     {
+      "id": 401839289,
+      "team_name": "providence",
+      "rank": 41,
+      "elo_rating": 1477.6477875489,
+      "season": 2026,
+      "lastupdated": "2026-03-18T22:00:00.000Z"
+    },
+    {
       "id": 401842401,
       "team_name": "vermont",
-      "rank": 41,
+      "rank": 42,
       "elo_rating": 1471.4897645183,
       "season": 2026,
       "lastupdated": "2026-03-14T16:00:00.000Z"
@@ -331,7 +339,7 @@
     {
       "id": 401838669,
       "team_name": "vmi",
-      "rank": 42,
+      "rank": 43,
       "elo_rating": 1466.6341389465,
       "season": 2026,
       "lastupdated": "2026-03-14T18:00:00.000Z"
@@ -339,18 +347,10 @@
     {
       "id": 401837782,
       "team_name": "colgate",
-      "rank": 43,
+      "rank": 44,
       "elo_rating": 1457.2114340942,
       "season": 2026,
       "lastupdated": "2026-03-14T16:00:00.000Z"
-    },
-    {
-      "id": 401845812,
-      "team_name": "providence",
-      "rank": 44,
-      "elo_rating": 1456.4595522401,
-      "season": 2026,
-      "lastupdated": "2026-03-14T17:00:00.000Z"
     },
     {
       "id": 401837835,
@@ -585,20 +585,20 @@
       "lastupdated": "2026-03-14T17:00:00.000Z"
     },
     {
-      "id": 401837960,
-      "team_name": "quinnipiac",
-      "rank": 74,
-      "elo_rating": 1244.5569572002,
-      "season": 2026,
-      "lastupdated": "2026-03-14T16:00:00.000Z"
-    },
-    {
       "id": 401839854,
       "team_name": "wagner",
-      "rank": 75,
+      "rank": 74,
       "elo_rating": 1239.3924846856,
       "season": 2026,
       "lastupdated": "2026-03-14T18:00:00.000Z"
+    },
+    {
+      "id": 401839289,
+      "team_name": "quinnipiac",
+      "rank": 75,
+      "elo_rating": 1223.3687218914,
+      "season": 2026,
+      "lastupdated": "2026-03-18T22:00:00.000Z"
     },
     {
       "id": 401837920,
@@ -617,5 +617,5 @@
       "lastupdated": "2026-03-14T16:00:00.000Z"
     }
   ],
-  "lastupdated": "2026-03-18T09:41:47.735256"
+  "lastupdated": "2026-03-19T09:32:53.287831"
 }
