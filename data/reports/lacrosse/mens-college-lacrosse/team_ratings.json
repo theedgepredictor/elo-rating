@@ -73,20 +73,20 @@
       "lastupdated": "2026-03-21T20:30:00.000Z"
     },
     {
+      "id": 401837801,
+      "team_name": "harvard",
+      "rank": 10,
+      "elo_rating": 1754.7314167019,
+      "season": 2026,
+      "lastupdated": "2026-03-24T23:00:00.000Z"
+    },
+    {
       "id": 401837980,
       "team_name": "princeton",
-      "rank": 10,
+      "rank": 11,
       "elo_rating": 1746.5508757519,
       "season": 2026,
       "lastupdated": "2026-03-21T16:00:00.000Z"
-    },
-    {
-      "id": 401838001,
-      "team_name": "harvard",
-      "rank": 11,
-      "elo_rating": 1737.6608279895,
-      "season": 2026,
-      "lastupdated": "2026-03-20T23:00:00.000Z"
     },
     {
       "id": 401838564,
@@ -161,17 +161,9 @@
       "lastupdated": "2026-03-22T17:00:00.000Z"
     },
     {
-      "id": 401837800,
-      "team_name": "bostonuniversity",
-      "rank": 21,
-      "elo_rating": 1618.3128844768,
-      "season": 2026,
-      "lastupdated": "2026-03-21T18:30:00.000Z"
-    },
-    {
       "id": 401837831,
       "team_name": "rutgers",
-      "rank": 22,
+      "rank": 21,
       "elo_rating": 1608.4868213527,
       "season": 2026,
       "lastupdated": "2026-03-21T17:00:00.000Z"
@@ -179,10 +171,18 @@
     {
       "id": 401838670,
       "team_name": "longislanduniversi",
-      "rank": 23,
+      "rank": 22,
       "elo_rating": 1607.0419492595,
       "season": 2026,
       "lastupdated": "2026-03-21T16:00:00.000Z"
+    },
+    {
+      "id": 401837801,
+      "team_name": "bostonuniversity",
+      "rank": 23,
+      "elo_rating": 1601.2422957643,
+      "season": 2026,
+      "lastupdated": "2026-03-24T23:00:00.000Z"
     },
     {
       "id": 401837768,
@@ -617,5 +617,5 @@
       "lastupdated": "2026-03-21T16:00:00.000Z"
     }
   ],
-  "lastupdated": "2026-03-24T09:43:59.640817"
+  "lastupdated": "2026-03-25T09:42:36.598999"
 }

@@ -1,4 +1,47 @@
 {
-  "events": null,
-  "lastupdated": "2026-03-24T09:43:57.748771"
+  "events": [
+    {
+      "id": 401856568,
+      "datetime": "2026-03-26T23:10:00.000Z",
+      "neutral_site": 1,
+      "is_postseason": 1,
+      "home_team_name": "purdue",
+      "home_team_id": 2509,
+      "away_team_name": "texas",
+      "away_team_id": 251,
+      "home_elo_pre": 2230.1220830065,
+      "away_elo_pre": 1915.6569245227,
+      "elo_diff": 314.4651584839,
+      "elo_spread": -10.4821719495,
+      "home_elo_prob": 0.7119971398,
+      "away_elo_prob": 0.2880028602,
+      "home_elo_post": 2235.3619537651,
+      "away_elo_post": 1910.417053764,
+      "tournament_id": 22,
+      "str_event_id": "20260326_purdue_texas",
+      "season": 2026
+    },
+    {
+      "id": 401856567,
+      "datetime": "2026-03-26T23:30:00.000Z",
+      "neutral_site": 1,
+      "is_postseason": 1,
+      "home_team_name": "nebraska",
+      "home_team_id": 158,
+      "away_team_name": "iowa",
+      "away_team_id": 2294,
+      "home_elo_pre": 2049.660288456,
+      "away_elo_pre": 1924.0439065658,
+      "elo_diff": 125.6163818902,
+      "elo_spread": -4.1872127297,
+      "home_elo_prob": 0.589416322,
+      "away_elo_prob": 0.410583678,
+      "home_elo_post": 2057.736970743,
+      "away_elo_post": 1915.9672242788,
+      "tournament_id": 22,
+      "str_event_id": "20260326_nebraska_iowa",
+      "season": 2026
+    }
+  ],
+  "lastupdated": "2026-03-25T09:42:34.675269"
 }
