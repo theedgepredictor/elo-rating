@@ -1,4 +1,30 @@
 {
-  "events": null,
-  "lastupdated": "2026-03-25T09:42:37.516807"
+  "events": [
+    {
+      "id": 401814702,
+      "datetime": "2026-03-26T00:05:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "giants",
+      "home_team_id": 26,
+      "away_team_name": "yankees",
+      "away_team_id": 10,
+      "home_elo_pre": 1502.0174710907,
+      "away_elo_pre": 1545.4506401903,
+      "elo_diff": 6.5668309004,
+      "elo_spread": -0.525346472,
+      "home_elo_prob": 0.504725074,
+      "away_elo_prob": 0.495274926,
+      "home_elo_post": 1496.7540286897,
+      "away_elo_post": 1550.7140825914,
+      "tournament_id": null,
+      "str_event_id": "20260326_giants_yankees",
+      "season": 2026,
+      "result": false,
+      "point_dif": 7,
+      "home_team_score": 0,
+      "away_team_score": 7
+    }
+  ],
+  "lastupdated": "2026-03-26T09:51:56.864092"
 }

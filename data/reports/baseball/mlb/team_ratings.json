@@ -33,17 +33,9 @@
       "lastupdated": "2025-10-09T22:08:00.000Z"
     },
     {
-      "id": 401809266,
-      "team_name": "yankees",
-      "rank": 5,
-      "elo_rating": 1581.7298373509,
-      "season": 2025,
-      "lastupdated": "2025-10-08T23:08:00.000Z"
-    },
-    {
       "id": 401809256,
       "team_name": "redsox",
-      "rank": 6,
+      "rank": 5,
       "elo_rating": 1558.0471331155,
       "season": 2025,
       "lastupdated": "2025-10-03T00:00:00.000Z"
@@ -51,10 +43,18 @@
     {
       "id": 401809277,
       "team_name": "cubs",
-      "rank": 7,
+      "rank": 6,
       "elo_rating": 1558.0417773689,
       "season": 2025,
       "lastupdated": "2025-10-12T00:08:00.000Z"
+    },
+    {
+      "id": 401814702,
+      "team_name": "yankees",
+      "rank": 7,
+      "elo_rating": 1550.7140825914,
+      "season": 2026,
+      "lastupdated": "2026-03-26T00:05:00.000Z"
     },
     {
       "id": 401809289,
@@ -137,12 +137,12 @@
       "lastupdated": "2025-09-28T19:10:00.000Z"
     },
     {
-      "id": 401697334,
+      "id": 401814702,
       "team_name": "giants",
       "rank": 18,
-      "elo_rating": 1505.3302603246,
-      "season": 2025,
-      "lastupdated": "2025-09-28T19:05:00.000Z"
+      "elo_rating": 1496.7540286897,
+      "season": 2026,
+      "lastupdated": "2026-03-26T00:05:00.000Z"
     },
     {
       "id": 401697329,
@@ -241,5 +241,5 @@
       "lastupdated": "2025-09-28T19:05:00.000Z"
     }
   ],
-  "lastupdated": "2026-03-25T09:42:37.817483"
+  "lastupdated": "2026-03-26T09:51:57.171815"
 }
