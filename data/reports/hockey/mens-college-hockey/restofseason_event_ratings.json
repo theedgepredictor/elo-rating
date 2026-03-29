@@ -1,48 +1,6 @@
 {
   "events": [
     {
-      "id": 401866195,
-      "datetime": "2026-03-28T20:30:00.000Z",
-      "neutral_site": 1,
-      "is_postseason": 1,
-      "home_team_name": "michiganstatespartans",
-      "home_team_id": 127,
-      "away_team_name": "wisconsinbadgers",
-      "away_team_id": 275,
-      "home_elo_pre": 1656.5575247807,
-      "away_elo_pre": 1565.420391675,
-      "elo_diff": 91.1371331057,
-      "elo_spread": -3.0379044369,
-      "home_elo_prob": 0.5652049788,
-      "away_elo_prob": 0.4347950212,
-      "home_elo_post": 1659.4514121226,
-      "away_elo_post": 1562.5265043331,
-      "tournament_id": null,
-      "str_event_id": "20260328_michiganstatespartans_wisconsinbadgers",
-      "season": 2026
-    },
-    {
-      "id": 401866194,
-      "datetime": "2026-03-28T23:00:00.000Z",
-      "neutral_site": 1,
-      "is_postseason": 1,
-      "home_team_name": "northdakotafightinghawks",
-      "home_team_id": 155,
-      "away_team_name": "quinnipiacbobcats",
-      "away_team_id": 2514,
-      "home_elo_pre": 1652.6046755278,
-      "away_elo_pre": 1684.2464000521,
-      "elo_diff": -31.6417245242,
-      "elo_spread": 1.0547241508,
-      "home_elo_prob": 0.4772476728,
-      "away_elo_prob": 0.5227523272,
-      "home_elo_post": 1649.3435502076,
-      "away_elo_post": 1687.5075253723,
-      "tournament_id": null,
-      "str_event_id": "20260328_northdakotafightinghawks_quinnipiacbobcats",
-      "season": 2026
-    },
-    {
       "id": 401866193,
       "datetime": "2026-03-29T19:00:00.000Z",
       "neutral_site": 1,
@@ -83,7 +41,28 @@
       "tournament_id": null,
       "str_event_id": "20260329_michiganwolverines_minnesotaduluthbulldogs",
       "season": 2026
+    },
+    {
+      "id": 401862339,
+      "datetime": "2026-04-09T04:00:00.000Z",
+      "neutral_site": 1,
+      "is_postseason": 1,
+      "home_team_name": "northdakotafightinghawks",
+      "home_team_id": 155,
+      "away_team_name": "wisconsinbadgers",
+      "away_team_id": 275,
+      "home_elo_pre": 1662.1078197942,
+      "away_elo_pre": 1569.507402433,
+      "elo_diff": 92.6004173611,
+      "elo_spread": -3.0866805787,
+      "home_elo_prob": 0.566239704,
+      "away_elo_prob": 0.433760296,
+      "home_elo_post": 1664.9929775941,
+      "away_elo_post": 1566.6222446331,
+      "tournament_id": null,
+      "str_event_id": "20260409_northdakotafightinghawks_wisconsinbadgers",
+      "season": 2026
     }
   ],
-  "lastupdated": "2026-03-28T09:26:17.512288"
+  "lastupdated": "2026-03-29T09:27:49.637638"
 }
