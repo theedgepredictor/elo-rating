@@ -1,28 +1,28 @@
 {
   "teams": [
     {
-      "id": 401856570,
-      "team_name": "duke",
-      "rank": 1,
-      "elo_rating": 2504.7750554361,
-      "season": 2026,
-      "lastupdated": "2026-03-27T23:10:00.000Z"
-    },
-    {
       "id": 401856575,
       "team_name": "arizona",
-      "rank": 2,
+      "rank": 1,
       "elo_rating": 2488.2057087417,
       "season": 2026,
       "lastupdated": "2026-03-29T00:59:00.000Z"
     },
     {
-      "id": 401856572,
+      "id": 401856577,
+      "team_name": "duke",
+      "rank": 2,
+      "elo_rating": 2487.2773625628,
+      "season": 2026,
+      "lastupdated": "2026-03-29T21:05:00.000Z"
+    },
+    {
+      "id": 401856576,
       "team_name": "michigan",
       "rank": 3,
-      "elo_rating": 2434.3667031136,
+      "elo_rating": 2464.242044182,
       "season": 2026,
-      "lastupdated": "2026-03-27T23:35:00.000Z"
+      "lastupdated": "2026-03-29T18:15:00.000Z"
     },
     {
       "id": 401856563,
@@ -73,12 +73,12 @@
       "lastupdated": "2026-03-21T23:10:00.000Z"
     },
     {
-      "id": 401856571,
+      "id": 401856577,
       "team_name": "uconn",
       "rank": 10,
-      "elo_rating": 2180.8318432319,
+      "elo_rating": 2198.3295361053,
       "season": 2026,
-      "lastupdated": "2026-03-28T01:55:00.000Z"
+      "lastupdated": "2026-03-29T21:05:00.000Z"
     },
     {
       "id": 401856569,
@@ -97,17 +97,9 @@
       "lastupdated": "2026-03-28T01:55:00.000Z"
     },
     {
-      "id": 401856573,
-      "team_name": "tennessee",
-      "rank": 13,
-      "elo_rating": 2167.1895698531,
-      "season": 2026,
-      "lastupdated": "2026-03-28T02:35:00.000Z"
-    },
-    {
       "id": 401856572,
       "team_name": "alabama",
-      "rank": 14,
+      "rank": 13,
       "elo_rating": 2148.9315406704,
       "season": 2026,
       "lastupdated": "2026-03-27T23:35:00.000Z"
@@ -115,10 +107,18 @@
     {
       "id": 401856573,
       "team_name": "iowastate",
-      "rank": 15,
+      "rank": 14,
       "elo_rating": 2142.9402406311,
       "season": 2026,
       "lastupdated": "2026-03-28T02:35:00.000Z"
+    },
+    {
+      "id": 401856576,
+      "team_name": "tennessee",
+      "rank": 15,
+      "elo_rating": 2137.3142287848,
+      "season": 2026,
+      "lastupdated": "2026-03-29T18:15:00.000Z"
     },
     {
       "id": 401856534,
@@ -4697,5 +4697,5 @@
       "lastupdated": "2026-03-06T01:30:00.000Z"
     }
   ],
-  "lastupdated": "2026-03-29T09:27:48.721306"
+  "lastupdated": "2026-03-30T10:05:34.377928"
 }
