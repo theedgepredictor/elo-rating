@@ -1,6 +1,27 @@
 {
   "events": [
     {
+      "id": 401858383,
+      "datetime": "2026-04-04T17:30:00.000Z",
+      "neutral_site": 1,
+      "is_postseason": 1,
+      "home_team_name": "baylor",
+      "home_team_id": 239,
+      "away_team_name": "oklahoma",
+      "away_team_id": 201,
+      "home_elo_pre": 1722.0758706754,
+      "away_elo_pre": 1895.5556308722,
+      "elo_diff": -173.4797601967,
+      "elo_spread": 5.7826586732,
+      "home_elo_prob": 0.3777016864,
+      "away_elo_prob": 0.6222983136,
+      "home_elo_post": 1714.795847065,
+      "away_elo_post": 1902.8356544826,
+      "tournament_id": 161,
+      "str_event_id": "20260404_baylor_oklahoma",
+      "season": 2026
+    },
+    {
       "id": 401856598,
       "datetime": "2026-04-04T22:09:00.000Z",
       "neutral_site": 1,
@@ -43,5 +64,5 @@
       "season": 2026
     }
   ],
-  "lastupdated": "2026-04-01T09:58:27.675228"
+  "lastupdated": "2026-04-02T09:50:47.920146"
 }
