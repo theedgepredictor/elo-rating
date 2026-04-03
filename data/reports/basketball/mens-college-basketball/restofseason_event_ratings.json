@@ -22,6 +22,27 @@
       "season": 2026
     },
     {
+      "id": 401858384,
+      "datetime": "2026-04-04T20:00:00.000Z",
+      "neutral_site": 1,
+      "is_postseason": 1,
+      "home_team_name": "creighton",
+      "home_team_id": 156,
+      "away_team_name": "westvirginia",
+      "away_team_id": 277,
+      "home_elo_pre": 1668.8361853979,
+      "away_elo_pre": 1747.7042491465,
+      "elo_diff": -78.8680637486,
+      "elo_spread": 2.6289354583,
+      "home_elo_prob": 0.443492308,
+      "away_elo_prob": 0.556507692,
+      "home_elo_post": 1659.9331867757,
+      "away_elo_post": 1756.6072477688,
+      "tournament_id": 161,
+      "str_event_id": "20260404_creighton_westvirginia",
+      "season": 2026
+    },
+    {
       "id": 401856598,
       "datetime": "2026-04-04T22:09:00.000Z",
       "neutral_site": 1,
@@ -64,5 +85,5 @@
       "season": 2026
     }
   ],
-  "lastupdated": "2026-04-02T09:50:47.920146"
+  "lastupdated": "2026-04-03T09:42:27.821306"
 }

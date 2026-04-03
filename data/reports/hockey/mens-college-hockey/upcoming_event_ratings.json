@@ -1,4 +1,26 @@
 {
-  "events": null,
-  "lastupdated": "2026-04-02T09:50:49.384710"
+  "events": [
+    {
+      "id": 401862339,
+      "datetime": "2026-04-09T21:00:00.000Z",
+      "neutral_site": 1,
+      "is_postseason": 1,
+      "home_team_name": "northdakotafightinghawks",
+      "home_team_id": 155,
+      "away_team_name": "wisconsinbadgers",
+      "away_team_id": 275,
+      "home_elo_pre": 1662.1078197942,
+      "away_elo_pre": 1569.507402433,
+      "elo_diff": 92.6004173611,
+      "elo_spread": -3.0866805787,
+      "home_elo_prob": 0.566239704,
+      "away_elo_prob": 0.433760296,
+      "home_elo_post": 1664.9929775941,
+      "away_elo_post": 1566.6222446331,
+      "tournament_id": null,
+      "str_event_id": "20260409_northdakotafightinghawks_wisconsinbadgers",
+      "season": 2026
+    }
+  ],
+  "lastupdated": "2026-04-03T09:42:29.263795"
 }
