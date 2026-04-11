@@ -967,6 +967,27 @@
       "season": 2026
     },
     {
+      "id": 401803660,
+      "datetime": "2026-04-16T23:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "mammoth",
+      "home_team_id": 129764,
+      "away_team_name": "blues",
+      "away_team_id": 19,
+      "home_elo_pre": 1543.6417406116,
+      "away_elo_pre": 1482.1869225205,
+      "elo_diff": 86.4548180911,
+      "elo_spread": -4.4109601067,
+      "home_elo_prob": 0.5618902187,
+      "away_elo_prob": 0.4381097813,
+      "home_elo_post": 1545.9792773992,
+      "away_elo_post": 1479.8493857329,
+      "tournament_id": null,
+      "str_event_id": "20260416_mammoth_blues",
+      "season": 2026
+    },
+    {
       "id": 401803658,
       "datetime": "2026-04-17T00:00:00.000Z",
       "neutral_site": 0,
@@ -1006,27 +1027,6 @@
       "away_elo_post": 1387.4141058567,
       "tournament_id": null,
       "str_event_id": "20260417_jets_sharks",
-      "season": 2026
-    },
-    {
-      "id": 401803660,
-      "datetime": "2026-04-17T00:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "mammoth",
-      "home_team_id": 129764,
-      "away_team_name": "blues",
-      "away_team_id": 19,
-      "home_elo_pre": 1543.6417406116,
-      "away_elo_pre": 1482.1869225205,
-      "elo_diff": 86.4548180911,
-      "elo_spread": -4.4109601067,
-      "home_elo_prob": 0.5618902187,
-      "away_elo_prob": 0.4381097813,
-      "home_elo_post": 1545.9792773992,
-      "away_elo_post": 1479.8493857329,
-      "tournament_id": null,
-      "str_event_id": "20260417_mammoth_blues",
       "season": 2026
     },
     {
@@ -1073,7 +1073,7 @@
     },
     {
       "id": 401803663,
-      "datetime": "2026-04-17T02:30:00.000Z",
+      "datetime": "2026-04-17T02:00:00.000Z",
       "neutral_site": 0,
       "is_postseason": 0,
       "home_team_name": "avalanche",
@@ -1093,5 +1093,5 @@
       "season": 2026
     }
   ],
-  "lastupdated": "2026-04-10T10:00:03.490339"
+  "lastupdated": "2026-04-11T09:31:22.272930"
 }
