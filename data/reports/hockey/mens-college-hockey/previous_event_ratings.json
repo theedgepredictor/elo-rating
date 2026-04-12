@@ -1,6 +1,31 @@
 {
   "events": [
     {
+      "id": 401862341,
+      "datetime": "2026-04-11T21:30:00.000Z",
+      "neutral_site": 1,
+      "is_postseason": 1,
+      "home_team_name": "denverpioneers",
+      "home_team_id": 2172,
+      "away_team_name": "wisconsinbadgers",
+      "away_team_id": 275,
+      "home_elo_pre": 1713.5616221084,
+      "away_elo_pre": 1573.6047383475,
+      "elo_diff": 139.956883761,
+      "elo_spread": -4.6652294587,
+      "home_elo_prob": 0.5993669978,
+      "away_elo_prob": 0.4006330022,
+      "home_elo_post": 1716.1725026904,
+      "away_elo_post": 1570.9938577655,
+      "tournament_id": null,
+      "str_event_id": "20260411_denverpioneers_wisconsinbadgers",
+      "season": 2026,
+      "result": true,
+      "point_dif": -1,
+      "home_team_score": 2,
+      "away_team_score": 1
+    },
+    {
       "id": 401862340,
       "datetime": "2026-04-10T00:30:00.000Z",
       "neutral_site": 1,
@@ -51,5 +76,5 @@
       "away_team_score": 2
     }
   ],
-  "lastupdated": "2026-04-11T09:31:20.516698"
+  "lastupdated": "2026-04-12T09:36:51.187115"
 }
