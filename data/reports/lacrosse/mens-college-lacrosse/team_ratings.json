@@ -145,17 +145,9 @@
       "lastupdated": "2026-04-11T16:00:00.000Z"
     },
     {
-      "id": 401843589,
-      "team_name": "longislanduniversi",
-      "rank": 19,
-      "elo_rating": 1633.0279139879,
-      "season": 2026,
-      "lastupdated": "2026-04-04T17:00:00.000Z"
-    },
-    {
       "id": 401837771,
       "team_name": "jacksonville",
-      "rank": 20,
+      "rank": 19,
       "elo_rating": 1632.4230174777,
       "season": 2026,
       "lastupdated": "2026-04-11T16:00:00.000Z"
@@ -163,7 +155,7 @@
     {
       "id": 401838576,
       "team_name": "johnshopkins",
-      "rank": 21,
+      "rank": 20,
       "elo_rating": 1630.2024710333,
       "season": 2026,
       "lastupdated": "2026-04-11T16:00:00.000Z"
@@ -171,7 +163,7 @@
     {
       "id": 401842473,
       "team_name": "robertmorris",
-      "rank": 22,
+      "rank": 21,
       "elo_rating": 1629.287213061,
       "season": 2026,
       "lastupdated": "2026-04-11T17:00:00.000Z"
@@ -179,10 +171,18 @@
     {
       "id": 401838003,
       "team_name": "yale",
-      "rank": 23,
+      "rank": 22,
       "elo_rating": 1628.7042247637,
       "season": 2026,
       "lastupdated": "2026-04-11T19:30:00.000Z"
+    },
+    {
+      "id": 401843592,
+      "team_name": "longislanduniversi",
+      "rank": 23,
+      "elo_rating": 1608.0620563241,
+      "season": 2026,
+      "lastupdated": "2026-04-12T15:00:00.000Z"
     },
     {
       "id": 401840590,
@@ -409,9 +409,17 @@
       "lastupdated": "2026-04-11T21:00:00.000Z"
     },
     {
+      "id": 401843592,
+      "team_name": "vmi",
+      "rank": 52,
+      "elo_rating": 1429.1097418568,
+      "season": 2026,
+      "lastupdated": "2026-04-12T15:00:00.000Z"
+    },
+    {
       "id": 401837377,
       "team_name": "delaware",
-      "rank": 52,
+      "rank": 53,
       "elo_rating": 1424.4229883624,
       "season": 2026,
       "lastupdated": "2026-04-11T18:00:00.000Z"
@@ -419,7 +427,7 @@
     {
       "id": 401838651,
       "team_name": "hofstra",
-      "rank": 53,
+      "rank": 54,
       "elo_rating": 1414.4363804189,
       "season": 2026,
       "lastupdated": "2026-04-11T16:00:00.000Z"
@@ -427,18 +435,10 @@
     {
       "id": 401842481,
       "team_name": "monmouth",
-      "rank": 54,
+      "rank": 55,
       "elo_rating": 1406.5210533041,
       "season": 2026,
       "lastupdated": "2026-04-11T16:00:00.000Z"
-    },
-    {
-      "id": 401842472,
-      "team_name": "vmi",
-      "rank": 55,
-      "elo_rating": 1404.1438841929,
-      "season": 2026,
-      "lastupdated": "2026-04-04T16:00:00.000Z"
     },
     {
       "id": 401839844,
@@ -617,5 +617,5 @@
       "lastupdated": "2026-04-11T16:00:00.000Z"
     }
   ],
-  "lastupdated": "2026-04-12T09:36:51.544443"
+  "lastupdated": "2026-04-13T10:26:04.748447"
 }
