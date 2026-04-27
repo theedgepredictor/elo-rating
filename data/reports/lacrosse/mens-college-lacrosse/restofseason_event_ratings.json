@@ -1,27 +1,6 @@
 {
   "events": [
     {
-      "id": 401867090,
-      "datetime": "2026-04-26T17:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "merrimack",
-      "home_team_id": 2771,
-      "away_team_name": "quinnipiac",
-      "away_team_id": 2514,
-      "home_elo_pre": 1359.0511561647,
-      "away_elo_pre": 1321.1200730366,
-      "elo_diff": 57.931083128,
-      "elo_spread": -1.1034492024,
-      "home_elo_prob": 0.5415884565,
-      "away_elo_prob": 0.4584115435,
-      "home_elo_post": 1368.3389862069,
-      "away_elo_post": 1311.8322429945,
-      "tournament_id": null,
-      "str_event_id": "20260426_merrimack_quinnipiac",
-      "season": 2026
-    },
-    {
       "id": 401867097,
       "datetime": "2026-04-28T22:00:00.000Z",
       "neutral_site": 0,
@@ -61,6 +40,27 @@
       "away_elo_post": 1504.1317391529,
       "tournament_id": null,
       "str_event_id": "20260428_bucknell_colgate",
+      "season": 2026
+    },
+    {
+      "id": 401867091,
+      "datetime": "2026-04-30T16:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "siena",
+      "home_team_id": 2561,
+      "away_team_name": "merrimack",
+      "away_team_id": 2771,
+      "home_elo_pre": 1613.9008038209,
+      "away_elo_pre": 1373.7720184946,
+      "elo_diff": 260.1287853263,
+      "elo_spread": -4.9548340062,
+      "home_elo_prob": 0.6788977304,
+      "away_elo_prob": 0.3211022696,
+      "home_elo_post": 1619.8719118593,
+      "away_elo_post": 1367.8009104562,
+      "tournament_id": null,
+      "str_event_id": "20260430_siena_merrimack",
       "season": 2026
     },
     {
@@ -463,5 +463,5 @@
       "season": 2026
     }
   ],
-  "lastupdated": "2026-04-26T09:42:55.693942"
+  "lastupdated": "2026-04-27T10:51:43.466529"
 }
