@@ -41,17 +41,9 @@
       "lastupdated": "2026-04-12T22:00:00.000Z"
     },
     {
-      "id": 401869410,
-      "team_name": "celtics",
-      "rank": 6,
-      "elo_rating": 1785.1505434372,
-      "season": 2026,
-      "lastupdated": "2026-05-01T00:00:00.000Z"
-    },
-    {
       "id": 401869409,
       "team_name": "lakers",
-      "rank": 7,
+      "rank": 6,
       "elo_rating": 1784.041510137,
       "season": 2026,
       "lastupdated": "2026-05-02T01:30:00.000Z"
@@ -59,10 +51,18 @@
     {
       "id": 401869402,
       "team_name": "nuggets",
-      "rank": 8,
+      "rank": 7,
       "elo_rating": 1757.0873565966,
       "season": 2026,
       "lastupdated": "2026-05-01T01:30:00.000Z"
+    },
+    {
+      "id": 401869412,
+      "team_name": "76ers",
+      "rank": 8,
+      "elo_rating": 1750.8862003315,
+      "season": 2026,
+      "lastupdated": "2026-05-02T23:30:00.000Z"
     },
     {
       "id": 401869402,
@@ -73,12 +73,12 @@
       "lastupdated": "2026-05-01T01:30:00.000Z"
     },
     {
-      "id": 401869410,
-      "team_name": "76ers",
+      "id": 401869412,
+      "team_name": "celtics",
       "rank": 10,
-      "elo_rating": 1703.6248170689,
+      "elo_rating": 1737.8891601745,
       "season": 2026,
-      "lastupdated": "2026-05-01T00:00:00.000Z"
+      "lastupdated": "2026-05-02T23:30:00.000Z"
     },
     {
       "id": 401869409,
@@ -241,5 +241,5 @@
       "lastupdated": "2026-04-12T22:00:00.000Z"
     }
   ],
-  "lastupdated": "2026-05-02T09:52:31.884128"
+  "lastupdated": "2026-05-03T09:58:27.976092"
 }

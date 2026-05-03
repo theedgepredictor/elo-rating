@@ -1,27 +1,6 @@
 {
   "events": [
     {
-      "id": 401869412,
-      "datetime": "2026-05-02T23:30:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 1,
-      "home_team_name": "celtics",
-      "home_team_id": 2,
-      "away_team_name": "76ers",
-      "away_team_id": 20,
-      "home_elo_pre": 1785.1505434372,
-      "away_elo_pre": 1703.6248170689,
-      "elo_diff": 181.5257263683,
-      "elo_spread": -6.0508575456,
-      "home_elo_prob": 0.6277258636,
-      "away_elo_prob": 0.3722741364,
-      "home_elo_post": 1792.3017114903,
-      "away_elo_post": 1696.4736490157,
-      "tournament_id": null,
-      "str_event_id": "20260502_celtics_76ers",
-      "season": 2026
-    },
-    {
       "id": 401869418,
       "datetime": "2026-05-03T19:30:00.000Z",
       "neutral_site": 0,
@@ -62,7 +41,28 @@
       "tournament_id": null,
       "str_event_id": "20260503_cavaliers_raptors",
       "season": 2026
+    },
+    {
+      "id": 401871159,
+      "datetime": "2026-05-05T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "knicks",
+      "home_team_id": 18,
+      "away_team_name": "76ers",
+      "away_team_id": 20,
+      "home_elo_pre": 1888.4751198355,
+      "away_elo_pre": 1750.8862003315,
+      "elo_diff": 237.588919504,
+      "elo_spread": -7.9196306501,
+      "home_elo_prob": 0.6645942877,
+      "away_elo_prob": 0.3354057123,
+      "home_elo_post": 1894.7698828483,
+      "away_elo_post": 1744.5914373187,
+      "tournament_id": null,
+      "str_event_id": "20260505_knicks_76ers",
+      "season": 2026
     }
   ],
-  "lastupdated": "2026-05-02T09:52:31.658175"
+  "lastupdated": "2026-05-03T09:58:27.742771"
 }
