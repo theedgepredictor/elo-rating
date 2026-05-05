@@ -1,48 +1,6 @@
 {
   "events": [
     {
-      "id": 401871411,
-      "datetime": "2026-05-04T23:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 1,
-      "home_team_name": "hurricanes",
-      "home_team_id": 7,
-      "away_team_name": "flyers",
-      "away_team_id": 15,
-      "home_elo_pre": 1631.0332237814,
-      "away_elo_pre": 1499.7313812998,
-      "elo_diff": 156.3018424816,
-      "elo_spread": -7.9745838001,
-      "home_elo_prob": 0.6106090062,
-      "away_elo_prob": 0.3893909938,
-      "home_elo_post": 1633.0492357615,
-      "away_elo_post": 1497.7153693197,
-      "tournament_id": null,
-      "str_event_id": "20260504_hurricanes_flyers",
-      "season": 2026
-    },
-    {
-      "id": 401871423,
-      "datetime": "2026-05-05T01:30:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 1,
-      "home_team_name": "goldenknights",
-      "home_team_id": 37,
-      "away_team_name": "ducks",
-      "away_team_id": 25,
-      "home_elo_pre": 1550.80758667,
-      "away_elo_pre": 1466.514214823,
-      "elo_diff": 109.293371847,
-      "elo_spread": -5.5761924412,
-      "home_elo_prob": 0.5780007455,
-      "away_elo_prob": 0.4219992545,
-      "home_elo_post": 1553.036897899,
-      "away_elo_post": 1464.284903594,
-      "tournament_id": null,
-      "str_event_id": "20260505_goldenknights_ducks",
-      "season": 2026
-    },
-    {
       "id": 401871417,
       "datetime": "2026-05-06T00:00:00.000Z",
       "neutral_site": 0,
@@ -62,7 +20,28 @@
       "tournament_id": null,
       "str_event_id": "20260506_avalanche_wild",
       "season": 2026
+    },
+    {
+      "id": 401871404,
+      "datetime": "2026-05-06T23:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "sabres",
+      "home_team_id": 2,
+      "away_team_name": "canadiens",
+      "away_team_id": 10,
+      "home_elo_pre": 1582.7098414268,
+      "away_elo_pre": 1543.1161947387,
+      "elo_diff": 64.5936466881,
+      "elo_spread": -3.2955942188,
+      "home_elo_prob": 0.5463454493,
+      "away_elo_prob": 0.4536545507,
+      "home_elo_post": 1585.1536833798,
+      "away_elo_post": 1540.6723527857,
+      "tournament_id": null,
+      "str_event_id": "20260506_sabres_canadiens",
+      "season": 2026
     }
   ],
-  "lastupdated": "2026-05-04T10:53:33.584275"
+  "lastupdated": "2026-05-05T10:27:59.977506"
 }
