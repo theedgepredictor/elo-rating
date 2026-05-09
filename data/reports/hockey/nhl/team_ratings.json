@@ -25,20 +25,20 @@
       "lastupdated": "2026-05-03T22:00:00.000Z"
     },
     {
-      "id": 401871404,
-      "team_name": "sabres",
-      "rank": 4,
-      "elo_rating": 1586.5832392801,
-      "season": 2026,
-      "lastupdated": "2026-05-06T23:00:00.000Z"
-    },
-    {
       "id": 401869787,
       "team_name": "stars",
-      "rank": 5,
+      "rank": 4,
       "elo_rating": 1581.5361973559,
       "season": 2026,
       "lastupdated": "2026-04-30T23:30:00.000Z"
+    },
+    {
+      "id": 401871405,
+      "team_name": "sabres",
+      "rank": 5,
+      "elo_rating": 1579.2360993749,
+      "season": 2026,
+      "lastupdated": "2026-05-08T23:00:00.000Z"
     },
     {
       "id": 401871417,
@@ -49,17 +49,25 @@
       "lastupdated": "2026-05-06T00:00:00.000Z"
     },
     {
-      "id": 401871424,
+      "id": 401871425,
       "team_name": "goldenknights",
       "rank": 7,
-      "elo_rating": 1548.9313175272,
+      "elo_rating": 1554.7097142974,
       "season": 2026,
-      "lastupdated": "2026-05-07T01:30:00.000Z"
+      "lastupdated": "2026-05-09T01:30:00.000Z"
+    },
+    {
+      "id": 401871405,
+      "team_name": "canadiens",
+      "rank": 8,
+      "elo_rating": 1546.5899367906,
+      "season": 2026,
+      "lastupdated": "2026-05-08T23:00:00.000Z"
     },
     {
       "id": 401869786,
       "team_name": "senators",
-      "rank": 8,
+      "rank": 9,
       "elo_rating": 1544.0984904553,
       "season": 2026,
       "lastupdated": "2026-04-25T19:00:00.000Z"
@@ -67,18 +75,10 @@
     {
       "id": 401803646,
       "team_name": "capitals",
-      "rank": 9,
+      "rank": 10,
       "elo_rating": 1542.5917691452,
       "season": 2026,
       "lastupdated": "2026-04-14T23:00:00.000Z"
-    },
-    {
-      "id": 401871404,
-      "team_name": "canadiens",
-      "rank": 10,
-      "elo_rating": 1539.2427968855,
-      "season": 2026,
-      "lastupdated": "2026-05-06T23:00:00.000Z"
     },
     {
       "id": 401869776,
@@ -225,12 +225,12 @@
       "lastupdated": "2026-04-14T23:00:00.000Z"
     },
     {
-      "id": 401871424,
+      "id": 401871425,
       "team_name": "ducks",
       "rank": 29,
-      "elo_rating": 1468.3904839659,
+      "elo_rating": 1462.6120871957,
       "season": 2026,
-      "lastupdated": "2026-05-07T01:30:00.000Z"
+      "lastupdated": "2026-05-09T01:30:00.000Z"
     },
     {
       "id": 401803658,
@@ -289,5 +289,5 @@
       "lastupdated": "2026-04-16T00:30:00.000Z"
     }
   ],
-  "lastupdated": "2026-05-08T10:15:00.081902"
+  "lastupdated": "2026-05-09T09:59:58.051650"
 }
