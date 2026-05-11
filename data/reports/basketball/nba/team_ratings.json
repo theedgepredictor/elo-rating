@@ -1,28 +1,28 @@
 {
   "teams": [
     {
-      "id": 401871154,
-      "team_name": "spurs",
-      "rank": 1,
-      "elo_rating": 2051.1940268587,
-      "season": 2026,
-      "lastupdated": "2026-05-09T01:30:00.000Z"
-    },
-    {
       "id": 401871328,
       "team_name": "thunder",
-      "rank": 2,
+      "rank": 1,
       "elo_rating": 2033.1828434663,
       "season": 2026,
       "lastupdated": "2026-05-10T00:30:00.000Z"
     },
     {
-      "id": 401871161,
+      "id": 401871155,
+      "team_name": "spurs",
+      "rank": 2,
+      "elo_rating": 2011.7483657221,
+      "season": 2026,
+      "lastupdated": "2026-05-10T23:30:00.000Z"
+    },
+    {
+      "id": 401871162,
       "team_name": "knicks",
       "rank": 3,
-      "elo_rating": 1967.9911763415,
+      "elo_rating": 2002.2416067902,
       "season": 2026,
-      "lastupdated": "2026-05-08T23:00:00.000Z"
+      "lastupdated": "2026-05-10T19:30:00.000Z"
     },
     {
       "id": 401871335,
@@ -41,9 +41,17 @@
       "lastupdated": "2026-04-12T22:00:00.000Z"
     },
     {
+      "id": 401871155,
+      "team_name": "timberwolves",
+      "rank": 6,
+      "elo_rating": 1763.2836026716,
+      "season": 2026,
+      "lastupdated": "2026-05-10T23:30:00.000Z"
+    },
+    {
       "id": 401869402,
       "team_name": "nuggets",
-      "rank": 6,
+      "rank": 7,
       "elo_rating": 1757.0873565966,
       "season": 2026,
       "lastupdated": "2026-05-01T01:30:00.000Z"
@@ -51,18 +59,10 @@
     {
       "id": 401869412,
       "team_name": "celtics",
-      "rank": 7,
+      "rank": 8,
       "elo_rating": 1737.8891601745,
       "season": 2026,
       "lastupdated": "2026-05-02T23:30:00.000Z"
-    },
-    {
-      "id": 401871154,
-      "team_name": "timberwolves",
-      "rank": 8,
-      "elo_rating": 1723.837941535,
-      "season": 2026,
-      "lastupdated": "2026-05-09T01:30:00.000Z"
     },
     {
       "id": 401871335,
@@ -89,20 +89,20 @@
       "lastupdated": "2026-05-02T01:30:00.000Z"
     },
     {
-      "id": 401871161,
-      "team_name": "76ers",
-      "rank": 12,
-      "elo_rating": 1671.3701438255,
-      "season": 2026,
-      "lastupdated": "2026-05-08T23:00:00.000Z"
-    },
-    {
       "id": 401869418,
       "team_name": "magic",
-      "rank": 13,
+      "rank": 12,
       "elo_rating": 1643.019861766,
       "season": 2026,
       "lastupdated": "2026-05-03T19:30:00.000Z"
+    },
+    {
+      "id": 401871162,
+      "team_name": "76ers",
+      "rank": 13,
+      "elo_rating": 1637.1197133767,
+      "season": 2026,
+      "lastupdated": "2026-05-10T19:30:00.000Z"
     },
     {
       "id": 401869384,
@@ -241,5 +241,5 @@
       "lastupdated": "2026-04-12T22:00:00.000Z"
     }
   ],
-  "lastupdated": "2026-05-10T10:04:53.048748"
+  "lastupdated": "2026-05-11T11:55:16.478431"
 }
