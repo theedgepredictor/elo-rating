@@ -1,48 +1,6 @@
 {
   "events": [
     {
-      "id": 401871336,
-      "datetime": "2026-05-12T00:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 1,
-      "home_team_name": "cavaliers",
-      "home_team_id": 5,
-      "away_team_name": "pistons",
-      "away_team_id": 8,
-      "home_elo_pre": 1709.1412245211,
-      "away_elo_pre": 1869.4362390787,
-      "elo_diff": -60.2950145576,
-      "elo_spread": 2.0098338186,
-      "home_elo_prob": 0.4567228105,
-      "away_elo_prob": 0.5432771895,
-      "home_elo_post": 1699.8972876273,
-      "away_elo_post": 1878.6801759725,
-      "tournament_id": null,
-      "str_event_id": "20260512_cavaliers_pistons",
-      "season": 2026
-    },
-    {
-      "id": 401871329,
-      "datetime": "2026-05-12T02:30:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 1,
-      "home_team_name": "lakers",
-      "home_team_id": 13,
-      "away_team_name": "thunder",
-      "away_team_id": 25,
-      "home_elo_pre": 1702.8159550401,
-      "away_elo_pre": 2033.1828434663,
-      "elo_diff": -230.3668884263,
-      "elo_spread": 7.6788962809,
-      "home_elo_prob": 0.3400549832,
-      "away_elo_prob": 0.6599450168,
-      "home_elo_post": 1696.4149716495,
-      "away_elo_post": 2039.5838268568,
-      "tournament_id": null,
-      "str_event_id": "20260512_lakers_thunder",
-      "season": 2026
-    },
-    {
       "id": 401871156,
       "datetime": "2026-05-13T00:00:00.000Z",
       "neutral_site": 0,
@@ -62,7 +20,28 @@
       "tournament_id": null,
       "str_event_id": "20260513_spurs_timberwolves",
       "season": 2026
+    },
+    {
+      "id": 401871337,
+      "datetime": "2026-05-14T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "pistons",
+      "home_team_id": 8,
+      "away_team_name": "cavaliers",
+      "away_team_id": 5,
+      "home_elo_pre": 1830.8504668449,
+      "away_elo_pre": 1747.7269967549,
+      "elo_diff": 183.12347009,
+      "elo_spread": -6.1041156697,
+      "home_elo_prob": 0.6287998775,
+      "away_elo_prob": 0.3712001225,
+      "home_elo_post": 1837.9762231147,
+      "away_elo_post": 1740.6012404851,
+      "tournament_id": null,
+      "str_event_id": "20260514_pistons_cavaliers",
+      "season": 2026
     }
   ],
-  "lastupdated": "2026-05-11T11:55:16.240029"
+  "lastupdated": "2026-05-12T11:09:55.860123"
 }

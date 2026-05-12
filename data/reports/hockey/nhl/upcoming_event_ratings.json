@@ -1,27 +1,6 @@
 {
   "events": [
     {
-      "id": 401871419,
-      "datetime": "2026-05-12T00:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 1,
-      "home_team_name": "wild",
-      "home_team_id": 30,
-      "away_team_name": "avalanche",
-      "away_team_id": 17,
-      "home_elo_pre": 1563.5680001769,
-      "away_elo_pre": 1656.3780252157,
-      "elo_diff": -67.8100250388,
-      "elo_spread": 3.459695155,
-      "home_elo_prob": 0.4513610649,
-      "away_elo_prob": 0.5486389351,
-      "home_elo_post": 1561.1399617734,
-      "away_elo_post": 1658.8060636192,
-      "tournament_id": null,
-      "str_event_id": "20260512_wild_avalanche",
-      "season": 2026
-    },
-    {
       "id": 401871407,
       "datetime": "2026-05-12T23:00:00.000Z",
       "neutral_site": 0,
@@ -41,7 +20,49 @@
       "tournament_id": null,
       "str_event_id": "20260512_canadiens_sabres",
       "season": 2026
+    },
+    {
+      "id": 401871427,
+      "datetime": "2026-05-13T01:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "goldenknights",
+      "home_team_id": 37,
+      "away_team_name": "ducks",
+      "away_team_id": 25,
+      "home_elo_pre": 1551.5746127363,
+      "away_elo_pre": 1465.7471887567,
+      "elo_diff": 110.8274239796,
+      "elo_spread": -5.6544604071,
+      "home_elo_prob": 0.5790773487,
+      "away_elo_prob": 0.4209226513,
+      "home_elo_post": 1553.7967603919,
+      "away_elo_post": 1463.5250411011,
+      "tournament_id": null,
+      "str_event_id": "20260513_goldenknights_ducks",
+      "season": 2026
+    },
+    {
+      "id": 401871420,
+      "datetime": "2026-05-14T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "avalanche",
+      "home_team_id": 17,
+      "away_team_name": "wild",
+      "away_team_id": 30,
+      "home_elo_pre": 1661.2341020226,
+      "away_elo_pre": 1558.71192337,
+      "elo_diff": 127.5221786527,
+      "elo_spread": -6.5062336047,
+      "home_elo_prob": 0.5907431423,
+      "away_elo_prob": 0.4092568577,
+      "home_elo_post": 1663.3791660819,
+      "away_elo_post": 1556.5668593107,
+      "tournament_id": null,
+      "str_event_id": "20260514_avalanche_wild",
+      "season": 2026
     }
   ],
-  "lastupdated": "2026-05-11T11:55:17.461493"
+  "lastupdated": "2026-05-12T11:09:57.041866"
 }
