@@ -1,27 +1,6 @@
 {
   "events": [
     {
-      "id": 401871156,
-      "datetime": "2026-05-13T00:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 1,
-      "home_team_name": "spurs",
-      "home_team_id": 24,
-      "away_team_name": "timberwolves",
-      "away_team_id": 16,
-      "home_elo_pre": 2011.7483657221,
-      "away_elo_pre": 1763.2836026716,
-      "elo_diff": 348.4647630506,
-      "elo_spread": -11.6154921017,
-      "home_elo_prob": 0.7316405859,
-      "away_elo_prob": 0.2683594141,
-      "home_elo_post": 2016.5657090425,
-      "away_elo_post": 1758.4662593512,
-      "tournament_id": null,
-      "str_event_id": "20260513_spurs_timberwolves",
-      "season": 2026
-    },
-    {
       "id": 401871337,
       "datetime": "2026-05-14T00:00:00.000Z",
       "neutral_site": 0,
@@ -43,29 +22,8 @@
       "season": 2026
     },
     {
-      "id": 401871157,
-      "datetime": "2026-05-15T04:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 1,
-      "home_team_name": "timberwolves",
-      "home_team_id": 16,
-      "away_team_name": "spurs",
-      "away_team_id": 24,
-      "home_elo_pre": 1758.4662593512,
-      "away_elo_pre": 2016.5657090425,
-      "elo_diff": -158.0994496913,
-      "elo_spread": 5.2699816564,
-      "home_elo_prob": 0.3881615175,
-      "away_elo_prob": 0.6118384825,
-      "home_elo_post": 1750.9358296837,
-      "away_elo_post": 2024.0961387101,
-      "tournament_id": null,
-      "str_event_id": "20260515_timberwolves_spurs",
-      "season": 2026
-    },
-    {
       "id": 401871338,
-      "datetime": "2026-05-15T04:00:00.000Z",
+      "datetime": "2026-05-15T23:00:00.000Z",
       "neutral_site": 0,
       "is_postseason": 1,
       "home_team_name": "cavaliers",
@@ -85,6 +43,27 @@
       "season": 2026
     },
     {
+      "id": 401871157,
+      "datetime": "2026-05-16T01:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "timberwolves",
+      "home_team_id": 16,
+      "away_team_name": "spurs",
+      "away_team_id": 24,
+      "home_elo_pre": 1739.645426037,
+      "away_elo_pre": 2035.3865423567,
+      "elo_diff": -195.7411163197,
+      "elo_spread": 6.5247038773,
+      "home_elo_prob": 0.3627638539,
+      "away_elo_prob": 0.6372361461,
+      "home_elo_post": 1732.7182931789,
+      "away_elo_post": 2042.3136752148,
+      "tournament_id": null,
+      "str_event_id": "20260516_timberwolves_spurs",
+      "season": 2026
+    },
+    {
       "id": 401871158,
       "datetime": "2026-05-17T04:00:00.000Z",
       "neutral_site": 0,
@@ -93,14 +72,14 @@
       "home_team_id": 24,
       "away_team_name": "timberwolves",
       "away_team_id": 16,
-      "home_elo_pre": 2024.0961387101,
-      "away_elo_pre": 1750.9358296837,
-      "elo_diff": 373.1603090264,
-      "elo_spread": -12.4386769675,
-      "home_elo_prob": 0.7453647764,
-      "away_elo_prob": 0.2546352236,
-      "home_elo_post": 2028.6232485526,
-      "away_elo_post": 1746.4087198411,
+      "home_elo_pre": 2042.3136752148,
+      "away_elo_pre": 1732.7182931789,
+      "elo_diff": 409.5953820359,
+      "elo_spread": -13.6531794012,
+      "home_elo_prob": 0.7647518119,
+      "away_elo_prob": 0.2352481881,
+      "home_elo_post": 2046.4377117921,
+      "away_elo_post": 1728.5942566016,
       "tournament_id": null,
       "str_event_id": "20260517_spurs_timberwolves",
       "season": 2026
@@ -127,5 +106,5 @@
       "season": 2026
     }
   ],
-  "lastupdated": "2026-05-12T11:09:55.856506"
+  "lastupdated": "2026-05-13T11:23:38.476892"
 }
