@@ -1,6 +1,31 @@
 {
   "events": [
     {
+      "id": 401871420,
+      "datetime": "2026-05-14T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "avalanche",
+      "home_team_id": 17,
+      "away_team_name": "wild",
+      "away_team_id": 30,
+      "home_elo_pre": 1661.2341020226,
+      "away_elo_pre": 1558.71192337,
+      "elo_diff": 127.5221786527,
+      "elo_spread": -6.5062336047,
+      "home_elo_prob": 0.5907431423,
+      "away_elo_prob": 0.4092568577,
+      "home_elo_post": 1663.3791660819,
+      "away_elo_post": 1556.5668593107,
+      "tournament_id": null,
+      "str_event_id": "20260514_avalanche_wild",
+      "season": 2026,
+      "result": true,
+      "point_dif": -1,
+      "home_team_score": 4,
+      "away_team_score": 3
+    },
+    {
       "id": 401871427,
       "datetime": "2026-05-13T01:52:00.000Z",
       "neutral_site": 0,
@@ -74,32 +99,7 @@
       "point_dif": 3,
       "home_team_score": 2,
       "away_team_score": 5
-    },
-    {
-      "id": 401871426,
-      "datetime": "2026-05-11T01:30:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 1,
-      "home_team_name": "ducks",
-      "home_team_id": 25,
-      "away_team_name": "goldenknights",
-      "away_team_id": 37,
-      "home_elo_pre": 1462.6120871957,
-      "away_elo_pre": 1554.7097142974,
-      "elo_diff": -67.0976271017,
-      "elo_spread": 3.4233483215,
-      "home_elo_prob": 0.4518688761,
-      "away_elo_prob": 0.5481311239,
-      "home_elo_post": 1465.7471887567,
-      "away_elo_post": 1551.5746127363,
-      "tournament_id": null,
-      "str_event_id": "20260511_ducks_goldenknights",
-      "season": 2026,
-      "result": true,
-      "point_dif": -1,
-      "home_team_score": 4,
-      "away_team_score": 3
     }
   ],
-  "lastupdated": "2026-05-13T11:23:39.672426"
+  "lastupdated": "2026-05-14T11:06:58.359129"
 }
