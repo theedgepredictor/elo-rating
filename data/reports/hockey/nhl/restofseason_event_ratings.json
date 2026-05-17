@@ -1,27 +1,6 @@
 {
   "events": [
     {
-      "id": 401871409,
-      "datetime": "2026-05-17T00:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 1,
-      "home_team_name": "canadiens",
-      "home_team_id": 10,
-      "away_team_name": "sabres",
-      "away_team_id": 2,
-      "home_elo_pre": 1556.4038814978,
-      "away_elo_pre": 1569.4221546678,
-      "elo_diff": 11.98172683,
-      "elo_spread": -0.6113125934,
-      "home_elo_prob": 0.5086206911,
-      "away_elo_prob": 0.4913793089,
-      "home_elo_post": 1559.1139075074,
-      "away_elo_post": 1566.7121286582,
-      "tournament_id": null,
-      "str_event_id": "20260517_canadiens_sabres",
-      "season": 2026
-    },
-    {
       "id": 401871410,
       "datetime": "2026-05-18T23:30:00.000Z",
       "neutral_site": 0,
@@ -30,14 +9,14 @@
       "home_team_id": 2,
       "away_team_name": "canadiens",
       "away_team_id": 10,
-      "home_elo_pre": 1566.7121286582,
-      "away_elo_pre": 1559.1139075074,
-      "elo_diff": 32.5982211508,
-      "elo_spread": -1.6631745485,
-      "home_elo_prob": 0.5234391133,
-      "away_elo_prob": 0.4765608867,
-      "home_elo_post": 1569.3161584566,
-      "away_elo_post": 1556.5098777089,
+      "home_elo_pre": 1576.7526860136,
+      "away_elo_pre": 1549.073350152,
+      "elo_diff": 52.6793358616,
+      "elo_spread": -2.6877212174,
+      "home_elo_prob": 0.5378333757,
+      "away_elo_prob": 0.4621666243,
+      "home_elo_post": 1579.2555504825,
+      "away_elo_post": 1546.570485683,
       "tournament_id": null,
       "str_event_id": "20260518_sabres_canadiens",
       "season": 2026
@@ -190,5 +169,5 @@
       "season": 2026
     }
   ],
-  "lastupdated": "2026-05-16T10:07:09.591853"
+  "lastupdated": "2026-05-17T10:16:15.801479"
 }
