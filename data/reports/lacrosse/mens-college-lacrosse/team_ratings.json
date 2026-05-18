@@ -1,20 +1,20 @@
 {
   "teams": [
     {
+      "id": 401870921,
+      "team_name": "princeton",
+      "rank": 1,
+      "elo_rating": 1934.9855562545,
+      "season": 2026,
+      "lastupdated": "2026-05-17T16:00:00.000Z"
+    },
+    {
       "id": 401870919,
       "team_name": "notredame",
-      "rank": 1,
+      "rank": 2,
       "elo_rating": 1928.6033296107,
       "season": 2026,
       "lastupdated": "2026-05-16T16:00:00.000Z"
-    },
-    {
-      "id": 401870918,
-      "team_name": "princeton",
-      "rank": 2,
-      "elo_rating": 1913.8620366597,
-      "season": 2026,
-      "lastupdated": "2026-05-10T18:30:00.000Z"
     },
     {
       "id": 401870912,
@@ -25,12 +25,12 @@
       "lastupdated": "2026-05-09T23:30:00.000Z"
     },
     {
-      "id": 401870911,
-      "team_name": "pennstate",
+      "id": 401870922,
+      "team_name": "duke",
       "rank": 4,
-      "elo_rating": 1865.6311392912,
+      "elo_rating": 1853.051135599,
       "season": 2026,
-      "lastupdated": "2026-05-09T18:30:00.000Z"
+      "lastupdated": "2026-05-17T18:30:00.000Z"
     },
     {
       "id": 401870911,
@@ -41,36 +41,36 @@
       "lastupdated": "2026-05-09T18:30:00.000Z"
     },
     {
+      "id": 401870921,
+      "team_name": "pennstate",
+      "rank": 6,
+      "elo_rating": 1844.5076196964,
+      "season": 2026,
+      "lastupdated": "2026-05-17T16:00:00.000Z"
+    },
+    {
       "id": 401870913,
       "team_name": "cornell",
-      "rank": 6,
+      "rank": 7,
       "elo_rating": 1842.8124154746,
       "season": 2026,
       "lastupdated": "2026-05-09T21:00:00.000Z"
     },
     {
-      "id": 401870917,
-      "team_name": "georgetown",
-      "rank": 7,
-      "elo_rating": 1827.4538478258,
-      "season": 2026,
-      "lastupdated": "2026-05-10T23:30:00.000Z"
-    },
-    {
-      "id": 401870912,
-      "team_name": "duke",
-      "rank": 8,
-      "elo_rating": 1817.7829131033,
-      "season": 2026,
-      "lastupdated": "2026-05-09T23:30:00.000Z"
-    },
-    {
       "id": 401870920,
       "team_name": "syracuse",
-      "rank": 9,
+      "rank": 8,
       "elo_rating": 1806.8009414205,
       "season": 2026,
       "lastupdated": "2026-05-16T18:30:00.000Z"
+    },
+    {
+      "id": 401870922,
+      "team_name": "georgetown",
+      "rank": 9,
+      "elo_rating": 1792.1856253302,
+      "season": 2026,
+      "lastupdated": "2026-05-17T18:30:00.000Z"
     },
     {
       "id": 401870920,
@@ -292,7 +292,7 @@
       "id": 401837743,
       "team_name": "navy",
       "rank": 37,
-      "elo_rating": 1503.5162161862,
+      "elo_rating": 1493.5012036055,
       "season": 2026,
       "lastupdated": "2026-04-24T23:00:00.000Z"
     },
@@ -460,7 +460,7 @@
       "id": 401839823,
       "team_name": "bellarmine",
       "rank": 58,
-      "elo_rating": 1346.7752815857,
+      "elo_rating": 1324.5994021138,
       "season": 2026,
       "lastupdated": "2026-04-25T16:00:00.000Z"
     },
@@ -468,7 +468,7 @@
       "id": 401837804,
       "team_name": "holycross",
       "rank": 59,
-      "elo_rating": 1331.6384124184,
+      "elo_rating": 1315.0867803421,
       "season": 2026,
       "lastupdated": "2026-04-24T22:00:00.000Z"
     },
@@ -513,17 +513,9 @@
       "lastupdated": "2026-04-25T16:00:00.000Z"
     },
     {
-      "id": 401837417,
-      "team_name": "stbonaventure",
-      "rank": 65,
-      "elo_rating": 1273.9415932954,
-      "season": 2026,
-      "lastupdated": "2026-04-24T23:00:00.000Z"
-    },
-    {
       "id": 401838924,
       "team_name": "njit",
-      "rank": 66,
+      "rank": 65,
       "elo_rating": 1269.6212424122,
       "season": 2026,
       "lastupdated": "2026-04-25T23:30:00.000Z"
@@ -531,15 +523,31 @@
     {
       "id": 401837927,
       "team_name": "manhattan",
-      "rank": 67,
+      "rank": 66,
       "elo_rating": 1265.8243169725,
       "season": 2026,
       "lastupdated": "2026-04-22T19:00:00.000Z"
     },
     {
+      "id": 401837417,
+      "team_name": "stbonaventure",
+      "rank": 67,
+      "elo_rating": 1263.7149706464,
+      "season": 2026,
+      "lastupdated": "2026-04-24T23:00:00.000Z"
+    },
+    {
+      "id": 401839823,
+      "team_name": "queens",
+      "rank": 68,
+      "elo_rating": 1260.6991919372,
+      "season": 2026,
+      "lastupdated": "2026-04-25T16:00:00.000Z"
+    },
+    {
       "id": 401838154,
       "team_name": "binghamton",
-      "rank": 68,
+      "rank": 69,
       "elo_rating": 1255.3262804388,
       "season": 2026,
       "lastupdated": "2026-04-25T16:00:00.000Z"
@@ -547,18 +555,10 @@
     {
       "id": 401843206,
       "team_name": "mountstmarys",
-      "rank": 69,
+      "rank": 70,
       "elo_rating": 1251.3236540867,
       "season": 2026,
       "lastupdated": "2026-04-18T16:00:00.000Z"
-    },
-    {
-      "id": 401839823,
-      "team_name": "queensuniversity",
-      "rank": 70,
-      "elo_rating": 1238.5233124653,
-      "season": 2026,
-      "lastupdated": "2026-04-25T16:00:00.000Z"
     },
     {
       "id": 401839857,
@@ -617,5 +617,5 @@
       "lastupdated": "2026-04-24T17:00:00.000Z"
     }
   ],
-  "lastupdated": "2026-05-17T10:16:14.464582"
+  "lastupdated": "2026-05-18T12:19:06.526018"
 }
