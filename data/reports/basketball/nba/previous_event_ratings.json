@@ -1,6 +1,31 @@
 {
   "events": [
     {
+      "id": 401873341,
+      "datetime": "2026-05-20T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "knicks",
+      "home_team_id": 18,
+      "away_team_name": "cavaliers",
+      "away_team_id": 5,
+      "home_elo_pre": 2002.2416067902,
+      "away_elo_pre": 1802.9221076195,
+      "elo_diff": 299.3194991708,
+      "elo_spread": -9.977316639,
+      "home_elo_prob": 0.702976201,
+      "away_elo_prob": 0.297023799,
+      "home_elo_post": 2021.7321294249,
+      "away_elo_post": 1783.4315849848,
+      "tournament_id": null,
+      "str_event_id": "20260520_knicks_cavaliers",
+      "season": 2026,
+      "result": true,
+      "point_dif": -11,
+      "home_team_score": 115,
+      "away_team_score": 104
+    },
+    {
       "id": 401873197,
       "datetime": "2026-05-19T00:30:00.000Z",
       "neutral_site": 0,
@@ -51,5 +76,5 @@
       "away_team_score": 125
     }
   ],
-  "lastupdated": "2026-05-19T11:53:27.707603"
+  "lastupdated": "2026-05-20T11:41:58.968813"
 }

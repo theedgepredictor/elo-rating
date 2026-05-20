@@ -20,7 +20,28 @@
       "tournament_id": null,
       "str_event_id": "20260521_avalanche_goldenknights",
       "season": 2026
+    },
+    {
+      "id": 401873383,
+      "datetime": "2026-05-22T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "hurricanes",
+      "home_team_id": 7,
+      "away_team_name": "canadiens",
+      "away_team_id": 10,
+      "home_elo_pre": 1639.681279637,
+      "away_elo_pre": 1552.1288971962,
+      "elo_diff": 112.5523824409,
+      "elo_spread": -5.7424684919,
+      "home_elo_prob": 0.5802870324,
+      "away_elo_prob": 0.4197129676,
+      "home_elo_post": 1641.8953883322,
+      "away_elo_post": 1549.9147885009,
+      "tournament_id": null,
+      "str_event_id": "20260522_hurricanes_canadiens",
+      "season": 2026
     }
   ],
-  "lastupdated": "2026-05-19T11:53:28.843642"
+  "lastupdated": "2026-05-20T11:42:00.189253"
 }
