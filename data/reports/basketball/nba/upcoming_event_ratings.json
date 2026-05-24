@@ -1,27 +1,6 @@
 {
   "events": [
     {
-      "id": 401873343,
-      "datetime": "2026-05-24T00:00:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 1,
-      "home_team_name": "cavaliers",
-      "home_team_id": 5,
-      "away_team_name": "knicks",
-      "away_team_id": 18,
-      "home_elo_pre": 1763.2360182071,
-      "away_elo_pre": 2041.9276962026,
-      "elo_diff": -178.6916779955,
-      "elo_spread": 5.9563892665,
-      "home_elo_prob": 0.3741823024,
-      "away_elo_prob": 0.6258176976,
-      "home_elo_post": 1756.0396316043,
-      "away_elo_post": 2049.1240828054,
-      "tournament_id": null,
-      "str_event_id": "20260524_cavaliers_knicks",
-      "season": 2026
-    },
-    {
       "id": 401873200,
       "datetime": "2026-05-25T00:00:00.000Z",
       "neutral_site": 0,
@@ -41,7 +20,28 @@
       "tournament_id": null,
       "str_event_id": "20260525_spurs_thunder",
       "season": 2026
+    },
+    {
+      "id": 401873344,
+      "datetime": "2026-05-26T00:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "cavaliers",
+      "home_team_id": 5,
+      "away_team_name": "knicks",
+      "away_team_id": 18,
+      "home_elo_pre": 1735.8368202538,
+      "away_elo_pre": 2069.3268941559,
+      "elo_diff": -233.4900739021,
+      "elo_spread": 7.7830024634,
+      "home_elo_prob": 0.3380405471,
+      "away_elo_prob": 0.6619594529,
+      "home_elo_post": 1729.4819218269,
+      "away_elo_post": 2075.6817925828,
+      "tournament_id": null,
+      "str_event_id": "20260526_cavaliers_knicks",
+      "season": 2026
     }
   ],
-  "lastupdated": "2026-05-23T10:20:06.045966"
+  "lastupdated": "2026-05-24T10:25:51.753416"
 }

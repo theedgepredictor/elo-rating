@@ -1,20 +1,20 @@
 {
   "teams": [
     {
-      "id": 401870921,
+      "id": 401870924,
       "team_name": "princeton",
       "rank": 1,
-      "elo_rating": 1934.9855562545,
+      "elo_rating": 1960.454002441,
       "season": 2026,
-      "lastupdated": "2026-05-17T16:00:00.000Z"
+      "lastupdated": "2026-05-23T16:00:00.000Z"
     },
     {
-      "id": 401870919,
+      "id": 401870923,
       "team_name": "notredame",
       "rank": 2,
-      "elo_rating": 1928.6033296107,
+      "elo_rating": 1953.3337057573,
       "season": 2026,
-      "lastupdated": "2026-05-16T16:00:00.000Z"
+      "lastupdated": "2026-05-23T18:55:00.000Z"
     },
     {
       "id": 401870912,
@@ -25,17 +25,9 @@
       "lastupdated": "2026-05-09T23:30:00.000Z"
     },
     {
-      "id": 401870922,
-      "team_name": "duke",
-      "rank": 4,
-      "elo_rating": 1853.051135599,
-      "season": 2026,
-      "lastupdated": "2026-05-17T18:30:00.000Z"
-    },
-    {
       "id": 401870911,
       "team_name": "army",
-      "rank": 5,
+      "rank": 4,
       "elo_rating": 1846.2299825596,
       "season": 2026,
       "lastupdated": "2026-05-09T18:30:00.000Z"
@@ -43,7 +35,7 @@
     {
       "id": 401870921,
       "team_name": "pennstate",
-      "rank": 6,
+      "rank": 5,
       "elo_rating": 1844.5076196964,
       "season": 2026,
       "lastupdated": "2026-05-17T16:00:00.000Z"
@@ -51,26 +43,34 @@
     {
       "id": 401870913,
       "team_name": "cornell",
-      "rank": 7,
+      "rank": 6,
       "elo_rating": 1842.8124154746,
       "season": 2026,
       "lastupdated": "2026-05-09T21:00:00.000Z"
     },
     {
-      "id": 401870920,
-      "team_name": "syracuse",
-      "rank": 8,
-      "elo_rating": 1806.8009414205,
+      "id": 401870924,
+      "team_name": "duke",
+      "rank": 7,
+      "elo_rating": 1827.5826894125,
       "season": 2026,
-      "lastupdated": "2026-05-16T18:30:00.000Z"
+      "lastupdated": "2026-05-23T16:00:00.000Z"
     },
     {
       "id": 401870922,
       "team_name": "georgetown",
-      "rank": 9,
+      "rank": 8,
       "elo_rating": 1792.1856253302,
       "season": 2026,
       "lastupdated": "2026-05-17T18:30:00.000Z"
+    },
+    {
+      "id": 401870923,
+      "team_name": "syracuse",
+      "rank": 9,
+      "elo_rating": 1782.0705652739,
+      "season": 2026,
+      "lastupdated": "2026-05-23T18:55:00.000Z"
     },
     {
       "id": 401870920,
@@ -249,20 +249,20 @@
       "lastupdated": "2026-04-30T20:30:00.000Z"
     },
     {
-      "id": 401837379,
-      "team_name": "pennsylvania",
-      "rank": 32,
-      "elo_rating": 1557.3578866055,
-      "season": 2026,
-      "lastupdated": "2026-04-24T21:30:00.000Z"
-    },
-    {
       "id": 401867081,
       "team_name": "michigan",
-      "rank": 33,
+      "rank": 32,
       "elo_rating": 1544.2589395682,
       "season": 2026,
       "lastupdated": "2026-04-30T19:00:00.000Z"
+    },
+    {
+      "id": 401837379,
+      "team_name": "penn",
+      "rank": 33,
+      "elo_rating": 1540.9901029237,
+      "season": 2026,
+      "lastupdated": "2026-04-24T21:30:00.000Z"
     },
     {
       "id": 401867099,
@@ -537,17 +537,9 @@
       "lastupdated": "2026-04-24T23:00:00.000Z"
     },
     {
-      "id": 401839823,
-      "team_name": "queens",
-      "rank": 68,
-      "elo_rating": 1260.6991919372,
-      "season": 2026,
-      "lastupdated": "2026-04-25T16:00:00.000Z"
-    },
-    {
       "id": 401838154,
       "team_name": "binghamton",
-      "rank": 69,
+      "rank": 68,
       "elo_rating": 1255.3262804388,
       "season": 2026,
       "lastupdated": "2026-04-25T16:00:00.000Z"
@@ -555,10 +547,18 @@
     {
       "id": 401843206,
       "team_name": "mountstmarys",
-      "rank": 70,
+      "rank": 69,
       "elo_rating": 1251.3236540867,
       "season": 2026,
       "lastupdated": "2026-04-18T16:00:00.000Z"
+    },
+    {
+      "id": 401839823,
+      "team_name": "queens",
+      "rank": 70,
+      "elo_rating": 1238.5233124653,
+      "season": 2026,
+      "lastupdated": "2026-04-25T16:00:00.000Z"
     },
     {
       "id": 401839857,
@@ -617,5 +617,5 @@
       "lastupdated": "2026-04-24T17:00:00.000Z"
     }
   ],
-  "lastupdated": "2026-05-23T10:20:05.904437"
+  "lastupdated": "2026-05-24T10:25:51.608862"
 }
