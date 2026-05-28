@@ -1,4 +1,26 @@
 {
-  "events": null,
-  "lastupdated": "2026-05-27T12:09:03.997566"
+  "events": [
+    {
+      "id": 401873202,
+      "datetime": "2026-05-29T00:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "spurs",
+      "home_team_id": 24,
+      "away_team_name": "thunder",
+      "away_team_id": 25,
+      "home_elo_pre": 2031.3903494102,
+      "away_elo_pre": 2088.0437144923,
+      "elo_diff": 43.3466349179,
+      "elo_spread": -1.4448878306,
+      "home_elo_prob": 0.5311500162,
+      "away_elo_prob": 0.4688499838,
+      "home_elo_post": 2040.9514286464,
+      "away_elo_post": 2078.4826352561,
+      "tournament_id": null,
+      "str_event_id": "20260529_spurs_thunder",
+      "season": 2026
+    }
+  ],
+  "lastupdated": "2026-05-28T12:17:31.417321"
 }
