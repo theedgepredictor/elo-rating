@@ -1,20 +1,20 @@
 {
   "teams": [
     {
+      "id": 401873387,
+      "team_name": "hurricanes",
+      "rank": 1,
+      "elo_rating": 1648.0317401343,
+      "season": 2026,
+      "lastupdated": "2026-05-30T00:00:00.000Z"
+    },
+    {
       "id": 401872906,
       "team_name": "avalanche",
-      "rank": 1,
+      "rank": 2,
       "elo_rating": 1644.5249925574,
       "season": 2026,
       "lastupdated": "2026-05-27T01:00:00.000Z"
-    },
-    {
-      "id": 401873386,
-      "team_name": "hurricanes",
-      "rank": 2,
-      "elo_rating": 1642.372920001,
-      "season": 2026,
-      "lastupdated": "2026-05-28T00:00:00.000Z"
     },
     {
       "id": 401869779,
@@ -57,20 +57,20 @@
       "lastupdated": "2026-05-14T00:00:00.000Z"
     },
     {
-      "id": 401873386,
-      "team_name": "canadiens",
-      "rank": 8,
-      "elo_rating": 1549.4372568321,
-      "season": 2026,
-      "lastupdated": "2026-05-28T00:00:00.000Z"
-    },
-    {
       "id": 401869786,
       "team_name": "senators",
-      "rank": 9,
+      "rank": 8,
       "elo_rating": 1544.0984904553,
       "season": 2026,
       "lastupdated": "2026-04-25T19:00:00.000Z"
+    },
+    {
+      "id": 401873387,
+      "team_name": "canadiens",
+      "rank": 9,
+      "elo_rating": 1543.7784366989,
+      "season": 2026,
+      "lastupdated": "2026-05-30T00:00:00.000Z"
     },
     {
       "id": 401803646,
@@ -289,5 +289,5 @@
       "lastupdated": "2026-04-16T00:30:00.000Z"
     }
   ],
-  "lastupdated": "2026-05-29T12:00:27.533762"
+  "lastupdated": "2026-05-30T10:42:39.016313"
 }
