@@ -1,26 +1,26 @@
 {
   "events": [
     {
-      "id": 401874174,
-      "datetime": "2026-06-10T00:00:00.000Z",
+      "id": 401874175,
+      "datetime": "2026-06-12T00:00:00.000Z",
       "neutral_site": 0,
       "is_postseason": 1,
-      "home_team_name": "goldenknights",
-      "home_team_id": 37,
-      "away_team_name": "hurricanes",
-      "away_team_id": 7,
-      "home_elo_pre": 1582.2794560724,
-      "away_elo_pre": 1644.0698965829,
-      "elo_diff": -36.7904405106,
-      "elo_spread": 1.8770632914,
-      "home_elo_prob": 0.473551859,
-      "away_elo_prob": 0.526448141,
-      "home_elo_post": 1579.6967179279,
-      "away_elo_post": 1646.6526347274,
+      "home_team_name": "hurricanes",
+      "home_team_id": 7,
+      "away_team_name": "goldenknights",
+      "away_team_id": 37,
+      "home_elo_pre": 1648.1634396911,
+      "away_elo_pre": 1578.1859129642,
+      "elo_diff": 94.9775267268,
+      "elo_spread": -4.8457921799,
+      "home_elo_prob": 0.5679193838,
+      "away_elo_prob": 0.4320806162,
+      "home_elo_post": 1650.4602465442,
+      "away_elo_post": 1575.8891061111,
       "tournament_id": null,
-      "str_event_id": "20260610_goldenknights_hurricanes",
+      "str_event_id": "20260612_hurricanes_goldenknights",
       "season": 2026
     }
   ],
-  "lastupdated": "2026-06-09T11:51:44.664717"
+  "lastupdated": "2026-06-10T12:12:22.229590"
 }

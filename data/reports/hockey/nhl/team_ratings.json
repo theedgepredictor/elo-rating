@@ -1,20 +1,20 @@
 {
   "teams": [
     {
+      "id": 401874174,
+      "team_name": "hurricanes",
+      "rank": 1,
+      "elo_rating": 1648.1634396911,
+      "season": 2026,
+      "lastupdated": "2026-06-10T00:00:00.000Z"
+    },
+    {
       "id": 401872906,
       "team_name": "avalanche",
-      "rank": 1,
+      "rank": 2,
       "elo_rating": 1644.5249925574,
       "season": 2026,
       "lastupdated": "2026-05-27T01:00:00.000Z"
-    },
-    {
-      "id": 401874173,
-      "team_name": "hurricanes",
-      "rank": 2,
-      "elo_rating": 1644.0698965829,
-      "season": 2026,
-      "lastupdated": "2026-06-07T00:00:00.000Z"
     },
     {
       "id": 401869779,
@@ -25,20 +25,20 @@
       "lastupdated": "2026-05-03T22:00:00.000Z"
     },
     {
-      "id": 401874173,
-      "team_name": "goldenknights",
-      "rank": 4,
-      "elo_rating": 1582.2794560724,
-      "season": 2026,
-      "lastupdated": "2026-06-07T00:00:00.000Z"
-    },
-    {
       "id": 401869787,
       "team_name": "stars",
-      "rank": 5,
+      "rank": 4,
       "elo_rating": 1581.5361973559,
       "season": 2026,
       "lastupdated": "2026-04-30T23:30:00.000Z"
+    },
+    {
+      "id": 401874174,
+      "team_name": "goldenknights",
+      "rank": 5,
+      "elo_rating": 1578.1859129642,
+      "season": 2026,
+      "lastupdated": "2026-06-10T00:00:00.000Z"
     },
     {
       "id": 401871410,
@@ -289,5 +289,5 @@
       "lastupdated": "2026-04-16T00:30:00.000Z"
     }
   ],
-  "lastupdated": "2026-06-09T11:51:44.868302"
+  "lastupdated": "2026-06-10T12:12:22.431307"
 }
