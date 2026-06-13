@@ -1,4 +1,26 @@
 {
-  "events": null,
-  "lastupdated": "2026-06-12T12:10:29.178494"
+  "events": [
+    {
+      "id": 401859967,
+      "datetime": "2026-06-14T00:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 1,
+      "home_team_name": "spurs",
+      "home_team_id": 24,
+      "away_team_name": "knicks",
+      "away_team_id": 18,
+      "home_elo_pre": 2085.5354467694,
+      "away_elo_pre": 2131.6067519886,
+      "elo_diff": 53.9286947808,
+      "elo_spread": -1.7976231594,
+      "home_elo_prob": 0.538727092,
+      "away_elo_prob": 0.461272908,
+      "home_elo_post": 2094.8978463342,
+      "away_elo_post": 2122.2443524238,
+      "tournament_id": null,
+      "str_event_id": "20260614_spurs_knicks",
+      "season": 2026
+    }
+  ],
+  "lastupdated": "2026-06-13T11:07:55.947880"
 }
