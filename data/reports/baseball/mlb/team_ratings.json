@@ -1,44 +1,44 @@
 {
   "teams": [
     {
-      "id": 401816138,
+      "id": 401816142,
       "team_name": "dodgers",
       "rank": 1,
-      "elo_rating": 1615.7260198236,
+      "elo_rating": 1617.4356946601,
       "season": 2026,
-      "lastupdated": "2026-07-12T20:10:00.000Z"
+      "lastupdated": "2026-07-17T23:05:00.000Z"
     },
     {
-      "id": 401816130,
+      "id": 401816148,
       "team_name": "brewers",
       "rank": 2,
-      "elo_rating": 1599.3346683587,
+      "elo_rating": 1600.6290281354,
       "season": 2026,
-      "lastupdated": "2026-07-12T16:15:00.000Z"
+      "lastupdated": "2026-07-17T23:40:00.000Z"
     },
     {
-      "id": 401816131,
+      "id": 401816142,
       "team_name": "yankees",
       "rank": 3,
-      "elo_rating": 1558.6351365533,
+      "elo_rating": 1556.9254617168,
       "season": 2026,
-      "lastupdated": "2026-07-12T17:35:00.000Z"
+      "lastupdated": "2026-07-17T23:05:00.000Z"
     },
     {
-      "id": 401816136,
+      "id": 401816146,
       "team_name": "braves",
       "rank": 4,
-      "elo_rating": 1538.7389206734,
+      "elo_rating": 1544.4911097397,
       "season": 2026,
-      "lastupdated": "2026-07-12T18:15:00.000Z"
+      "lastupdated": "2026-07-17T23:15:00.000Z"
     },
     {
-      "id": 401816126,
+      "id": 401816145,
       "team_name": "redsox",
       "rank": 5,
-      "elo_rating": 1538.19028063,
+      "elo_rating": 1540.6600879502,
       "season": 2026,
-      "lastupdated": "2026-07-12T17:40:00.000Z"
+      "lastupdated": "2026-07-17T23:10:00.000Z"
     },
     {
       "id": 401816127,
@@ -49,28 +49,28 @@
       "lastupdated": "2026-07-12T17:40:00.000Z"
     },
     {
-      "id": 401816133,
+      "id": 401816145,
       "team_name": "rays",
       "rank": 7,
-      "elo_rating": 1533.5784589944,
+      "elo_rating": 1531.1086516743,
       "season": 2026,
-      "lastupdated": "2026-07-12T17:40:00.000Z"
-    },
-    {
-      "id": 401816133,
-      "team_name": "mariners",
-      "rank": 8,
-      "elo_rating": 1533.007615659,
-      "season": 2026,
-      "lastupdated": "2026-07-12T17:40:00.000Z"
+      "lastupdated": "2026-07-17T23:10:00.000Z"
     },
     {
       "id": 401816128,
       "team_name": "guardians",
-      "rank": 9,
+      "rank": 8,
       "elo_rating": 1527.6667638534,
       "season": 2026,
       "lastupdated": "2026-07-12T17:40:00.000Z"
+    },
+    {
+      "id": 401816153,
+      "team_name": "mariners",
+      "rank": 9,
+      "elo_rating": 1526.8244339927,
+      "season": 2026,
+      "lastupdated": "2026-07-18T02:10:00.000Z"
     },
     {
       "id": 401816143,
@@ -81,12 +81,12 @@
       "lastupdated": "2026-07-16T22:00:00.000Z"
     },
     {
-      "id": 401816132,
+      "id": 401816152,
       "team_name": "tigers",
       "rank": 11,
-      "elo_rating": 1516.0737259379,
+      "elo_rating": 1517.6524043263,
       "season": 2026,
-      "lastupdated": "2026-07-12T17:40:00.000Z"
+      "lastupdated": "2026-07-18T01:38:00.000Z"
     },
     {
       "id": 401816140,
@@ -105,57 +105,65 @@
       "lastupdated": "2026-07-12T20:10:00.000Z"
     },
     {
-      "id": 401816137,
-      "team_name": "rangers",
-      "rank": 14,
-      "elo_rating": 1506.0598895584,
-      "season": 2026,
-      "lastupdated": "2026-07-12T18:35:00.000Z"
-    },
-    {
-      "id": 401816128,
+      "id": 401816148,
       "team_name": "marlins",
-      "rank": 15,
-      "elo_rating": 1505.424164099,
+      "rank": 14,
+      "elo_rating": 1504.1298043223,
       "season": 2026,
-      "lastupdated": "2026-07-12T17:40:00.000Z"
-    },
-    {
-      "id": 401816140,
-      "team_name": "bluejays",
-      "rank": 16,
-      "elo_rating": 1503.2618852897,
-      "season": 2026,
-      "lastupdated": "2026-07-12T20:10:00.000Z"
+      "lastupdated": "2026-07-17T23:40:00.000Z"
     },
     {
       "id": 401816130,
       "team_name": "pirates",
-      "rank": 17,
+      "rank": 15,
       "elo_rating": 1502.262727751,
       "season": 2026,
       "lastupdated": "2026-07-12T16:15:00.000Z"
     },
     {
+      "id": 401816146,
+      "team_name": "rangers",
+      "rank": 16,
+      "elo_rating": 1500.3077004922,
+      "season": 2026,
+      "lastupdated": "2026-07-17T23:15:00.000Z"
+    },
+    {
+      "id": 401816141,
+      "team_name": "whitesox",
+      "rank": 17,
+      "elo_rating": 1499.5512454978,
+      "season": 2026,
+      "lastupdated": "2026-07-17T23:15:00.000Z"
+    },
+    {
+      "id": 401816141,
+      "team_name": "bluejays",
+      "rank": 18,
+      "elo_rating": 1497.1301365737,
+      "season": 2026,
+      "lastupdated": "2026-07-17T23:15:00.000Z"
+    },
+    {
       "id": 401816137,
       "team_name": "astros",
-      "rank": 18,
+      "rank": 19,
       "elo_rating": 1494.5071562044,
       "season": 2026,
       "lastupdated": "2026-07-12T18:35:00.000Z"
     },
     {
-      "id": 401816135,
-      "team_name": "whitesox",
-      "rank": 19,
-      "elo_rating": 1493.4194967818,
+      "id": 401816153,
+      "team_name": "giants",
+      "rank": 20,
+      "elo_rating": 1493.0836685984,
       "season": 2026,
-      "lastupdated": "2026-07-12T18:10:00.000Z"
+      "lastupdated": "2026-07-18T02:10:00.000Z"
     },
     {
       "id": 401816136,
       "team_name": "cardinals",
-      "rank": 20,
+      "rank": 21,
       "elo_rating": 1490.3703107456,
       "season": 2026,
       "lastupdated": "2026-07-12T18:15:00.000Z"
@@ -163,18 +171,10 @@
     {
       "id": 401816134,
       "team_name": "twins",
-      "rank": 21,
+      "rank": 22,
       "elo_rating": 1488.4962327478,
       "season": 2026,
       "lastupdated": "2026-07-12T18:10:00.000Z"
-    },
-    {
-      "id": 401816139,
-      "team_name": "giants",
-      "rank": 22,
-      "elo_rating": 1486.9004869321,
-      "season": 2026,
-      "lastupdated": "2026-07-12T20:05:00.000Z"
     },
     {
       "id": 401816129,
@@ -201,36 +201,36 @@
       "lastupdated": "2026-07-16T22:00:00.000Z"
     },
     {
+      "id": 401816155,
+      "team_name": "nationals",
+      "rank": 26,
+      "elo_rating": 1470.8528882477,
+      "season": 2026,
+      "lastupdated": "2026-07-18T01:40:00.000Z"
+    },
+    {
       "id": 401816129,
       "team_name": "royals",
-      "rank": 26,
+      "rank": 27,
       "elo_rating": 1468.6606389374,
       "season": 2026,
       "lastupdated": "2026-07-12T17:35:00.000Z"
     },
     {
-      "id": 401816131,
-      "team_name": "nationals",
-      "rank": 27,
-      "elo_rating": 1463.030522578,
-      "season": 2026,
-      "lastupdated": "2026-07-12T17:35:00.000Z"
-    },
-    {
-      "id": 401816135,
+      "id": 401816155,
       "team_name": "athletics",
       "rank": 28,
-      "elo_rating": 1436.2715478465,
+      "elo_rating": 1428.4491821768,
       "season": 2026,
-      "lastupdated": "2026-07-12T18:10:00.000Z"
+      "lastupdated": "2026-07-18T01:40:00.000Z"
     },
     {
-      "id": 401816134,
+      "id": 401816152,
       "team_name": "angels",
       "rank": 29,
-      "elo_rating": 1418.000769013,
+      "elo_rating": 1416.4220906246,
       "season": 2026,
-      "lastupdated": "2026-07-12T18:10:00.000Z"
+      "lastupdated": "2026-07-18T01:38:00.000Z"
     },
     {
       "id": 401816139,
@@ -241,5 +241,5 @@
       "lastupdated": "2026-07-12T20:05:00.000Z"
     }
   ],
-  "lastupdated": "2026-07-17T10:28:33.509786"
+  "lastupdated": "2026-07-18T10:07:39.142832"
 }
