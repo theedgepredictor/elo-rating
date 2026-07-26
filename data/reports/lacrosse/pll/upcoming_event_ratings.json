@@ -797,7 +797,49 @@
       "tournament_id": null,
       "str_event_id": "20260731_archers_cannons",
       "season": 2026
+    },
+    {
+      "id": 401867221,
+      "datetime": "2026-08-01T15:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "whipsnakes",
+      "home_team_id": 127638,
+      "away_team_name": "outlaws",
+      "away_team_id": 122896,
+      "home_elo_pre": 1390.8233431803,
+      "away_elo_pre": 1498.3232019735,
+      "elo_diff": -87.4998587933,
+      "elo_spread": 1.5765740323,
+      "home_elo_prob": 0.4373694738,
+      "away_elo_prob": 0.5626305262,
+      "home_elo_post": 1382.0763902632,
+      "away_elo_post": 1507.0701548906,
+      "tournament_id": null,
+      "str_event_id": "20260801_whipsnakes_outlaws",
+      "season": 2026
+    },
+    {
+      "id": 401867258,
+      "datetime": "2026-08-01T18:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "waterdogs",
+      "home_team_id": 127637,
+      "away_team_name": "chaos",
+      "away_team_id": 127634,
+      "home_elo_pre": 1590.4500838014,
+      "away_elo_pre": 1601.2717083466,
+      "elo_diff": 9.1783754548,
+      "elo_spread": -0.1653761343,
+      "home_elo_prob": 0.506603988,
+      "away_elo_prob": 0.493396012,
+      "home_elo_post": 1600.6673391652,
+      "away_elo_post": 1591.0544529828,
+      "tournament_id": null,
+      "str_event_id": "20260801_waterdogs_chaos",
+      "season": 2026
     }
   ],
-  "lastupdated": "2026-07-25T10:19:16.723382"
+  "lastupdated": "2026-07-26T10:27:09.504011"
 }
