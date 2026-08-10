@@ -965,7 +965,49 @@
       "tournament_id": null,
       "str_event_id": "20260815_waterdogs_whipsnakes",
       "season": 2026
+    },
+    {
+      "id": 401867241,
+      "datetime": "2026-08-16T17:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "waterdogs",
+      "home_team_id": 127637,
+      "away_team_name": "atlas",
+      "away_team_id": 127632,
+      "home_elo_pre": 1606.8164376338,
+      "away_elo_pre": 1540.1442616248,
+      "elo_diff": 86.672176009,
+      "elo_spread": -1.561660829,
+      "home_elo_prob": 0.562044218,
+      "away_elo_prob": 0.437955782,
+      "home_elo_post": 1615.5782864171,
+      "away_elo_post": 1531.3824128415,
+      "tournament_id": null,
+      "str_event_id": "20260816_waterdogs_atlas",
+      "season": 2026
+    },
+    {
+      "id": 401867242,
+      "datetime": "2026-08-16T19:30:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "redwoods",
+      "home_team_id": 127636,
+      "away_team_name": "outlaws",
+      "away_team_id": 122896,
+      "home_elo_pre": 1447.0372154126,
+      "away_elo_pre": 1497.512277087,
+      "elo_diff": -30.4750616744,
+      "elo_spread": 0.5491002103,
+      "home_elo_prob": 0.4780854791,
+      "away_elo_prob": 0.5219145209,
+      "home_elo_post": 1437.231538541,
+      "away_elo_post": 1507.3179539586,
+      "tournament_id": null,
+      "str_event_id": "20260816_redwoods_outlaws",
+      "season": 2026
     }
   ],
-  "lastupdated": "2026-08-09T09:31:02.404488"
+  "lastupdated": "2026-08-10T10:11:17.914346"
 }
