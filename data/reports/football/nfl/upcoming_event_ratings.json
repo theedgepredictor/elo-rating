@@ -5060,7 +5060,28 @@
       "tournament_id": null,
       "str_event_id": "20260910_seahawks_patriots",
       "season": 2026
+    },
+    {
+      "id": 401872657,
+      "datetime": "2026-09-11T00:35:00.000Z",
+      "neutral_site": 1,
+      "is_postseason": 0,
+      "home_team_name": "rams",
+      "home_team_id": 14,
+      "away_team_name": "49ers",
+      "away_team_id": 25,
+      "home_elo_pre": 1612.9187958369,
+      "away_elo_pre": 1611.96250651,
+      "elo_diff": 0.9562893269,
+      "elo_spread": -0.0382515731,
+      "home_elo_prob": 0.500688105,
+      "away_elo_prob": 0.499311895,
+      "home_elo_post": 1621.5674522703,
+      "away_elo_post": 1603.3138500766,
+      "tournament_id": null,
+      "str_event_id": "20260911_rams_49ers",
+      "season": 2026
     }
   ],
-  "lastupdated": "2026-08-28T20:38:57.478784"
+  "lastupdated": "2026-08-29T14:14:59.265204"
 }
