@@ -43,6 +43,27 @@
       "season": 2027
     },
     {
+      "id": 401904403,
+      "datetime": "2026-10-02T23:00:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "canisiusgoldengriffins",
+      "home_team_id": 2099,
+      "away_team_name": "ferrisstatebulldogs",
+      "away_team_id": 2222,
+      "home_elo_pre": 1488.1505813187,
+      "away_elo_pre": 1407.3254181012,
+      "elo_diff": 85.8251632175,
+      "elo_spread": -2.8608387739,
+      "home_elo_prob": 0.5614440375,
+      "away_elo_prob": 0.4385559625,
+      "home_elo_post": 1491.0762837496,
+      "away_elo_post": 1404.3997156702,
+      "tournament_id": null,
+      "str_event_id": "20261002_canisiusgoldengriffins_ferrisstatebulldogs",
+      "season": 2027
+    },
+    {
       "id": 401904431,
       "datetime": "2026-10-02T23:00:00.000Z",
       "neutral_site": 0,
@@ -124,27 +145,6 @@
       "away_elo_post": 1469.3019489493,
       "tournament_id": null,
       "str_event_id": "20261002_quinnipiacbobcats_newhampshirewildcats",
-      "season": 2027
-    },
-    {
-      "id": 401904403,
-      "datetime": "2026-10-02T23:07:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "canisiusgoldengriffins",
-      "home_team_id": 2099,
-      "away_team_name": "ferrisstatebulldogs",
-      "away_team_id": 2222,
-      "home_elo_pre": 1488.1505813187,
-      "away_elo_pre": 1407.3254181012,
-      "elo_diff": 85.8251632175,
-      "elo_spread": -2.8608387739,
-      "home_elo_prob": 0.5614440375,
-      "away_elo_prob": 0.4385559625,
-      "home_elo_post": 1491.0762837496,
-      "away_elo_post": 1404.3997156702,
-      "tournament_id": null,
-      "str_event_id": "20261002_canisiusgoldengriffins_ferrisstatebulldogs",
       "season": 2027
     },
     {
@@ -19384,5 +19384,5 @@
       "season": 2027
     }
   ],
-  "lastupdated": "2026-10-01T15:52:43.910205"
+  "lastupdated": "2026-10-02T15:09:02.240226"
 }
