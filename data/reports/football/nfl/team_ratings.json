@@ -161,17 +161,9 @@
       "lastupdated": "2026-10-02T00:15:00.000Z"
     },
     {
-      "id": 401872967,
-      "team_name": "cowboys",
-      "rank": 21,
-      "elo_rating": 1464.5455962065,
-      "season": 2026,
-      "lastupdated": "2026-10-04T17:00:00.000Z"
-    },
-    {
       "id": 401872966,
       "team_name": "giants",
-      "rank": 22,
+      "rank": 21,
       "elo_rating": 1463.7340498936,
       "season": 2026,
       "lastupdated": "2026-10-04T17:00:00.000Z"
@@ -179,7 +171,7 @@
     {
       "id": 401872965,
       "team_name": "colts",
-      "rank": 23,
+      "rank": 22,
       "elo_rating": 1451.3065688888,
       "season": 2026,
       "lastupdated": "2026-10-04T13:30:00.000Z"
@@ -187,10 +179,18 @@
     {
       "id": 401872976,
       "team_name": "raiders",
-      "rank": 24,
+      "rank": 23,
       "elo_rating": 1429.1231828008,
       "season": 2026,
       "lastupdated": "2026-10-04T20:25:00.000Z"
+    },
+    {
+      "id": 401872980,
+      "team_name": "cowboys",
+      "rank": 24,
+      "elo_rating": 1428.35192895,
+      "season": 2026,
+      "lastupdated": "2026-10-09T00:15:00.000Z"
     },
     {
       "id": 401872977,
@@ -201,20 +201,20 @@
       "lastupdated": "2026-10-04T20:25:00.000Z"
     },
     {
+      "id": 401872980,
+      "team_name": "buccaneers",
+      "rank": 26,
+      "elo_rating": 1417.9360171661,
+      "season": 2026,
+      "lastupdated": "2026-10-09T00:15:00.000Z"
+    },
+    {
       "id": 401872979,
       "team_name": "saints",
-      "rank": 26,
+      "rank": 27,
       "elo_rating": 1405.4452059568,
       "season": 2026,
       "lastupdated": "2026-10-06T00:15:00.000Z"
-    },
-    {
-      "id": 401872968,
-      "team_name": "buccaneers",
-      "rank": 27,
-      "elo_rating": 1381.7423499096,
-      "season": 2026,
-      "lastupdated": "2026-10-04T17:00:00.000Z"
     },
     {
       "id": 401872966,
@@ -257,5 +257,5 @@
       "lastupdated": "2026-10-04T17:00:00.000Z"
     }
   ],
-  "lastupdated": "2026-10-08T15:56:26.092981"
+  "lastupdated": "2026-10-09T15:38:45.543996"
 }
