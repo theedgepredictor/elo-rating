@@ -1,30 +1,30 @@
 {
   "events": [
     {
-      "id": 401908033,
-      "datetime": "2026-10-16T00:00:00.000Z",
+      "id": 401930515,
+      "datetime": "2026-10-18T21:00:00.000Z",
       "neutral_site": 0,
       "is_postseason": 1,
-      "home_team_name": "dodgers",
-      "home_team_id": 19,
-      "away_team_name": "brewers",
-      "away_team_id": 8,
-      "home_elo_pre": 1613.7572262814,
-      "away_elo_pre": 1644.458087781,
-      "elo_diff": 19.2991385004,
-      "elo_spread": -1.54393108,
-      "home_elo_prob": 0.5138832769,
-      "away_elo_prob": 0.4861167231,
-      "home_elo_post": 1610.909452237,
-      "away_elo_post": 1647.3058618255,
+      "home_team_name": "guardians",
+      "home_team_id": 5,
+      "away_team_name": "rays",
+      "away_team_id": 30,
+      "home_elo_pre": 1530.2600892058,
+      "away_elo_pre": 1568.9244775076,
+      "elo_diff": 11.3356116981,
+      "elo_spread": -0.9068489359,
+      "home_elo_prob": 0.5081559048,
+      "away_elo_prob": 0.4918440952,
+      "home_elo_post": 1527.4543006298,
+      "away_elo_post": 1571.7302660837,
       "tournament_id": null,
-      "str_event_id": "20261016_dodgers_brewers",
+      "str_event_id": "20261018_guardians_rays",
       "season": 2026,
       "result": false,
       "point_dif": 2,
-      "home_team_score": 4,
-      "away_team_score": 6
+      "home_team_score": 1,
+      "away_team_score": 3
     }
   ],
-  "lastupdated": "2026-10-18T12:51:23.538809"
+  "lastupdated": "2026-10-19T15:58:19.015560"
 }
