@@ -694,6 +694,27 @@
       "season": 2027
     },
     {
+      "id": 401904770,
+      "datetime": "2026-10-24T22:05:00.000Z",
+      "neutral_site": 0,
+      "is_postseason": 0,
+      "home_team_name": "massachusettsminutemen",
+      "home_team_id": 113,
+      "away_team_name": "stonehillstateonehill",
+      "away_team_id": 284,
+      "home_elo_pre": 1552.2963299598,
+      "away_elo_pre": 1414.304480458,
+      "elo_diff": 142.9918495018,
+      "elo_spread": -4.7663949834,
+      "home_elo_prob": 0.6014627478,
+      "away_elo_prob": 0.3985372522,
+      "home_elo_post": 1554.890188492,
+      "away_elo_post": 1411.7106219257,
+      "tournament_id": null,
+      "str_event_id": "20261024_massachusettsminutemen_stonehillstateonehill",
+      "season": 2027
+    },
+    {
       "id": 401904707,
       "datetime": "2026-10-24T23:00:00.000Z",
       "neutral_site": 0,
@@ -775,27 +796,6 @@
       "away_elo_post": 1437.8262623926,
       "tournament_id": null,
       "str_event_id": "20261024_rittigers_rensselaerengineers",
-      "season": 2027
-    },
-    {
-      "id": 401904770,
-      "datetime": "2026-10-24T23:05:00.000Z",
-      "neutral_site": 0,
-      "is_postseason": 0,
-      "home_team_name": "massachusettsminutemen",
-      "home_team_id": 113,
-      "away_team_name": "stonehillstateonehill",
-      "away_team_id": 284,
-      "home_elo_pre": 1552.2963299598,
-      "away_elo_pre": 1414.304480458,
-      "elo_diff": 142.9918495018,
-      "elo_spread": -4.7663949834,
-      "home_elo_prob": 0.6014627478,
-      "away_elo_prob": 0.3985372522,
-      "home_elo_post": 1554.890188492,
-      "away_elo_post": 1411.7106219257,
-      "tournament_id": null,
-      "str_event_id": "20261024_massachusettsminutemen_stonehillstateonehill",
       "season": 2027
     },
     {
@@ -967,5 +967,5 @@
       "season": 2027
     }
   ],
-  "lastupdated": "2026-10-19T15:58:17.679839"
+  "lastupdated": "2026-10-20T13:56:27.869262"
 }
